@@ -11,13 +11,17 @@ function Plugin() {
     emit<ResizeWindowHandler>("RESIZE_WINDOW", windowSize);
   }
   useWindowResize(onWindowResize, {
-    maxHeight: 320,
-    maxWidth: 320,
-    minHeight: 120,
-    minWidth: 120,
+    maxHeight: 800,
+    maxWidth: 500,
+    minHeight: 300,
+    minWidth: 200,
     resizeBehaviorOnDoubleClick: "minimize",
   });
-  return <h1 class="text-3xl font-bold underline">Hello, World!</h1>;
+  return (
+    <div className="flex flex-col gap-2 p-2">
+      <h1 class="text-3xl font-bold underline">Hello, World!</h1>
+    </div>
+  );
 }
 
 export default render(Plugin);
