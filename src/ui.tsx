@@ -90,6 +90,7 @@ function Plugin() {
       <Section label="Please choose an existing file or component:">
         <Dropdown
           placeholder="Select a file"
+          disabled={!tree}
           value={selectedFile?.path ?? null}
           options={(tree ?? []).map((treeFile) => ({
             value: treeFile.path ?? "",
@@ -100,6 +101,7 @@ function Plugin() {
       <Section label="Or create a new file:">
         <Textbox
           placeholder="Enter a filename"
+          disabled={!selectedRepo}
           value={newFilename}
           onValueInput={setNewFilename}
         />
@@ -107,6 +109,7 @@ function Plugin() {
       <Section label="If you want, add additional instructions here:">
         <TextboxMultiline
           placeholder="Enter additional instructions"
+          disabled={!selectedRepo}
           grow
           rows={1}
           value={additionalInstructions}
@@ -114,7 +117,12 @@ function Plugin() {
         />
       </Section>
       <div className="p-4">
-        <Button fullWidth>Start writing code</Button>
+        <Button
+          disabled={!selectedRepo || (!selectedFile && !newFilename.trim())}
+          fullWidth
+        >
+          Start writing code
+        </Button>
       </div>
     </div>
   );
