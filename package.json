@@ -32,11 +32,15 @@
       "figma"
     ],
     "networkAccess": {
-      "allowedDomains": ["*"],
-      "devAllowedDomains": ["*"],
+      "allowedDomains": [
+        "*"
+      ],
+      "devAllowedDomains": [
+        "*"
+      ],
       "reasoning": "Need to connect to the Otto AI service"
-    },  
-    "id": "otto-ai",
+    },
+    "id": "1326684504185921461",
     "name": "Otto AI",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
