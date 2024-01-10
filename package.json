@@ -8,6 +8,7 @@
     "@create-figma-plugin/build": "^3.1.0",
     "@create-figma-plugin/tsconfig": "^3.1.0",
     "@figma/plugin-typings": "1.82.0",
+    "@octokit/types": "^12.4.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "concurrently": ">=8",
@@ -33,15 +34,16 @@
     ],
     "networkAccess": {
       "allowedDomains": [
-        "*"
+        "https://api.github.com",
+        "https://otto-mvp.onrender.com"
       ],
       "devAllowedDomains": [
-        "*"
+        "http://localhost:5173"
       ],
       "reasoning": "Need to connect to the Otto AI service"
     },
-    "id": "1326684504185921461",
-    "name": "Otto AI",
+    "id": "1083501988237503190",
+    "name": "JACoB",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
   }
