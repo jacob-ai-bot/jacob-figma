@@ -5,6 +5,7 @@ import {
   Textbox,
   Dropdown,
   TextboxMultiline,
+  SegmentedControl,
 } from "@create-figma-plugin/ui";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { h } from "preact";
@@ -12,7 +13,14 @@ import { useEffect, useState } from "preact/hooks";
 import "!./output.css";
 import { on, emit } from "@create-figma-plugin/utilities";
 
-import { ResizeWindowHandler, UpdateAccessTokenAndReposHandler } from "./types";
+import {
+  ResizeWindowHandler,
+  UpdateAccessTokenAndReposHandler,
+  EditExistingFileHandler,
+  CreateNewFileHandler,
+  CreateOrEditResultHandler,
+  FileType,
+} from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
 import { Section } from "./section";
@@ -23,8 +31,10 @@ function Plugin() {
   const [selectedRepo, setSelectedRepo] = useState<GitHubRepo>();
   const [tree, setTree] = useState<GitTreeFile[]>();
   const [selectedFile, setSelectedFile] = useState<GitTreeFile>();
+  const [fileType, setFileType] = useState(FileType.Component);
   const [newFilename, setNewFilename] = useState("");
   const [additionalInstructions, setAdditionalInstructions] = useState("");
+  const [creatingIssue, setCreatingIssue] = useState(false);
 
   useWindowResize(
     (windowSize) => emit<ResizeWindowHandler>("RESIZE_WINDOW", windowSize),
@@ -67,12 +77,52 @@ function Plugin() {
     },
   );
 
+  on<CreateOrEditResultHandler>(
+    "CREATE_OR_EDIT_RESULT",
+    ({ success, error }) => {
+      setCreatingIssue(false);
+      if (success) {
+        figma.notify("Successfully created issue");
+        figma.closePlugin();
+      }
+      if (error) {
+        figma.notify("Error: Failed to create issue");
+        console.error("Failed to create issue", error);
+      }
+    },
+  );
+
   const onRepoChange = (fullName: string) => {
     setSelectedRepo(repos?.find((repo) => repo.full_name === fullName));
   };
 
   const onFileChange = (path: string) => {
+    setNewFilename("");
     setSelectedFile(tree?.find((treeFile) => treeFile.path === path));
+  };
+
+  const onNewFilenameChange = (value: string) => {
+    setSelectedFile(undefined);
+    setNewFilename(value);
+  };
+
+  const onWriteCode = async () => {
+    const fileName = selectedFile?.path ?? newFilename.trim();
+    if (!selectedRepo || !fileName) return;
+
+    setCreatingIssue(true);
+
+    const emitData = {
+      selectedRepo,
+      fileName,
+      additionalInstructions,
+    };
+
+    if (selectedFile) {
+      emit<EditExistingFileHandler>("EDIT_EXISTING_FILE", emitData);
+    } else {
+      emit<CreateNewFileHandler>("CREATE_NEW_FILE", { ...emitData, fileType });
+    }
   };
 
   return (
@@ -80,6 +130,7 @@ function Plugin() {
       <Section label="Please choose a repo:">
         <Dropdown
           placeholder="Select a repo where JACoB is installed"
+          disabled={creatingIssue}
           value={selectedRepo?.full_name ?? null}
           options={(repos ?? []).map((repo) => ({
             value: repo.full_name,
@@ -90,7 +141,7 @@ function Plugin() {
       <Section label="Please choose an existing file or component:">
         <Dropdown
           placeholder="Select a file"
-          disabled={!tree}
+          disabled={creatingIssue || !tree}
           value={selectedFile?.path ?? null}
           options={(tree ?? []).map((treeFile) => ({
             value: treeFile.path ?? "",
@@ -101,15 +152,25 @@ function Plugin() {
       <Section label="Or create a new file:">
         <Textbox
           placeholder="Enter a filename"
-          disabled={!selectedRepo}
+          disabled={creatingIssue || !selectedRepo}
           value={newFilename}
-          onValueInput={setNewFilename}
+          onValueInput={onNewFilenameChange}
         />
+        {newFilename && (
+          <div className="inline-flex">
+            <SegmentedControl
+              value={fileType}
+              disabled={creatingIssue || !selectedRepo}
+              options={Object.values(FileType).map((value) => ({ value }))}
+              onValueChange={(value) => setFileType(value as FileType)}
+            />
+          </div>
+        )}
       </Section>
       <Section label="If you want, add additional instructions here:">
         <TextboxMultiline
           placeholder="Enter additional instructions"
-          disabled={!selectedRepo}
+          disabled={creatingIssue || !selectedRepo}
           grow
           rows={1}
           value={additionalInstructions}
@@ -119,7 +180,9 @@ function Plugin() {
       <div className="p-4">
         <Button
           disabled={!selectedRepo || (!selectedFile && !newFilename.trim())}
+          loading={creatingIssue}
           fullWidth
+          onClick={onWriteCode}
         >
           Start writing code
         </Button>

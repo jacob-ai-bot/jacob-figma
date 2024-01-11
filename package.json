@@ -40,9 +40,9 @@
       "devAllowedDomains": [
         "http://localhost:5173"
       ],
-      "reasoning": "Need to connect to the Otto AI service"
+      "reasoning": "Need to connect to the JACoB AI service"
     },
-    "id": "1083501988237503190",
+    "id": "1326684504185921461",
     "name": "JACoB",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
