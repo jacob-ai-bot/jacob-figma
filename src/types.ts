@@ -48,3 +48,13 @@ export interface CreateOrEditResultHandler extends EventHandler {
   name: "CREATE_OR_EDIT_RESULT";
   handler: (data: { success?: boolean; error?: Error }) => void;
 }
+
+export interface NotifyHandler extends EventHandler {
+  name: "NOTIFY";
+  handler: (message: string) => void;
+}
+
+export interface ClosePluginHandler extends EventHandler {
+  name: "CLOSE_PLUGIN";
+  handler: () => void;
+}

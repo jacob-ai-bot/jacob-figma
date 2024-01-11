@@ -10,6 +10,8 @@ import {
   SaveAccessTokenHandler,
   UpdateAccessTokenAndReposHandler,
   FileType,
+  NotifyHandler,
+  ClosePluginHandler,
 } from "./types";
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
@@ -21,8 +23,9 @@ export default function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
     figma.ui.resize(width, height),
   );
+  on<NotifyHandler>("NOTIFY", (message) => figma.notify(message));
+  on<ClosePluginHandler>("CLOSE_PLUGIN", () => figma.closePlugin());
   on<SaveAccessTokenHandler>("SAVE_ACCESS_TOKEN", async (accessToken) => {
-    console.log("saveAccessToken", accessToken);
     await figma.clientStorage.setAsync(accessTokenKey, accessToken);
     checkAccessTokenAndShowUI();
   });

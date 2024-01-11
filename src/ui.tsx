@@ -20,6 +20,8 @@ import {
   CreateNewFileHandler,
   CreateOrEditResultHandler,
   FileType,
+  NotifyHandler,
+  ClosePluginHandler,
 } from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
@@ -82,11 +84,11 @@ function Plugin() {
     ({ success, error }) => {
       setCreatingIssue(false);
       if (success) {
-        figma.notify("Successfully created issue");
-        figma.closePlugin();
+        emit<NotifyHandler>("NOTIFY", "Successfully created GitHub issue");
+        emit<ClosePluginHandler>("CLOSE_PLUGIN");
       }
       if (error) {
-        figma.notify("Error: Failed to create issue");
+        emit<NotifyHandler>("NOTIFY", "Error: Failed to create GitHub issue");
         console.error("Failed to create issue", error);
       }
     },
@@ -116,10 +118,14 @@ function Plugin() {
       selectedRepo,
       fileName,
       additionalInstructions,
+      fileType: selectedFile ? undefined : fileType,
     };
 
     if (selectedFile) {
-      emit<EditExistingFileHandler>("EDIT_EXISTING_FILE", emitData);
+      emit<EditExistingFileHandler>("EDIT_EXISTING_FILE", {
+        ...emitData,
+        fileType: undefined,
+      });
     } else {
       emit<CreateNewFileHandler>("CREATE_NEW_FILE", { ...emitData, fileType });
     }

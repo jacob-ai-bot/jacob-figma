@@ -131,7 +131,7 @@ export const convertNodeToTailwind = (node: SceneNode) => {
       style.push(`width: ${convertNumToPx(Number(width.toFixed(2)))};`);
       style.push(`height: ${convertNumToPx(Number(height.toFixed(2)))};`);
     } else {
-      console.log("ERRROR width or height is not a number");
+      console.log("ERROR width or height is not a number");
     }
   }
 
