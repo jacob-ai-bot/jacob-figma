@@ -16,7 +16,7 @@ export const getRepos = async (accessToken: string) => {
     {
       headers: {
         Authorization: `Bearer ${accessToken}`,
-        "User-Agent": "Otto",
+        "User-Agent": "JACoB",
         "Content-Type": "application/json",
       },
     },
@@ -33,7 +33,7 @@ export const getRepos = async (accessToken: string) => {
           {
             headers: {
               Authorization: `Bearer ${accessToken}`,
-              "User-Agent": "Otto",
+              "User-Agent": "JACoB",
               "Content-Type": "application/json",
             },
           },
@@ -70,7 +70,7 @@ export const getTree = async (
     {
       headers: {
         Authorization: `Bearer ${accessToken}`,
-        "User-Agent": "Otto",
+        "User-Agent": "JACoB",
         "Content-Type": "application/json",
       },
     },

@@ -35,7 +35,7 @@
     "networkAccess": {
       "allowedDomains": [
         "https://api.github.com",
-        "https://otto-mvp.onrender.com"
+        "https://app.jacb.ai"
       ],
       "devAllowedDomains": [
         "http://localhost:5173"

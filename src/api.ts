@@ -33,14 +33,12 @@ export async function createIssuesForFigmaFile(
   const figmaMap = relativeNodes ? getDescriptionOfNode(relativeNodes) : "";
 
   // Disabling this for now because we are going to change
-  // how images are handled with otto-mvp:
+  // how images are handled:
   // await createIssuesForImages(relativeNodes);
 
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
   // const url = `http://localhost:5173/api/design/${isNewFile ? "new" : "edit"}`;
-  const url = `https://otto-mvp.onrender.com/api/design/${
-    isNewFile ? "new" : "edit"
-  }`;
+  const url = `https://app.jacb.ai/api/design/${isNewFile ? "new" : "edit"}`;
   try {
     const response = await fetch(url, {
       method: "POST",

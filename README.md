@@ -1,4 +1,4 @@
-# Otto AI Figma Plugin
+# JACoB AI Figma Plugin
 
 ## Development guide
 
