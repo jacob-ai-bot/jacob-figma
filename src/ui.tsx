@@ -185,7 +185,11 @@ function Plugin() {
       </Section>
       <div className="p-4">
         <Button
-          disabled={!selectedRepo || (!selectedFile && !newFilename.trim())}
+          disabled={
+            creatingIssue ||
+            !selectedRepo ||
+            (!selectedFile && !newFilename.trim())
+          }
           loading={creatingIssue}
           fullWidth
           onClick={onWriteCode}
