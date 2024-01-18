@@ -133,7 +133,11 @@ function Plugin() {
 
   return (
     <div className="flex flex-col pb-4">
-      <Section label="Please choose a repo:">
+      <Section
+        label="Please choose a repo:"
+        linkLabel="(Install JACoB)"
+        href="https://github.com/apps/jacob-ai-bot/installations/select_target"
+      >
         <Dropdown
           placeholder="Select a repo where JACoB is installed"
           disabled={creatingIssue}
