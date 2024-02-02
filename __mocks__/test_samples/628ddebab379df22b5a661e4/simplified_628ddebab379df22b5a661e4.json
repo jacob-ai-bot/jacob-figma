@@ -1,0 +1,628 @@
+{
+  "id": "jm8227cc0",
+  "name": "Launch Screen",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#dae2eb",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#dae2eb",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-[#dae2eb] border-radius-[32px]",
+  "children": [
+    {
+      "id": "0uv25h9cv",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px]",
+      "children": [
+        {
+          "id": "6ov1ptqsb",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "xaooo5483",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "bej22n2zi",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "6t4w8dww9",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "hgry8yv8h",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "y24xlebhi",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.7,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uentm0n3e",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "18ga6s3uh",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "0nhrb1htf",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "7advsb2cq",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "ad25m06la",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "of5kzlz6m",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "iof2p5veu",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "vbkiu0b02",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "lc54mq2tn",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "dk22lw2j4",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "w2x2xry36",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w1refell3",
+      "name": "keepyoga",
+      "type": "TEXT",
+      "layout": {
+        "x": 33,
+        "y": 76,
+        "width": 308,
+        "height": 16
+      },
+      "style": {
+        "backgroundColor": "#afbccb",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#afbccb",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "fontStyle": "Semi Bold",
+        "lineHeight": 16,
+        "letterSpacing": -4,
+        "textAlign": "CENTER",
+        "color": "#afbccb"
+      },
+      "copy": "keepyoga",
+      "tailwind": "text-[24] leading-16 letter-spacing-[-0.04em] text-align-[center] color-[#afbccb]"
+    },
+    {
+      "id": "ro123iwn1",
+      "name": "Practice yoga whenever you want.",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 116,
+        "width": 327,
+        "height": 72
+      },
+      "style": {
+        "backgroundColor": "#090a0a",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#090a0a",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "fontStyle": "Bold",
+        "lineHeight": 36,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#090a0a"
+      },
+      "copy": "Practice yoga whenever you want.",
+      "tailwind": "text-[32] font-weight-[700] leading-36 text-align-[center] color-[#090a0a]"
+    },
+    {
+      "id": "kf4cmoku3",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "layout": {
+        "x": -196,
+        "y": 145,
+        "width": 667,
+        "height": 667
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "image": {
+        "imageHash": "c465ebd9f8c0c0adb6021cd2aa8f4589f9b7d086"
+      },
+      "tailwind": "w-[667px] h-[667px] background-[url()]"
+    },
+    {
+      "id": "ruxhdy155",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 726,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-white border-radius-[48px]",
+      "children": [
+        {
+          "id": "hn6tjkjda",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 144,
+            "y": 742,
+            "width": 88,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#090a0a"
+          },
+          "copy": "Get started",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#090a0a]"
+        }
+      ]
+    },
+    {
+      "id": "14uq995eh",
+      "name": "Native / Home Indicator",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 778,
+        "width": 375,
+        "height": 34,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[34px]",
+      "children": [
+        {
+          "id": "3yjbv77fd",
+          "name": "rectangle",
+          "type": "VECTOR",
+          "layout": {
+            "x": 114,
+            "y": 799,
+            "width": 148,
+            "height": 5
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderRadius": 100,
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "svg": {
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+        }
+      ]
+    }
+  ]
+}

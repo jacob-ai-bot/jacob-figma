@@ -1,0 +1,4014 @@
+{
+  "id": "8i51eueuf",
+  "name": "Login - Email",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
+  "children": [
+    {
+      "id": "kd054t269",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px] bg-white",
+      "children": [
+        {
+          "id": "d22gbrzyq",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "t0nj4r8ss",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "apn8jb4wj",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "y87i1itcl",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "k1k08n6wi",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "wds5iy25x",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.6,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "urhvus9jl",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "imwmm9bth",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "7d26xh7v2",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "rwq4xgc3s",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "mp9hokjoi",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yn7bx2ej6",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "7r291bmhy",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "y6yetnfxf",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "tqr64483m",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "mj66jokpq",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "qizn8fznc",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irm9bmybg",
+      "name": "Bars / Nav Bars: Standard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 44,
+        "width": 375,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[48px] bg-white",
+      "children": [
+        {
+          "id": "m4sdeedru",
+          "name": "Left Actionable",
+          "type": "FRAME",
+          "layout": {
+            "x": 18,
+            "y": 56,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "wwk9vxn9f",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 27,
+                "y": 62,
+                "width": 6,
+                "height": 12
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 1.5,
+                "opacity": 1,
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "svg": {
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "lb1bldpzg",
+          "name": "Title",
+          "type": "TEXT",
+          "layout": {
+            "x": 162,
+            "y": 59,
+            "width": 52,
+            "height": 18
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontStyle": "Regular",
+            "lineHeight": 18,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#090a0a"
+          },
+          "copy": "Log in",
+          "tailwind": "text-[18] leading-18 text-align-[center] color-[#090a0a]"
+        }
+      ]
+    },
+    {
+      "id": "vfnyw8ckf",
+      "name": "Controls / Text Field: Floating Label",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 108,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#e3e5e5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#e3e5e5",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
+      "children": [
+        {
+          "id": "v2xd38gnw",
+          "name": "_Partials / Text Field: Floating Label",
+          "type": "FRAME",
+          "layout": {
+            "x": 40,
+            "y": 116,
+            "width": 187,
+            "height": 32,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[187px] h-[32px]",
+          "children": [
+            {
+              "id": "12mjny2qu",
+              "name": "Email",
+              "type": "TEXT",
+              "layout": {
+                "x": 40,
+                "y": 116,
+                "width": 187,
+                "height": 12
+              },
+              "style": {
+                "backgroundColor": "#72777a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#72777a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 12,
+                "fontStyle": "Regular",
+                "lineHeight": 12,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#72777a"
+              },
+              "copy": "Email",
+              "tailwind": "text-[12] leading-12 color-[#72777a]"
+            },
+            {
+              "id": "dakjudoeb",
+              "name": "Text",
+              "type": "TEXT",
+              "layout": {
+                "x": 40,
+                "y": 132,
+                "width": 187,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "juinal.william@gmail.com",
+              "tailwind": "font-size-[16px] leading-16 color-[#090a0a]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knnysobk2",
+      "name": "Controls / Text Field: Floating Label",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 170,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#e3e5e5",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#e3e5e5",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
+      "children": [
+        {
+          "id": "chf8g87rc",
+          "name": "_Partials / Text Field: Floating Label",
+          "type": "FRAME",
+          "layout": {
+            "x": 40,
+            "y": 186,
+            "width": 295,
+            "height": 16,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[295px] h-[16px]",
+          "children": [
+            {
+              "id": "vdw9o8us6",
+              "name": "Text",
+              "type": "TEXT",
+              "layout": {
+                "x": 40,
+                "y": 186,
+                "width": 295,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#72777a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#72777a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#72777a"
+              },
+              "copy": "password",
+              "tailwind": "font-size-[16px] leading-16 color-[#72777a]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x6pguvy2y",
+      "name": "Forgot password?",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 234,
+        "width": 327,
+        "height": 16
+      },
+      "style": {
+        "backgroundColor": "#6b4eff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#6b4eff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 16,
+        "fontStyle": "Medium",
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#6b4eff"
+      },
+      "copy": "Forgot password?",
+      "tailwind": "font-size-[16px] font-medium leading-16 color-[#6b4eff]"
+    },
+    {
+      "id": "ocemcsaoy",
+      "name": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 397,
+        "width": 327,
+        "height": 32
+      },
+      "style": {
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "LEFT"
+      },
+      "copy": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+      "tailwind": "text-[12] leading-16"
+    },
+    {
+      "id": "sbri694s9",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 449,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#6b4eff",
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#6b4eff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
+      "children": [
+        {
+          "id": "mgjyrqlxv",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 165,
+            "y": 465,
+            "width": 47,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#ffffff"
+          },
+          "copy": "Log in",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
+        }
+      ]
+    },
+    {
+      "id": "ejbcykzsc",
+      "name": "Native / Keyboard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 521,
+        "width": 375,
+        "height": 291,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[291px]",
+      "children": [
+        {
+          "id": "16969qmse",
+          "name": "Background",
+          "type": "FRAME",
+          "layout": {
+            "x": 0,
+            "y": 521,
+            "width": 375,
+            "height": 291,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[375px] h-[291px]",
+          "children": [
+            {
+              "id": "36vmezaji",
+              "name": "Background",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 0,
+                "y": 521,
+                "width": 375,
+                "height": 291
+              },
+              "style": {
+                "backgroundColor": "#e3e5e5",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                "opacity": 1,
+                "fill": "#e3e5e5",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[375px] h-[291px] bg-[#e3e5e5] backdrop-filter-[blur(81.54845428466797px)]"
+            }
+          ]
+        },
+        {
+          "id": "z7knblupa",
+          "name": "Keys",
+          "type": "GROUP",
+          "layout": {
+            "x": 3,
+            "y": 529,
+            "width": 369,
+            "height": 259
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[369px] h-[259px]",
+          "children": [
+            {
+              "id": "6aal8loos",
+              "name": "Q",
+              "type": "FRAME",
+              "layout": {
+                "x": 3,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "5qwfqdz5a",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 3,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "vevl08le3",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 10,
+                    "y": 537,
+                    "width": 18,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Q",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "6568nurt6",
+              "name": "W",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "469z0uqmn",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 40,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "he87u3vk5",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 45,
+                    "y": 537,
+                    "width": 22,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "W",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "t5hkyhnnx",
+              "name": "E",
+              "type": "FRAME",
+              "layout": {
+                "x": 78,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "mcuhh34vk",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 78,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "46qw0dz69",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 87,
+                    "y": 537,
+                    "width": 14,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "E",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "m3weacc75",
+              "name": "R",
+              "type": "FRAME",
+              "layout": {
+                "x": 115,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "vyxym4xmq",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 115,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "cg1ly7bqr",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 124,
+                    "y": 537,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "R",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "234k9im86",
+              "name": "T",
+              "type": "FRAME",
+              "layout": {
+                "x": 153,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "n0dqvc5ng",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 153,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "9ivql3xl9",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 162,
+                    "y": 537,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "T",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "50mmwjshv",
+              "name": "Y",
+              "type": "FRAME",
+              "layout": {
+                "x": 190,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "m4rsouz6r",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 190,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "ob9ytxaxh",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 199,
+                    "y": 537,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Y",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "urer76mf2",
+              "name": "U",
+              "type": "FRAME",
+              "layout": {
+                "x": 228,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "vvihxzf51",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 228,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "mg8gju5xl",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 236,
+                    "y": 537,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "U",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "vvsw8rw3z",
+              "name": "I",
+              "type": "FRAME",
+              "layout": {
+                "x": 265,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "9p38cqam4",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 265,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "sn28m9x6e",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 278,
+                    "y": 537,
+                    "width": 6,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "I",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "d5p2de3b7",
+              "name": "O",
+              "type": "FRAME",
+              "layout": {
+                "x": 303,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "gokhh7xi5",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 303,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "rfln6p7bp",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 310,
+                    "y": 537,
+                    "width": 18,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "O",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "5bplycud7",
+              "name": "P",
+              "type": "FRAME",
+              "layout": {
+                "x": 340,
+                "y": 529,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "p15i7d1u6",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 340,
+                    "y": 529,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "5i1w8ji6a",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 349,
+                    "y": 537,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "P",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "ug86x0l1x",
+              "name": "A",
+              "type": "FRAME",
+              "layout": {
+                "x": 22,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "zjdfnkcrc",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 22,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "9w8ee5mtr",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 30,
+                    "y": 591,
+                    "width": 16,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "A",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "6rp7pzt6t",
+              "name": "S",
+              "type": "FRAME",
+              "layout": {
+                "x": 59,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "kdszcxvo5",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 59,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "xlfbwvjk1",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 68,
+                    "y": 591,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "S",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "hywsh65lq",
+              "name": "D",
+              "type": "FRAME",
+              "layout": {
+                "x": 97,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "94uywskyz",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 97,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "1udza40fs",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 105,
+                    "y": 591,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "D",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "bzhycg596",
+              "name": "F",
+              "type": "FRAME",
+              "layout": {
+                "x": 134,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "2cvnfzonj",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 134,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "7s9kd119s",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 143,
+                    "y": 591,
+                    "width": 14,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "F",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "rdca2gfm3",
+              "name": "G",
+              "type": "FRAME",
+              "layout": {
+                "x": 172,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "r711z8efi",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 172,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "luzhvnbxx",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 180,
+                    "y": 591,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "G",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "kfb6n5ggg",
+              "name": "H",
+              "type": "FRAME",
+              "layout": {
+                "x": 209,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "kagbqugpn",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 209,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "izsxn1v6k",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 217,
+                    "y": 591,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "H",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "i2bvl1n3n",
+              "name": "J",
+              "type": "FRAME",
+              "layout": {
+                "x": 247,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "m0f576455",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 247,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "3pyqfb6iv",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 257,
+                    "y": 591,
+                    "width": 13,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "J",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "x2swpesqt",
+              "name": "K",
+              "type": "FRAME",
+              "layout": {
+                "x": 284,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "0cmpg2x9d",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 284,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "ehdgf37pf",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 293,
+                    "y": 591,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "K",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "yqqyb8vyd",
+              "name": "L",
+              "type": "FRAME",
+              "layout": {
+                "x": 322,
+                "y": 583,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "jbei9a9gs",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 322,
+                    "y": 583,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "0b8nxeq6d",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 332,
+                    "y": 591,
+                    "width": 13,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "L",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "1swuiqiha",
+              "name": "Shift",
+              "type": "GROUP",
+              "layout": {
+                "x": 3,
+                "y": 637,
+                "width": 42,
+                "height": 42
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[42px] h-[42px]",
+              "children": [
+                {
+                  "id": "v1lo4p7fh",
+                  "name": "Key Light",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 3,
+                    "y": 637,
+                    "width": 42,
+                    "height": 42,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[42px] h-[42px]",
+                  "children": [
+                    {
+                      "id": "43jtu80hs",
+                      "name": "Rectangle",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 3,
+                        "y": 637,
+                        "width": 42,
+                        "height": 42
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 4.6,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[42px] h-[42px] bg-white border-radius-[4.6px]"
+                    },
+                    {
+                      "id": "15gxdj3rm",
+                      "name": "Symbol",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 23.2,
+                        "y": 645,
+                        "width": 0,
+                        "height": 27
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "SF Pro Text",
+                        "fontSize": 22.5,
+                        "fontStyle": "Regular",
+                        "letterSpacing": -0.6,
+                        "textAlign": "CENTER",
+                        "color": "#090a0a"
+                      },
+                      "copy": " ",
+                      "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                    }
+                  ]
+                },
+                {
+                  "id": "2m2vbp14t",
+                  "name": "Shift",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 14.7,
+                    "y": 649.2,
+                    "width": 18.9,
+                    "height": 16.5
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[18px] h-[16px] bg-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "wyd683j5x",
+              "name": "Z",
+              "type": "FRAME",
+              "layout": {
+                "x": 59,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "35iczkic8",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 59,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "nqf7ee676",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 68,
+                    "y": 645,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Z",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "jgsecrh1n",
+              "name": "X",
+              "type": "FRAME",
+              "layout": {
+                "x": 97,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "5gg9q8soc",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 97,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "nxvm1bsky",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 106,
+                    "y": 645,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "X",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "dsqi69z3z",
+              "name": "C",
+              "type": "FRAME",
+              "layout": {
+                "x": 134,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "1j2yt1btc",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 134,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "gjybqtki0",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 142,
+                    "y": 645,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "C",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "d5smfql2l",
+              "name": "V",
+              "type": "FRAME",
+              "layout": {
+                "x": 172,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "3n2rc9x2e",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 172,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "400ysorps",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 180,
+                    "y": 645,
+                    "width": 16,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "V",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "a3fs7937i",
+              "name": "B",
+              "type": "FRAME",
+              "layout": {
+                "x": 209,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "leu0dgzs9",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 209,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "y1qwsdj4z",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 218,
+                    "y": 645,
+                    "width": 15,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "B",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "81m8dj57r",
+              "name": "N",
+              "type": "FRAME",
+              "layout": {
+                "x": 247,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "9icmapw84",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 247,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "r1ac0zgjd",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 255,
+                    "y": 645,
+                    "width": 17,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "N",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "4ogywmeyk",
+              "name": "M",
+              "type": "FRAME",
+              "layout": {
+                "x": 285,
+                "y": 637,
+                "width": 32,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[32px] h-[42px]",
+              "children": [
+                {
+                  "id": "7szhxfk7v",
+                  "name": "Rectangle",
+                  "type": "RECTANGLE",
+                  "layout": {
+                    "x": 285,
+                    "y": 637,
+                    "width": 32,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "5alxnqafq",
+                  "name": "Symbol",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 291,
+                    "y": 645,
+                    "width": 21,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 22.5,
+                    "fontStyle": "Regular",
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "M",
+                  "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "7c8ro3d0c",
+              "name": "Delete",
+              "type": "GROUP",
+              "layout": {
+                "x": 330,
+                "y": 637,
+                "width": 42,
+                "height": 42
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[42px] h-[42px]",
+              "children": [
+                {
+                  "id": "bp10byeia",
+                  "name": "Key Light",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 330,
+                    "y": 637,
+                    "width": 42,
+                    "height": 42,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[42px] h-[42px]",
+                  "children": [
+                    {
+                      "id": "ihhljiy3q",
+                      "name": "Rectangle",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 330,
+                        "y": 637,
+                        "width": 42,
+                        "height": 42
+                      },
+                      "style": {
+                        "backgroundColor": "#cdcfd0",
+                        "borderRadius": 4.6,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#cdcfd0",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#cdcfd0",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[42px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
+                    },
+                    {
+                      "id": "h5zoo29gf",
+                      "name": "Label",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 330,
+                        "y": 648,
+                        "width": 42,
+                        "height": 21
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "SF Pro Text",
+                        "fontSize": 16,
+                        "fontStyle": "Regular",
+                        "lineHeight": 21,
+                        "letterSpacing": -0.3,
+                        "textAlign": "CENTER",
+                        "color": "#090a0a"
+                      },
+                      "copy": " ",
+                      "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
+                    }
+                  ]
+                },
+                {
+                  "id": "y2k6pgrou",
+                  "name": "Delete Button",
+                  "type": "BOOLEAN_OPERATION",
+                  "layout": {
+                    "x": 339.7,
+                    "y": 649.7,
+                    "width": 22.7,
+                    "height": 17
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[22px] h-[16px] bg-[#090a0a]",
+                  "children": [
+                    {
+                      "id": "6ypp7y7e2",
+                      "name": "Exclude",
+                      "type": "BOOLEAN_OPERATION",
+                      "layout": {
+                        "x": 339.7,
+                        "y": 649.7,
+                        "width": 22.7,
+                        "height": 17
+                      },
+                      "style": {
+                        "backgroundColor": "#dadada",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#dadada",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[22px] h-[16px] bg-[#dadada]",
+                      "children": [
+                        {
+                          "id": "fhqztbse6",
+                          "name": "Border",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 339.7,
+                            "y": 649.7,
+                            "width": 22.7,
+                            "height": 17
+                          },
+                          "style": {
+                            "backgroundColor": "#000000",
+                            "borderRadius": 0,
+                            "borderWidth": 0,
+                            "opacity": 1,
+                            "fill": "#000000",
+                            "strokeWidth": 0
+                          },
+                          "svg": {
+                            "fill": "#000000",
+                            "strokeWidth": 0
+                          },
+                          "tailwind": "w-[22px] h-[16px] bg-black"
+                        },
+                        {
+                          "id": "d4cvgl6ip",
+                          "name": "Cross-path",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 350,
+                            "y": 654.8,
+                            "width": 6.7,
+                            "height": 6.7
+                          },
+                          "style": {
+                            "backgroundColor": "#000000",
+                            "borderRadius": 0,
+                            "borderWidth": 0,
+                            "opacity": 1,
+                            "fill": "#000000",
+                            "strokeWidth": 0
+                          },
+                          "svg": {
+                            "fill": "#000000",
+                            "strokeWidth": 0
+                          },
+                          "tailwind": "w-[6px] h-[6px] bg-black"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "b91463wpb",
+                      "name": "Cross-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 349.9,
+                        "y": 654.6,
+                        "width": 1.1,
+                        "height": 1.1
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
+                    },
+                    {
+                      "id": "a43iovizw",
+                      "name": "Cross-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 355.7,
+                        "y": 654.6,
+                        "width": 1.1,
+                        "height": 1.1
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
+                    },
+                    {
+                      "id": "hyjcispqh",
+                      "name": "Cross-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 350,
+                        "y": 654.8,
+                        "width": 6.7,
+                        "height": 6.7
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[6px] h-[6px] bg-[#090a0a]"
+                    },
+                    {
+                      "id": "qp2vqq1wx",
+                      "name": "Cross-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 349.8,
+                        "y": 660.5,
+                        "width": 1.1,
+                        "height": 1.1
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
+                    },
+                    {
+                      "id": "g5o25bu0v",
+                      "name": "Cross-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 355.7,
+                        "y": 660.5,
+                        "width": 1.1,
+                        "height": 1.1
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4f5kwu5q9",
+              "name": "123",
+              "type": "FRAME",
+              "layout": {
+                "x": 3,
+                "y": 691,
+                "width": 87,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[87px] h-[42px]",
+              "children": [
+                {
+                  "id": "revs4ocfe",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 3,
+                    "y": 691,
+                    "width": 87,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#cdcfd0",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#cdcfd0",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#cdcfd0",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[87px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
+                },
+                {
+                  "id": "vz902azl4",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 3,
+                    "y": 702,
+                    "width": 87,
+                    "height": 21
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Regular",
+                    "lineHeight": 21,
+                    "letterSpacing": -0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "123",
+                  "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "wm7kqd5zh",
+              "name": "Space",
+              "type": "FRAME",
+              "layout": {
+                "x": 96,
+                "y": 691,
+                "width": 182,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[182px] h-[42px]",
+              "children": [
+                {
+                  "id": "gwbjmfrql",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 96,
+                    "y": 691,
+                    "width": 182,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[182px] h-[42px] bg-white border-radius-[4.6px]"
+                },
+                {
+                  "id": "8p1i3wrpg",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 96,
+                    "y": 702,
+                    "width": 182,
+                    "height": 21
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Regular",
+                    "lineHeight": 21,
+                    "letterSpacing": -0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "space",
+                  "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "jvjeflm1f",
+              "name": "Return",
+              "type": "FRAME",
+              "layout": {
+                "x": 284,
+                "y": 691,
+                "width": 88,
+                "height": 42,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[88px] h-[42px]",
+              "children": [
+                {
+                  "id": "mowhiw0u0",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 284,
+                    "y": 691,
+                    "width": 88,
+                    "height": 42
+                  },
+                  "style": {
+                    "backgroundColor": "#0065d0",
+                    "borderRadius": 4.6,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#0065d0",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#0065d0",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[88px] h-[42px] bg-[#0065d0] border-radius-[4.6px]"
+                },
+                {
+                  "id": "i84vml98f",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 284,
+                    "y": 702,
+                    "width": 88,
+                    "height": 21
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Regular",
+                    "lineHeight": 21,
+                    "letterSpacing": -0.3,
+                    "textAlign": "CENTER",
+                    "color": "#ffffff"
+                  },
+                  "copy": "Go",
+                  "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] text-white"
+                }
+              ]
+            },
+            {
+              "id": "f5u1p6lu2",
+              "name": "Emoji",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 25,
+                "y": 761,
+                "width": 27,
+                "height": 27
+              },
+              "style": {
+                "backgroundColor": "#303437",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#303437",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[27px] h-[27px] bg-[#303437]",
+              "children": [
+                {
+                  "id": "r9z5fuusk",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 25,
+                    "y": 761,
+                    "width": 27,
+                    "height": 27
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[27px] h-[27px] bg-[#303437]"
+                },
+                {
+                  "id": "mw3utspto",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 26.6,
+                    "y": 762.6,
+                    "width": 23.9,
+                    "height": 23.9
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[23px] h-[23px] bg-[#303437]"
+                },
+                {
+                  "id": "xlq3lls1s",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 32.7,
+                    "y": 768.6,
+                    "width": 3.2,
+                    "height": 3.1
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[3px] bg-[#303437]"
+                },
+                {
+                  "id": "05xcevxmy",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 41.2,
+                    "y": 768.6,
+                    "width": 3.2,
+                    "height": 3.2
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[3px] bg-[#303437]"
+                },
+                {
+                  "id": "r4hzhjhgu",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 29.5,
+                    "y": 775.9,
+                    "width": 18,
+                    "height": 8.1
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[18px] h-[8px] bg-[#303437]"
+                },
+                {
+                  "id": "04uyjgmn2",
+                  "name": "Emoji-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 31.1,
+                    "y": 777.3,
+                    "width": 14.9,
+                    "height": 2.9
+                  },
+                  "style": {
+                    "backgroundColor": "#303437",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#303437",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[14px] h-[2px] bg-[#303437]"
+                }
+              ]
+            },
+            {
+              "id": "4rf9b15t9",
+              "name": "Dictation",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 330,
+                "y": 762,
+                "width": 15,
+                "height": 25
+              },
+              "style": {
+                "backgroundColor": "#303437",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#303437",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[25px] bg-[#303437]",
+              "children": [
+                {
+                  "id": "pwob7d2cz",
+                  "name": "Dictation-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 333,
+                    "y": 762,
+                    "width": 9,
+                    "height": 18
+                  },
+                  "style": {
+                    "backgroundColor": "#50555c",
+                    "borderStyle": "solid",
+                    "borderColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#50555c",
+                    "stroke": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#50555c",
+                    "stroke": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[9px] h-[18px] bg-[#50555c] border border-solid border-black"
+                },
+                {
+                  "id": "w1prg2szb",
+                  "name": "Dictation-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.7,
+                    "y": 763.7,
+                    "width": 5.7,
+                    "height": 14.7
+                  },
+                  "style": {
+                    "backgroundColor": "#50555c",
+                    "borderStyle": "solid",
+                    "borderColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#50555c",
+                    "stroke": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#50555c",
+                    "stroke": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[5px] h-[14px] bg-[#50555c] border border-solid border-black"
+                },
+                {
+                  "id": "0my5iotol",
+                  "name": "Union",
+                  "type": "BOOLEAN_OPERATION",
+                  "layout": {
+                    "x": 330,
+                    "y": 772.3,
+                    "width": 15,
+                    "height": 14.7
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderStyle": "solid",
+                    "borderColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "stroke": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[15px] h-[14px] bg-[#dadada] border border-solid border-black",
+                  "children": [
+                    {
+                      "id": "eew7judhh",
+                      "name": "Dictation-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 330,
+                        "y": 772.3,
+                        "width": 1.7,
+                        "height": 1.7
+                      },
+                      "style": {
+                        "backgroundColor": "#50555c",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
+                    },
+                    {
+                      "id": "tkqc903ap",
+                      "name": "Dictation-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 343.3,
+                        "y": 772.3,
+                        "width": 1.7,
+                        "height": 1.7
+                      },
+                      "style": {
+                        "backgroundColor": "#50555c",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
+                    },
+                    {
+                      "id": "7kjje9ond",
+                      "name": "Dictation-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 330,
+                        "y": 773.2,
+                        "width": 15,
+                        "height": 13.8
+                      },
+                      "style": {
+                        "backgroundColor": "#50555c",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[15px] h-[13px] bg-[#50555c]"
+                    },
+                    {
+                      "id": "oiq0x6pgb",
+                      "name": "Dictation-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 332.7,
+                        "y": 785.3,
+                        "width": 1.7,
+                        "height": 1.7
+                      },
+                      "style": {
+                        "backgroundColor": "#50555c",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
+                    },
+                    {
+                      "id": "gyqcq7iw9",
+                      "name": "Dictation-path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 340.7,
+                        "y": 785.3,
+                        "width": 1.7,
+                        "height": 1.7
+                      },
+                      "style": {
+                        "backgroundColor": "#50555c",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#50555c",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u9c1gvi5i",
+          "name": "Home Indicator",
+          "type": "FRAME",
+          "layout": {
+            "x": 0,
+            "y": 778,
+            "width": 375,
+            "height": 34,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[375px] h-[34px]",
+          "children": [
+            {
+              "id": "g9dx0k0nf",
+              "name": "Home Indicator",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 121,
+                "y": 799,
+                "width": 134,
+                "height": 5
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderStyle": "solid",
+                "borderColor": "#979797",
+                "borderRadius": 100,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "stroke": "#979797",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[134px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

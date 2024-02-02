@@ -16,8 +16,13 @@ import {
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
 import { defaultSize, accessTokenKey } from "./constants";
-import { getSimplifiedNode, createIssuesForFigmaFile } from "./api";
+import {
+  getSimplifiedNode,
+  createIssuesForFigmaFile,
+  uploadSnapshot,
+} from "./api";
 import { SimplifiedNode } from "./utils/nodes";
+import { snapshotSelectedNode } from "./utils/imageSnapshot";
 
 export default function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
@@ -31,6 +36,10 @@ export default function () {
   });
   on<EditExistingFileHandler>("EDIT_EXISTING_FILE", handleCreateOrEdit);
   on<CreateNewFileHandler>("CREATE_NEW_FILE", handleCreateOrEdit);
+  figma.on("selectionchange", () =>
+    snapshotSelectedNode(figma.currentPage.selection),
+  );
+
   checkAccessTokenAndShowUI();
 }
 
@@ -40,13 +49,13 @@ async function handleCreateOrEdit({
   fileType,
   additionalInstructions,
 }: CreateNewFileData | EditExistingFileData) {
+  const selection = figma.currentPage.selection;
+  const snapshot = await snapshotSelectedNode(selection);
+
   const nodes = figma.currentPage.selection
     .map((node) => getSimplifiedNode(node))
     .filter((node) => node) as Partial<SimplifiedNode>[];
-  if (nodes.length === 0) {
-    figma.notify("Please select a node");
-    emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {});
-  }
+
   for (const node of nodes) {
     let fullFileName: string;
     if (fileType) {
@@ -63,12 +72,24 @@ async function handleCreateOrEdit({
       fullFileName = fileName;
     }
 
+    // upload this to s3 and get the signed url with a 60 minute expiry
+    const { data: snapshotData, errors: snapshotErrors } =
+      await uploadSnapshot(snapshot);
+    if (!snapshotData?.success || snapshotErrors) {
+      emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
+        success: false,
+        error: new Error(snapshotErrors?.[0]),
+      });
+      break;
+    }
+
     const { data, errors } = await createIssuesForFigmaFile(
       node,
       selectedRepo,
       fullFileName,
       additionalInstructions,
       fileType !== undefined,
+      snapshotData?.url,
     );
     const error = errors?.[0];
     if (!data?.success || error) {
@@ -96,6 +117,7 @@ async function checkAccessTokenAndShowUI() {
   }
   if (repos && accessToken) {
     showUI(defaultSize);
+    snapshotSelectedNode(figma.currentPage.selection);
 
     emit<UpdateAccessTokenAndReposHandler>("UPDATE_ACCESS_TOKEN_AND_REPOS", {
       accessToken,
@@ -104,4 +126,5 @@ async function checkAccessTokenAndShowUI() {
   } else {
     figma.showUI(authRedirectPageHtml, defaultSize);
   }
+  return;
 }

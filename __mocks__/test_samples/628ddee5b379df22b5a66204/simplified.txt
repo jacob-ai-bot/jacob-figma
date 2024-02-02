@@ -1,0 +1,1091 @@
+{
+  "id": "rtzqeatgc",
+  "name": "Login - Mobile Phone",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
+  "children": [
+    {
+      "id": "8719cvyiv",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px] bg-white",
+      "children": [
+        {
+          "id": "ql0z1e56c",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "xbqwzzjow",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "bpeh5vsk1",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "rs6gaal3q",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "23mn39gu1",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "hr2rxsr9n",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.6,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tm6leu0wk",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "w7pd2pjvp",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "475fkoq5m",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "uv3icmfew",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "b5o58ooep",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seccul623",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "s644b27j8",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "phwji55sg",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "tkn57x57h",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "im7v3k383",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "cc4cg8o10",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "njmz0jpny",
+      "name": "Bars / Nav Bars: Standard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 44,
+        "width": 375,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[48px] bg-white",
+      "children": [
+        {
+          "id": "do1mxxre6",
+          "name": "Left Actionable",
+          "type": "FRAME",
+          "layout": {
+            "x": 18,
+            "y": 56,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "5jlr55k1n",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 27,
+                "y": 62,
+                "width": 6,
+                "height": 12
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 1.5,
+                "opacity": 1,
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "svg": {
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cnju9p602",
+      "name": "Navigation Bar / Large Title",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 92,
+        "width": 375,
+        "height": 92,
+        "paddingTop": 12,
+        "paddingRight": 24,
+        "paddingBottom": 12,
+        "paddingLeft": 24,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[92px]",
+      "children": [
+        {
+          "id": "3gqch22ok",
+          "name": "Large Title",
+          "type": "TEXT",
+          "layout": {
+            "x": 24,
+            "y": 104,
+            "width": 327,
+            "height": 36
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 32,
+            "fontWeight": "bold",
+            "fontStyle": "Bold",
+            "lineHeight": 36,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "Welcome back.",
+          "tailwind": "text-[32] font-weight-[700] leading-36 color-[#090a0a]"
+        },
+        {
+          "id": "99fes527l",
+          "name": "A caption",
+          "type": "TEXT",
+          "layout": {
+            "x": 24,
+            "y": 148,
+            "width": 327,
+            "height": 24
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "lineHeight": 24,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "Log in to your account",
+          "tailwind": "font-size-[16px] leading-24 color-[#090a0a]"
+        }
+      ]
+    },
+    {
+      "id": "a51c81qpx",
+      "name": "Controls / Text Fields",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 200,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] rounded-8",
+      "children": [
+        {
+          "id": "1i9u8raca",
+          "name": "Field",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 24,
+            "y": 200,
+            "width": 327,
+            "height": 48
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderStyle": "solid",
+            "borderColor": "#e3e5e5",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "stroke": "#e3e5e5",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8"
+        },
+        {
+          "id": "83jmgezvf",
+          "name": "Auto Layout",
+          "type": "FRAME",
+          "layout": {
+            "x": 40,
+            "y": 216,
+            "width": 308,
+            "height": 16,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[308px] h-[16px]",
+          "children": [
+            {
+              "id": "q95j2cpn7",
+              "name": "Country Code",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 216,
+                "width": 75,
+                "height": 16,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[75px] h-[16px] bg-[]",
+              "children": [
+                {
+                  "id": "p81kcmncr",
+                  "name": "Flag",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 40,
+                    "y": 216,
+                    "width": 20,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 16,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[20px] h-[16px] border-radius-[16px]",
+                  "children": [
+                    {
+                      "id": "sszfqroiw",
+                      "name": "Rectangle 2",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 40,
+                        "y": 216,
+                        "width": 20,
+                        "height": 16
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 2,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[20px] h-[16px] bg-white rounded-2"
+                    },
+                    {
+                      "id": "1y48s69z9",
+                      "name": "Rectangle 3",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 40,
+                        "y": 216,
+                        "width": 20,
+                        "height": 8
+                      },
+                      "style": {
+                        "backgroundColor": "#ff5247",
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ff5247",
+                        "strokeWidth": 1
+                      },
+                      "svg": {
+                        "fill": "#ff5247",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[20px] h-[8px] bg-[#ff5247]"
+                    }
+                  ]
+                },
+                {
+                  "id": "hzee9sho7",
+                  "name": "+1",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 64,
+                    "y": 216,
+                    "width": 31,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "+62",
+                  "tailwind": "font-size-[16px] leading-16 color-[#090a0a]"
+                },
+                {
+                  "id": "6euliixx2",
+                  "name": "Left Actionable",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 99,
+                    "y": 216,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px] bg-[]",
+                  "children": [
+                    {
+                      "id": "9kdae3nhf",
+                      "name": "Vector",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 103,
+                        "y": 222,
+                        "width": 8,
+                        "height": 4
+                      },
+                      "style": {
+                        "borderStyle": "solid",
+                        "borderColor": "#090a0a",
+                        "borderRadius": 0,
+                        "borderWidth": 1.5,
+                        "opacity": 1,
+                        "stroke": "#090a0a",
+                        "strokeWidth": 1.5
+                      },
+                      "svg": {
+                        "stroke": "#090a0a",
+                        "strokeWidth": 1.5
+                      },
+                      "tailwind": "w-[8px] h-[4px] w-[1px] border-solid border-color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zuqcf18ii",
+              "name": "Mobile number",
+              "type": "TEXT",
+              "layout": {
+                "x": 131,
+                "y": 216,
+                "width": 217,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#72777a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#72777a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#72777a"
+              },
+              "copy": "Mobile number",
+              "tailwind": "font-size-[16px] leading-16 color-[#72777a]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t8qvfjo2a",
+      "name": "You will receive an SMS verification that may apply message and data rates.",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 264,
+        "width": 327,
+        "height": 32
+      },
+      "style": {
+        "backgroundColor": "#6c7072",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#6c7072",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#6c7072"
+      },
+      "copy": "You will receive an SMS verification that may apply message and data rates.",
+      "tailwind": "text-[12] leading-16 color-[#6c7072]"
+    },
+    {
+      "id": "h5tnvh9cw",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 650,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#6b4eff",
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#6b4eff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
+      "children": [
+        {
+          "id": "ppuhpv9f4",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 165,
+            "y": 666,
+            "width": 47,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#ffffff"
+          },
+          "copy": "Log in",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
+        }
+      ]
+    },
+    {
+      "id": "pe28i7wn8",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 714,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] border-radius-[48px]",
+      "children": [
+        {
+          "id": "54r2bn64a",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 118,
+            "y": 730,
+            "width": 140,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#6b4eff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#6b4eff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#6b4eff"
+          },
+          "copy": "Use email, instead",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#6b4eff]"
+        }
+      ]
+    },
+    {
+      "id": "l3lnwtonh",
+      "name": "Native / Home Indicator",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 778,
+        "width": 375,
+        "height": 34,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[34px] bg-white",
+      "children": [
+        {
+          "id": "72qgoq618",
+          "name": "rectangle",
+          "type": "VECTOR",
+          "layout": {
+            "x": 114,
+            "y": 799,
+            "width": 148,
+            "height": 5
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderRadius": 100,
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "svg": {
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+        }
+      ]
+    }
+  ]
+}

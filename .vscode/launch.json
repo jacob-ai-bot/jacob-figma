@@ -4,11 +4,10 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Jest All",
-      "program": "${workspaceFolder}/node_modules/.bin/jest",
-      "args": ["--runInBand"],
+      "name": "Vitest All",
+      "program": "${workspaceFolder}/node_modules/.bin/vitest",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
-    }
+    },
   ]
 }

@@ -1,0 +1,611 @@
+{
+  "id": "9oouh58uj",
+  "name": "Stats",
+  "type": "GROUP",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 1600,
+    "height": 659
+  },
+  "style": {
+    "opacity": 1
+  },
+  "tailwind": "w-[1600px] h-[659px]",
+  "children": [
+    {
+      "id": "38jewh5rg",
+      "name": "BG",
+      "type": "GROUP",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 659
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[1600px] h-[659px]",
+      "children": [
+        {
+          "id": "3r2kp0wnt",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 659
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[659px] bg-black"
+        },
+        {
+          "id": "b2nc61mc1",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 659
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[659px] bg-black"
+        }
+      ]
+    },
+    {
+      "id": "fozfhzx57",
+      "name": "Content",
+      "type": "GROUP",
+      "layout": {
+        "x": 639,
+        "y": 108,
+        "width": 322,
+        "height": 42
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[322px] h-[42px]",
+      "children": [
+        {
+          "id": "l4xy8h37a",
+          "name": "The Landingfolio Facts",
+          "type": "TEXT",
+          "layout": {
+            "x": 639,
+            "y": 108,
+            "width": 322,
+            "height": 42
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": 32,
+            "fontStyle": "Regular",
+            "lineHeight": 42,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#ffffff"
+          },
+          "copy": "The Landingfolio Facts",
+          "tailwind": "text-[32] leading-42 text-align-[center] text-white"
+        }
+      ]
+    },
+    {
+      "id": "sjxh6zjuf",
+      "name": "List",
+      "type": "GROUP",
+      "layout": {
+        "x": 264,
+        "y": 221,
+        "width": 1074,
+        "height": 320
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[1074px] h-[320px]",
+      "children": [
+        {
+          "id": "rdkrz2dmt",
+          "name": "Line 55",
+          "type": "LINE",
+          "layout": {
+            "x": 626,
+            "y": 221,
+            "width": 0,
+            "height": 160
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#18181b",
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#18181b",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
+        },
+        {
+          "id": "uk03205na",
+          "name": "Line 56",
+          "type": "LINE",
+          "layout": {
+            "x": 988,
+            "y": 221,
+            "width": 0,
+            "height": 160
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#18181b",
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#18181b",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
+        },
+        {
+          "id": "vy2wgcozg",
+          "name": "Card",
+          "type": "GROUP",
+          "layout": {
+            "x": 304,
+            "y": 231,
+            "width": 993,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[993px] h-[105px]",
+          "children": [
+            {
+              "id": "oqn6dvjhg",
+              "name": "1",
+              "type": "GROUP",
+              "layout": {
+                "x": 304,
+                "y": 231,
+                "width": 248,
+                "height": 105
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[248px] h-[105px]",
+              "children": [
+                {
+                  "id": "yiuruzrc3",
+                  "name": "1M+",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 368,
+                    "y": 231,
+                    "width": 121,
+                    "height": 66
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "IBM Plex Sans",
+                    "fontSize": 60,
+                    "fontStyle": "Regular",
+                    "lineHeight": 66,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER"
+                  },
+                  "copy": "1M+",
+                  "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
+                },
+                {
+                  "id": "gnxa5todo",
+                  "name": "Tickets Delivered This Month",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 304,
+                    "y": 308,
+                    "width": 248,
+                    "height": 28
+                  },
+                  "style": {
+                    "backgroundColor": "#a1a1aa",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#a1a1aa",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 18,
+                    "fontStyle": "Regular",
+                    "lineHeight": 28,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#a1a1aa"
+                  },
+                  "copy": "Tickets Delivered This Month",
+                  "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
+                }
+              ]
+            },
+            {
+              "id": "y1he7mmwr",
+              "name": "2",
+              "type": "GROUP",
+              "layout": {
+                "x": 692,
+                "y": 231,
+                "width": 195,
+                "height": 105
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[195px] h-[105px]",
+              "children": [
+                {
+                  "id": "btv426s9o",
+                  "name": "37K+",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 717,
+                    "y": 231,
+                    "width": 146,
+                    "height": 66
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "IBM Plex Sans",
+                    "fontSize": 60,
+                    "fontStyle": "Regular",
+                    "lineHeight": 66,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER"
+                  },
+                  "copy": "37K+",
+                  "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
+                },
+                {
+                  "id": "z98kr57hh",
+                  "name": "Active Customers Rate",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 692,
+                    "y": 308,
+                    "width": 195,
+                    "height": 28
+                  },
+                  "style": {
+                    "backgroundColor": "#a1a1aa",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#a1a1aa",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 18,
+                    "fontStyle": "Regular",
+                    "lineHeight": 28,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#a1a1aa"
+                  },
+                  "copy": "Active Customers Rate",
+                  "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
+                }
+              ]
+            },
+            {
+              "id": "h3dtw4tr6",
+              "name": "3",
+              "type": "GROUP",
+              "layout": {
+                "x": 1065,
+                "y": 231,
+                "width": 232,
+                "height": 105
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[232px] h-[105px]",
+              "children": [
+                {
+                  "id": "11xcxwkq5",
+                  "name": "99%",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 1117,
+                    "y": 231,
+                    "width": 128,
+                    "height": 66
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "IBM Plex Sans",
+                    "fontSize": 60,
+                    "fontStyle": "Regular",
+                    "lineHeight": 66,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER"
+                  },
+                  "copy": "99%",
+                  "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
+                },
+                {
+                  "id": "l4qtdty6k",
+                  "name": "Customer Satisfaction Rate",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 1065,
+                    "y": 308,
+                    "width": 232,
+                    "height": 28
+                  },
+                  "style": {
+                    "backgroundColor": "#a1a1aa",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#a1a1aa",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 18,
+                    "fontStyle": "Regular",
+                    "lineHeight": 28,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#a1a1aa"
+                  },
+                  "copy": "Customer Satisfaction Rate",
+                  "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lvaa905em",
+          "name": "Line 54",
+          "type": "LINE",
+          "layout": {
+            "x": 264,
+            "y": 381,
+            "width": 1074,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#18181b",
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#18181b",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1074px] h-[0px] border border-solid border-color-[#18181b]"
+        },
+        {
+          "id": "uqsp50ytw",
+          "name": "Line 57",
+          "type": "LINE",
+          "layout": {
+            "x": 812,
+            "y": 381,
+            "width": 0,
+            "height": 160
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#18181b",
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#18181b",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
+        },
+        {
+          "id": "7pnre7j2z",
+          "name": "Card",
+          "type": "GROUP",
+          "layout": {
+            "x": 537,
+            "y": 407,
+            "width": 569,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[569px] h-[105px]",
+          "children": [
+            {
+              "id": "2lcjl8gtq",
+              "name": "1",
+              "type": "GROUP",
+              "layout": {
+                "x": 537,
+                "y": 407,
+                "width": 193,
+                "height": 105
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[193px] h-[105px]",
+              "children": [
+                {
+                  "id": "z3zpdvgwh",
+                  "name": "25",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 597,
+                    "y": 407,
+                    "width": 72,
+                    "height": 66
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "IBM Plex Sans",
+                    "fontSize": 60,
+                    "fontStyle": "Regular",
+                    "lineHeight": 66,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER"
+                  },
+                  "copy": "25",
+                  "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
+                },
+                {
+                  "id": "65hrb9ten",
+                  "name": "Expert Team Members",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 537,
+                    "y": 484,
+                    "width": 193,
+                    "height": 28
+                  },
+                  "style": {
+                    "backgroundColor": "#a1a1aa",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#a1a1aa",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 18,
+                    "fontStyle": "Regular",
+                    "lineHeight": 28,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#a1a1aa"
+                  },
+                  "copy": "Expert Team Members",
+                  "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
+                }
+              ]
+            },
+            {
+              "id": "088w0q88j",
+              "name": "2",
+              "type": "GROUP",
+              "layout": {
+                "x": 883,
+                "y": 407,
+                "width": 223,
+                "height": 105
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[223px] h-[105px]",
+              "children": [
+                {
+                  "id": "4zzmax882",
+                  "name": "42%",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 931,
+                    "y": 407,
+                    "width": 128,
+                    "height": 66
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "IBM Plex Sans",
+                    "fontSize": 60,
+                    "fontStyle": "Regular",
+                    "lineHeight": 66,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER"
+                  },
+                  "copy": "42%",
+                  "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
+                },
+                {
+                  "id": "za6btkij5",
+                  "name": "Customers Retention Rate",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 883,
+                    "y": 484,
+                    "width": 223,
+                    "height": 28
+                  },
+                  "style": {
+                    "backgroundColor": "#a1a1aa",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#a1a1aa",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 18,
+                    "fontStyle": "Regular",
+                    "lineHeight": 28,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#a1a1aa"
+                  },
+                  "copy": "Customers Retention Rate",
+                  "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

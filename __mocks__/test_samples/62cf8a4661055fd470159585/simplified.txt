@@ -1,0 +1,4837 @@
+{
+  "id": "p5g2fxtk3",
+  "name": "Scatter Chart",
+  "type": "INSTANCE",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 882,
+    "height": 448,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "opacity": 1,
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[882px] h-[448px]",
+  "children": [
+    {
+      "id": "wydldpxl0",
+      "name": "Rectangle 2045",
+      "type": "RECTANGLE",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 882,
+        "height": 448
+      },
+      "style": {
+        "backgroundColor": "#2c2d33",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        "opacity": 1,
+        "fill": "#2c2d33",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[882px] h-[448px] bg-[#2c2d33] border-radius-[6px] box-shadow-[0 2px 10px 0 rgba(0, 0, 0, 0.1)]"
+    },
+    {
+      "id": "1t1tzpoem",
+      "name": "PRIMARY TEXT",
+      "type": "TEXT",
+      "layout": {
+        "x": 44,
+        "y": 28,
+        "width": 220,
+        "height": 19
+      },
+      "style": {
+        "backgroundColor": "#828282",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#828282",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Roboto",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "fontStyle": "SemiBold",
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#828282"
+      },
+      "copy": "PRIMARY TEXT",
+      "tailwind": "font-size-[16px] color-[#828282]"
+    },
+    {
+      "id": "0tds45wrq",
+      "name": "Group 2293",
+      "type": "GROUP",
+      "layout": {
+        "x": 820,
+        "y": 28,
+        "width": 24,
+        "height": 24
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[24px] h-[24px]",
+      "children": [
+        {
+          "id": "k31ksaakg",
+          "name": "Ellipse 16",
+          "type": "ELLIPSE",
+          "layout": {
+            "x": 820,
+            "y": 28,
+            "width": 24,
+            "height": 24
+          },
+          "style": {
+            "backgroundColor": "#bdbdbd",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#bdbdbd",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px] bg-[#bdbdbd]"
+        },
+        {
+          "id": "s4r60vx6q",
+          "name": "Group 5",
+          "type": "GROUP",
+          "layout": {
+            "x": 830,
+            "y": 32,
+            "width": 4,
+            "height": 16
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[4px] h-[16px]",
+          "children": [
+            {
+              "id": "hzccu1jwb",
+              "name": "Rectangle 9",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 830,
+                "y": 32,
+                "width": 4,
+                "height": 4
+              },
+              "style": {
+                "backgroundColor": "#2c2d33",
+                "borderRadius": 6,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#2c2d33",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[4px] h-[4px] bg-[#2c2d33] border-radius-[6px]"
+            },
+            {
+              "id": "b30eup2j9",
+              "name": "Rectangle 8",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 830,
+                "y": 37.3,
+                "width": 4,
+                "height": 10.7
+              },
+              "style": {
+                "backgroundColor": "#2c2d33",
+                "borderRadius": 6,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#2c2d33",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[4px] h-[10px] bg-[#2c2d33] border-radius-[6px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6o9kztde9",
+      "name": "5.987,34",
+      "type": "TEXT",
+      "layout": {
+        "x": 44,
+        "y": 53,
+        "width": 220,
+        "height": 47
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Roboto",
+        "fontSize": 40,
+        "fontStyle": "Medium",
+        "letterSpacing": -3.7,
+        "textAlign": "LEFT",
+        "color": "#ffffff"
+      },
+      "copy": "5.987,34",
+      "tailwind": "font-size-[40px] font-medium letter-spacing-[-0.0375em] text-white"
+    },
+    {
+      "id": "ztzc6bq9f",
+      "name": "Secondary text",
+      "type": "TEXT",
+      "layout": {
+        "x": 44,
+        "y": 106,
+        "width": 220,
+        "height": 16
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Roboto",
+        "fontSize": 14,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#ffffff"
+      },
+      "copy": "Secondary text",
+      "tailwind": "text-[14] text-white"
+    },
+    {
+      "id": "vcstrstpq",
+      "name": "Vector 50",
+      "type": "VECTOR",
+      "layout": {
+        "x": 0,
+        "y": 145,
+        "width": 882,
+        "height": 0
+      },
+      "style": {
+        "borderStyle": "solid",
+        "borderColor": "#4f4f4f",
+        "borderRadius": 0,
+        "borderWidth": 2,
+        "opacity": 1,
+        "stroke": "#4f4f4f",
+        "strokeWidth": 2
+      },
+      "svg": {
+        "stroke": "#4f4f4f",
+        "strokeWidth": 2
+      },
+      "tailwind": "w-[882px] h-[0px] border-2 border-solid border-color-[#4f4f4f]"
+    },
+    {
+      "id": "94444g8ju",
+      "name": "60",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 163,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "60",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "u6y2bwnjk",
+      "name": "Ellipse 290",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 84,
+        "y": 172,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "5eetnn3e6",
+      "name": "Ellipse 329",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 259.3,
+        "y": 172,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "hlk8gws5q",
+      "name": "Ellipse 417",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 411.4,
+        "y": 172,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "a1fcgx866",
+      "name": "Ellipse 381",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 524,
+        "y": 172,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "ax8pkpk8n",
+      "name": "Ellipse 372",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 699.3,
+        "y": 172,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "v6sbih7ky",
+      "name": "Group 2291",
+      "type": "GROUP",
+      "layout": {
+        "x": 72,
+        "y": 174,
+        "width": 772,
+        "height": 167
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[772px] h-[167px]",
+      "children": [
+        {
+          "id": "ysxge5frq",
+          "name": "Rectangle 2",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 72,
+            "y": 174,
+            "width": 772,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[167px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "jbov915p8",
+          "name": "Vector 5",
+          "type": "VECTOR",
+          "layout": {
+            "x": 202,
+            "y": 174,
+            "width": 0,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "jeiotdqmw",
+          "name": "Vector 6",
+          "type": "VECTOR",
+          "layout": {
+            "x": 329,
+            "y": 174,
+            "width": 0,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "00cl40fn0",
+          "name": "Vector 23",
+          "type": "VECTOR",
+          "layout": {
+            "x": 457,
+            "y": 174,
+            "width": 0,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "zbqv8jqsx",
+          "name": "Vector 24",
+          "type": "VECTOR",
+          "layout": {
+            "x": 584,
+            "y": 174,
+            "width": 0,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "ge9ibgb34",
+          "name": "Vector 25",
+          "type": "VECTOR",
+          "layout": {
+            "x": 712,
+            "y": 174,
+            "width": 0,
+            "height": 167
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "jdetr889u",
+          "name": "Vector 27",
+          "type": "VECTOR",
+          "layout": {
+            "x": 72,
+            "y": 202,
+            "width": 772,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "uu8kut9bj",
+          "name": "Vector 21",
+          "type": "VECTOR",
+          "layout": {
+            "x": 72,
+            "y": 229,
+            "width": 772,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "rwujbxqbk",
+          "name": "Vector 2",
+          "type": "VECTOR",
+          "layout": {
+            "x": 72,
+            "y": 256,
+            "width": 772,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "vjslrdq2l",
+          "name": "Vector 4",
+          "type": "VECTOR",
+          "layout": {
+            "x": 72,
+            "y": 283,
+            "width": 772,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        },
+        {
+          "id": "uogieyh78",
+          "name": "Vector 26",
+          "type": "VECTOR",
+          "layout": {
+            "x": 72,
+            "y": 310,
+            "width": 772,
+            "height": 0
+          },
+          "style": {
+            "borderStyle": "solid",
+            "borderColor": "#4f4f4f",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "svg": {
+            "stroke": "#4f4f4f",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
+        }
+      ]
+    },
+    {
+      "id": "dhtzhtixn",
+      "name": "Ellipse 280",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 229,
+        "y": 174,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "ofipjsynf",
+      "name": "Ellipse 286",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 154,
+        "y": 181,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ho5vcrsu1",
+      "name": "Ellipse 377",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 594,
+        "y": 181,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "n26k3mjn1",
+      "name": "Ellipse 315",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 205,
+        "y": 183.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "yjksekgst",
+      "name": "Ellipse 411",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 467.2,
+        "y": 183.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "xa09gktb6",
+      "name": "Ellipse 358",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 645,
+        "y": 183.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "9v06oikjf",
+      "name": "Ellipse 401",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 799,
+        "y": 185.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "huxol1ylx",
+      "name": "Ellipse 287",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 96,
+        "y": 186,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "4we940x5j",
+      "name": "Ellipse 378",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 536,
+        "y": 186,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "s8gmet2oh",
+      "name": "Ellipse 284",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 359,
+        "y": 188,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "nhch6r5yg",
+      "name": "Ellipse 346",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 572,
+        "y": 189.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "9clxf0sbv",
+      "name": "50",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 190,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "50",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "rs1slz9vj",
+      "name": "Ellipse 269",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 145,
+        "y": 195,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "d61jpe6vz",
+      "name": "Ellipse 426",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 405.2,
+        "y": 196.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "lsgyxfnh1",
+      "name": "Ellipse 403",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 707,
+        "y": 196.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "iq4g01saj",
+      "name": "Ellipse 326",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 218,
+        "y": 196.7,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "hn4gzrrwh",
+      "name": "Ellipse 416",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 452.7,
+        "y": 196.7,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ug9orjw9m",
+      "name": "Ellipse 369",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 658,
+        "y": 196.7,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ydwetmmlr",
+      "name": "Ellipse 271",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 309,
+        "y": 199,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "8uxl9fmay",
+      "name": "Ellipse 283",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 326,
+        "y": 203,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "31vh2zpqz",
+      "name": "Ellipse 339",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 526,
+        "y": 203.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "3bj1grwdd",
+      "name": "Ellipse 320",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 144,
+        "y": 204.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "u2c42531c",
+      "name": "Ellipse 363",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 584,
+        "y": 204.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "wth3sqcr5",
+      "name": "Ellipse 323",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 234.5,
+        "y": 205,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "oyjgdsl9j",
+      "name": "Ellipse 414",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 436.2,
+        "y": 205,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "drjgtoymn",
+      "name": "Ellipse 366",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 674.5,
+        "y": 205,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "owxodbhhn",
+      "name": "Ellipse 325",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 271.3,
+        "y": 208.2,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "vatao2jrb",
+      "name": "Ellipse 415",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 399.3,
+        "y": 208.2,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "gyvmdiy2q",
+      "name": "Ellipse 368",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 711.3,
+        "y": 208.2,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "nuny3rb3l",
+      "name": "Ellipse 321",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 128,
+        "y": 209.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "mqqtab1kv",
+      "name": "Ellipse 364",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 568,
+        "y": 209.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "780bqeziy",
+      "name": "Ellipse 333",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 342.2,
+        "y": 211.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "10zoveiwp",
+      "name": "Ellipse 376",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 782.2,
+        "y": 211.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "irmo6u70k",
+      "name": "Ellipse 281",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 176,
+        "y": 214,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "attcy4xxx",
+      "name": "Ellipse 336",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 540,
+        "y": 215.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "zna88l267",
+      "name": "Ellipse 402",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 814,
+        "y": 215.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "eeldz8ukb",
+      "name": "Ellipse 319",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 143,
+        "y": 216.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "xuqvt45pg",
+      "name": "Ellipse 362",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 583,
+        "y": 216.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "k3mimw1r4",
+      "name": "40",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 217,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "40",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "b8ff8cpxy",
+      "name": "Ellipse 278",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 342,
+        "y": 217,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "zec2mhasp",
+      "name": "Ellipse 303",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 386,
+        "y": 217,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ljzfioyc2",
+      "name": "Ellipse 394",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 826,
+        "y": 217,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "tdynpr9zr",
+      "name": "Ellipse 306",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 299.4,
+        "y": 217.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "1crba51qa",
+      "name": "Ellipse 397",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 739.4,
+        "y": 217.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "ztrb152wr",
+      "name": "Ellipse 293",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 70,
+        "y": 218,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "x8009q7yu",
+      "name": "Ellipse 282",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 309,
+        "y": 218,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "ekobqraiy",
+      "name": "Ellipse 384",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 510,
+        "y": 218,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "amsldcjgc",
+      "name": "Ellipse 289",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 108,
+        "y": 221,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "o1flrq4k0",
+      "name": "Ellipse 380",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 548,
+        "y": 221,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "2cepxoz9v",
+      "name": "Ellipse 288",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 147,
+        "y": 224,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "8m2kilx0c",
+      "name": "Ellipse 379",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 587,
+        "y": 224,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "u8sl1194u",
+      "name": "Ellipse 263",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 95,
+        "y": 225,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "4vti3yu7x",
+      "name": "Ellipse 265",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 95,
+        "y": 225,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "cchxyh3d0",
+      "name": "Ellipse 332",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 350.9,
+        "y": 225.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "7a1t43cad",
+      "name": "Ellipse 375",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 790.9,
+        "y": 225.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ea5wnd1zm",
+      "name": "Ellipse 338",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 575,
+        "y": 227.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "8xntv5cv1",
+      "name": "Ellipse 331",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 339,
+        "y": 227.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "7jhrhbefl",
+      "name": "Ellipse 374",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 779,
+        "y": 227.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "9yyzf59km",
+      "name": "Ellipse 294",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 184,
+        "y": 231,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "la9otbtb7",
+      "name": "Ellipse 419",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 488.2,
+        "y": 231,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "x5hsafn31",
+      "name": "Ellipse 385",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 624,
+        "y": 231,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "z6mkr8q6c",
+      "name": "Ellipse 266",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 138,
+        "y": 232,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "vnl8f8fzl",
+      "name": "Ellipse 298",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 243.6,
+        "y": 234.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ff37xti95",
+      "name": "Ellipse 420",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 427,
+        "y": 234.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "9va5da44k",
+      "name": "Ellipse 389",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 683.6,
+        "y": 234.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "5rlot056w",
+      "name": "Ellipse 273",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 208,
+        "y": 235,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "drumtj6ky",
+      "name": "Ellipse 272",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 196,
+        "y": 236,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "jb5qtuo30",
+      "name": "Ellipse 316",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 165,
+        "y": 236.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "6wr8nu0hu",
+      "name": "Ellipse 359",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 605,
+        "y": 236.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "iu1y91nye",
+      "name": "Ellipse 345",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 745,
+        "y": 238.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "k78gwy1vu",
+      "name": "Ellipse 270",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 241,
+        "y": 243,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "ujp5b56oe",
+      "name": "Ellipse 304",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 324.9,
+        "y": 243,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "1ftshwoyt",
+      "name": "Ellipse 395",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 764.9,
+        "y": 243,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "4w1vrxyww",
+      "name": "30",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 245,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "30",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "4kckqqm4i",
+      "name": "Ellipse 324",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 283.7,
+        "y": 245.3,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "7p3c83gza",
+      "name": "Ellipse 367",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 723.7,
+        "y": 245.3,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "6idvz9hnv",
+      "name": "Ellipse 410",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 469.2,
+        "y": 247.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "8jg7l7j68",
+      "name": "Ellipse 352",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 643,
+        "y": 247.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "4yujb7vpz",
+      "name": "Ellipse 274",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 203,
+        "y": 251,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "ydfe3r1f4",
+      "name": "Ellipse 300",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 283.7,
+        "y": 251.3,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "afsn4kmug",
+      "name": "Ellipse 422",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 387,
+        "y": 251.3,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "3k9tz9u9y",
+      "name": "Ellipse 391",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 723.7,
+        "y": 251.3,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "cd0715pnu",
+      "name": "Ellipse 328",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 324.9,
+        "y": 253.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "n8e28w228",
+      "name": "Ellipse 371",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 764.9,
+        "y": 253.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "8nof356nd",
+      "name": "Ellipse 407",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 431.2,
+        "y": 255.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "an88m4mn4",
+      "name": "Ellipse 348",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 681,
+        "y": 255.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "za5zujoyt",
+      "name": "Ellipse 285",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 305,
+        "y": 260,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "84gp36uc8",
+      "name": "Ellipse 292",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 165,
+        "y": 262,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "69edb1wy6",
+      "name": "Ellipse 383",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 605,
+        "y": 262,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "12dtdbjfb",
+      "name": "Ellipse 408",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 476.2,
+        "y": 262.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "am9kqbsc0",
+      "name": "Ellipse 350",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 636,
+        "y": 262.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "9a55mg2x8",
+      "name": "Ellipse 322",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 243.6,
+        "y": 262.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "p4vu7c2on",
+      "name": "Ellipse 413",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 427,
+        "y": 262.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "n5y25yxcu",
+      "name": "Ellipse 365",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 683.6,
+        "y": 262.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "y524i9i4v",
+      "name": "Ellipse 409",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 464.2,
+        "y": 263.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "kiwz40mcj",
+      "name": "Ellipse 351",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 648,
+        "y": 263.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "b7tfktflx",
+      "name": "Ellipse 337",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 578,
+        "y": 266.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "swlrbz3ut",
+      "name": "Ellipse 318",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 184,
+        "y": 267.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "sytkc6xgp",
+      "name": "Ellipse 412",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 488.2,
+        "y": 267.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "rvt0rvhvl",
+      "name": "Ellipse 361",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 624,
+        "y": 267.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "b5rf19lb0",
+      "name": "Ellipse 307",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 339,
+        "y": 269.2,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "91p2qg39y",
+      "name": "Ellipse 398",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 779,
+        "y": 269.2,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "ulfcs1b7f",
+      "name": "20",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 271,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "20",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "7fn8wiqmz",
+      "name": "Ellipse 267",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 135,
+        "y": 271,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "8phr62lxy",
+      "name": "Ellipse 308",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 350.9,
+        "y": 271.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "2edxxzpi3",
+      "name": "Ellipse 399",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 790.9,
+        "y": 271.1,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "hwm4kritd",
+      "name": "Ellipse 334",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 535,
+        "y": 273.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "jg0pdudui",
+      "name": "Ellipse 335",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 535,
+        "y": 273.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "8xp2y4nh8",
+      "name": "Ellipse 312",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 147,
+        "y": 274.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "51q7oo608",
+      "name": "Ellipse 355",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 587,
+        "y": 274.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "27nq4ylg8",
+      "name": "Ellipse 313",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 108,
+        "y": 277.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "g7jg9bm94",
+      "name": "Ellipse 356",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 548,
+        "y": 277.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "gb8vea7a2",
+      "name": "Ellipse 330",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 299.4,
+        "y": 279.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "b9uy78gik",
+      "name": "Ellipse 373",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 739.4,
+        "y": 279.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "2uknykya4",
+      "name": "Ellipse 327",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 386,
+        "y": 279.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "5j53ea0bu",
+      "name": "Ellipse 370",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 826,
+        "y": 279.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "0yja46uwn",
+      "name": "Ellipse 317",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 70,
+        "y": 280.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "m84301nzm",
+      "name": "Ellipse 360",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 510,
+        "y": 280.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "h2jeh81bl",
+      "name": "Ellipse 342",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 749,
+        "y": 280.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "uc9ezd1i7",
+      "name": "Ellipse 404",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 782,
+        "y": 281.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "6zppn8cd5",
+      "name": "Ellipse 295",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 143,
+        "y": 282,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "jm0defkcg",
+      "name": "Ellipse 386",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 583,
+        "y": 282,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "ocm8g21hi",
+      "name": "Ellipse 264",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 100,
+        "y": 283,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "jbucubmm0",
+      "name": "Ellipse 276",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 374,
+        "y": 283,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "f2awvcin8",
+      "name": "Ellipse 406",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 496.2,
+        "y": 284.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "nm0gt8hrb",
+      "name": "Ellipse 341",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 616,
+        "y": 284.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "64zi3af9c",
+      "name": "Ellipse 309",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 342.2,
+        "y": 285.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "lw24oqday",
+      "name": "Ellipse 400",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 782.2,
+        "y": 285.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "kgrr55ixh",
+      "name": "Ellipse 301",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 271.3,
+        "y": 288.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "l9ont5vge",
+      "name": "Ellipse 423",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 399.3,
+        "y": 288.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "jqkv0f60d",
+      "name": "Ellipse 392",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 711.3,
+        "y": 288.4,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "q313bm61w",
+      "name": "Ellipse 297",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 128,
+        "y": 289,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "yi0dh6fp8",
+      "name": "Ellipse 388",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 568,
+        "y": 289,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "k0ik5ycyc",
+      "name": "Ellipse 299",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 234.5,
+        "y": 291.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "7a2pfu6qz",
+      "name": "Ellipse 421",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 436.2,
+        "y": 291.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "8aj1obyag",
+      "name": "Ellipse 390",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 674.5,
+        "y": 291.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "3ulnhcxjj",
+      "name": "Ellipse 296",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 144,
+        "y": 294,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "ikxjrwvyk",
+      "name": "Ellipse 387",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 584,
+        "y": 294,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "uilsa48jl",
+      "name": "Ellipse 279",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 86,
+        "y": 295,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "n7x2ze1if",
+      "name": "Ellipse 343",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 766,
+        "y": 295.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "u7ioj0ze6",
+      "name": "10",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 298,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "10",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "t72suz397",
+      "name": "Ellipse 349",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 749,
+        "y": 299.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "3ynttt7uw",
+      "name": "Ellipse 302",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 218,
+        "y": 299.9,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "sk4z9y01u",
+      "name": "Ellipse 424",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 452.7,
+        "y": 299.9,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "4qq23clhk",
+      "name": "Ellipse 393",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 658,
+        "y": 299.9,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "kdgequ8bw",
+      "name": "Ellipse 277",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 267,
+        "y": 302,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "v5orsvodd",
+      "name": "Ellipse 347",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 585,
+        "y": 303.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "76n5rtpka",
+      "name": "Ellipse 268",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 132,
+        "y": 309,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "q1fkjtz8q",
+      "name": "Ellipse 344",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 799,
+        "y": 310.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "aw6ws7eob",
+      "name": "Ellipse 311",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 96,
+        "y": 312.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "80aquaaaw",
+      "name": "Ellipse 354",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 536,
+        "y": 312.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "6vv0z0k49",
+      "name": "Ellipse 275",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 359,
+        "y": 313,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "07fvlk70f",
+      "name": "Ellipse 291",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 205,
+        "y": 315,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "9t9j14oei",
+      "name": "Ellipse 418",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 467.2,
+        "y": 315,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "a228rpgr2",
+      "name": "Ellipse 382",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 645,
+        "y": 315,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "vi0lm7d91",
+      "name": "Ellipse 310",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 154,
+        "y": 317.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "5eypakh45",
+      "name": "Ellipse 353",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 594,
+        "y": 317.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "63iuovlcx",
+      "name": "Ellipse 405",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 443.2,
+        "y": 324,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "6bhevnecl",
+      "name": "Ellipse 340",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 669,
+        "y": 324,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#63abfd",
+        "borderStyle": "solid",
+        "borderColor": "#165baa",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#63abfd",
+        "stroke": "#165baa",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
+    },
+    {
+      "id": "hg5aeld60",
+      "name": "Ellipse 425",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 411.4,
+        "y": 324.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "28wue6srm",
+      "name": "Ellipse 396",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 699.3,
+        "y": 324.5,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "a34h9ntt2",
+      "name": "Ellipse 305",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 259.3,
+        "y": 324.6,
+        "width": 8.5,
+        "height": 8.5
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "br5878s0m",
+      "name": "Ellipse 314",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 84,
+        "y": 326.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#ffa5cb",
+        "borderStyle": "solid",
+        "borderColor": "#f765a3",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffa5cb",
+        "stroke": "#f765a3",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
+    },
+    {
+      "id": "vnoyv097m",
+      "name": "Ellipse 357",
+      "type": "ELLIPSE",
+      "layout": {
+        "x": 524,
+        "y": 326.1,
+        "width": 7,
+        "height": 7
+      },
+      "style": {
+        "backgroundColor": "#e697ff",
+        "borderStyle": "solid",
+        "borderColor": "#a155b9",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e697ff",
+        "stroke": "#a155b9",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
+    },
+    {
+      "id": "z2yz0i92i",
+      "name": "0",
+      "type": "TEXT",
+      "layout": {
+        "x": 29,
+        "y": 329,
+        "width": 28,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 12,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "RIGHT",
+        "color": "#ffffff"
+      },
+      "copy": "0",
+      "tailwind": "text-[12] text-align-[right] text-white"
+    },
+    {
+      "id": "y44f6klyt",
+      "name": "10",
+      "type": "TEXT",
+      "layout": {
+        "x": 89,
+        "y": 345,
+        "width": 67,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "10",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "fpszk4tgq",
+      "name": "20",
+      "type": "TEXT",
+      "layout": {
+        "x": 238,
+        "y": 345,
+        "width": 67,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "20",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "rpsq6fhpo",
+      "name": "30",
+      "type": "TEXT",
+      "layout": {
+        "x": 365,
+        "y": 345,
+        "width": 68,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "30",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "jrqvt695x",
+      "name": "40",
+      "type": "TEXT",
+      "layout": {
+        "x": 490,
+        "y": 345,
+        "width": 68,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "40",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "5m5z74psz",
+      "name": "50",
+      "type": "TEXT",
+      "layout": {
+        "x": 616,
+        "y": 345,
+        "width": 67,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "50",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "h1oce4bst",
+      "name": "60",
+      "type": "TEXT",
+      "layout": {
+        "x": 745,
+        "y": 345,
+        "width": 68,
+        "height": 15
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 10,
+        "fontStyle": "Regular",
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#ffffff"
+      },
+      "copy": "60",
+      "tailwind": "font-size-[10px] text-align-[center] text-white"
+    },
+    {
+      "id": "9rkbgo35y",
+      "name": "Group 2292",
+      "type": "GROUP",
+      "layout": {
+        "x": 72,
+        "y": 400,
+        "width": 303,
+        "height": 17
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[303px] h-[17px]",
+      "children": [
+        {
+          "id": "wyzexq8h8",
+          "name": "Product 1",
+          "type": "TEXT",
+          "layout": {
+            "x": 102,
+            "y": 400,
+            "width": 61,
+            "height": 17
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 12,
+            "fontStyle": "Regular",
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffffff"
+          },
+          "copy": "Product 1",
+          "tailwind": "text-[12] text-white"
+        },
+        {
+          "id": "rt9eh8mf0",
+          "name": "Product 2",
+          "type": "TEXT",
+          "layout": {
+            "x": 209,
+            "y": 400,
+            "width": 61,
+            "height": 17
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 12,
+            "fontStyle": "Regular",
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffffff"
+          },
+          "copy": "Product 2",
+          "tailwind": "text-[12] text-white"
+        },
+        {
+          "id": "wnai6n6rm",
+          "name": "Product 3",
+          "type": "TEXT",
+          "layout": {
+            "x": 314,
+            "y": 400,
+            "width": 61,
+            "height": 17
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 12,
+            "fontStyle": "Regular",
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffffff"
+          },
+          "copy": "Product 3",
+          "tailwind": "text-[12] text-white"
+        },
+        {
+          "id": "nir5bwyns",
+          "name": "Rectangle 1339",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 72,
+            "y": 404,
+            "width": 21,
+            "height": 8
+          },
+          "style": {
+            "backgroundColor": "#165baa",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#165baa",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[21px] h-[8px] bg-[#165baa]"
+        },
+        {
+          "id": "24vu9prur",
+          "name": "Rectangle 1340",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 179,
+            "y": 404,
+            "width": 21,
+            "height": 8
+          },
+          "style": {
+            "backgroundColor": "#a155b9",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#a155b9",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[21px] h-[8px] bg-[#a155b9]"
+        },
+        {
+          "id": "3ns3833kn",
+          "name": "Rectangle 1341",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 284,
+            "y": 404,
+            "width": 21,
+            "height": 8
+          },
+          "style": {
+            "backgroundColor": "#f765a3",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#f765a3",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[21px] h-[8px] bg-[#f765a3]"
+        }
+      ]
+    }
+  ]
+}
