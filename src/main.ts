@@ -55,6 +55,10 @@ async function handleCreateOrEdit({
   const nodes = figma.currentPage.selection
     .map((node) => getSimplifiedNode(node))
     .filter((node) => node) as Partial<SimplifiedNode>[];
+  if (nodes.length === 0) {
+    figma.notify("Please select a node");
+    emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {});
+  }
 
   for (const node of nodes) {
     let fullFileName: string;
