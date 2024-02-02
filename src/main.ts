@@ -52,6 +52,7 @@ async function handleCreateOrEdit({
 }: CreateNewFileData | EditExistingFileData) {
   const selection = figma.currentPage.selection;
 
+  // -- Convert the Figma json to a simplified FigML format --
   const nodes = figma.currentPage.selection
     .map((node) => getSimplifiedNode(node))
     .filter((node) => node) as Partial<SimplifiedNode>[];
@@ -76,13 +77,14 @@ async function handleCreateOrEdit({
       fullFileName = fileName;
     }
 
-    // upload this to s3 and get the signed url with a 60 minute expiry
-    const isSavedSnapshotValid = await canUseSavedSnapshot(selection);
+    // -- Snapshot the selected node --
     let snapshotUrl;
-
+    const isSavedSnapshotValid = await canUseSavedSnapshot(selection);
     if (isSavedSnapshotValid) {
+      // get the cached snapshot url
       snapshotUrl = (await figma.clientStorage.getAsync(snapshotUrlKey)) || "";
     } else {
+      // upload the snapshot to s3 and get the signed url with a 60 minute expiry
       const snapshot = await snapshotSelectedNode(selection);
       const { data: snapshotData, errors: snapshotErrors } =
         await uploadSnapshot(snapshot);
@@ -98,6 +100,7 @@ async function handleCreateOrEdit({
       await figma.clientStorage.setAsync(snapshotUrlKey, snapshotUrl);
     }
 
+    // -- Create the GitHub issue --
     const { data, errors } = await createIssuesForFigmaFile(
       node,
       selectedRepo,
@@ -114,6 +117,7 @@ async function handleCreateOrEdit({
       });
       break;
     }
+
     emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
       success: true,
     });
