@@ -56,21 +56,6 @@ describe("getSimplifiedNode", () => {
         expect(Object.keys(result || {}).length).toBeGreaterThan(0);
         expect(result?.id).toBeDefined();
         expect(result?.name).toBeDefined();
-
-        // write the result to a file. It should be in the same folder as the input file.
-        // The folder is the name of the file without the extension (with the base folder being mockFolderPath)
-        // The name of the new file is simplified_<original_file_name>.json
-        const folder = path.basename(file, path.extname(file));
-        const outputFolder = path.join(mockFolderPath, folder);
-        const outputFile = path.join(
-          outputFolder,
-          `simplified_${path.basename(file)}`,
-        );
-
-        if (!fs.existsSync(outputFolder)) {
-          fs.mkdirSync(outputFolder);
-        }
-        fs.writeFileSync(outputFile, JSON.stringify(result, null, 2));
       }
     });
   });
