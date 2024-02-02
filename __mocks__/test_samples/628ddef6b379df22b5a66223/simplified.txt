@@ -1,0 +1,2506 @@
+{
+  "id": "k539gszfd",
+  "name": "Verification",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
+  "children": [
+    {
+      "id": "ol7shdzcp",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px] bg-white",
+      "children": [
+        {
+          "id": "genefprp8",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "ww9c9llbr",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "08ch2oy3t",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "fmvzw9qju",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "iw8yb6lob",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "73pj8zbog",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.6,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o5g1p5qiw",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "8d5nu6l8z",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "bi7n7szcc",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "dh0a6w550",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "pr1xn8bsd",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o3gsadvtu",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "6ugvuvofj",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "pfxg01sap",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "3l5dvgoas",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "dszqcbrqp",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "1wxoa5xd0",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mr2xhocrc",
+      "name": "Bars / Nav Bars: Standard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 44,
+        "width": 375,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[48px] bg-white",
+      "children": [
+        {
+          "id": "lz80ahcmz",
+          "name": "Left Actionable",
+          "type": "FRAME",
+          "layout": {
+            "x": 18,
+            "y": 56,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "xgw2me646",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 27,
+                "y": 62,
+                "width": 6,
+                "height": 12
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 1.5,
+                "opacity": 1,
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "svg": {
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "jpvdz2c5g",
+          "name": "Right Actionable",
+          "type": "TEXT",
+          "layout": {
+            "x": 213,
+            "y": 59,
+            "width": 138,
+            "height": 18
+          },
+          "style": {
+            "backgroundColor": "#6b4eff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#6b4eff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontStyle": "Medium",
+            "lineHeight": 18,
+            "letterSpacing": 0,
+            "textAlign": "RIGHT",
+            "color": "#6b4eff"
+          },
+          "copy": "Change number",
+          "tailwind": "text-[18] font-medium leading-18 text-align-[right] color-[#6b4eff]"
+        }
+      ]
+    },
+    {
+      "id": "hse4k67o1",
+      "name": "Enter authentication code",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 108,
+        "width": 327,
+        "height": 32
+      },
+      "style": {
+        "backgroundColor": "#090a0a",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#090a0a",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "fontStyle": "Bold",
+        "lineHeight": 32,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#090a0a"
+      },
+      "copy": "Enter authentication code",
+      "tailwind": "text-[24] font-weight-[700] leading-32 text-align-[center] color-[#090a0a]"
+    },
+    {
+      "id": "g1sx2aobe",
+      "name": "Enter the 4-digit that we have sent via the phone number +62 813-8172-5977",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 152,
+        "width": 327,
+        "height": 48
+      },
+      "style": {
+        "backgroundColor": "#090a0a",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#090a0a",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "textAlign": "CENTER",
+        "color": "#090a0a"
+      },
+      "copy": "Enter the 4-digit that we have sent via the\nphone number +62 813-8172-5977",
+      "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#090a0a]"
+    },
+    {
+      "id": "t3p97aie4",
+      "name": "5-digit code",
+      "type": "FRAME",
+      "layout": {
+        "x": 68,
+        "y": 232,
+        "width": 240,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[240px] h-[48px] bg-[]",
+      "children": [
+        {
+          "id": "b07nubb1c",
+          "name": "Controls / Text Fields",
+          "type": "FRAME",
+          "layout": {
+            "x": 68,
+            "y": 232,
+            "width": 48,
+            "height": 48,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 48,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
+          "children": [
+            {
+              "id": "vlv0bi7u3",
+              "name": "Field",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 68,
+                "y": 232,
+                "width": 48,
+                "height": 48
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderStyle": "solid",
+                "borderColor": "#e3e5e5",
+                "borderRadius": 64,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "stroke": "#e3e5e5",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
+            },
+            {
+              "id": "2qnacczr4",
+              "name": "Text",
+              "type": "TEXT",
+              "layout": {
+                "x": 84,
+                "y": 248,
+                "width": 16,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "color": "#090a0a"
+              },
+              "copy": "5",
+              "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "ievb82fcp",
+          "name": "Controls / Text Fields",
+          "type": "FRAME",
+          "layout": {
+            "x": 132,
+            "y": 232,
+            "width": 48,
+            "height": 48,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 48,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
+          "children": [
+            {
+              "id": "jeo3aaump",
+              "name": "Field",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 132,
+                "y": 232,
+                "width": 48,
+                "height": 48
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderStyle": "solid",
+                "borderColor": "#e3e5e5",
+                "borderRadius": 64,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "stroke": "#e3e5e5",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
+            },
+            {
+              "id": "bwr6lfyi7",
+              "name": "Text",
+              "type": "TEXT",
+              "layout": {
+                "x": 148,
+                "y": 248,
+                "width": 16,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "color": "#090a0a"
+              },
+              "copy": "1",
+              "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "1mji4zqk9",
+          "name": "Controls / Text Fields",
+          "type": "FRAME",
+          "layout": {
+            "x": 196,
+            "y": 232,
+            "width": 48,
+            "height": 48,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 48,
+            "borderWidth": 2,
+            "opacity": 1,
+            "strokeWidth": 2
+          },
+          "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
+          "children": [
+            {
+              "id": "haav2d3td",
+              "name": "Field",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 196,
+                "y": 232,
+                "width": 48,
+                "height": 48
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderStyle": "solid",
+                "borderColor": "#6b4eff",
+                "borderRadius": 64,
+                "borderWidth": 2,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "stroke": "#6b4eff",
+                "strokeWidth": 2
+              },
+              "tailwind": "w-[48px] h-[48px] bg-white border-2 border-solid border-color-[#6b4eff] border-radius-[64px]"
+            }
+          ]
+        },
+        {
+          "id": "acjseskx8",
+          "name": "Controls / Text Fields",
+          "type": "FRAME",
+          "layout": {
+            "x": 260,
+            "y": 232,
+            "width": 48,
+            "height": 48,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 48,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
+          "children": [
+            {
+              "id": "bd2i85n9z",
+              "name": "Field",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 260,
+                "y": 232,
+                "width": 48,
+                "height": 48
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderStyle": "solid",
+                "borderColor": "#e3e5e5",
+                "borderRadius": 64,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "stroke": "#e3e5e5",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tnmu5yhm8",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 393,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#e3e5e5",
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e3e5e5",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] bg-[#e3e5e5] border-radius-[48px]",
+      "children": [
+        {
+          "id": "1bhjcg8af",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 153,
+            "y": 409,
+            "width": 70,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#979c9e",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#979c9e",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#979c9e"
+          },
+          "copy": "Continue",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#979c9e]"
+        }
+      ]
+    },
+    {
+      "id": "cqojd9zdy",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 457,
+        "width": 327,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[48px] border-radius-[48px]",
+      "children": [
+        {
+          "id": "ss3gtdd1a",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 138,
+            "y": 473,
+            "width": 100,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#6b4eff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#6b4eff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#6b4eff"
+          },
+          "copy": "Resend code",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#6b4eff]"
+        }
+      ]
+    },
+    {
+      "id": "7lyjbkl3i",
+      "name": "Native / Keyboard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 521,
+        "width": 375,
+        "height": 291,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[291px]",
+      "children": [
+        {
+          "id": "2faq6t361",
+          "name": "Background",
+          "type": "FRAME",
+          "layout": {
+            "x": 0,
+            "y": 521,
+            "width": 375,
+            "height": 291,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[375px] h-[291px]",
+          "children": [
+            {
+              "id": "27ri0wjl1",
+              "name": "Background",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 0,
+                "y": 521,
+                "width": 375,
+                "height": 291
+              },
+              "style": {
+                "backgroundColor": "#e3e5e5",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                "opacity": 1,
+                "fill": "#e3e5e5",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[375px] h-[291px] bg-[#e3e5e5] backdrop-filter-[blur(81.54845428466797px)]"
+            }
+          ]
+        },
+        {
+          "id": "x8q3k4hei",
+          "name": "Keys",
+          "type": "GROUP",
+          "layout": {
+            "x": 6,
+            "y": 527,
+            "width": 363,
+            "height": 207
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[363px] h-[207px]",
+          "children": [
+            {
+              "id": "fkb2qxvqr",
+              "name": "1",
+              "type": "FRAME",
+              "layout": {
+                "x": 6,
+                "y": 527,
+                "width": 117,
+                "height": 46,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[46px]",
+              "children": [
+                {
+                  "id": "ks69uw39c",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 6,
+                    "y": 527,
+                    "width": 117,
+                    "height": 46
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "fd9ql0754",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 528,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "1",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "qhsj8ikdo",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 556,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "SF Pro Text",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": " ",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "k83lwdl74",
+              "name": "2",
+              "type": "FRAME",
+              "layout": {
+                "x": 129,
+                "y": 527,
+                "width": 117,
+                "height": 46,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[46px]",
+              "children": [
+                {
+                  "id": "0h151adsk",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 129,
+                    "y": 527,
+                    "width": 117,
+                    "height": 46
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "upr09j5vx",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 528,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "2",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "2r32k5wt0",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 556,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "ABC",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "sc7d6dg76",
+              "name": "3",
+              "type": "FRAME",
+              "layout": {
+                "x": 252,
+                "y": 527,
+                "width": 117,
+                "height": 46,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[46px]",
+              "children": [
+                {
+                  "id": "0kola1isd",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 252,
+                    "y": 527,
+                    "width": 117,
+                    "height": 46
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "8z4unl180",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 528,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "3",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "mvijuc0z0",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 556,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "DEF",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "2dp0rb6pn",
+              "name": "4",
+              "type": "FRAME",
+              "layout": {
+                "x": 6,
+                "y": 580,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "0096xriw8",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 6,
+                    "y": 580,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "ys0zzu2iq",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 582,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "4",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "ogc0yg8y2",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 610,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "GHI",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "qdhl078f8",
+              "name": "5",
+              "type": "FRAME",
+              "layout": {
+                "x": 129,
+                "y": 580,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "atfotpue2",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 129,
+                    "y": 580,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "rbzicmvhu",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 582,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "5",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "nn8qk5uz2",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 610,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "JKL",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "e35s89ao7",
+              "name": "6",
+              "type": "FRAME",
+              "layout": {
+                "x": 252,
+                "y": 580,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "rg4f8pe25",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 252,
+                    "y": 580,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "33i9l3aft",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 582,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "6",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "4xpva28jw",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 610,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "MNO",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "iwqe6o21d",
+              "name": "7",
+              "type": "FRAME",
+              "layout": {
+                "x": 6,
+                "y": 634,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "c5wd278z1",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 6,
+                    "y": 634,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "yxnilyfxr",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 636,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "7",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "vs2eycvzs",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 6,
+                    "y": 664,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "PQRS",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "4xe3j5x95",
+              "name": "8",
+              "type": "FRAME",
+              "layout": {
+                "x": 129,
+                "y": 634,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "n1wmxzwlh",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 129,
+                    "y": 634,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "1odk65pi2",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 636,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "8",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "8n49pvtta",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 664,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "TUV",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "hcc79pcvr",
+              "name": "9",
+              "type": "FRAME",
+              "layout": {
+                "x": 252,
+                "y": 634,
+                "width": 117,
+                "height": 47,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[47px]",
+              "children": [
+                {
+                  "id": "5x8r98d92",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 252,
+                    "y": 634,
+                    "width": 117,
+                    "height": 47
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "qe92fqknl",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 636,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "9",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                },
+                {
+                  "id": "p7fmzzfot",
+                  "name": "Label",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 252,
+                    "y": 664,
+                    "width": 117,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 10,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "letterSpacing": 2,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "WXYZ",
+                  "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "inpdiy25a",
+              "name": "0",
+              "type": "FRAME",
+              "layout": {
+                "x": 129,
+                "y": 688,
+                "width": 117,
+                "height": 46,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[117px] h-[46px]",
+              "children": [
+                {
+                  "id": "okelzd6wm",
+                  "name": "Key Background",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 129,
+                    "y": 688,
+                    "width": 117,
+                    "height": 46
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 5,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
+                },
+                {
+                  "id": "kn74aprmu",
+                  "name": "Number",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 129,
+                    "y": 695,
+                    "width": 117,
+                    "height": 30
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "text": {
+                    "fontFamily": "SF Pro Display",
+                    "fontSize": 25,
+                    "fontStyle": "Regular",
+                    "letterSpacing": 0.3,
+                    "textAlign": "CENTER",
+                    "color": "#090a0a"
+                  },
+                  "copy": "0",
+                  "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "jvf55pput",
+              "name": "Delete",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 301,
+                "y": 701,
+                "width": 24,
+                "height": 18
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[24px] h-[17px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "llbpfkngw",
+                  "name": "Exclude",
+                  "type": "BOOLEAN_OPERATION",
+                  "layout": {
+                    "x": 301,
+                    "y": 701,
+                    "width": 24,
+                    "height": 18
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[24px] h-[17px] bg-[#dadada]",
+                  "children": [
+                    {
+                      "id": "yhsrxhdmp",
+                      "name": "Path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 301,
+                        "y": 701,
+                        "width": 24,
+                        "height": 18
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[24px] h-[17px] bg-black"
+                    },
+                    {
+                      "id": "xh4vhyzin",
+                      "name": "Path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 302.3,
+                        "y": 702.3,
+                        "width": 21.3,
+                        "height": 15.3
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[21px] h-[15px] bg-black"
+                    },
+                    {
+                      "id": "w04c2w58q",
+                      "name": "Path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 304.8,
+                        "y": 705.3,
+                        "width": 0.3,
+                        "height": 0.3
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[0px] h-[0px] bg-black"
+                    },
+                    {
+                      "id": "jrfouuiey",
+                      "name": "Path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 305.7,
+                        "y": 706.3,
+                        "width": 0.3,
+                        "height": 0.3
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[0px] h-[0px] bg-black"
+                    },
+                    {
+                      "id": "45lmz42h1",
+                      "name": "path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 312,
+                        "y": 706.5,
+                        "width": 7.1,
+                        "height": 7.1
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[7px] h-[7px] bg-black"
+                    },
+                    {
+                      "id": "v956dsgy3",
+                      "name": "Path",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 304.8,
+                        "y": 714.7,
+                        "width": 0.3,
+                        "height": 0.3
+                      },
+                      "style": {
+                        "backgroundColor": "#000000",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#000000",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[0px] h-[0px] bg-black"
+                    }
+                  ]
+                },
+                {
+                  "id": "6wvl7on74",
+                  "name": "Path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311.8,
+                    "y": 706.3,
+                    "width": 1.2,
+                    "height": 1.2
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[1px] bg-black"
+                },
+                {
+                  "id": "iguhtlq56",
+                  "name": "Path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 318,
+                    "y": 706.3,
+                    "width": 1.2,
+                    "height": 1.2
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[1px] bg-black"
+                },
+                {
+                  "id": "eao5mjzw5",
+                  "name": "path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 312,
+                    "y": 706.5,
+                    "width": 7.1,
+                    "height": 7.1
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[7px] h-[7px] bg-black"
+                },
+                {
+                  "id": "z20t5px4l",
+                  "name": "Path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311.8,
+                    "y": 712.5,
+                    "width": 1.2,
+                    "height": 1.2
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[1px] bg-black"
+                },
+                {
+                  "id": "ttcagwnzu",
+                  "name": "Path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 318,
+                    "y": 712.5,
+                    "width": 1.2,
+                    "height": 1.2
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[1px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uufvbf8i5",
+          "name": "Home Indicator",
+          "type": "FRAME",
+          "layout": {
+            "x": 0,
+            "y": 778,
+            "width": 375,
+            "height": 34,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[375px] h-[34px]",
+          "children": [
+            {
+              "id": "f3musoadm",
+              "name": "Home Indicator",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 121,
+                "y": 799,
+                "width": 134,
+                "height": 5
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 100,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[134px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

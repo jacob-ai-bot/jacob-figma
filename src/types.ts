@@ -58,3 +58,18 @@ export interface ClosePluginHandler extends EventHandler {
   name: "CLOSE_PLUGIN";
   handler: () => void;
 }
+
+export interface SnapshotImageHandler extends EventHandler {
+  name: "SNAPSHOT_IMAGE";
+  handler: (data: { imageBase64: string }) => void;
+}
+
+export interface SnapshotErrorHandler extends EventHandler {
+  name: "SNAPSHOT_ERROR";
+  handler: (data: { message: string }) => void;
+}
+
+export interface SelectionChangeHandler extends EventHandler {
+  name: "SELECTION_CHANGE";
+  handler: (selection: readonly SceneNode[]) => void;
+}

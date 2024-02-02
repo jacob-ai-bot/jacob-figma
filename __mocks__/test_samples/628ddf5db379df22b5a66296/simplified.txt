@@ -1,0 +1,2285 @@
+{
+  "id": "ccvmsz3c1",
+  "name": "Home - Inbox",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
+  "children": [
+    {
+      "id": "aertjbm52",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px]",
+      "children": [
+        {
+          "id": "a3wkvqiuv",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "9v4czdgcx",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "aajbjcb0f",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "23rnycxdr",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "vtir93r5b",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "vxdbe8ey5",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.6,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "koovrsqvc",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "omj7ifxs9",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "bc8h0i8zn",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "oehcyssee",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "m8akotp64",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "i8d14rqya",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "99s2suvk9",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "16zg5mpt4",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "poffo9yqz",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "4qlw6ftea",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "lqvlmiyjc",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25hsv2sdf",
+      "name": "Search",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 44,
+        "width": 375,
+        "height": 52,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[52px]",
+      "children": [
+        {
+          "id": "8xijpkfja",
+          "name": "Bars / Search Bars",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 52,
+            "width": 275,
+            "height": 36,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[275px] h-[36px] rounded-8",
+          "children": [
+            {
+              "id": "c9cd2nxgw",
+              "name": "Bar",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 24,
+                "y": 52,
+                "width": 275,
+                "height": 36
+              },
+              "style": {
+                "backgroundColor": "#f2f4f5",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#f2f4f5",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[275px] h-[36px] bg-[#f2f4f5] rounded-8"
+            },
+            {
+              "id": "n7yymmcfc",
+              "name": "Icon",
+              "type": "FRAME",
+              "layout": {
+                "x": 32,
+                "y": 62,
+                "width": 16,
+                "height": 16,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[16px]",
+              "children": [
+                {
+                  "id": "o7u6bm6o6",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 34,
+                    "y": 64,
+                    "width": 12,
+                    "height": 12
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[12px] h-[12px] border border-solid border-color-[#090a0a]"
+                }
+              ]
+            },
+            {
+              "id": "mri6g8gd7",
+              "name": "Search",
+              "type": "TEXT",
+              "layout": {
+                "x": 60,
+                "y": 62,
+                "width": 207,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#6c7072",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#6c7072",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#6c7072"
+              },
+              "copy": "Search email",
+              "tailwind": "font-size-[16px] leading-16 color-[#6c7072]"
+            }
+          ]
+        },
+        {
+          "id": "i1pymfjac",
+          "name": "Avatar",
+          "type": "FRAME",
+          "layout": {
+            "x": 315,
+            "y": 52,
+            "width": 36,
+            "height": 36,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[36px] h-[36px]",
+          "children": [
+            {
+              "id": "t3bpa54v6",
+              "name": "Ellipse 7",
+              "type": "ELLIPSE",
+              "layout": {
+                "x": 315,
+                "y": 52,
+                "width": 36,
+                "height": 36
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "image": {
+                "imageHash": "e5051adc00f207be2fb6fffd05c82d5fff4c0604"
+              },
+              "tailwind": "w-[36px] h-[36px] background-[url(), url()]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vpm99tg56",
+      "name": "Heading",
+      "type": "TEXT",
+      "layout": {
+        "x": 24,
+        "y": 120,
+        "width": 87,
+        "height": 36
+      },
+      "style": {
+        "backgroundColor": "#090a0a",
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#090a0a",
+        "strokeWidth": 1
+      },
+      "text": {
+        "fontFamily": "Inter",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "fontStyle": "Bold",
+        "lineHeight": 36,
+        "letterSpacing": 0,
+        "textAlign": "LEFT",
+        "color": "#090a0a"
+      },
+      "copy": "Inbox",
+      "tailwind": "text-[32] font-weight-[700] leading-36 color-[#090a0a]"
+    },
+    {
+      "id": "o5p3rjdur",
+      "name": "Controls / Buttons",
+      "type": "FRAME",
+      "layout": {
+        "x": 278,
+        "y": 122,
+        "width": 73,
+        "height": 32,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "CENTER"
+      },
+      "style": {
+        "backgroundColor": "#6b4eff",
+        "borderRadius": 48,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#6b4eff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[73px] h-[32px] bg-[#6b4eff] border-radius-[48px]",
+      "children": [
+        {
+          "id": "t7kc7gclb",
+          "name": "Text",
+          "type": "TEXT",
+          "layout": {
+            "x": 294,
+            "y": 130,
+            "width": 41,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#ffffff"
+          },
+          "copy": "Write",
+          "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
+        }
+      ]
+    },
+    {
+      "id": "9wauuc8u6",
+      "name": "Auto Layout",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 180,
+        "width": 327,
+        "height": 663,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[327px] h-[663px]",
+      "children": [
+        {
+          "id": "7dptcratn",
+          "name": "Sub Heading",
+          "type": "TEXT",
+          "layout": {
+            "x": 24,
+            "y": 180,
+            "width": 327,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "fontStyle": "Bold",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "Unread – 2",
+          "tailwind": "font-size-[16px] font-weight-[700] leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "ogvmz6xya",
+          "name": "List",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 220,
+            "width": 327,
+            "height": 58,
+            "paddingTop": 12,
+            "paddingRight": 20,
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[327px] h-[58px]",
+          "children": [
+            {
+              "id": "3n3eizjoi",
+              "name": "Avatar",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 220,
+                "width": 40,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[40px] h-[40px]",
+              "children": [
+                {
+                  "id": "2ml3l6guj",
+                  "name": "Ellipse 7",
+                  "type": "ELLIPSE",
+                  "layout": {
+                    "x": 24,
+                    "y": 220,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "image": {
+                    "imageHash": "8aa211bb185948befb72b71bbdcfd80f2adc4fc7"
+                  },
+                  "tailwind": "w-[40px] h-[40px] background-[url()]"
+                }
+              ]
+            },
+            {
+              "id": "nhngcuamo",
+              "name": "9.56 AM",
+              "type": "TEXT",
+              "layout": {
+                "x": 295,
+                "y": 221,
+                "width": 56,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#6c7072",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#6c7072",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "RIGHT",
+                "color": "#6c7072"
+              },
+              "copy": "9.56 AM",
+              "tailwind": "text-[14] leading-16 text-align-[right] color-[#6c7072]"
+            },
+            {
+              "id": "eitvofgi7",
+              "name": "Josiah Zayner",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 222,
+                "width": 93,
+                "height": 14
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 14,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "Josiah Zayner",
+              "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+            },
+            {
+              "id": "9ej03cuwm",
+              "name": "Hi there!",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 244,
+                "width": 59,
+                "height": 14
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "fontStyle": "Bold",
+                "lineHeight": 14,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "Hi there!",
+              "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+            },
+            {
+              "id": "yxeu62cr5",
+              "name": "How are you today?",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 262,
+                "width": 132,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#6c7072",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#6c7072",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#6c7072"
+              },
+              "copy": "How are you today?",
+              "tailwind": "text-[14] leading-16 color-[#6c7072]"
+            }
+          ]
+        },
+        {
+          "id": "gtkp7urwl",
+          "name": "List",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 302,
+            "width": 327,
+            "height": 58,
+            "paddingTop": 12,
+            "paddingRight": 20,
+            "paddingBottom": 12,
+            "paddingLeft": 20,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[327px] h-[58px]",
+          "children": [
+            {
+              "id": "mtjk5v5nl",
+              "name": "Avatar",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 302,
+                "width": 40,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[40px] h-[40px]",
+              "children": [
+                {
+                  "id": "5907go2dq",
+                  "name": "Ellipse 7",
+                  "type": "ELLIPSE",
+                  "layout": {
+                    "x": 24,
+                    "y": 302,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "image": {
+                    "imageHash": "8aa211bb185948befb72b71bbdcfd80f2adc4fc7"
+                  },
+                  "tailwind": "w-[40px] h-[40px] background-[url(), url()]"
+                }
+              ]
+            },
+            {
+              "id": "vku3yd5rg",
+              "name": "yesterday",
+              "type": "TEXT",
+              "layout": {
+                "x": 285,
+                "y": 303,
+                "width": 66,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#6c7072",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#6c7072",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "RIGHT",
+                "color": "#6c7072"
+              },
+              "copy": "yesterday",
+              "tailwind": "text-[14] leading-16 text-align-[right] color-[#6c7072]"
+            },
+            {
+              "id": "kmnxw4qkd",
+              "name": "Jillian Jacob",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 304,
+                "width": 82,
+                "height": 14
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 14,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "Jillian Jacob",
+              "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+            },
+            {
+              "id": "4nkqohyqq",
+              "name": "It’s been a while",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 326,
+                "width": 109,
+                "height": 14
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "fontStyle": "Bold",
+                "lineHeight": 14,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "It’s been a while",
+              "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+            },
+            {
+              "id": "gzev2tpud",
+              "name": "How are you?",
+              "type": "TEXT",
+              "layout": {
+                "x": 76,
+                "y": 344,
+                "width": 90,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#6c7072",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#6c7072",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 16,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#6c7072"
+              },
+              "copy": "How are you?",
+              "tailwind": "text-[14] leading-16 color-[#6c7072]"
+            }
+          ]
+        },
+        {
+          "id": "qtnvd8eoh",
+          "name": "Views / Dividers",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 384,
+            "width": 327,
+            "height": 1,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[327px] h-[1px]",
+          "children": [
+            {
+              "id": "utryan833",
+              "name": "divider",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 24,
+                "y": 384,
+                "width": 327,
+                "height": 1
+              },
+              "style": {
+                "backgroundColor": "#f2f4f5",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#f2f4f5",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[1px] bg-[#f2f4f5]"
+            }
+          ]
+        },
+        {
+          "id": "uv6b6omnh",
+          "name": "List – Group",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 409,
+            "width": 327,
+            "height": 434,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[327px] h-[434px]",
+          "children": [
+            {
+              "id": "83nukr5xv",
+              "name": "Sub Heading",
+              "type": "TEXT",
+              "layout": {
+                "x": 24,
+                "y": 409,
+                "width": 327,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "fontStyle": "Bold",
+                "lineHeight": 24,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#090a0a"
+              },
+              "copy": "Others",
+              "tailwind": "font-size-[16px] font-weight-[700] leading-24 color-[#090a0a]"
+            },
+            {
+              "id": "ia1nyn7ar",
+              "name": "List",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 457,
+                "width": 327,
+                "height": 58,
+                "paddingTop": 12,
+                "paddingRight": 20,
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[58px]",
+              "children": [
+                {
+                  "id": "9esktj4x9",
+                  "name": "Avatar",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 457,
+                    "width": 40,
+                    "height": 40,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[40px] h-[40px]",
+                  "children": [
+                    {
+                      "id": "fk8ngdk8h",
+                      "name": "Ellipse 7",
+                      "type": "ELLIPSE",
+                      "layout": {
+                        "x": 24,
+                        "y": 457,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "16bc2295959f45354d43de7ea87ff2cf40ae1c4a"
+                      },
+                      "tailwind": "w-[40px] h-[40px] background-[url()]"
+                    }
+                  ]
+                },
+                {
+                  "id": "1tzc49db6",
+                  "name": "Victoria Hanson",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 459,
+                    "width": 105,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Victoria Hanson",
+                  "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "2hvayi7es",
+                  "name": "5 Mar",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 308,
+                    "y": 459,
+                    "width": 39,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "RIGHT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "5 Mar",
+                  "tailwind": "text-[14] h-[14px] text-align-[right] color-[#6c7072]"
+                },
+                {
+                  "id": "7y1x5ciig",
+                  "name": "Photos from holiday",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 481,
+                    "width": 137,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Photos from holiday",
+                  "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "x1slqaino",
+                  "name": "Hi, I put together some photos from...",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 499,
+                    "width": 248,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "Hi, I put together some photos from...",
+                  "tailwind": "text-[14] leading-16 color-[#6c7072]"
+                }
+              ]
+            },
+            {
+              "id": "s3zub6dyu",
+              "name": "List",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 539,
+                "width": 327,
+                "height": 58,
+                "paddingTop": 12,
+                "paddingRight": 20,
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[58px]",
+              "children": [
+                {
+                  "id": "srhg0nef3",
+                  "name": "Avatar",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 539,
+                    "width": 40,
+                    "height": 40,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[40px] h-[40px]",
+                  "children": [
+                    {
+                      "id": "t7cqchznx",
+                      "name": "Ellipse 7",
+                      "type": "ELLIPSE",
+                      "layout": {
+                        "x": 24,
+                        "y": 539,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "f49e17c77a497ea9a38a93d2d57a7ccb8832ea90"
+                      },
+                      "tailwind": "w-[40px] h-[40px] background-[url()]"
+                    }
+                  ]
+                },
+                {
+                  "id": "g1xx4cqvg",
+                  "name": "Victoria Hanson",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 541,
+                    "width": 105,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Victoria Hanson",
+                  "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "y8njln7ae",
+                  "name": "4 Mar",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 308,
+                    "y": 541,
+                    "width": 39,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "RIGHT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "4 Mar",
+                  "tailwind": "text-[14] h-[14px] text-align-[right] color-[#6c7072]"
+                },
+                {
+                  "id": "3z30rvl5h",
+                  "name": "Lates order delivery",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 563,
+                    "width": 137,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Lates order delivery",
+                  "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "hf56qbkah",
+                  "name": "Good morning! Hope you are good..",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 581,
+                    "width": 236,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "Good morning! Hope you are good..",
+                  "tailwind": "text-[14] leading-16 color-[#6c7072]"
+                }
+              ]
+            },
+            {
+              "id": "9iasphq55",
+              "name": "List",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 621,
+                "width": 327,
+                "height": 58,
+                "paddingTop": 12,
+                "paddingRight": 20,
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[58px]",
+              "children": [
+                {
+                  "id": "t5hwdnzlt",
+                  "name": "Avatar",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 621,
+                    "width": 40,
+                    "height": 40,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[40px] h-[40px]",
+                  "children": [
+                    {
+                      "id": "yt7k5d4h3",
+                      "name": "Ellipse 7",
+                      "type": "ELLIPSE",
+                      "layout": {
+                        "x": 24,
+                        "y": 621,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "4d8857057297de9a0d660420956249f7a7451237"
+                      },
+                      "tailwind": "w-[40px] h-[40px] background-[url()]"
+                    }
+                  ]
+                },
+                {
+                  "id": "7r3cx3tii",
+                  "name": "Peter Landt",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 623,
+                    "width": 77,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Peter Landt",
+                  "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "3cu2e7zti",
+                  "name": "4 Mar",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 308,
+                    "y": 623,
+                    "width": 39,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "RIGHT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "4 Mar",
+                  "tailwind": "text-[14] h-[14px] text-align-[right] color-[#6c7072]"
+                },
+                {
+                  "id": "22klnafp6",
+                  "name": "Service confirmation",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 645,
+                    "width": 144,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Service confirmation",
+                  "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "yikegdum3",
+                  "name": "Respected Sir, I Peter, your computer...",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 663,
+                    "width": 257,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "Respected Sir, I Peter, your computer...",
+                  "tailwind": "text-[14] leading-16 color-[#6c7072]"
+                }
+              ]
+            },
+            {
+              "id": "cdl9a0fjv",
+              "name": "List",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 703,
+                "width": 327,
+                "height": 58,
+                "paddingTop": 12,
+                "paddingRight": 20,
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[58px]",
+              "children": [
+                {
+                  "id": "3jrf7y8gs",
+                  "name": "Avatar",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 703,
+                    "width": 40,
+                    "height": 40,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[40px] h-[40px]",
+                  "children": [
+                    {
+                      "id": "8zdh6n8l6",
+                      "name": "Ellipse 7",
+                      "type": "ELLIPSE",
+                      "layout": {
+                        "x": 24,
+                        "y": 703,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "33efe4bf5a41f0f51672f3c1141ad3ce0ba2ae74"
+                      },
+                      "tailwind": "w-[40px] h-[40px] background-[url()]"
+                    }
+                  ]
+                },
+                {
+                  "id": "hhujhhdxs",
+                  "name": "Janice Nelson",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 705,
+                    "width": 93,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Janice Nelson",
+                  "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "wvttg3th0",
+                  "name": "3 Mar",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 308,
+                    "y": 705,
+                    "width": 39,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "RIGHT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "3 Mar",
+                  "tailwind": "text-[14] h-[14px] text-align-[right] color-[#6c7072]"
+                },
+                {
+                  "id": "bt9ybtoif",
+                  "name": "Re: Blog for beta relea...",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 727,
+                    "width": 162,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Re: Blog for beta relea...",
+                  "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "lsa559ocw",
+                  "name": "Hi, Please take a look at the beta...",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 745,
+                    "width": 229,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "Hi, Please take a look at the beta...",
+                  "tailwind": "text-[14] leading-16 color-[#6c7072]"
+                }
+              ]
+            },
+            {
+              "id": "bma0fo48l",
+              "name": "List",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 785,
+                "width": 327,
+                "height": 58,
+                "paddingTop": 12,
+                "paddingRight": 20,
+                "paddingBottom": 12,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[327px] h-[58px]",
+              "children": [
+                {
+                  "id": "mcg2b7hoy",
+                  "name": "Avatar",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 785,
+                    "width": 40,
+                    "height": 40,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[40px] h-[40px]",
+                  "children": [
+                    {
+                      "id": "o5dgo3wte",
+                      "name": "Ellipse 7",
+                      "type": "ELLIPSE",
+                      "layout": {
+                        "x": 24,
+                        "y": 785,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "c4877195d35d26477f46fb358116f37b29e3f41d"
+                      },
+                      "tailwind": "w-[40px] h-[40px] background-[url()]"
+                    }
+                  ]
+                },
+                {
+                  "id": "zk2h6s59r",
+                  "name": "James Norris",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 787,
+                    "width": 88,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "James Norris",
+                  "tailwind": "text-[14] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "sqaj0424j",
+                  "name": "3 Mar",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 308,
+                    "y": 787,
+                    "width": 39,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "RIGHT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "3 Mar",
+                  "tailwind": "text-[14] h-[14px] text-align-[right] color-[#6c7072]"
+                },
+                {
+                  "id": "7v7tdzmev",
+                  "name": "Fwd: Event Updated",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 809,
+                    "width": 138,
+                    "height": 14
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Bold",
+                    "lineHeight": 14,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#090a0a"
+                  },
+                  "copy": "Fwd: Event Updated",
+                  "tailwind": "text-[14] font-weight-[700] h-[14px] color-[#090a0a]"
+                },
+                {
+                  "id": "y09isdllq",
+                  "name": "samuel@goodman@zara.com Invite...",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 76,
+                    "y": 827,
+                    "width": 248,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#6c7072",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6c7072",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 16,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#6c7072"
+                  },
+                  "copy": "samuel@goodman@zara.com Invite...",
+                  "tailwind": "text-[14] leading-16 color-[#6c7072]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d13j60yk9",
+      "name": "Native / Home Indicator",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 778,
+        "width": 375,
+        "height": 34,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[34px]",
+      "children": [
+        {
+          "id": "aw4szdwji",
+          "name": "rectangle",
+          "type": "VECTOR",
+          "layout": {
+            "x": 114,
+            "y": 799,
+            "width": 148,
+            "height": 5
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderRadius": 100,
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "svg": {
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+        }
+      ]
+    }
+  ]
+}

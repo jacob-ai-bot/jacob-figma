@@ -1,0 +1,1168 @@
+{
+  "id": "89tq6mnib",
+  "name": "Checkbox group",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 768,
+    "height": 408,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "opacity": 1,
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[768px] h-[408px]",
+  "children": [
+    {
+      "id": "jkwtjye0r",
+      "name": "Checkbox group item",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 72,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#f9f5ff",
+        "borderStyle": "solid",
+        "borderColor": "#d6bbfb",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#f9f5ff",
+        "stroke": "#d6bbfb",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[768px] h-[72px] bg-[#f9f5ff] border border-solid border-color-[#d6bbfb] rounded-8",
+      "children": [
+        {
+          "id": "qj0x756ww",
+          "name": "Checkbox",
+          "type": "FRAME",
+          "layout": {
+            "x": 16,
+            "y": 16,
+            "width": 736,
+            "height": 40,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[736px] h-[40px]",
+          "children": [
+            {
+              "id": "bvb6afmkc",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 16,
+                "y": 16,
+                "width": 16,
+                "height": 18,
+                "paddingTop": 2,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[18px]",
+              "children": [
+                {
+                  "id": "mmezif6yu",
+                  "name": "Checkbox",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 16,
+                    "y": 18,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px]",
+                  "children": [
+                    {
+                      "id": "2p1gfec99",
+                      "name": "_Checkbox base",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 16,
+                        "y": 18,
+                        "width": 16,
+                        "height": 16,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "MIN",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "backgroundColor": "#f9f5ff",
+                        "borderStyle": "solid",
+                        "borderColor": "#7f56d9",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#f9f5ff",
+                        "stroke": "#7f56d9",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[16px] h-[16px] bg-[#f9f5ff] border border-solid border-color-[#7f56d9] rounded-8",
+                      "children": [
+                        {
+                          "id": "6ddz0z7ep",
+                          "name": "Check",
+                          "type": "ELLIPSE",
+                          "layout": {
+                            "x": 21,
+                            "y": 23,
+                            "width": 6,
+                            "height": 6
+                          },
+                          "style": {
+                            "backgroundColor": "#7f56d9",
+                            "borderRadius": 0,
+                            "borderWidth": 1,
+                            "opacity": 1,
+                            "fill": "#7f56d9",
+                            "strokeWidth": 1
+                          },
+                          "tailwind": "w-[6px] h-[6px] bg-[#7f56d9]"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ck4fk83ak",
+              "name": "Text and supporting text",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 16,
+                "width": 712,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[712px] h-[40px]",
+              "children": [
+                {
+                  "id": "vd92lczhw",
+                  "name": "Text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 16,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT"
+                  },
+                  "copy": "Basic plan $10/month",
+                  "tailwind": "text-[14] leading-20"
+                },
+                {
+                  "id": "jgudgaoct",
+                  "name": "Supporting text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 36,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#7f56d9",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#7f56d9",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#7f56d9"
+                  },
+                  "copy": "Includes up to 10 users, 20GB indiviual data and access to all features.",
+                  "tailwind": "text-[14] leading-20 color-[#7f56d9]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xahht0otl",
+      "name": "Checkbox group item",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 84,
+        "width": 768,
+        "height": 72,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#eaecf0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#eaecf0",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
+      "children": [
+        {
+          "id": "0xiqvg0hx",
+          "name": "Checkbox",
+          "type": "FRAME",
+          "layout": {
+            "x": 16,
+            "y": 100,
+            "width": 736,
+            "height": 40,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[736px] h-[40px]",
+          "children": [
+            {
+              "id": "tx31urg4h",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 16,
+                "y": 100,
+                "width": 16,
+                "height": 18,
+                "paddingTop": 2,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[18px]",
+              "children": [
+                {
+                  "id": "bf2t6qkvj",
+                  "name": "Checkbox",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 16,
+                    "y": 102,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px]",
+                  "children": [
+                    {
+                      "id": "0m5qw4t8o",
+                      "name": "_Checkbox base",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 16,
+                        "y": 102,
+                        "width": 16,
+                        "height": 16,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "MIN",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderStyle": "solid",
+                        "borderColor": "#d0d5dd",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "stroke": "#d0d5dd",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "o3rn1f325",
+              "name": "Text and supporting text",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 100,
+                "width": 712,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[712px] h-[40px]",
+              "children": [
+                {
+                  "id": "tuugmnv52",
+                  "name": "Text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 100,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT"
+                  },
+                  "copy": "Business plan $20/month",
+                  "tailwind": "text-[14] leading-20"
+                },
+                {
+                  "id": "cuvnmrffj",
+                  "name": "Supporting text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 120,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#667085",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#667085",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#667085"
+                  },
+                  "copy": "Includes up to 20 users, 40GB indiviual data and access to all features.",
+                  "tailwind": "text-[14] leading-20 color-[#667085]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6b79mvk67",
+      "name": "Checkbox group item",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 168,
+        "width": 768,
+        "height": 72,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#eaecf0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#eaecf0",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
+      "children": [
+        {
+          "id": "u29ypz27e",
+          "name": "Checkbox",
+          "type": "FRAME",
+          "layout": {
+            "x": 16,
+            "y": 184,
+            "width": 736,
+            "height": 40,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[736px] h-[40px]",
+          "children": [
+            {
+              "id": "htjs2rq1o",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 16,
+                "y": 184,
+                "width": 16,
+                "height": 18,
+                "paddingTop": 2,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[18px]",
+              "children": [
+                {
+                  "id": "5edd10dme",
+                  "name": "Checkbox",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 16,
+                    "y": 186,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px]",
+                  "children": [
+                    {
+                      "id": "mawnzjpw5",
+                      "name": "_Checkbox base",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 16,
+                        "y": 186,
+                        "width": 16,
+                        "height": 16,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "MIN",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderStyle": "solid",
+                        "borderColor": "#d0d5dd",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "stroke": "#d0d5dd",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "v257i2o2c",
+              "name": "Text and supporting text",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 184,
+                "width": 712,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[712px] h-[40px]",
+              "children": [
+                {
+                  "id": "e9npj9caq",
+                  "name": "Text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 184,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT"
+                  },
+                  "copy": "Enterprise plan $40/month",
+                  "tailwind": "text-[14] leading-20"
+                },
+                {
+                  "id": "fxh4n1vlt",
+                  "name": "Supporting text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 204,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#667085",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#667085",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#667085"
+                  },
+                  "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "tailwind": "text-[14] leading-20 color-[#667085]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "y2s2lk32n",
+      "name": "Checkbox group item",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 252,
+        "width": 768,
+        "height": 72,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#eaecf0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#eaecf0",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
+      "children": [
+        {
+          "id": "i4gxc53jh",
+          "name": "Checkbox",
+          "type": "FRAME",
+          "layout": {
+            "x": 16,
+            "y": 268,
+            "width": 736,
+            "height": 40,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[736px] h-[40px]",
+          "children": [
+            {
+              "id": "sw2a1fo1r",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 16,
+                "y": 268,
+                "width": 16,
+                "height": 18,
+                "paddingTop": 2,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[18px]",
+              "children": [
+                {
+                  "id": "rphtz2axn",
+                  "name": "Checkbox",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 16,
+                    "y": 270,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px]",
+                  "children": [
+                    {
+                      "id": "39gu4ow12",
+                      "name": "_Checkbox base",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 16,
+                        "y": 270,
+                        "width": 16,
+                        "height": 16,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "MIN",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderStyle": "solid",
+                        "borderColor": "#d0d5dd",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "stroke": "#d0d5dd",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pbfdqlpbo",
+              "name": "Text and supporting text",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 268,
+                "width": 712,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[712px] h-[40px]",
+              "children": [
+                {
+                  "id": "14z2mkiy2",
+                  "name": "Text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 268,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT"
+                  },
+                  "copy": "Ultimate plan $60/month",
+                  "tailwind": "text-[14] leading-20"
+                },
+                {
+                  "id": "a03e5mjki",
+                  "name": "Supporting text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 288,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#667085",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#667085",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#667085"
+                  },
+                  "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "tailwind": "text-[14] leading-20 color-[#667085]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xamadt9w2",
+      "name": "Checkbox group item",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 336,
+        "width": 768,
+        "height": 72,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#eaecf0",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#eaecf0",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
+      "children": [
+        {
+          "id": "40qc3nm2t",
+          "name": "Checkbox",
+          "type": "FRAME",
+          "layout": {
+            "x": 16,
+            "y": 352,
+            "width": 736,
+            "height": 40,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[736px] h-[40px]",
+          "children": [
+            {
+              "id": "1weqe6pa5",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 16,
+                "y": 352,
+                "width": 16,
+                "height": 18,
+                "paddingTop": 2,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[16px] h-[18px]",
+              "children": [
+                {
+                  "id": "jbl7hbylp",
+                  "name": "Checkbox",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 16,
+                    "y": 354,
+                    "width": 16,
+                    "height": 16,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[16px]",
+                  "children": [
+                    {
+                      "id": "ef5o1l3m0",
+                      "name": "_Checkbox base",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 16,
+                        "y": 354,
+                        "width": 16,
+                        "height": 16,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "MIN",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "backgroundColor": "#ffffff",
+                        "borderStyle": "solid",
+                        "borderColor": "#d0d5dd",
+                        "borderRadius": 8,
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#ffffff",
+                        "stroke": "#d0d5dd",
+                        "strokeWidth": 1
+                      },
+                      "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hwxcmbqqs",
+              "name": "Text and supporting text",
+              "type": "FRAME",
+              "layout": {
+                "x": 40,
+                "y": 352,
+                "width": 712,
+                "height": 40,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[712px] h-[40px]",
+              "children": [
+                {
+                  "id": "dgfmysj43",
+                  "name": "Text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 352,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontSize": 14,
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT"
+                  },
+                  "copy": "Secret plan $80/month",
+                  "tailwind": "text-[14] leading-20"
+                },
+                {
+                  "id": "td8h6fhxh",
+                  "name": "Supporting text",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 40,
+                    "y": 372,
+                    "width": 712,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#667085",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#667085",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 20,
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#667085"
+                  },
+                  "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "tailwind": "text-[14] leading-20 color-[#667085]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

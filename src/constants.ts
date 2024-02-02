@@ -2,8 +2,8 @@
 // UX constants
 //
 
-export const maxSize = { width: 350, height: 500 };
-export const defaultSize = { width: 300, height: 410 };
+export const maxSize = { width: 350, height: 700 };
+export const defaultSize = { width: 300, height: 610 };
 export const resizeValues = {
   maxHeight: maxSize.height,
   maxWidth: maxSize.width,

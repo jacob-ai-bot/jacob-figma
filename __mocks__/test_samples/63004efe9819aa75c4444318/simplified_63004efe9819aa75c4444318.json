@@ -1,0 +1,467 @@
+{
+  "id": "hqesh8xie",
+  "name": "Stats",
+  "type": "GROUP",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 1600,
+    "height": 707
+  },
+  "style": {
+    "opacity": 1
+  },
+  "tailwind": "w-[1600px] h-[707px]",
+  "children": [
+    {
+      "id": "bne4fdbx3",
+      "name": "BG",
+      "type": "GROUP",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 707
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[1600px] h-[707px]",
+      "children": [
+        {
+          "id": "rftnbf1vw",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 707
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[707px] bg-black"
+        },
+        {
+          "id": "8lkd1ah8m",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 707
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[707px] bg-black"
+        },
+        {
+          "id": "ne25bxo1e",
+          "name": "Ellipse 33",
+          "type": "VECTOR",
+          "layout": {
+            "x": 372,
+            "y": 364,
+            "width": 755.5,
+            "height": 201.9
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "svg": {
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[201px] h-[755px] background-[undefined] filter-[blur(210px)]"
+        }
+      ]
+    },
+    {
+      "id": "r9561b0a6",
+      "name": "Content",
+      "type": "GROUP",
+      "layout": {
+        "x": 152,
+        "y": 112,
+        "width": 603,
+        "height": 148
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[603px] h-[148px]",
+      "children": [
+        {
+          "id": "jmbqn3987",
+          "name": "The Landingfolio Facts",
+          "type": "TEXT",
+          "layout": {
+            "x": 152,
+            "y": 112,
+            "width": 603,
+            "height": 66
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": 60,
+            "fontStyle": "Regular",
+            "lineHeight": 66,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffffff"
+          },
+          "copy": "The Landingfolio Facts",
+          "tailwind": "font-size-[60px] h-[66px] text-white"
+        },
+        {
+          "id": "kg0u8jp17",
+          "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "type": "TEXT",
+          "layout": {
+            "x": 152,
+            "y": 204,
+            "width": 544,
+            "height": 56
+          },
+          "style": {
+            "backgroundColor": "#a1a1aa",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#a1a1aa",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontStyle": "Regular",
+            "lineHeight": 28,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#a1a1aa"
+          },
+          "copy": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+        }
+      ]
+    },
+    {
+      "id": "4qx0oi7lb",
+      "name": "Card",
+      "type": "GROUP",
+      "layout": {
+        "x": 152,
+        "y": 341,
+        "width": 1219,
+        "height": 218
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[1219px] h-[218px]",
+      "children": [
+        {
+          "id": "wcmd0zozu",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 152,
+            "y": 341,
+            "width": 1219,
+            "height": 218
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1219px] h-[218px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
+        },
+        {
+          "id": "xntpshmbh",
+          "name": "Line 4",
+          "type": "LINE",
+          "layout": {
+            "x": 537,
+            "y": 341,
+            "width": 0,
+            "height": 218
+          },
+          "style": {
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[218px] h-[0px]"
+        },
+        {
+          "id": "b2vxbiw12",
+          "name": "Line 5",
+          "type": "LINE",
+          "layout": {
+            "x": 892,
+            "y": 341,
+            "width": 0,
+            "height": 218
+          },
+          "style": {
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[218px] h-[0px]"
+        },
+        {
+          "id": "haqifx9ct",
+          "name": "1",
+          "type": "GROUP",
+          "layout": {
+            "x": 216,
+            "y": 397,
+            "width": 248,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[248px] h-[105px]",
+          "children": [
+            {
+              "id": "yri3ic5nb",
+              "name": "1M+",
+              "type": "TEXT",
+              "layout": {
+                "x": 216,
+                "y": 397,
+                "width": 121,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "1M+",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "h41ih7hut",
+              "name": "Tickets Delivered This Month",
+              "type": "TEXT",
+              "layout": {
+                "x": 216,
+                "y": 474,
+                "width": 248,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Tickets Delivered This Month",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        },
+        {
+          "id": "902fgk80z",
+          "name": "2",
+          "type": "GROUP",
+          "layout": {
+            "x": 604,
+            "y": 397,
+            "width": 195,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[195px] h-[105px]",
+          "children": [
+            {
+              "id": "dc2o0obh0",
+              "name": "53K+",
+              "type": "TEXT",
+              "layout": {
+                "x": 604,
+                "y": 397,
+                "width": 146,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "53K+",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "yqrro55e3",
+              "name": "Active Customers Rate",
+              "type": "TEXT",
+              "layout": {
+                "x": 604,
+                "y": 474,
+                "width": 195,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Active Customers Rate",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        },
+        {
+          "id": "swjj9or0q",
+          "name": "3",
+          "type": "GROUP",
+          "layout": {
+            "x": 977,
+            "y": 397,
+            "width": 232,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[232px] h-[105px]",
+          "children": [
+            {
+              "id": "8tglg0qo1",
+              "name": "98.29%",
+              "type": "TEXT",
+              "layout": {
+                "x": 977,
+                "y": 397,
+                "width": 216,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "98.29%",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "lbry5q6kb",
+              "name": "Customer Satisfaction Rate",
+              "type": "TEXT",
+              "layout": {
+                "x": 977,
+                "y": 474,
+                "width": 232,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Customer Satisfaction Rate",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1876 @@
+{
+  "id": "6a78ouxeh",
+  "name": "Home",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 32,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
+  "children": [
+    {
+      "id": "fe1lyzjvi",
+      "name": "Native / Status Bar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 44,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[44px] bg-white",
+      "children": [
+        {
+          "id": "zpsfj0rof",
+          "name": "9:41",
+          "type": "TEXT",
+          "layout": {
+            "x": 30,
+            "y": 16,
+            "width": 33,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 16,
+            "fontStyle": "Medium",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#090a0a"
+          },
+          "copy": "9:41",
+          "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
+        },
+        {
+          "id": "lbrmyxlu9",
+          "name": "Battery",
+          "type": "GROUP",
+          "layout": {
+            "x": 332,
+            "y": 18,
+            "width": 27,
+            "height": 13
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[26px] h-[13px]",
+          "children": [
+            {
+              "id": "jdyhaogrj",
+              "name": "Battery",
+              "type": "GROUP",
+              "layout": {
+                "x": 332,
+                "y": 18,
+                "width": 27,
+                "height": 13
+              },
+              "style": {
+                "opacity": 1
+              },
+              "tailwind": "w-[26px] h-[13px]",
+              "children": [
+                {
+                  "id": "z2l04uexb",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 332,
+                    "y": 18,
+                    "width": 25,
+                    "height": 13
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#090a0a",
+                    "borderRadius": 2.7,
+                    "borderWidth": 1,
+                    "opacity": 0.3,
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "stroke": "#090a0a",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
+                },
+                {
+                  "id": "6of7v280v",
+                  "name": "Rectangle",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 334.3,
+                    "y": 20.3,
+                    "width": 20.2,
+                    "height": 8.3
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 1.3,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
+                },
+                {
+                  "id": "xu0fwikmr",
+                  "name": "Combined Shape",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 357.6,
+                    "y": 23,
+                    "width": 1.3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#090a0a",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 0.4,
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#090a0a",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xsvwqfq0k",
+          "name": "Wifi",
+          "type": "GROUP",
+          "layout": {
+            "x": 311,
+            "y": 19,
+            "width": 15.3,
+            "height": 11
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[15px] h-[10px]",
+          "children": [
+            {
+              "id": "q3svga7kb",
+              "name": "Union",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 311,
+                "y": 19,
+                "width": 15.3,
+                "height": 11
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "j06rgi3rz",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 311,
+                    "y": 19,
+                    "width": 15.3,
+                    "height": 4.7
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[15px] h-[4px] bg-black"
+                },
+                {
+                  "id": "c8dolimpy",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 313.7,
+                    "y": 22.8,
+                    "width": 9.9,
+                    "height": 3.6
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[9px] h-[3px] bg-black"
+                },
+                {
+                  "id": "9c4z9at9y",
+                  "name": "Wifi-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 316.3,
+                    "y": 26.6,
+                    "width": 4.6,
+                    "height": 3.4
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#000000",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[4px] h-[3px] bg-black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4yc5f64o7",
+          "name": "Mobile Signal",
+          "type": "GROUP",
+          "layout": {
+            "x": 288,
+            "y": 20.5,
+            "width": 18,
+            "height": 10
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[18px] h-[10px]",
+          "children": [
+            {
+              "id": "l9v3xxwrc",
+              "name": "Mobile Signal",
+              "type": "BOOLEAN_OPERATION",
+              "layout": {
+                "x": 288,
+                "y": 20.5,
+                "width": 18,
+                "height": 10
+              },
+              "style": {
+                "backgroundColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "opacity": 1,
+                "fill": "#090a0a",
+                "strokeWidth": 0
+              },
+              "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
+              "children": [
+                {
+                  "id": "uz1l0silg",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 303,
+                    "y": 20.5,
+                    "width": 3,
+                    "height": 10
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
+                },
+                {
+                  "id": "t1sl3jahp",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 298,
+                    "y": 22.5,
+                    "width": 3,
+                    "height": 8
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
+                },
+                {
+                  "id": "pk4qgyzl9",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 293,
+                    "y": 24.5,
+                    "width": 3,
+                    "height": 6
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
+                },
+                {
+                  "id": "bqg3om10a",
+                  "name": "Cellular_Connection-path",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 288,
+                    "y": 26.5,
+                    "width": 3,
+                    "height": 4
+                  },
+                  "style": {
+                    "backgroundColor": "#dadada",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#dadada",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iwv5m8ukp",
+      "name": "Bars / Nav Bars: Standard",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 44,
+        "width": 375,
+        "height": 48,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[48px] bg-white",
+      "children": [
+        {
+          "id": "x8z8lgdx0",
+          "name": "Left Actionable",
+          "type": "FRAME",
+          "layout": {
+            "x": 18,
+            "y": 56,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "oke121e5p",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 27,
+                "y": 62,
+                "width": 6,
+                "height": 12
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 1.5,
+                "opacity": 1,
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "svg": {
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "u557pb81h",
+          "name": "Right Actionable",
+          "type": "FRAME",
+          "layout": {
+            "x": 327,
+            "y": 56,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "axiw2g2e1",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 328,
+                "y": 57,
+                "width": 22,
+                "height": 22
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#090a0a",
+                "borderRadius": 0,
+                "borderWidth": 1.5,
+                "opacity": 1,
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "svg": {
+                "stroke": "#090a0a",
+                "strokeWidth": 1.5
+              },
+              "tailwind": "w-[22px] h-[22px] w-[1px] border-solid border-color-[#090a0a]"
+            }
+          ]
+        },
+        {
+          "id": "ur3lyu9q0",
+          "name": "Title",
+          "type": "TEXT",
+          "layout": {
+            "x": 152,
+            "y": 59,
+            "width": 72,
+            "height": 18
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontStyle": "Regular",
+            "lineHeight": 18,
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "color": "#090a0a"
+          },
+          "copy": "All items",
+          "tailwind": "text-[18] leading-18 text-align-[center] color-[#090a0a]"
+        }
+      ]
+    },
+    {
+      "id": "h9cpmipik",
+      "name": "Image - List",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 108,
+        "width": 328,
+        "height": 780,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[328px] h-[780px]",
+      "children": [
+        {
+          "id": "hoip9z0na",
+          "name": "Row",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 108,
+            "width": 328,
+            "height": 186,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[328px] h-[186px]",
+          "children": [
+            {
+              "id": "mj2ri5xjt",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 108,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "89qx8axpj",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 108,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "yzpha66v5",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 24,
+                        "y": 108,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "7e3064b57873cd3cf0d627df1b5996a78ac49f9d"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "c02rop1xf",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 266,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "f0wfkp6sv",
+                      "name": "Home Decor Ideas",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 32,
+                        "y": 274,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Home Decor Ideas",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "n5aibrb1o",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 194,
+                "y": 108,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "y96taghwc",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 108,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "23gmjjygy",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 194,
+                        "y": 108,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "3f74ca637e163147991d5d4b6fc61e0d8ddf3cab"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "qhjg6ws8i",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 266,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "sq98d91ru",
+                      "name": "Interior Inspiration",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 202,
+                        "y": 274,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Interior Inspiration",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sximuqt5c",
+          "name": "Row",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 306,
+            "width": 328,
+            "height": 186,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[328px] h-[186px]",
+          "children": [
+            {
+              "id": "a3n9gebjr",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 306,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "8iz0lqbu1",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 306,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "hou0fuqig",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 24,
+                        "y": 306,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "e352294bbb330dff3389c86a15f6b51e22abeb41"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "utrk8mcm0",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 464,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "kg9jfhbn8",
+                      "name": "Modern Sofa Ideas",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 32,
+                        "y": 472,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Modern Sofa Ideas",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fto8y3d90",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 194,
+                "y": 306,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "bdaigdisf",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 306,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "3bfr1c8h4",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 194,
+                        "y": 306,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "93d498a690fac322d2450fd376d83938da88dd2d"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "p5324ywi5",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 464,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "0t5d5weee",
+                      "name": "Modern Sofa Ideas",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 202,
+                        "y": 472,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Modern Sofa Ideas",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1fxrz9uge",
+          "name": "Row",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 504,
+            "width": 328,
+            "height": 186,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[328px] h-[186px]",
+          "children": [
+            {
+              "id": "3d3etd3el",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 504,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "iw7owjk6i",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 504,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "yknd5iqtn",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 24,
+                        "y": 504,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "ce10f10f1d254296e9bba5dc4ff1158f0daa871a"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "pnihnrqfh",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 662,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "e8h3nibdi",
+                      "name": "Living Room Inspiration",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 32,
+                        "y": 670,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Living Room Inspiration",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "qrb725jmz",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 194,
+                "y": 504,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "1lkk5r8ev",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 504,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "l7aaeadul",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 194,
+                        "y": 504,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "e8e31cb921ae928a521991614ff9f23321d680f4"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "yx257xdxw",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 662,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "zd4zqbdkm",
+                      "name": "Interior Inspiration",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 202,
+                        "y": 670,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Interior Inspiration",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "41xh7le7c",
+          "name": "Row",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 702,
+            "width": 328,
+            "height": 186,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[328px] h-[186px]",
+          "children": [
+            {
+              "id": "88fhfs1b8",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 702,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "rygywgzk9",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 702,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "3f0oqmbc3",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 24,
+                        "y": 702,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "cbac620146703447482db8b115b542f72f03612f"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "2kghzmmbo",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 860,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "9y3nbzsw2",
+                      "name": "Living Room Inspiration",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 32,
+                        "y": 868,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Living Room Inspiration",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ih7df71n4",
+              "name": "Card",
+              "type": "FRAME",
+              "layout": {
+                "x": 194,
+                "y": 702,
+                "width": 158,
+                "height": 186,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[158px] h-[186px] bg-[]",
+              "children": [
+                {
+                  "id": "umukc49tj",
+                  "name": "Views / Images: Ratio",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 702,
+                    "width": 158,
+                    "height": 158,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[158px] bg-[]",
+                  "children": [
+                    {
+                      "id": "jewr1wqi9",
+                      "name": "Image Placeholder (Copy paste here)",
+                      "type": "RECTANGLE",
+                      "layout": {
+                        "x": 194,
+                        "y": 702,
+                        "width": 158,
+                        "height": 158
+                      },
+                      "style": {
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "strokeWidth": 1
+                      },
+                      "image": {
+                        "imageHash": "6126acc123b084a2fe71bcad366b58a8fe3bfb1f"
+                      },
+                      "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
+                    }
+                  ]
+                },
+                {
+                  "id": "zy8owoso4",
+                  "name": "Text",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 194,
+                    "y": 860,
+                    "width": 158,
+                    "height": 28,
+                    "paddingTop": 8,
+                    "paddingRight": 8,
+                    "paddingBottom": 8,
+                    "paddingLeft": 8,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderStyle": "solid",
+                    "borderColor": "#e3e5e5",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "stroke": "#e3e5e5",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
+                  "children": [
+                    {
+                      "id": "hjkml69ib",
+                      "name": "Interior Inspiration",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 202,
+                        "y": 868,
+                        "width": 142,
+                        "height": 12
+                      },
+                      "style": {
+                        "backgroundColor": "#090a0a",
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#090a0a",
+                        "strokeWidth": 0
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 12,
+                        "fontStyle": "Regular",
+                        "lineHeight": 12,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#090a0a"
+                      },
+                      "copy": "Interior Inspiration",
+                      "tailwind": "text-[12] leading-12 color-[#090a0a]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7hv9jyqcf",
+      "name": "Native / Home Indicator",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 778,
+        "width": 375,
+        "height": 34,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[375px] h-[34px]",
+      "children": [
+        {
+          "id": "tpkm3xc64",
+          "name": "rectangle",
+          "type": "VECTOR",
+          "layout": {
+            "x": 114,
+            "y": 799,
+            "width": 148,
+            "height": 5
+          },
+          "style": {
+            "backgroundColor": "#090a0a",
+            "borderRadius": 100,
+            "borderWidth": 0,
+            "opacity": 1,
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "svg": {
+            "fill": "#090a0a",
+            "strokeWidth": 0
+          },
+          "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
+        }
+      ]
+    }
+  ]
+}
