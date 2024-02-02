@@ -77,17 +77,4 @@ describe("getDescriptionsFromSimplifiedNodes", () => {
       expect(nodeDescription.length).toBeGreaterThan(0);
     }
   });
-
-  // it("should generate github issues from simplified nodes", async () => {
-  //   const mockFolderPath = path.join(__dirname, "../__mocks__/test_samples");
-  //   const jsonFiles = findJsonFiles(mockFolderPath, [], true);
-
-  //   for (const file of jsonFiles) {
-  //     const nodeStr = fs.readFileSync(file, "utf8");
-  //     const node = JSON.parse(nodeStr);
-  //     // first get the description of the node
-  //     const nodeDescription = getDescriptionOfNode(node);
-  //     expect(nodeDescription).toBeDefined();
-  //   }
-  // });
 });
