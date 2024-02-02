@@ -61,7 +61,7 @@ describe("getSimplifiedNode", () => {
   });
 });
 
-describe("getGithubIssues", () => {
+describe("getDescriptionsFromSimplifiedNodes", () => {
   it("should generate node descriptions from simplified nodes", async () => {
     const mockFolderPath = path.join(__dirname, "../__mocks__/test_samples");
     const jsonFiles = findJsonFiles(mockFolderPath, [], true);
