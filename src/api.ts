@@ -72,12 +72,13 @@ export async function uploadSnapshot(
 ): Promise<{ data: { success: boolean; url?: string }; errors?: string[] }> {
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
   //const url = `http://localhost:5173/api/image/upload`;
-  const url = `https://app.jacb.ai/api/design/upload-snapshot`;
+  const url = `https://app.jacb.ai/api/image/upload`;
 
   try {
     if (!image || !image.length) {
       throw new Error("No image data provided");
     }
+    image = image.replace(/^data:image\/\w+;base64,/, "");
     const response = await fetch(url, {
       method: "POST",
       headers: {

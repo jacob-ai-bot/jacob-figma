@@ -15,14 +15,18 @@ import {
 } from "./types";
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
-import { defaultSize, accessTokenKey } from "./constants";
+import { defaultSize, accessTokenKey, snapshotUrlKey } from "./constants";
 import {
   getSimplifiedNode,
   createIssuesForFigmaFile,
   uploadSnapshot,
 } from "./api";
 import { SimplifiedNode } from "./utils/nodes";
-import { snapshotSelectedNode } from "./utils/imageSnapshot";
+import {
+  snapshotSelectedNode,
+  handleSelectionChange,
+  canUseSavedSnapshot,
+} from "./utils/imageSnapshot";
 
 export default function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
@@ -36,10 +40,7 @@ export default function () {
   });
   on<EditExistingFileHandler>("EDIT_EXISTING_FILE", handleCreateOrEdit);
   on<CreateNewFileHandler>("CREATE_NEW_FILE", handleCreateOrEdit);
-  figma.on("selectionchange", () =>
-    snapshotSelectedNode(figma.currentPage.selection),
-  );
-
+  figma.on("selectionchange", handleSelectionChange);
   checkAccessTokenAndShowUI();
 }
 
@@ -50,7 +51,6 @@ async function handleCreateOrEdit({
   additionalInstructions,
 }: CreateNewFileData | EditExistingFileData) {
   const selection = figma.currentPage.selection;
-  const snapshot = await snapshotSelectedNode(selection);
 
   const nodes = figma.currentPage.selection
     .map((node) => getSimplifiedNode(node))
@@ -73,14 +73,25 @@ async function handleCreateOrEdit({
     }
 
     // upload this to s3 and get the signed url with a 60 minute expiry
-    const { data: snapshotData, errors: snapshotErrors } =
-      await uploadSnapshot(snapshot);
-    if (!snapshotData?.success || snapshotErrors) {
-      emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
-        success: false,
-        error: new Error(snapshotErrors?.[0]),
-      });
-      break;
+    const isSavedSnapshotValid = await canUseSavedSnapshot(selection);
+    let snapshotUrl;
+
+    if (isSavedSnapshotValid) {
+      snapshotUrl = (await figma.clientStorage.getAsync(snapshotUrlKey)) || "";
+    } else {
+      const snapshot = await snapshotSelectedNode(selection);
+      const { data: snapshotData, errors: snapshotErrors } =
+        await uploadSnapshot(snapshot);
+      if (!snapshotData?.success || snapshotErrors) {
+        emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
+          success: false,
+          error: new Error(snapshotErrors?.[0]),
+        });
+        break;
+      }
+      snapshotUrl = snapshotData.url;
+      // save the snapshot url to the client storage
+      await figma.clientStorage.setAsync(snapshotUrlKey, snapshotUrl);
     }
 
     const { data, errors } = await createIssuesForFigmaFile(
@@ -89,7 +100,7 @@ async function handleCreateOrEdit({
       fullFileName,
       additionalInstructions,
       fileType !== undefined,
-      snapshotData?.url,
+      snapshotUrl,
     );
     const error = errors?.[0];
     if (!data?.success || error) {

@@ -1,5 +1,5 @@
 {
-  "id": "0uvnueyjc",
+  "id": "qbqh9yrgf",
   "name": "Group 1",
   "type": "GROUP",
   "layout": {
@@ -14,7 +14,7 @@
   "tailwind": "w-[1837px] h-[760px]",
   "children": [
     {
-      "id": "crnslx3em",
+      "id": "rt5eg2eze",
       "name": "Metrics section",
       "type": "FRAME",
       "layout": {
@@ -41,7 +41,7 @@
       "tailwind": "w-[1440px] h-[542px] bg-white",
       "children": [
         {
-          "id": "hr3o0qqh5",
+          "id": "avi5ih542",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -66,7 +66,7 @@
           "tailwind": "w-[1280px] h-[174px]",
           "children": [
             {
-              "id": "5wel374ks",
+              "id": "7ex23xcmw",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -91,7 +91,7 @@
               "tailwind": "w-[1216px] h-[174px]",
               "children": [
                 {
-                  "id": "8ywma5shj",
+                  "id": "h6728kewx",
                   "name": "Heading and supporting text",
                   "type": "FRAME",
                   "layout": {
@@ -116,7 +116,7 @@
                   "tailwind": "w-[768px] h-[174px]",
                   "children": [
                     {
-                      "id": "atvnywb9f",
+                      "id": "gq7dpcly8",
                       "name": "Heading and icon",
                       "type": "FRAME",
                       "layout": {
@@ -141,7 +141,7 @@
                       "tailwind": "w-[768px] h-[124px]",
                       "children": [
                         {
-                          "id": "om29ctwaa",
+                          "id": "wg225ygno",
                           "name": "Featured icon",
                           "type": "FRAME",
                           "layout": {
@@ -168,7 +168,7 @@
                           "tailwind": "w-[56px] h-[56px] bg-[#f4ebff] border-radius-[28px]",
                           "children": [
                             {
-                              "id": "udtepicq8",
+                              "id": "wanqs8u7i",
                               "name": "zap",
                               "type": "FRAME",
                               "layout": {
@@ -195,7 +195,7 @@
                               "tailwind": "w-[28px] h-[28px] bg-[]",
                               "children": [
                                 {
-                                  "id": "0odbb91nz",
+                                  "id": "xv69w46w2",
                                   "name": "Icon",
                                   "type": "VECTOR",
                                   "layout": {
@@ -224,7 +224,7 @@
                           ]
                         },
                         {
-                          "id": "uh85g7vx0",
+                          "id": "8e4sh14gh",
                           "name": "Heading",
                           "type": "TEXT",
                           "layout": {
@@ -256,7 +256,7 @@
                       ]
                     },
                     {
-                      "id": "g75ocs9nh",
+                      "id": "3u3v8krct",
                       "name": "Supporting text",
                       "type": "TEXT",
                       "layout": {
@@ -291,7 +291,7 @@
           ]
         },
         {
-          "id": "8u0wzen4m",
+          "id": "zzudjnixb",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -316,7 +316,7 @@
           "tailwind": "w-[1280px] h-[112px]",
           "children": [
             {
-              "id": "f40gtuv5p",
+              "id": "9f5val6rz",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -341,7 +341,7 @@
               "tailwind": "w-[768px] h-[112px]",
               "children": [
                 {
-                  "id": "co3t455mc",
+                  "id": "2q6d8sgeo",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -366,7 +366,7 @@
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "pihvw99k5",
+                      "id": "lx6b48zj2",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -391,7 +391,7 @@
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "zetfnimtk",
+                          "id": "nblxbdazt",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -421,7 +421,7 @@
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "h6bq2cman",
+                          "id": "j1ywg28kj",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -454,7 +454,7 @@
                   ]
                 },
                 {
-                  "id": "kwkv30azk",
+                  "id": "j7plfdldu",
                   "name": "Divider",
                   "type": "VECTOR",
                   "layout": {
@@ -478,7 +478,7 @@
                   "tailwind": "w-[1px] h-[112px] bg-[#eaecf0]"
                 },
                 {
-                  "id": "on1n2k2fh",
+                  "id": "zkeazessp",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -503,7 +503,7 @@
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "s01tajye3",
+                      "id": "iew8rkxfx",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -528,7 +528,7 @@
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "je4u9c3ks",
+                          "id": "9jjttqrnm",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -558,7 +558,7 @@
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "gor3zcg6k",
+                          "id": "3xsug4a14",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -591,7 +591,7 @@
                   ]
                 },
                 {
-                  "id": "2rsw2hucc",
+                  "id": "xr8kvvxbb",
                   "name": "Divider",
                   "type": "VECTOR",
                   "layout": {
@@ -615,7 +615,7 @@
                   "tailwind": "w-[1px] h-[112px] bg-[#eaecf0]"
                 },
                 {
-                  "id": "8t81rl7ql",
+                  "id": "ese2pqp2v",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -640,7 +640,7 @@
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "ferar89vt",
+                      "id": "ce5gwj94c",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -665,7 +665,7 @@
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "w6b3oc224",
+                          "id": "cgotjlwba",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -695,7 +695,7 @@
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "3x96la7sw",
+                          "id": "6uf015cyc",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -734,7 +734,7 @@
       ]
     },
     {
-      "id": "yu5h1b31u",
+      "id": "q6xthhdgm",
       "name": "Metrics section",
       "type": "FRAME",
       "layout": {
@@ -761,7 +761,7 @@
       "tailwind": "w-[375px] h-[760px] bg-white",
       "children": [
         {
-          "id": "7mhi70p76",
+          "id": "5f6j1bp9r",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -786,7 +786,7 @@
           "tailwind": "w-[375px] h-[220px]",
           "children": [
             {
-              "id": "yry3ulhab",
+              "id": "fiq4w84x8",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -811,7 +811,7 @@
               "tailwind": "w-[343px] h-[220px]",
               "children": [
                 {
-                  "id": "tq3wf6rmh",
+                  "id": "4y9wo9ta0",
                   "name": "Heading and supporting text",
                   "type": "FRAME",
                   "layout": {
@@ -836,7 +836,7 @@
                   "tailwind": "w-[343px] h-[220px]",
                   "children": [
                     {
-                      "id": "guquyoucc",
+                      "id": "vhyugu3ru",
                       "name": "Featured icon",
                       "type": "FRAME",
                       "layout": {
@@ -863,7 +863,7 @@
                       "tailwind": "w-[56px] h-[56px] bg-[#f4ebff] border-radius-[28px]",
                       "children": [
                         {
-                          "id": "ctb6b64bl",
+                          "id": "c04pe1p24",
                           "name": "zap",
                           "type": "FRAME",
                           "layout": {
@@ -890,7 +890,7 @@
                           "tailwind": "w-[28px] h-[28px] bg-[]",
                           "children": [
                             {
-                              "id": "3lfofvvaq",
+                              "id": "441t4li0q",
                               "name": "Icon",
                               "type": "VECTOR",
                               "layout": {
@@ -919,7 +919,7 @@
                       ]
                     },
                     {
-                      "id": "0eb661tx2",
+                      "id": "ccfi9fapn",
                       "name": "Heading",
                       "type": "TEXT",
                       "layout": {
@@ -949,7 +949,7 @@
                       "tailwind": "font-size-[30px] h-[38px] text-align-[center] color-[#101828]"
                     },
                     {
-                      "id": "0rfqxgu4a",
+                      "id": "e4n6qhp0m",
                       "name": "Supporting text",
                       "type": "TEXT",
                       "layout": {
@@ -984,7 +984,7 @@
           ]
         },
         {
-          "id": "d8ti1tjf5",
+          "id": "nnni7g0dj",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -1009,7 +1009,7 @@
           "tailwind": "w-[375px] h-[364px]",
           "children": [
             {
-              "id": "wrhimnryy",
+              "id": "s0axh3i7x",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -1034,7 +1034,7 @@
               "tailwind": "w-[343px] h-[364px]",
               "children": [
                 {
-                  "id": "bsr6geb4y",
+                  "id": "19u09xnly",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1059,7 +1059,7 @@
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "982ke6ao0",
+                      "id": "ibk2cq2kh",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1084,7 +1084,7 @@
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "27ebhbog9",
+                          "id": "v59rgluej",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1114,7 +1114,7 @@
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "pld7dum8b",
+                          "id": "y3p8i1grd",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1147,7 +1147,7 @@
                   ]
                 },
                 {
-                  "id": "qs5jj8ne7",
+                  "id": "ansd2l6aq",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1172,7 +1172,7 @@
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "tryhvpe1k",
+                      "id": "blveee9j9",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1197,7 +1197,7 @@
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "y92m52qxz",
+                          "id": "9orb2a6wk",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1227,7 +1227,7 @@
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "60ucrvniy",
+                          "id": "5g75tsjf0",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1260,7 +1260,7 @@
                   ]
                 },
                 {
-                  "id": "6rczuxdx0",
+                  "id": "5uhf6n1iv",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1285,7 +1285,7 @@
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "7aqfjw93q",
+                      "id": "f1jp58u6t",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1310,7 +1310,7 @@
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "up1zgkxed",
+                          "id": "vw4iz2o9q",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1340,7 +1340,7 @@
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "f469c48ak",
+                          "id": "jg7q4ik40",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {

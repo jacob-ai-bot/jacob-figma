@@ -1,5 +1,5 @@
 {
-  "id": "6a78ouxeh",
+  "id": "fqlla6dtp",
   "name": "Home",
   "type": "FRAME",
   "layout": {
@@ -26,7 +26,7 @@
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "fe1lyzjvi",
+      "id": "z34gvra6m",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -53,7 +53,7 @@
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "zpsfj0rof",
+          "id": "wux9ry93d",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -82,7 +82,7 @@
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "lbrmyxlu9",
+          "id": "4abu0rto0",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -97,7 +97,7 @@
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "jdyhaogrj",
+              "id": "egsyws0qu",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -112,7 +112,7 @@
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "z2l04uexb",
+                  "id": "v4glxtwoj",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -137,7 +137,7 @@
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "6of7v280v",
+                  "id": "ulxuk55bl",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -161,7 +161,7 @@
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "xu0fwikmr",
+                  "id": "3gjps5wqa",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "id": "xsvwqfq0k",
+          "id": "q5drz32la",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -204,7 +204,7 @@
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "q3svga7kb",
+              "id": "hr0lwzu4g",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -224,7 +224,7 @@
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "j06rgi3rz",
+                  "id": "ec9dyjtks",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -248,7 +248,7 @@
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "c8dolimpy",
+                  "id": "ehoqnuoc8",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -272,7 +272,7 @@
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "9c4z9at9y",
+                  "id": "c39m3yura",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "id": "4yc5f64o7",
+          "id": "0r19xo402",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -315,7 +315,7 @@
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "l9v3xxwrc",
+              "id": "94lmuybgt",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -335,7 +335,7 @@
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "uz1l0silg",
+                  "id": "zcviyss8x",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -359,7 +359,7 @@
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "t1sl3jahp",
+                  "id": "wdu1o6u6d",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -383,7 +383,7 @@
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "pk4qgyzl9",
+                  "id": "sfm8vbhid",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -407,7 +407,7 @@
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "bqg3om10a",
+                  "id": "m4ufxvxf3",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "id": "iwv5m8ukp",
+      "id": "naxjzkgpy",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -464,7 +464,7 @@
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "x8z8lgdx0",
+          "id": "jvs78ndx4",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -489,7 +489,7 @@
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "oke121e5p",
+              "id": "yonkbga4v",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -516,7 +516,7 @@
           ]
         },
         {
-          "id": "u557pb81h",
+          "id": "h8e41n579",
           "name": "Right Actionable",
           "type": "FRAME",
           "layout": {
@@ -541,7 +541,7 @@
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "axiw2g2e1",
+              "id": "szou8qsl5",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -568,7 +568,7 @@
           ]
         },
         {
-          "id": "ur3lyu9q0",
+          "id": "w6fh59jgv",
           "name": "Title",
           "type": "TEXT",
           "layout": {
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "id": "h9cpmipik",
+      "id": "93o85qtga",
       "name": "Image - List",
       "type": "FRAME",
       "layout": {
@@ -624,7 +624,7 @@
       "tailwind": "w-[328px] h-[780px]",
       "children": [
         {
-          "id": "hoip9z0na",
+          "id": "zan5fc4gd",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -649,7 +649,7 @@
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "mj2ri5xjt",
+              "id": "uqcuvalqz",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -676,7 +676,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "89qx8axpj",
+                  "id": "jsau0m6tx",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -703,7 +703,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "yzpha66v5",
+                      "id": "sd4eyz329",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -725,7 +725,7 @@
                   ]
                 },
                 {
-                  "id": "c02rop1xf",
+                  "id": "8otjok4ir",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -752,7 +752,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "f0wfkp6sv",
+                      "id": "kqa5yaxp0",
                       "name": "Home Decor Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -785,7 +785,7 @@
               ]
             },
             {
-              "id": "n5aibrb1o",
+              "id": "68h5elwue",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -812,7 +812,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "y96taghwc",
+                  "id": "q62ubvuxz",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -839,7 +839,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "23gmjjygy",
+                      "id": "ehgmm4584",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -861,7 +861,7 @@
                   ]
                 },
                 {
-                  "id": "qhjg6ws8i",
+                  "id": "u6fubjdf6",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -888,7 +888,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "sq98d91ru",
+                      "id": "849md903c",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -923,7 +923,7 @@
           ]
         },
         {
-          "id": "sximuqt5c",
+          "id": "ck82qdaf7",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -948,7 +948,7 @@
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "a3n9gebjr",
+              "id": "09y6skbb7",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -975,7 +975,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "8iz0lqbu1",
+                  "id": "h7xexqok0",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1002,7 +1002,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "hou0fuqig",
+                      "id": "8oypk2dil",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1024,7 +1024,7 @@
                   ]
                 },
                 {
-                  "id": "utrk8mcm0",
+                  "id": "l3ug1s7sy",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1051,7 +1051,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "kg9jfhbn8",
+                      "id": "7lemkllwx",
                       "name": "Modern Sofa Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -1084,7 +1084,7 @@
               ]
             },
             {
-              "id": "fto8y3d90",
+              "id": "wl69l4nak",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1111,7 +1111,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "bdaigdisf",
+                  "id": "ue5fqbc7a",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1138,7 +1138,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "3bfr1c8h4",
+                      "id": "v4kpddtjo",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1160,7 +1160,7 @@
                   ]
                 },
                 {
-                  "id": "p5324ywi5",
+                  "id": "r6aq0z4s8",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1187,7 +1187,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "0t5d5weee",
+                      "id": "zikowdm44",
                       "name": "Modern Sofa Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -1222,7 +1222,7 @@
           ]
         },
         {
-          "id": "1fxrz9uge",
+          "id": "jypv2sso7",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -1247,7 +1247,7 @@
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "3d3etd3el",
+              "id": "avl9803e7",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1274,7 +1274,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "iw7owjk6i",
+                  "id": "omsm6soqq",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1301,7 +1301,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "yknd5iqtn",
+                      "id": "ekxorkx26",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1323,7 +1323,7 @@
                   ]
                 },
                 {
-                  "id": "pnihnrqfh",
+                  "id": "dbe3gp0hp",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1350,7 +1350,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "e8h3nibdi",
+                      "id": "mofkxxnnb",
                       "name": "Living Room Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1383,7 +1383,7 @@
               ]
             },
             {
-              "id": "qrb725jmz",
+              "id": "hv29xdnyv",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1410,7 +1410,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "1lkk5r8ev",
+                  "id": "qs2jfbj7h",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1437,7 +1437,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "l7aaeadul",
+                      "id": "n244ajwmc",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1459,7 +1459,7 @@
                   ]
                 },
                 {
-                  "id": "yx257xdxw",
+                  "id": "rj8raspjd",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1486,7 +1486,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "zd4zqbdkm",
+                      "id": "etx4eve2d",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1521,7 +1521,7 @@
           ]
         },
         {
-          "id": "41xh7le7c",
+          "id": "xmw4zhok2",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -1546,7 +1546,7 @@
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "88fhfs1b8",
+              "id": "r4n5p2xfg",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1573,7 +1573,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "rygywgzk9",
+                  "id": "1pl9wpzk3",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1600,7 +1600,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "3f0oqmbc3",
+                      "id": "0oy5f8jij",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1622,7 +1622,7 @@
                   ]
                 },
                 {
-                  "id": "2kghzmmbo",
+                  "id": "nk4o8pju7",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1649,7 +1649,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "9y3nbzsw2",
+                      "id": "t0jv6lj2x",
                       "name": "Living Room Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1682,7 +1682,7 @@
               ]
             },
             {
-              "id": "ih7df71n4",
+              "id": "79wshls2c",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1709,7 +1709,7 @@
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "umukc49tj",
+                  "id": "y8wu5wend",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1736,7 +1736,7 @@
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "jewr1wqi9",
+                      "id": "gkymcs3ra",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1758,7 +1758,7 @@
                   ]
                 },
                 {
-                  "id": "zy8owoso4",
+                  "id": "cm58xa1bn",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1785,7 +1785,7 @@
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "hjkml69ib",
+                      "id": "ay5a5zw3e",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1822,7 +1822,7 @@
       ]
     },
     {
-      "id": "7hv9jyqcf",
+      "id": "1elovnn05",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -1847,7 +1847,7 @@
       "tailwind": "w-[375px] h-[34px]",
       "children": [
         {
-          "id": "tpkm3xc64",
+          "id": "90xrf1lbz",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {

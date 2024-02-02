@@ -1,5 +1,5 @@
 {
-  "id": "hqesh8xie",
+  "id": "rm05fic0l",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -14,7 +14,7 @@
   "tailwind": "w-[1600px] h-[707px]",
   "children": [
     {
-      "id": "bne4fdbx3",
+      "id": "6lg81rvfp",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -29,7 +29,7 @@
       "tailwind": "w-[1600px] h-[707px]",
       "children": [
         {
-          "id": "rftnbf1vw",
+          "id": "jsfo2e7l2",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -49,7 +49,7 @@
           "tailwind": "w-[1600px] h-[707px] bg-black"
         },
         {
-          "id": "8lkd1ah8m",
+          "id": "pyfo40hx6",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -69,7 +69,7 @@
           "tailwind": "w-[1600px] h-[707px] bg-black"
         },
         {
-          "id": "ne25bxo1e",
+          "id": "r64tk2nge",
           "name": "Ellipse 33",
           "type": "VECTOR",
           "layout": {
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "id": "r9561b0a6",
+      "id": "94damqn4p",
       "name": "Content",
       "type": "GROUP",
       "layout": {
@@ -108,7 +108,7 @@
       "tailwind": "w-[603px] h-[148px]",
       "children": [
         {
-          "id": "jmbqn3987",
+          "id": "m7p4yovlu",
           "name": "The Landingfolio Facts",
           "type": "TEXT",
           "layout": {
@@ -137,7 +137,7 @@
           "tailwind": "font-size-[60px] h-[66px] text-white"
         },
         {
-          "id": "kg0u8jp17",
+          "id": "nwbin8eyk",
           "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
           "type": "TEXT",
           "layout": {
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "4qx0oi7lb",
+      "id": "sjzw1uujq",
       "name": "Card",
       "type": "GROUP",
       "layout": {
@@ -183,7 +183,7 @@
       "tailwind": "w-[1219px] h-[218px]",
       "children": [
         {
-          "id": "wcmd0zozu",
+          "id": "s0zh6x2ku",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -203,7 +203,7 @@
           "tailwind": "w-[1219px] h-[218px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
         },
         {
-          "id": "xntpshmbh",
+          "id": "o3uv3olc8",
           "name": "Line 4",
           "type": "LINE",
           "layout": {
@@ -220,7 +220,7 @@
           "tailwind": "w-[218px] h-[0px]"
         },
         {
-          "id": "b2vxbiw12",
+          "id": "cqznd0qvl",
           "name": "Line 5",
           "type": "LINE",
           "layout": {
@@ -237,7 +237,7 @@
           "tailwind": "w-[218px] h-[0px]"
         },
         {
-          "id": "haqifx9ct",
+          "id": "rcdeiwvnt",
           "name": "1",
           "type": "GROUP",
           "layout": {
@@ -252,7 +252,7 @@
           "tailwind": "w-[248px] h-[105px]",
           "children": [
             {
-              "id": "yri3ic5nb",
+              "id": "w3cw482bi",
               "name": "1M+",
               "type": "TEXT",
               "layout": {
@@ -281,7 +281,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "h41ih7hut",
+              "id": "j9881qdjc",
               "name": "Tickets Delivered This Month",
               "type": "TEXT",
               "layout": {
@@ -312,7 +312,7 @@
           ]
         },
         {
-          "id": "902fgk80z",
+          "id": "p95ybs4vo",
           "name": "2",
           "type": "GROUP",
           "layout": {
@@ -327,7 +327,7 @@
           "tailwind": "w-[195px] h-[105px]",
           "children": [
             {
-              "id": "dc2o0obh0",
+              "id": "w1vuu2uis",
               "name": "53K+",
               "type": "TEXT",
               "layout": {
@@ -356,7 +356,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "yqrro55e3",
+              "id": "vhzrpas7l",
               "name": "Active Customers Rate",
               "type": "TEXT",
               "layout": {
@@ -387,7 +387,7 @@
           ]
         },
         {
-          "id": "swjj9or0q",
+          "id": "c5nnthmz2",
           "name": "3",
           "type": "GROUP",
           "layout": {
@@ -402,7 +402,7 @@
           "tailwind": "w-[232px] h-[105px]",
           "children": [
             {
-              "id": "8tglg0qo1",
+              "id": "4wa9tchcs",
               "name": "98.29%",
               "type": "TEXT",
               "layout": {
@@ -431,7 +431,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "lbry5q6kb",
+              "id": "rk0st64yd",
               "name": "Customer Satisfaction Rate",
               "type": "TEXT",
               "layout": {

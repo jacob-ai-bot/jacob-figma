@@ -1,5 +1,5 @@
 {
-  "id": "x8r44v1sd",
+  "id": "29r7zqpyv",
   "name": "Page Header",
   "type": "FRAME",
   "layout": {
@@ -26,7 +26,7 @@
   "tailwind": "w-[1440px] h-[200px] bg-[]",
   "children": [
     {
-      "id": "zmjsevc6y",
+      "id": "f53shla4x",
       "name": "Header BG",
       "type": "RECTANGLE",
       "layout": {
@@ -46,7 +46,7 @@
       "tailwind": "w-[1440px] h-[200px] bg-[#f8fafc]"
     },
     {
-      "id": "svg55vu02",
+      "id": "t67dutfx1",
       "name": "Heading/Info",
       "type": "FRAME",
       "layout": {
@@ -73,7 +73,7 @@
       "tailwind": "w-[616px] h-[116px] bg-[]",
       "children": [
         {
-          "id": "ywanbi6rv",
+          "id": "ags9jl20y",
           "name": "Heading",
           "type": "TEXT",
           "layout": {
@@ -103,7 +103,7 @@
           "tailwind": "font-size-[34px] h-[40px] letter-spacing-[-0.04em] color-[#0f172a]"
         },
         {
-          "id": "unz5kjao6",
+          "id": "ra30kxemh",
           "name": "Description",
           "type": "TEXT",
           "layout": {
@@ -132,7 +132,7 @@
           "tailwind": "font-size-[16px] leading-24 color-[#64748b]"
         },
         {
-          "id": "ab7qwv098",
+          "id": "b7j7exghi",
           "name": "Category",
           "type": "TEXT",
           "layout": {
@@ -161,7 +161,7 @@
           "tailwind": "font-size-[16px] leading-24 color-[#64748b]"
         },
         {
-          "id": "y52c7mvnp",
+          "id": "220msvy17",
           "name": "Icon/Check-Filled",
           "type": "FRAME",
           "layout": {
@@ -186,7 +186,7 @@
           "tailwind": "w-[20px] h-[20px]",
           "children": [
             {
-              "id": "0e5ou8pil",
+              "id": "cpcmjl1rr",
               "name": "Ellipse 1",
               "type": "ELLIPSE",
               "layout": {
@@ -206,7 +206,7 @@
               "tailwind": "w-[16px] h-[16px] bg-[#10b981]"
             },
             {
-              "id": "nezah4qbw",
+              "id": "qeny78oza",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -233,7 +233,7 @@
               "tailwind": "w-[9px] h-[9px] bg-[]",
               "children": [
                 {
-                  "id": "7fvtvxf0t",
+                  "id": "b47kxoimp",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "id": "seisohexd",
+      "id": "kn1wypdft",
       "name": "Frame 1",
       "type": "FRAME",
       "layout": {
@@ -289,7 +289,7 @@
       "tailwind": "w-[362px] h-[52px]",
       "children": [
         {
-          "id": "z7z39iivb",
+          "id": "grsadglrw",
           "name": "Frame 6",
           "type": "FRAME",
           "layout": {
@@ -317,7 +317,7 @@
           "tailwind": "w-[52px] h-[52px] bg-white rounded-8 box-shadow-[0 25px 50px -12px rgba(0, 0, 0, 0.1)]",
           "children": [
             {
-              "id": "54qi2o83n",
+              "id": "yzddvgo71",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -344,7 +344,7 @@
               "tailwind": "w-[32px] h-[32px] bg-[]",
               "children": [
                 {
-                  "id": "sbdd28dyg",
+                  "id": "5xouhigqa",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -373,7 +373,7 @@
           ]
         },
         {
-          "id": "jbl18erwg",
+          "id": "tc6uv5mbg",
           "name": "Frame 7",
           "type": "FRAME",
           "layout": {
@@ -401,7 +401,7 @@
           "tailwind": "w-[52px] h-[52px] bg-white rounded-8 box-shadow-[0 25px 50px -12px rgba(0, 0, 0, 0.1)]",
           "children": [
             {
-              "id": "6mkh7jq2q",
+              "id": "yopao95bd",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -428,7 +428,7 @@
               "tailwind": "w-[32px] h-[32px] bg-[]",
               "children": [
                 {
-                  "id": "tgmy22jz1",
+                  "id": "g7tdnatek",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -457,7 +457,7 @@
           ]
         },
         {
-          "id": "762cg3bpw",
+          "id": "wsw9w8rxe",
           "name": "Frame 8",
           "type": "FRAME",
           "layout": {
@@ -484,7 +484,7 @@
           "tailwind": "w-[226px] h-[30px] bg-[#f1f5f9] border-radius-[100px]",
           "children": [
             {
-              "id": "xdwjh32oh",
+              "id": "m7v4rjm3u",
               "name": "Description",
               "type": "TEXT",
               "layout": {
