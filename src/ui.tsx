@@ -221,6 +221,7 @@ function Plugin() {
           disabled={
             creatingIssue ||
             !selectedRepo ||
+            !imageBase64 ||
             (!selectedFile && !newFilename.trim())
           }
           loading={creatingIssue}

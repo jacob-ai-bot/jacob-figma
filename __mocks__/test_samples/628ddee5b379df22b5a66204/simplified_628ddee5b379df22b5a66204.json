@@ -1,5 +1,5 @@
 {
-  "id": "5cwpw40z1",
+  "id": "8weadoqg4",
   "name": "Login - Mobile Phone",
   "type": "FRAME",
   "layout": {
@@ -26,7 +26,7 @@
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "9e11xx93v",
+      "id": "hl3mg4lvr",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -53,7 +53,7 @@
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "tmbh4t0aw",
+          "id": "79dt0tlc2",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -82,7 +82,7 @@
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "y18si3kxv",
+          "id": "tx5krsff0",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -97,7 +97,7 @@
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "fbbljky9p",
+              "id": "5ndatgo10",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -112,7 +112,7 @@
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "ytwiciyaw",
+                  "id": "wkymz1n2n",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -137,7 +137,7 @@
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "zwbhg5fr8",
+                  "id": "5jg4sf6eu",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -161,7 +161,7 @@
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "6ed5h2rfp",
+                  "id": "i1h27t1gv",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "id": "r1v8qqkiy",
+          "id": "xs2rtycx5",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -204,7 +204,7 @@
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "1tf1obxbv",
+              "id": "bbcgnmgwx",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -224,7 +224,7 @@
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "gbadstemp",
+                  "id": "2ge4566w0",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -248,7 +248,7 @@
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "iqjkzxwy5",
+                  "id": "rpjqg45yp",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -272,7 +272,7 @@
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "tpjflqceq",
+                  "id": "90nbv2obr",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "id": "scz39a8sd",
+          "id": "cyqn27xn4",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -315,7 +315,7 @@
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "mona27b75",
+              "id": "vhx8fbho1",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -335,7 +335,7 @@
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "k8zlc2q5k",
+                  "id": "icjrwvle4",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -359,7 +359,7 @@
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "91e29s09s",
+                  "id": "8dy4t0xyq",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -383,7 +383,7 @@
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "1v1zkva3u",
+                  "id": "dm4s0bk53",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -407,7 +407,7 @@
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "hjf7dtg6w",
+                  "id": "en97aeb7c",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "id": "uvrrt0jdu",
+      "id": "yd65zebtt",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -464,7 +464,7 @@
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "ob5zl7z7u",
+          "id": "tc2geql4y",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -489,7 +489,7 @@
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "rfwb6fpl5",
+              "id": "k88dt8ue6",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": "kgsh3nm4s",
+      "id": "jna5rxlc3",
       "name": "Navigation Bar / Large Title",
       "type": "FRAME",
       "layout": {
@@ -543,7 +543,7 @@
       "tailwind": "w-[375px] h-[92px]",
       "children": [
         {
-          "id": "h9x2fivw9",
+          "id": "k9miyb1w1",
           "name": "Large Title",
           "type": "TEXT",
           "layout": {
@@ -573,7 +573,7 @@
           "tailwind": "text-[32] font-weight-[700] leading-36 color-[#090a0a]"
         },
         {
-          "id": "v1n7jb79e",
+          "id": "qdzykcr6b",
           "name": "A caption",
           "type": "TEXT",
           "layout": {
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "id": "6c2pj5e6w",
+      "id": "d7adf6ik7",
       "name": "Controls / Text Fields",
       "type": "FRAME",
       "layout": {
@@ -629,7 +629,7 @@
       "tailwind": "w-[327px] h-[48px] rounded-8",
       "children": [
         {
-          "id": "fdgb7mdrn",
+          "id": "2ov3gcphf",
           "name": "Field",
           "type": "RECTANGLE",
           "layout": {
@@ -652,7 +652,7 @@
           "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8"
         },
         {
-          "id": "vx0l2ri1d",
+          "id": "25qwp377l",
           "name": "Auto Layout",
           "type": "FRAME",
           "layout": {
@@ -677,7 +677,7 @@
           "tailwind": "w-[308px] h-[16px]",
           "children": [
             {
-              "id": "s9r7qkgt1",
+              "id": "ykaczrfcu",
               "name": "Country Code",
               "type": "FRAME",
               "layout": {
@@ -704,7 +704,7 @@
               "tailwind": "w-[75px] h-[16px] bg-[]",
               "children": [
                 {
-                  "id": "2ya278fhq",
+                  "id": "4f6hnopgf",
                   "name": "Flag",
                   "type": "FRAME",
                   "layout": {
@@ -729,7 +729,7 @@
                   "tailwind": "w-[20px] h-[16px] border-radius-[16px]",
                   "children": [
                     {
-                      "id": "2o25kpfsf",
+                      "id": "oc82225m3",
                       "name": "Rectangle 2",
                       "type": "RECTANGLE",
                       "layout": {
@@ -749,7 +749,7 @@
                       "tailwind": "w-[20px] h-[16px] bg-white rounded-2"
                     },
                     {
-                      "id": "3llicicjb",
+                      "id": "orgexrilk",
                       "name": "Rectangle 3",
                       "type": "VECTOR",
                       "layout": {
@@ -774,7 +774,7 @@
                   ]
                 },
                 {
-                  "id": "78snihdfe",
+                  "id": "wn1ts8bjo",
                   "name": "+1",
                   "type": "TEXT",
                   "layout": {
@@ -803,7 +803,7 @@
                   "tailwind": "font-size-[16px] leading-16 color-[#090a0a]"
                 },
                 {
-                  "id": "nl6q6vua1",
+                  "id": "k4e2132hy",
                   "name": "Left Actionable",
                   "type": "FRAME",
                   "layout": {
@@ -830,7 +830,7 @@
                   "tailwind": "w-[16px] h-[16px] bg-[]",
                   "children": [
                     {
-                      "id": "69pmh1saj",
+                      "id": "87z13sg0v",
                       "name": "Vector",
                       "type": "VECTOR",
                       "layout": {
@@ -859,7 +859,7 @@
               ]
             },
             {
-              "id": "6ge8fgbtz",
+              "id": "5ztp7a8jr",
               "name": "Mobile number",
               "type": "TEXT",
               "layout": {
@@ -892,7 +892,7 @@
       ]
     },
     {
-      "id": "bf3eenbe3",
+      "id": "3s0kgrhkc",
       "name": "You will receive an SMS verification that may apply message and data rates.",
       "type": "TEXT",
       "layout": {
@@ -921,7 +921,7 @@
       "tailwind": "text-[12] leading-16 color-[#6c7072]"
     },
     {
-      "id": "xici6012l",
+      "id": "0pal8xypz",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -948,7 +948,7 @@
       "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
       "children": [
         {
-          "id": "r7hbiq31t",
+          "id": "4ww3oqv01",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -979,7 +979,7 @@
       ]
     },
     {
-      "id": "8x2fucx4n",
+      "id": "uvdwjxxdh",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -1004,7 +1004,7 @@
       "tailwind": "w-[327px] h-[48px] border-radius-[48px]",
       "children": [
         {
-          "id": "riq1jf4jr",
+          "id": "qvwja8e24",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -1035,7 +1035,7 @@
       ]
     },
     {
-      "id": "cm9rxi2ff",
+      "id": "cfsj5f62y",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -1062,7 +1062,7 @@
       "tailwind": "w-[375px] h-[34px] bg-white",
       "children": [
         {
-          "id": "5hr5yqo8g",
+          "id": "93ccc3n5y",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {

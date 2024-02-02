@@ -16,3 +16,5 @@ export const resizeValues = {
 //
 
 export const accessTokenKey = "ACCESS_TOKEN";
+export const snapshotIdKey = "SNAPSHOT_ID";
+export const snapshotUrlKey = "SNAPSHOT_URL";

@@ -1,5 +1,5 @@
 {
-  "id": "dvx3tma1c",
+  "id": "58vo978om",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -14,7 +14,7 @@
   "tailwind": "w-[1600px] h-[459px]",
   "children": [
     {
-      "id": "lvpkfz2w7",
+      "id": "5sdv8q9w5",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -29,7 +29,7 @@
       "tailwind": "w-[1600px] h-[459px]",
       "children": [
         {
-          "id": "2q88ytnyl",
+          "id": "m5pcqocza",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -49,7 +49,7 @@
           "tailwind": "w-[1600px] h-[459px] bg-black"
         },
         {
-          "id": "s8at7dyoy",
+          "id": "d9f88va8b",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -69,7 +69,7 @@
           "tailwind": "w-[1600px] h-[459px] bg-black"
         },
         {
-          "id": "6xx46n5ec",
+          "id": "c14dvj9lf",
           "name": "Rectangle",
           "type": "RECTANGLE",
           "layout": {
@@ -90,7 +90,7 @@
           "tailwind": "w-[1600px] h-[459px] mix-blend-mode-[overlay] background-[url()]"
         },
         {
-          "id": "mozei4vyq",
+          "id": "tpd54ub5r",
           "name": "Ellipse 33",
           "type": "VECTOR",
           "layout": {
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "q1u6xwkuq",
+      "id": "9wrn5ec0r",
       "name": "Card",
       "type": "GROUP",
       "layout": {
@@ -129,7 +129,7 @@
       "tailwind": "w-[1264px] h-[194px]",
       "children": [
         {
-          "id": "u4h2zz042",
+          "id": "9dygegity",
           "name": "1",
           "type": "GROUP",
           "layout": {
@@ -144,7 +144,7 @@
           "tailwind": "w-[274px] h-[194px]",
           "children": [
             {
-              "id": "qv94tpbwy",
+              "id": "8ztx76mjc",
               "name": "$11M+",
               "type": "TEXT",
               "layout": {
@@ -173,7 +173,7 @@
               "tailwind": "font-size-[48px] h-[58px] text-white"
             },
             {
-              "id": "stszpvvxo",
+              "id": "vra0a8osb",
               "name": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.",
               "type": "TEXT",
               "layout": {
@@ -202,7 +202,7 @@
               "tailwind": "font-size-[16px] h-[26px] color-[#a1a1aa]"
             },
             {
-              "id": "iitj3iuee",
+              "id": "5xb4sgwec",
               "name": "BTN",
               "type": "GROUP",
               "layout": {
@@ -217,7 +217,7 @@
               "tailwind": "w-[112px] h-[36px]",
               "children": [
                 {
-                  "id": "fjz2e1a3k",
+                  "id": "lteiaxynl",
                   "name": "Button/Primary/With Icon",
                   "type": "INSTANCE",
                   "layout": {
@@ -242,7 +242,7 @@
                   "tailwind": "w-[108px] h-[36px] border-radius-[60px]",
                   "children": [
                     {
-                      "id": "j044g239b",
+                      "id": "0l9xz80rz",
                       "name": "Frame 1",
                       "type": "FRAME",
                       "layout": {
@@ -267,7 +267,7 @@
                       "tailwind": "w-[111px] h-[26px]",
                       "children": [
                         {
-                          "id": "9iwrdguza",
+                          "id": "7ykn0u55e",
                           "name": "Button name",
                           "type": "TEXT",
                           "layout": {
@@ -300,7 +300,7 @@
                   ]
                 },
                 {
-                  "id": "mpv42y7mx",
+                  "id": "zchkgwzds",
                   "name": "Line 3",
                   "type": "LINE",
                   "layout": {
@@ -321,7 +321,7 @@
           ]
         },
         {
-          "id": "clw16pme2",
+          "id": "nanz0rmai",
           "name": "2",
           "type": "GROUP",
           "layout": {
@@ -336,7 +336,7 @@
           "tailwind": "w-[274px] h-[194px]",
           "children": [
             {
-              "id": "gpxfjhk3s",
+              "id": "c84lwn7w0",
               "name": "79.14%",
               "type": "TEXT",
               "layout": {
@@ -365,7 +365,7 @@
               "tailwind": "font-size-[48px] h-[58px] text-white"
             },
             {
-              "id": "x8ifq7pvr",
+              "id": "mvs97ozoh",
               "name": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.",
               "type": "TEXT",
               "layout": {
@@ -394,7 +394,7 @@
               "tailwind": "font-size-[16px] h-[26px] color-[#a1a1aa]"
             },
             {
-              "id": "fpkkpblri",
+              "id": "8tq0kywmr",
               "name": "BTN",
               "type": "GROUP",
               "layout": {
@@ -409,7 +409,7 @@
               "tailwind": "w-[112px] h-[36px]",
               "children": [
                 {
-                  "id": "p0pij9dzg",
+                  "id": "sg17n4pmu",
                   "name": "Button/Primary/With Icon",
                   "type": "INSTANCE",
                   "layout": {
@@ -434,7 +434,7 @@
                   "tailwind": "w-[108px] h-[36px] border-radius-[60px]",
                   "children": [
                     {
-                      "id": "exp6icn4x",
+                      "id": "beegllcgz",
                       "name": "Frame 1",
                       "type": "FRAME",
                       "layout": {
@@ -459,7 +459,7 @@
                       "tailwind": "w-[111px] h-[26px]",
                       "children": [
                         {
-                          "id": "9ma63g20d",
+                          "id": "7oeik8mkj",
                           "name": "Button name",
                           "type": "TEXT",
                           "layout": {
@@ -492,7 +492,7 @@
                   ]
                 },
                 {
-                  "id": "ewi4el20o",
+                  "id": "49eej46yj",
                   "name": "Line 3",
                   "type": "LINE",
                   "layout": {
@@ -513,7 +513,7 @@
           ]
         },
         {
-          "id": "8kyb0qg56",
+          "id": "c9kzpnjsu",
           "name": "3",
           "type": "GROUP",
           "layout": {
@@ -528,7 +528,7 @@
           "tailwind": "w-[274px] h-[194px]",
           "children": [
             {
-              "id": "112n38dg3",
+              "id": "fu2rie3sk",
               "name": "$299/y",
               "type": "TEXT",
               "layout": {
@@ -557,7 +557,7 @@
               "tailwind": "font-size-[48px] h-[58px] text-white"
             },
             {
-              "id": "h73l7el4o",
+              "id": "bb28phnro",
               "name": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.",
               "type": "TEXT",
               "layout": {
@@ -586,7 +586,7 @@
               "tailwind": "font-size-[16px] h-[26px] color-[#a1a1aa]"
             },
             {
-              "id": "xok3qud3q",
+              "id": "n0ky2b82o",
               "name": "BTN",
               "type": "GROUP",
               "layout": {
@@ -601,7 +601,7 @@
               "tailwind": "w-[112px] h-[36px]",
               "children": [
                 {
-                  "id": "y2olmo7k8",
+                  "id": "b6c1r1lnu",
                   "name": "Button/Primary/With Icon",
                   "type": "INSTANCE",
                   "layout": {
@@ -626,7 +626,7 @@
                   "tailwind": "w-[108px] h-[36px] border-radius-[60px]",
                   "children": [
                     {
-                      "id": "vvn3whyc9",
+                      "id": "7kjqq33lh",
                       "name": "Frame 1",
                       "type": "FRAME",
                       "layout": {
@@ -651,7 +651,7 @@
                       "tailwind": "w-[111px] h-[26px]",
                       "children": [
                         {
-                          "id": "rnk0sr0e0",
+                          "id": "pwvc5llxt",
                           "name": "Button name",
                           "type": "TEXT",
                           "layout": {
@@ -684,7 +684,7 @@
                   ]
                 },
                 {
-                  "id": "vg94i6q9k",
+                  "id": "tcnskuepn",
                   "name": "Line 3",
                   "type": "LINE",
                   "layout": {
@@ -705,7 +705,7 @@
           ]
         },
         {
-          "id": "17vlz2q8k",
+          "id": "7hpzek1pj",
           "name": "4",
           "type": "GROUP",
           "layout": {
@@ -720,7 +720,7 @@
           "tailwind": "w-[274px] h-[194px]",
           "children": [
             {
-              "id": "egc7xf5vt",
+              "id": "v3r8n50jn",
               "name": "34k+",
               "type": "TEXT",
               "layout": {
@@ -749,7 +749,7 @@
               "tailwind": "font-size-[48px] h-[58px] text-white"
             },
             {
-              "id": "2974dyrap",
+              "id": "hcevu5xte",
               "name": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.",
               "type": "TEXT",
               "layout": {
@@ -778,7 +778,7 @@
               "tailwind": "font-size-[16px] h-[26px] color-[#a1a1aa]"
             },
             {
-              "id": "o7nforps8",
+              "id": "0nyjckmwb",
               "name": "BTN",
               "type": "GROUP",
               "layout": {
@@ -793,7 +793,7 @@
               "tailwind": "w-[112px] h-[36px]",
               "children": [
                 {
-                  "id": "oplv6gbrn",
+                  "id": "ct4dzhayz",
                   "name": "Button/Primary/With Icon",
                   "type": "INSTANCE",
                   "layout": {
@@ -818,7 +818,7 @@
                   "tailwind": "w-[108px] h-[36px] border-radius-[60px]",
                   "children": [
                     {
-                      "id": "7mo9ltp4y",
+                      "id": "id45mk4y0",
                       "name": "Frame 1",
                       "type": "FRAME",
                       "layout": {
@@ -843,7 +843,7 @@
                       "tailwind": "w-[111px] h-[26px]",
                       "children": [
                         {
-                          "id": "e5dvzc7gf",
+                          "id": "0pxb2g2vq",
                           "name": "Button name",
                           "type": "TEXT",
                           "layout": {
@@ -876,7 +876,7 @@
                   ]
                 },
                 {
-                  "id": "2c5ocmdum",
+                  "id": "mf3k4ulzo",
                   "name": "Line 3",
                   "type": "LINE",
                   "layout": {

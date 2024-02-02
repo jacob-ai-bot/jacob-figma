@@ -34,10 +34,7 @@ export function Section({
   return (
     <Fragment>
       <div className="flex flex-col px-4 pt-4 pb-3 gap-y-3">
-        <div
-          className="flex flex-row justify-between items-center cursor-pointer"
-          onClick={toggleCollapsed}
-        >
+        <div className="flex flex-row justify-between items-center">
           <Text>
             <Bold>{label}</Bold>
           </Text>
@@ -46,7 +43,10 @@ export function Section({
               {linkLabel}
             </Link>
           )}
-          <div className={isCollapsable ? "cursor-pointer" : "hidden"}>
+          <div
+            className={isCollapsable ? "cursor-pointer" : "hidden"}
+            onClick={toggleCollapsed}
+          >
             {collapsed ? (
               <IconControlChevronUp8 />
             ) : (

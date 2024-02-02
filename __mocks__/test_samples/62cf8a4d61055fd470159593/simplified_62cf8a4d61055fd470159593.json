@@ -1,5 +1,5 @@
 {
-  "id": "owun241xj",
+  "id": "g00kgu25t",
   "name": "Combo Bar/Line",
   "type": "INSTANCE",
   "layout": {
@@ -24,7 +24,7 @@
   "tailwind": "w-[882px] h-[448px]",
   "children": [
     {
-      "id": "02blqf6y6",
+      "id": "gblvhjyxx",
       "name": "Rectangle 2044",
       "type": "RECTANGLE",
       "layout": {
@@ -45,7 +45,7 @@
       "tailwind": "w-[882px] h-[448px] bg-[#2c2d33] border-radius-[6px] box-shadow-[0 2px 10px 0 rgba(0, 0, 0, 0.1)]"
     },
     {
-      "id": "4zy9csbap",
+      "id": "p2njdm4m3",
       "name": "PRIMARY TEXT",
       "type": "TEXT",
       "layout": {
@@ -74,7 +74,7 @@
       "tailwind": "font-size-[16px] color-[#828282]"
     },
     {
-      "id": "1w6fkiefr",
+      "id": "her9ihjcd",
       "name": "Group 2275",
       "type": "GROUP",
       "layout": {
@@ -89,7 +89,7 @@
       "tailwind": "w-[24px] h-[24px]",
       "children": [
         {
-          "id": "91jkr4zq6",
+          "id": "qq5710ji9",
           "name": "Ellipse 16",
           "type": "ELLIPSE",
           "layout": {
@@ -109,7 +109,7 @@
           "tailwind": "w-[24px] h-[24px] bg-[#bdbdbd]"
         },
         {
-          "id": "scnqmp51z",
+          "id": "idyf97ck3",
           "name": "Group 5",
           "type": "GROUP",
           "layout": {
@@ -124,7 +124,7 @@
           "tailwind": "w-[4px] h-[16px]",
           "children": [
             {
-              "id": "2rgb8h2dc",
+              "id": "sgb5xiibo",
               "name": "Rectangle 9",
               "type": "RECTANGLE",
               "layout": {
@@ -144,7 +144,7 @@
               "tailwind": "w-[4px] h-[4px] bg-[#2c2d33] border-radius-[6px]"
             },
             {
-              "id": "l0kmq5ulm",
+              "id": "48ka8eru1",
               "name": "Rectangle 8",
               "type": "RECTANGLE",
               "layout": {
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "p1k2cgf0m",
+      "id": "936ecm71b",
       "name": "5.987,34",
       "type": "TEXT",
       "layout": {
@@ -196,7 +196,7 @@
       "tailwind": "font-size-[40px] font-medium letter-spacing-[-0.0375em] text-white"
     },
     {
-      "id": "6xel36evp",
+      "id": "wwe8vwc8w",
       "name": "Secondary text",
       "type": "TEXT",
       "layout": {
@@ -224,7 +224,7 @@
       "tailwind": "text-[14] text-white"
     },
     {
-      "id": "zh1qtclzl",
+      "id": "jm1gwympn",
       "name": "Vector 49",
       "type": "VECTOR",
       "layout": {
@@ -249,7 +249,7 @@
       "tailwind": "w-[882px] h-[0px] border-2 border-solid border-color-[#4f4f4f]"
     },
     {
-      "id": "wpf3jfyzk",
+      "id": "1s0cj5ewy",
       "name": "100",
       "type": "TEXT",
       "layout": {
@@ -277,7 +277,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "5nb0bbou9",
+      "id": "kd472jxrb",
       "name": "Group 2276",
       "type": "GROUP",
       "layout": {
@@ -292,7 +292,7 @@
       "tailwind": "w-[773px] h-[167px]",
       "children": [
         {
-          "id": "ja7tp32l8",
+          "id": "8tad9m8a0",
           "name": "Rectangle 2",
           "type": "RECTANGLE",
           "layout": {
@@ -313,7 +313,7 @@
           "tailwind": "w-[773px] h-[167px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "n0b4d0ffs",
+          "id": "pmas56h4w",
           "name": "Vector 5",
           "type": "VECTOR",
           "layout": {
@@ -338,7 +338,7 @@
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "fkxs8ucw9",
+          "id": "4p2zgorhk",
           "name": "Vector 6",
           "type": "VECTOR",
           "layout": {
@@ -363,7 +363,7 @@
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "cxs5yl9pq",
+          "id": "51lbs2qal",
           "name": "Vector 23",
           "type": "VECTOR",
           "layout": {
@@ -388,7 +388,7 @@
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "gr59ova8u",
+          "id": "7dhpbi9en",
           "name": "Vector 24",
           "type": "VECTOR",
           "layout": {
@@ -413,7 +413,7 @@
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "cx9brql2r",
+          "id": "s6566e4n7",
           "name": "Vector 25",
           "type": "VECTOR",
           "layout": {
@@ -438,7 +438,7 @@
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "6xk14qap4",
+          "id": "p1bfpf4rr",
           "name": "Vector 27",
           "type": "VECTOR",
           "layout": {
@@ -463,7 +463,7 @@
           "tailwind": "w-[773px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "0rad7s0d3",
+          "id": "kt0dp4r1l",
           "name": "Vector 21",
           "type": "VECTOR",
           "layout": {
@@ -488,7 +488,7 @@
           "tailwind": "w-[773px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "krgp4bitf",
+          "id": "jpqt6tzyp",
           "name": "Vector 2",
           "type": "VECTOR",
           "layout": {
@@ -513,7 +513,7 @@
           "tailwind": "w-[773px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "38j3vmhd8",
+          "id": "co1ehefft",
           "name": "Vector 4",
           "type": "VECTOR",
           "layout": {
@@ -538,7 +538,7 @@
           "tailwind": "w-[773px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "ajglfhe7w",
+          "id": "3pb5tmd4g",
           "name": "Vector 26",
           "type": "VECTOR",
           "layout": {
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "id": "ie8d6zami",
+      "id": "whoomlb3v",
       "name": "60",
       "type": "TEXT",
       "layout": {
@@ -593,7 +593,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "1lq8bn5uj",
+      "id": "7lz0f85qe",
       "name": "Rectangle 2049",
       "type": "RECTANGLE",
       "layout": {
@@ -613,7 +613,7 @@
       "tailwind": "w-[74px] h-[66px] bg-[#63abfd]"
     },
     {
-      "id": "ostwv2hkn",
+      "id": "ac7ufie5x",
       "name": "Rectangle 2046",
       "type": "RECTANGLE",
       "layout": {
@@ -633,7 +633,7 @@
       "tailwind": "w-[75px] h-[48px] bg-[#63abfd]"
     },
     {
-      "id": "3me6qrmrb",
+      "id": "p5ptog4vv",
       "name": "Rectangle 2050",
       "type": "RECTANGLE",
       "layout": {
@@ -653,7 +653,7 @@
       "tailwind": "w-[75px] h-[48px] bg-[#63abfd]"
     },
     {
-      "id": "ites0sztn",
+      "id": "34vyq11yy",
       "name": "Ellipse 173",
       "type": "ELLIPSE",
       "layout": {
@@ -673,7 +673,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "2txcldjiq",
+      "id": "g5anw0rfl",
       "name": "Vector 62",
       "type": "VECTOR",
       "layout": {
@@ -698,7 +698,7 @@
       "tailwind": "w-[772px] h-[51px] border-2 border-solid border-color-[#e697ff]"
     },
     {
-      "id": "7rtizgh68",
+      "id": "8o8r6aid9",
       "name": "20",
       "type": "TEXT",
       "layout": {
@@ -726,7 +726,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "n46n19ogj",
+      "id": "b9ibhssgs",
       "name": "Rectangle 2048",
       "type": "RECTANGLE",
       "layout": {
@@ -746,7 +746,7 @@
       "tailwind": "w-[74px] h-[39px] bg-[#63abfd]"
     },
     {
-      "id": "v2siaqadz",
+      "id": "0qsc894oy",
       "name": "Ellipse 170",
       "type": "ELLIPSE",
       "layout": {
@@ -766,7 +766,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "bc2ssb52r",
+      "id": "qud4hhnhj",
       "name": "Ellipse 172",
       "type": "ELLIPSE",
       "layout": {
@@ -786,7 +786,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "r00rg44fk",
+      "id": "54f6hfq8u",
       "name": "Ellipse 174",
       "type": "ELLIPSE",
       "layout": {
@@ -806,7 +806,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "9y2xe8r43",
+      "id": "j63rgnbzd",
       "name": "0",
       "type": "TEXT",
       "layout": {
@@ -834,7 +834,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "fat8evxto",
+      "id": "5vv02dssa",
       "name": "Ellipse 169",
       "type": "ELLIPSE",
       "layout": {
@@ -854,7 +854,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "pwa0m8eyi",
+      "id": "nxtbhb6n9",
       "name": "Rectangle 2045",
       "type": "RECTANGLE",
       "layout": {
@@ -874,7 +874,7 @@
       "tailwind": "w-[75px] h-[48px] bg-[#63abfd]"
     },
     {
-      "id": "47tujshs5",
+      "id": "ukbgeuggg",
       "name": "Rectangle 2047",
       "type": "RECTANGLE",
       "layout": {
@@ -894,7 +894,7 @@
       "tailwind": "w-[74px] h-[20px] bg-[#63abfd]"
     },
     {
-      "id": "zhoraii2q",
+      "id": "5euf0ohov",
       "name": "Ellipse 171",
       "type": "ELLIPSE",
       "layout": {
@@ -914,7 +914,7 @@
       "tailwind": "w-[3px] h-[3px] bg-[#a155b9]"
     },
     {
-      "id": "mjqhcw14b",
+      "id": "h1b1vu5u6",
       "name": "-20",
       "type": "TEXT",
       "layout": {
@@ -942,7 +942,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "0qcp3h0sd",
+      "id": "e5obv61pj",
       "name": "-60",
       "type": "TEXT",
       "layout": {
@@ -970,7 +970,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "qxu4cpeq1",
+      "id": "wf6ujakpp",
       "name": "-100",
       "type": "TEXT",
       "layout": {
@@ -998,7 +998,7 @@
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "0jags3kuw",
+      "id": "m7g4rn9v5",
       "name": "Jan",
       "type": "TEXT",
       "layout": {
@@ -1026,7 +1026,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "rckpz8pdx",
+      "id": "yw3emgxz1",
       "name": "Feb",
       "type": "TEXT",
       "layout": {
@@ -1054,7 +1054,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "2z64mbd8p",
+      "id": "ilcyzz8wl",
       "name": "Mar",
       "type": "TEXT",
       "layout": {
@@ -1082,7 +1082,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "4q8l19r19",
+      "id": "rrbthoqey",
       "name": "Apr",
       "type": "TEXT",
       "layout": {
@@ -1110,7 +1110,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "81j88bct2",
+      "id": "93o4d6fj9",
       "name": "Mai",
       "type": "TEXT",
       "layout": {
@@ -1138,7 +1138,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "wjy6o6u87",
+      "id": "d0m0jw40u",
       "name": "Jun",
       "type": "TEXT",
       "layout": {
@@ -1166,7 +1166,7 @@
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "up8gpqi6n",
+      "id": "zz0e8xnav",
       "name": "Group 2277",
       "type": "GROUP",
       "layout": {
@@ -1181,7 +1181,7 @@
       "tailwind": "w-[91px] h-[17px]",
       "children": [
         {
-          "id": "8j4w64kx8",
+          "id": "tw4cirrk5",
           "name": "Product 1",
           "type": "TEXT",
           "layout": {
@@ -1209,7 +1209,7 @@
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "p1xafo2gx",
+          "id": "ayff86s9n",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "id": "mzvkyt55d",
+      "id": "33i93s73x",
       "name": "Group 2278",
       "type": "GROUP",
       "layout": {
@@ -1246,7 +1246,7 @@
       "tailwind": "w-[91px] h-[17px]",
       "children": [
         {
-          "id": "tbaiautna",
+          "id": "snyp5vyie",
           "name": "Product 2",
           "type": "TEXT",
           "layout": {
@@ -1274,7 +1274,7 @@
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "87flp8eh6",
+          "id": "n0cmq0ih3",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {

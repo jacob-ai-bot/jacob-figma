@@ -1,5 +1,5 @@
 {
-  "id": "904ug1nip",
+  "id": "n0dz83swz",
   "name": "Login - Email",
   "type": "FRAME",
   "layout": {
@@ -26,7 +26,7 @@
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "9vdd0f6oo",
+      "id": "pjynglko2",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -53,7 +53,7 @@
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "jwh5713z8",
+          "id": "13mw18m1n",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -82,7 +82,7 @@
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "nef9auhuw",
+          "id": "nioq1j5zr",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -97,7 +97,7 @@
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "qhqzsyd7o",
+              "id": "q0zfly0l8",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -112,7 +112,7 @@
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "5l84dvhym",
+                  "id": "x6ajx9s0e",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -137,7 +137,7 @@
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "a4sm55xk6",
+                  "id": "aeumh1q5f",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -161,7 +161,7 @@
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "vj9v5pw7e",
+                  "id": "33l9ywo23",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "id": "zqd08n2e3",
+          "id": "rmhr3l4m8",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -204,7 +204,7 @@
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "fqv80tji6",
+              "id": "76plv87ze",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -224,7 +224,7 @@
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "98cd5pkl4",
+                  "id": "s0wzlkoi2",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -248,7 +248,7 @@
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "bsrpzvpab",
+                  "id": "ctm5oywbh",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -272,7 +272,7 @@
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "hoo9j4ypi",
+                  "id": "wrsktvkox",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "id": "9bczwwtl7",
+          "id": "evczium20",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -315,7 +315,7 @@
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "09h0eo5nn",
+              "id": "g655cvezw",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -335,7 +335,7 @@
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "in6wjbd3q",
+                  "id": "gh7i8bocd",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -359,7 +359,7 @@
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "vh24rjnfl",
+                  "id": "o5mmbbd5a",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -383,7 +383,7 @@
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "gkyka1re9",
+                  "id": "9rh6l5ju0",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -407,7 +407,7 @@
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "3lsu05gua",
+                  "id": "5yb33jstn",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "id": "3d295kvjx",
+      "id": "z1vacemeu",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -464,7 +464,7 @@
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "lpq1t5h0l",
+          "id": "qtj953ag4",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -489,7 +489,7 @@
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "dzzeu6pa7",
+              "id": "4bipcb0jx",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -516,7 +516,7 @@
           ]
         },
         {
-          "id": "7xx4qp6r9",
+          "id": "p3vlttxkr",
           "name": "Title",
           "type": "TEXT",
           "layout": {
@@ -547,7 +547,7 @@
       ]
     },
     {
-      "id": "rdyu730zl",
+      "id": "n2p0axgas",
       "name": "Controls / Text Field: Floating Label",
       "type": "FRAME",
       "layout": {
@@ -577,7 +577,7 @@
       "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
       "children": [
         {
-          "id": "fr9y6as7h",
+          "id": "d50tdbxqg",
           "name": "_Partials / Text Field: Floating Label",
           "type": "FRAME",
           "layout": {
@@ -602,7 +602,7 @@
           "tailwind": "w-[187px] h-[32px]",
           "children": [
             {
-              "id": "i1rsfgry2",
+              "id": "muy0ldjey",
               "name": "Email",
               "type": "TEXT",
               "layout": {
@@ -631,7 +631,7 @@
               "tailwind": "text-[12] leading-12 color-[#72777a]"
             },
             {
-              "id": "oc8u3t09y",
+              "id": "j556fndbz",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -664,7 +664,7 @@
       ]
     },
     {
-      "id": "3dehwj4r6",
+      "id": "gg1e9umj7",
       "name": "Controls / Text Field: Floating Label",
       "type": "FRAME",
       "layout": {
@@ -694,7 +694,7 @@
       "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
       "children": [
         {
-          "id": "5oe9hiaxr",
+          "id": "7aid2vxua",
           "name": "_Partials / Text Field: Floating Label",
           "type": "FRAME",
           "layout": {
@@ -719,7 +719,7 @@
           "tailwind": "w-[295px] h-[16px]",
           "children": [
             {
-              "id": "3xjjbpn4w",
+              "id": "31veo1z2i",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -752,7 +752,7 @@
       ]
     },
     {
-      "id": "63972zn6b",
+      "id": "azav69wof",
       "name": "Forgot password?",
       "type": "TEXT",
       "layout": {
@@ -781,7 +781,7 @@
       "tailwind": "font-size-[16px] font-medium leading-16 color-[#6b4eff]"
     },
     {
-      "id": "rkses50mn",
+      "id": "ltdqd1hqj",
       "name": "By continuing, you agree to our Terms of Service and Privacy Policy.",
       "type": "TEXT",
       "layout": {
@@ -807,7 +807,7 @@
       "tailwind": "text-[12] leading-16"
     },
     {
-      "id": "atbxbwuv2",
+      "id": "o2ohwon3f",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -834,7 +834,7 @@
       "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
       "children": [
         {
-          "id": "encwxmgfg",
+          "id": "anf23t8ht",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "id": "lh4e64xjq",
+      "id": "cy1pmqw7a",
       "name": "Native / Keyboard",
       "type": "FRAME",
       "layout": {
@@ -890,7 +890,7 @@
       "tailwind": "w-[375px] h-[291px]",
       "children": [
         {
-          "id": "uhnj3kzh3",
+          "id": "e23v0mj76",
           "name": "Background",
           "type": "FRAME",
           "layout": {
@@ -915,7 +915,7 @@
           "tailwind": "w-[375px] h-[291px]",
           "children": [
             {
-              "id": "mulgsej9q",
+              "id": "tw22vz34i",
               "name": "Background",
               "type": "RECTANGLE",
               "layout": {
@@ -938,7 +938,7 @@
           ]
         },
         {
-          "id": "ombp8g97r",
+          "id": "ksabfstgx",
           "name": "Keys",
           "type": "GROUP",
           "layout": {
@@ -953,7 +953,7 @@
           "tailwind": "w-[369px] h-[259px]",
           "children": [
             {
-              "id": "cmsomg7rs",
+              "id": "hpvatmlaj",
               "name": "Q",
               "type": "FRAME",
               "layout": {
@@ -978,7 +978,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "s83d3z9wi",
+                  "id": "uwu9qc9fn",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -998,7 +998,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "acw2u1ykt",
+                  "id": "t1gyvkiyx",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1028,7 +1028,7 @@
               ]
             },
             {
-              "id": "emwor2gkf",
+              "id": "grft07vyh",
               "name": "W",
               "type": "FRAME",
               "layout": {
@@ -1053,7 +1053,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "nttavf3z8",
+                  "id": "oyno8aczz",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1073,7 +1073,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "uv6a97jq2",
+                  "id": "x5958y21i",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1103,7 +1103,7 @@
               ]
             },
             {
-              "id": "7kp4irj9l",
+              "id": "9h1o28fxi",
               "name": "E",
               "type": "FRAME",
               "layout": {
@@ -1128,7 +1128,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "iyhk2f32k",
+                  "id": "63kea3dyi",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1148,7 +1148,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "5vnxptzvc",
+                  "id": "wubx5c2pr",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1178,7 +1178,7 @@
               ]
             },
             {
-              "id": "cvgq0101r",
+              "id": "m8v40cj1l",
               "name": "R",
               "type": "FRAME",
               "layout": {
@@ -1203,7 +1203,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "apiv8jkcr",
+                  "id": "85hletrr2",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1223,7 +1223,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ybc33pqdj",
+                  "id": "rfwcinkvg",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1253,7 +1253,7 @@
               ]
             },
             {
-              "id": "7pf08nqpx",
+              "id": "16yjwlu97",
               "name": "T",
               "type": "FRAME",
               "layout": {
@@ -1278,7 +1278,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "hrtkliwky",
+                  "id": "wefnf6nyc",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1298,7 +1298,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "kcuksne6f",
+                  "id": "nvs3f69xy",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1328,7 +1328,7 @@
               ]
             },
             {
-              "id": "0lckrixxd",
+              "id": "dill94ktz",
               "name": "Y",
               "type": "FRAME",
               "layout": {
@@ -1353,7 +1353,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "2vcczgsfg",
+                  "id": "e9jlwpbmn",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1373,7 +1373,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "jkka021w7",
+                  "id": "vi7mw0gz5",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1403,7 +1403,7 @@
               ]
             },
             {
-              "id": "92r4qtbf3",
+              "id": "2xlsdjbq1",
               "name": "U",
               "type": "FRAME",
               "layout": {
@@ -1428,7 +1428,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "hpluclfr6",
+                  "id": "qm4hvh3tn",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1448,7 +1448,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "or63k3ci1",
+                  "id": "8w0iownv3",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1478,7 +1478,7 @@
               ]
             },
             {
-              "id": "jqu081ue5",
+              "id": "rcvhsh31a",
               "name": "I",
               "type": "FRAME",
               "layout": {
@@ -1503,7 +1503,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "be9eehcm6",
+                  "id": "gmr52wo8i",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1523,7 +1523,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "j8eideabl",
+                  "id": "fgzt593mg",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1553,7 +1553,7 @@
               ]
             },
             {
-              "id": "65l1cmt3i",
+              "id": "swcpt8xp4",
               "name": "O",
               "type": "FRAME",
               "layout": {
@@ -1578,7 +1578,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "86zkiwqwc",
+                  "id": "zrgxbv6l3",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1598,7 +1598,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "bk10ru9rv",
+                  "id": "wksmh279a",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1628,7 +1628,7 @@
               ]
             },
             {
-              "id": "rt9hn7vpv",
+              "id": "qq1avx98o",
               "name": "P",
               "type": "FRAME",
               "layout": {
@@ -1653,7 +1653,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "u54wdqbld",
+                  "id": "hlql4azxs",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1673,7 +1673,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "qdfqjtj1o",
+                  "id": "t1k34rmfu",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1703,7 +1703,7 @@
               ]
             },
             {
-              "id": "jvvhbrnin",
+              "id": "g92kd6ow5",
               "name": "A",
               "type": "FRAME",
               "layout": {
@@ -1728,7 +1728,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "j27nx22aq",
+                  "id": "wqm803k1s",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1748,7 +1748,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "3r535huwx",
+                  "id": "3a71a1ob2",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1778,7 +1778,7 @@
               ]
             },
             {
-              "id": "0d1ttk3cp",
+              "id": "fmjeuraip",
               "name": "S",
               "type": "FRAME",
               "layout": {
@@ -1803,7 +1803,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "cktz0lfro",
+                  "id": "rsb60q52n",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1823,7 +1823,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "9mjls18fc",
+                  "id": "grsurm64c",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1853,7 +1853,7 @@
               ]
             },
             {
-              "id": "lg7ds8xun",
+              "id": "adojalgup",
               "name": "D",
               "type": "FRAME",
               "layout": {
@@ -1878,7 +1878,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "lzoo02byw",
+                  "id": "62ynmo8yf",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1898,7 +1898,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "5dgrtl4l7",
+                  "id": "lvsd4jz0l",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1928,7 +1928,7 @@
               ]
             },
             {
-              "id": "4pm1ttg5u",
+              "id": "fcbsgogyd",
               "name": "F",
               "type": "FRAME",
               "layout": {
@@ -1953,7 +1953,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "egh35swm2",
+                  "id": "mx26adrva",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1973,7 +1973,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ukidyyz4n",
+                  "id": "ppqqh8ufb",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2003,7 +2003,7 @@
               ]
             },
             {
-              "id": "0b09k4xpo",
+              "id": "r942xucad",
               "name": "G",
               "type": "FRAME",
               "layout": {
@@ -2028,7 +2028,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "6rdhdvnad",
+                  "id": "fygg3hxn7",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2048,7 +2048,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "kbjluhc3h",
+                  "id": "kee13rlad",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2078,7 +2078,7 @@
               ]
             },
             {
-              "id": "8l3aoc89d",
+              "id": "c4dcraoen",
               "name": "H",
               "type": "FRAME",
               "layout": {
@@ -2103,7 +2103,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "o11oxzl8b",
+                  "id": "qm7ucb954",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2123,7 +2123,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "0cp34jeun",
+                  "id": "ass37znrm",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2153,7 +2153,7 @@
               ]
             },
             {
-              "id": "o33qqltfc",
+              "id": "4n4pp62c8",
               "name": "J",
               "type": "FRAME",
               "layout": {
@@ -2178,7 +2178,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "lu5d01pbs",
+                  "id": "az2559fr2",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2198,7 +2198,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "xw539ky9j",
+                  "id": "ltdc6t47b",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2228,7 +2228,7 @@
               ]
             },
             {
-              "id": "2lbeztay1",
+              "id": "vezrftpdt",
               "name": "K",
               "type": "FRAME",
               "layout": {
@@ -2253,7 +2253,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "mh61c9lfs",
+                  "id": "te4pf68dx",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2273,7 +2273,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "dywcacl6c",
+                  "id": "231uwlq2x",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2303,7 +2303,7 @@
               ]
             },
             {
-              "id": "gf696gsww",
+              "id": "mukrzl9hf",
               "name": "L",
               "type": "FRAME",
               "layout": {
@@ -2328,7 +2328,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "n8yl6bn52",
+                  "id": "eg95twhe8",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2348,7 +2348,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "9ojvszvnv",
+                  "id": "l1uefc7iw",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2378,7 +2378,7 @@
               ]
             },
             {
-              "id": "oq99smm6h",
+              "id": "hnap5on7d",
               "name": "Shift",
               "type": "GROUP",
               "layout": {
@@ -2393,7 +2393,7 @@
               "tailwind": "w-[42px] h-[42px]",
               "children": [
                 {
-                  "id": "7vvnoemgw",
+                  "id": "lhf74laq0",
                   "name": "Key Light",
                   "type": "FRAME",
                   "layout": {
@@ -2418,7 +2418,7 @@
                   "tailwind": "w-[42px] h-[42px]",
                   "children": [
                     {
-                      "id": "ljrbcyy8z",
+                      "id": "b122q37kw",
                       "name": "Rectangle",
                       "type": "RECTANGLE",
                       "layout": {
@@ -2438,7 +2438,7 @@
                       "tailwind": "w-[42px] h-[42px] bg-white border-radius-[4.6px]"
                     },
                     {
-                      "id": "ok2t3dxav",
+                      "id": "ti6g0tx1q",
                       "name": "Symbol",
                       "type": "TEXT",
                       "layout": {
@@ -2468,7 +2468,7 @@
                   ]
                 },
                 {
-                  "id": "g4v349u77",
+                  "id": "cflataext",
                   "name": "Shift",
                   "type": "VECTOR",
                   "layout": {
@@ -2494,7 +2494,7 @@
               ]
             },
             {
-              "id": "13b7q81xi",
+              "id": "5gyhudw8i",
               "name": "Z",
               "type": "FRAME",
               "layout": {
@@ -2519,7 +2519,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "a9pqorcxj",
+                  "id": "omujd0lf6",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2539,7 +2539,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "0qsat9qb7",
+                  "id": "156c385dv",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2569,7 +2569,7 @@
               ]
             },
             {
-              "id": "idl81qd7j",
+              "id": "uocscyni4",
               "name": "X",
               "type": "FRAME",
               "layout": {
@@ -2594,7 +2594,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "b8xj6rjtl",
+                  "id": "6ukenpdom",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2614,7 +2614,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "3ypjkdret",
+                  "id": "ooaxww67s",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2644,7 +2644,7 @@
               ]
             },
             {
-              "id": "6kpzkmzmu",
+              "id": "srgt6tphn",
               "name": "C",
               "type": "FRAME",
               "layout": {
@@ -2669,7 +2669,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "tv1n0ns26",
+                  "id": "hvksemeeu",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2689,7 +2689,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "qnohuijn7",
+                  "id": "trdfxjt6k",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2719,7 +2719,7 @@
               ]
             },
             {
-              "id": "t1foef2zg",
+              "id": "uva7hegnu",
               "name": "V",
               "type": "FRAME",
               "layout": {
@@ -2744,7 +2744,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "x8puok7j8",
+                  "id": "740tekbgi",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2764,7 +2764,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "0d6s3poqm",
+                  "id": "wsdu01rjm",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2794,7 +2794,7 @@
               ]
             },
             {
-              "id": "9p99n0wr9",
+              "id": "ha46la6sm",
               "name": "B",
               "type": "FRAME",
               "layout": {
@@ -2819,7 +2819,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "mzoeoz5bq",
+                  "id": "lwurm57g1",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2839,7 +2839,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "52frtssg2",
+                  "id": "6wwg6son2",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2869,7 +2869,7 @@
               ]
             },
             {
-              "id": "krgo04ygd",
+              "id": "317mcqg7o",
               "name": "N",
               "type": "FRAME",
               "layout": {
@@ -2894,7 +2894,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "hsjqrku04",
+                  "id": "56oiezaw1",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2914,7 +2914,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "n15q9m7hb",
+                  "id": "hy822cm1z",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2944,7 +2944,7 @@
               ]
             },
             {
-              "id": "tkagpqky3",
+              "id": "fqzskkozb",
               "name": "M",
               "type": "FRAME",
               "layout": {
@@ -2969,7 +2969,7 @@
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "4kj2zysdq",
+                  "id": "0ecx139jy",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2989,7 +2989,7 @@
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "nkwoqn28t",
+                  "id": "ifp2bvbqy",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -3019,7 +3019,7 @@
               ]
             },
             {
-              "id": "nszfp4mgv",
+              "id": "4lacq4npb",
               "name": "Delete",
               "type": "GROUP",
               "layout": {
@@ -3034,7 +3034,7 @@
               "tailwind": "w-[42px] h-[42px]",
               "children": [
                 {
-                  "id": "9kfnv9ypx",
+                  "id": "4hbxj2djo",
                   "name": "Key Light",
                   "type": "FRAME",
                   "layout": {
@@ -3059,7 +3059,7 @@
                   "tailwind": "w-[42px] h-[42px]",
                   "children": [
                     {
-                      "id": "2satt7hfn",
+                      "id": "wkpmcslxg",
                       "name": "Rectangle",
                       "type": "VECTOR",
                       "layout": {
@@ -3083,7 +3083,7 @@
                       "tailwind": "w-[42px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
                     },
                     {
-                      "id": "4sup5lztm",
+                      "id": "j60fwc24c",
                       "name": "Label",
                       "type": "TEXT",
                       "layout": {
@@ -3114,7 +3114,7 @@
                   ]
                 },
                 {
-                  "id": "pknoushgi",
+                  "id": "fxv398qc0",
                   "name": "Delete Button",
                   "type": "BOOLEAN_OPERATION",
                   "layout": {
@@ -3134,7 +3134,7 @@
                   "tailwind": "w-[22px] h-[16px] bg-[#090a0a]",
                   "children": [
                     {
-                      "id": "mv2zkcwz3",
+                      "id": "q6iecina7",
                       "name": "Exclude",
                       "type": "BOOLEAN_OPERATION",
                       "layout": {
@@ -3154,7 +3154,7 @@
                       "tailwind": "w-[22px] h-[16px] bg-[#dadada]",
                       "children": [
                         {
-                          "id": "uukfi9qac",
+                          "id": "a2dzf8wx2",
                           "name": "Border",
                           "type": "VECTOR",
                           "layout": {
@@ -3178,7 +3178,7 @@
                           "tailwind": "w-[22px] h-[16px] bg-black"
                         },
                         {
-                          "id": "a5ac6tsia",
+                          "id": "wzlqkls5v",
                           "name": "Cross-path",
                           "type": "VECTOR",
                           "layout": {
@@ -3204,7 +3204,7 @@
                       ]
                     },
                     {
-                      "id": "1frxqp1hm",
+                      "id": "44znytszd",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3228,7 +3228,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "lmrvl0oue",
+                      "id": "rgsp86enw",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3252,7 +3252,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "y6ihjv9rb",
+                      "id": "graymyjbq",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3276,7 +3276,7 @@
                       "tailwind": "w-[6px] h-[6px] bg-[#090a0a]"
                     },
                     {
-                      "id": "igorz53tr",
+                      "id": "7ohmnl17m",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3300,7 +3300,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "relt4a0yz",
+                      "id": "r5uy08bvh",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3328,7 +3328,7 @@
               ]
             },
             {
-              "id": "6krresb1p",
+              "id": "r6lwgkrit",
               "name": "123",
               "type": "FRAME",
               "layout": {
@@ -3353,7 +3353,7 @@
               "tailwind": "w-[87px] h-[42px]",
               "children": [
                 {
-                  "id": "mmhigt0rd",
+                  "id": "23s90xghf",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3377,7 +3377,7 @@
                   "tailwind": "w-[87px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
                 },
                 {
-                  "id": "2bqaijeqc",
+                  "id": "pu26znd7r",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3408,7 +3408,7 @@
               ]
             },
             {
-              "id": "4umwugusf",
+              "id": "j8uf276as",
               "name": "Space",
               "type": "FRAME",
               "layout": {
@@ -3433,7 +3433,7 @@
               "tailwind": "w-[182px] h-[42px]",
               "children": [
                 {
-                  "id": "px3o21lr6",
+                  "id": "6ww9fgpig",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3457,7 +3457,7 @@
                   "tailwind": "w-[182px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "0re5kdb9y",
+                  "id": "xy80m472y",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3488,7 +3488,7 @@
               ]
             },
             {
-              "id": "26pc7a9ig",
+              "id": "7s6mzfden",
               "name": "Return",
               "type": "FRAME",
               "layout": {
@@ -3513,7 +3513,7 @@
               "tailwind": "w-[88px] h-[42px]",
               "children": [
                 {
-                  "id": "smiu77r3i",
+                  "id": "p973rh1id",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3537,7 +3537,7 @@
                   "tailwind": "w-[88px] h-[42px] bg-[#0065d0] border-radius-[4.6px]"
                 },
                 {
-                  "id": "1cw815huv",
+                  "id": "pvcl0q1vv",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3568,7 +3568,7 @@
               ]
             },
             {
-              "id": "mm6ph3llr",
+              "id": "rd97rcgou",
               "name": "Emoji",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -3588,7 +3588,7 @@
               "tailwind": "w-[27px] h-[27px] bg-[#303437]",
               "children": [
                 {
-                  "id": "5mrw01vkb",
+                  "id": "lf1fe9mow",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3612,7 +3612,7 @@
                   "tailwind": "w-[27px] h-[27px] bg-[#303437]"
                 },
                 {
-                  "id": "lknywv3nc",
+                  "id": "58fjbwbta",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3636,7 +3636,7 @@
                   "tailwind": "w-[23px] h-[23px] bg-[#303437]"
                 },
                 {
-                  "id": "5b32pfc26",
+                  "id": "cf4d0gsav",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3660,7 +3660,7 @@
                   "tailwind": "w-[3px] h-[3px] bg-[#303437]"
                 },
                 {
-                  "id": "idvg1lso9",
+                  "id": "c1frwe3bd",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3684,7 +3684,7 @@
                   "tailwind": "w-[3px] h-[3px] bg-[#303437]"
                 },
                 {
-                  "id": "39hz33w6b",
+                  "id": "pqj2w5t7u",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3708,7 +3708,7 @@
                   "tailwind": "w-[18px] h-[8px] bg-[#303437]"
                 },
                 {
-                  "id": "9urr9pxwk",
+                  "id": "9trpuk7zw",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3734,7 +3734,7 @@
               ]
             },
             {
-              "id": "7lbgzw8uv",
+              "id": "r8hxutxj8",
               "name": "Dictation",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -3754,7 +3754,7 @@
               "tailwind": "w-[15px] h-[25px] bg-[#303437]",
               "children": [
                 {
-                  "id": "2cqtfsj7t",
+                  "id": "s97oy9a0q",
                   "name": "Dictation-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3782,7 +3782,7 @@
                   "tailwind": "w-[9px] h-[18px] bg-[#50555c] border border-solid border-black"
                 },
                 {
-                  "id": "grk49y8sw",
+                  "id": "vjamwmp66",
                   "name": "Dictation-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3810,7 +3810,7 @@
                   "tailwind": "w-[5px] h-[14px] bg-[#50555c] border border-solid border-black"
                 },
                 {
-                  "id": "kdavhvem5",
+                  "id": "t6yfc3ixg",
                   "name": "Union",
                   "type": "BOOLEAN_OPERATION",
                   "layout": {
@@ -3833,7 +3833,7 @@
                   "tailwind": "w-[15px] h-[14px] bg-[#dadada] border border-solid border-black",
                   "children": [
                     {
-                      "id": "llwx0qcs9",
+                      "id": "4n1brd04n",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3857,7 +3857,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "mtmujdf6v",
+                      "id": "w3p5vw9mb",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3881,7 +3881,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "ksdqruuoy",
+                      "id": "2rq0sgu05",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3905,7 +3905,7 @@
                       "tailwind": "w-[15px] h-[13px] bg-[#50555c]"
                     },
                     {
-                      "id": "jg25mwkz7",
+                      "id": "qsks1mtb2",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3929,7 +3929,7 @@
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "a5vd2v2ex",
+                      "id": "7zj8rv4kj",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3959,7 +3959,7 @@
           ]
         },
         {
-          "id": "10my92wbs",
+          "id": "u4strcz8i",
           "name": "Home Indicator",
           "type": "FRAME",
           "layout": {
@@ -3984,7 +3984,7 @@
           "tailwind": "w-[375px] h-[34px]",
           "children": [
             {
-              "id": "zw8nkoyxj",
+              "id": "h4s69j6ki",
               "name": "Home Indicator",
               "type": "RECTANGLE",
               "layout": {

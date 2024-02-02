@@ -1,20 +1,64 @@
 import { convertToBase64 } from "../src/utils/imageSnapshot";
+import { createIssuesForFigmaFile, uploadSnapshot } from "../src/api";
 import fs from "fs";
 import path from "path";
 import { vi } from "vitest";
-import { uploadSnapshot } from "../src/api";
+
+const mockedRepo = vi.hoisted(() => ({
+  getRepos: vi.fn().mockImplementation(
+    () =>
+      new Promise((resolve) =>
+        resolve([
+          {
+            name: "mock-repo",
+            owner: "mock-owner",
+            full_name: "mock-owner/mock-repo",
+          },
+        ]),
+      ),
+  ),
+}));
+vi.mock("../src/github", () => mockedRepo);
+
+const mockedApi = vi.hoisted(() => ({
+  uploadSnapshot: vi.fn().mockImplementation(
+    () =>
+      new Promise((resolve) =>
+        resolve({
+          data: {
+            success: true,
+            url: "https://www.example.com/image.png",
+          },
+        }),
+      ),
+  ),
+  createIssuesForFigmaFile: vi.fn().mockImplementation(
+    () =>
+      new Promise((resolve) =>
+        resolve({
+          data: {
+            success: true,
+          },
+        }),
+      ),
+  ),
+}));
+vi.mock("../src/api", () => mockedApi);
 
 const figmaMock = {
   ui: {
     postMessage: vi.fn(),
   },
   clientStorage: {
-    getAsync: vi.fn().mockResolvedValue("mock-access-token"), // Mock implementation
+    getAsync: vi.fn().mockResolvedValue("mock-access-token"),
   },
 };
 
 // @ts-expect-error - We're adding a mock to the global scope
 global.figma = figmaMock; // Assign the mock to the global scope
+global.fetch = vi.fn().mockResolvedValue({
+  json: () => Promise.resolve({ data: { success: true } }),
+});
 
 vi.mock("@create-figma-plugin/utilities", () => ({
   emit: vi.fn(),
@@ -65,8 +109,33 @@ describe("snapshotSelectedNode", () => {
 
     // it should return a signed url
     expect(data?.success).toBe(true);
-    expect(data?.url).toBeDefined();
-    // the url should be in the format of an s3 signed url
-    expect(data?.url?.startsWith("https://")).toBe(true);
+    expect(data?.url).toBe("https://www.example.com/image.png");
+  });
+});
+
+describe("createIssuesForFigmaFile", () => {
+  it("should correctly create issues for a Figma file", async () => {
+    const relativeNodes = {};
+
+    const fileName = "test";
+    const additionalInstructions = "test";
+    const isNewFile = false;
+    const snapshotUrl = "https://www.example.com/image.png";
+    const repo = await mockedRepo.getRepos("mock-access-token")[0];
+
+    const { data, errors } = await createIssuesForFigmaFile(
+      relativeNodes,
+      repo,
+      fileName,
+      additionalInstructions,
+      isNewFile,
+      snapshotUrl,
+    );
+
+    expect(data).toBeDefined();
+    expect(errors).toBeUndefined();
+
+    // Verify that the function correctly handled the response
+    expect(data?.success).toBe(true);
   });
 });

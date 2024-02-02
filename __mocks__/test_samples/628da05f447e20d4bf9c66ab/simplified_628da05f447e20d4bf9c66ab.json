@@ -1,5 +1,5 @@
 {
-  "id": "89tq6mnib",
+  "id": "wsqsh3lwy",
   "name": "Checkbox group",
   "type": "FRAME",
   "layout": {
@@ -24,7 +24,7 @@
   "tailwind": "w-[768px] h-[408px]",
   "children": [
     {
-      "id": "jkwtjye0r",
+      "id": "bxfemb4hs",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -54,7 +54,7 @@
       "tailwind": "w-[768px] h-[72px] bg-[#f9f5ff] border border-solid border-color-[#d6bbfb] rounded-8",
       "children": [
         {
-          "id": "qj0x756ww",
+          "id": "nds6ogths",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -79,7 +79,7 @@
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "bvb6afmkc",
+              "id": "kaw9g5r5n",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -104,7 +104,7 @@
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "mmezif6yu",
+                  "id": "quslp4iw8",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -129,7 +129,7 @@
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "2p1gfec99",
+                      "id": "3ge7h1pyr",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -159,7 +159,7 @@
                       "tailwind": "w-[16px] h-[16px] bg-[#f9f5ff] border border-solid border-color-[#7f56d9] rounded-8",
                       "children": [
                         {
-                          "id": "6ddz0z7ep",
+                          "id": "dbsm4gqta",
                           "name": "Check",
                           "type": "ELLIPSE",
                           "layout": {
@@ -185,7 +185,7 @@
               ]
             },
             {
-              "id": "ck4fk83ak",
+              "id": "rjhme4xmd",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -210,7 +210,7 @@
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "vd92lczhw",
+                  "id": "oa32wx9j1",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -234,7 +234,7 @@
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "jgudgaoct",
+                  "id": "epbiq7x27",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "id": "xahht0otl",
+      "id": "jp7xqsdk0",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -299,7 +299,7 @@
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "0xiqvg0hx",
+          "id": "7da44r2mg",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -324,7 +324,7 @@
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "tx31urg4h",
+              "id": "bbmuu082z",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -349,7 +349,7 @@
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "bf2t6qkvj",
+                  "id": "sowejul0g",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -374,7 +374,7 @@
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "0m5qw4t8o",
+                      "id": "2jwig5pin",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -409,7 +409,7 @@
               ]
             },
             {
-              "id": "o3rn1f325",
+              "id": "ql4bbrgwk",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -434,7 +434,7 @@
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "tuugmnv52",
+                  "id": "1b9zu4yi8",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -458,7 +458,7 @@
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "cuvnmrffj",
+                  "id": "0hxvyvs5h",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "6b79mvk67",
+      "id": "vqf5ajgt7",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -523,7 +523,7 @@
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "u29ypz27e",
+          "id": "318s2tmqf",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -548,7 +548,7 @@
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "htjs2rq1o",
+              "id": "f9hwc22gk",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -573,7 +573,7 @@
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "5edd10dme",
+                  "id": "2sr15jld2",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -598,7 +598,7 @@
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "mawnzjpw5",
+                      "id": "g5y2ghqrf",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -633,7 +633,7 @@
               ]
             },
             {
-              "id": "v257i2o2c",
+              "id": "udqnan8p1",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -658,7 +658,7 @@
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "e9npj9caq",
+                  "id": "ugvgfw029",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -682,7 +682,7 @@
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "fxh4n1vlt",
+                  "id": "3b9scgvaq",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -717,7 +717,7 @@
       ]
     },
     {
-      "id": "y2s2lk32n",
+      "id": "oqgtwati0",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -747,7 +747,7 @@
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "i4gxc53jh",
+          "id": "wl9ovittu",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -772,7 +772,7 @@
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "sw2a1fo1r",
+              "id": "ygy72uvv8",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -797,7 +797,7 @@
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "rphtz2axn",
+                  "id": "df54vtkqg",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -822,7 +822,7 @@
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "39gu4ow12",
+                      "id": "bk2jz5xbn",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -857,7 +857,7 @@
               ]
             },
             {
-              "id": "pbfdqlpbo",
+              "id": "sjtsrcu9b",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -882,7 +882,7 @@
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "14z2mkiy2",
+                  "id": "f9hizq8vf",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -906,7 +906,7 @@
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "a03e5mjki",
+                  "id": "uo3w7cw6b",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -941,7 +941,7 @@
       ]
     },
     {
-      "id": "xamadt9w2",
+      "id": "ojhe1499j",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -971,7 +971,7 @@
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "40qc3nm2t",
+          "id": "4j07jb4wh",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -996,7 +996,7 @@
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "1weqe6pa5",
+              "id": "pgtfdujdp",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -1021,7 +1021,7 @@
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "jbl7hbylp",
+                  "id": "5896wyq6r",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -1046,7 +1046,7 @@
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "ef5o1l3m0",
+                      "id": "8gp8xarz0",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -1081,7 +1081,7 @@
               ]
             },
             {
-              "id": "hwxcmbqqs",
+              "id": "a2hfq6vci",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -1106,7 +1106,7 @@
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "dgfmysj43",
+                  "id": "br7xv4yk1",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -1130,7 +1130,7 @@
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "td8h6fhxh",
+                  "id": "bhy0xh5xz",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {

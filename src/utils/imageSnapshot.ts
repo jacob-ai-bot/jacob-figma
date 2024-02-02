@@ -1,5 +1,34 @@
 import { emit } from "@create-figma-plugin/utilities";
 import { SnapshotErrorHandler, SnapshotImageHandler } from "../types";
+import { snapshotIdKey } from "../constants";
+
+export async function handleSelectionChange() {
+  const currentSnapshotId = figma.currentPage.selection[0]?.id;
+  const canUseSaved = await canUseSavedSnapshot(figma.currentPage.selection);
+
+  if (currentSnapshotId && !canUseSaved) {
+    snapshotSelectedNode(figma.currentPage.selection);
+
+    // Save the current snapshot ID along with the current timestamp
+    await figma.clientStorage.setAsync(snapshotIdKey, {
+      id: currentSnapshotId,
+      timestamp: Date.now(),
+    });
+  }
+}
+
+export async function canUseSavedSnapshot(selection: readonly SceneNode[]) {
+  const currentSnapshotId = selection[0]?.id;
+  const savedSnapshot = await figma.clientStorage.getAsync(snapshotIdKey);
+  const savedSnapshotId = savedSnapshot?.id;
+  const savedTimestamp = savedSnapshot?.timestamp;
+
+  // If the saved snapshot is older than 30 mins, we run the risk of the signed url expiring
+  const hasExpired =
+    savedTimestamp && Date.now() - savedTimestamp > 30 * 60 * 1000;
+
+  return currentSnapshotId === savedSnapshotId && !hasExpired;
+}
 
 export async function snapshotSelectedNode(selection: readonly SceneNode[]) {
   if (selection.length === 0) {

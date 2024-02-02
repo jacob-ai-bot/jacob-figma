@@ -1,5 +1,5 @@
 {
-  "id": "32lc4uwp0",
+  "id": "4u8g4wtf2",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -14,7 +14,7 @@
   "tailwind": "w-[1600px] h-[824px]",
   "children": [
     {
-      "id": "mhdoiohhr",
+      "id": "o0mmtbrt8",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -29,7 +29,7 @@
       "tailwind": "w-[1600px] h-[824px]",
       "children": [
         {
-          "id": "tqqx0g2wk",
+          "id": "93bbsumex",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -49,7 +49,7 @@
           "tailwind": "w-[1600px] h-[824px] bg-black"
         },
         {
-          "id": "o50bu3z00",
+          "id": "rckn7kk5i",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -69,7 +69,7 @@
           "tailwind": "w-[1600px] h-[824px] bg-black"
         },
         {
-          "id": "fkrugs18e",
+          "id": "8aa3fjenx",
           "name": "Rectangle",
           "type": "RECTANGLE",
           "layout": {
@@ -90,7 +90,7 @@
           "tailwind": "w-[1600px] h-[824px] mix-blend-mode-[overlay] background-[url()]"
         },
         {
-          "id": "2odb5eigm",
+          "id": "ur79hwjw9",
           "name": "Ellipse 33",
           "type": "VECTOR",
           "layout": {
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "89gpvos5m",
+      "id": "y022weja7",
       "name": "Card",
       "type": "GROUP",
       "layout": {
@@ -129,7 +129,7 @@
       "tailwind": "w-[425px] h-[533px]",
       "children": [
         {
-          "id": "3zegya1f9",
+          "id": "8pxdousoc",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -149,7 +149,7 @@
           "tailwind": "w-[425px] h-[533px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
         },
         {
-          "id": "qw1pntqwe",
+          "id": "cuspzsswg",
           "name": "1",
           "type": "GROUP",
           "layout": {
@@ -164,7 +164,7 @@
           "tailwind": "w-[248px] h-[105px]",
           "children": [
             {
-              "id": "f8sm1yttk",
+              "id": "9fl3rd00r",
               "name": "2M+",
               "type": "TEXT",
               "layout": {
@@ -193,7 +193,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "42q4fo3lg",
+              "id": "u9ofz5q8i",
               "name": "Tickets Delivered This Month",
               "type": "TEXT",
               "layout": {
@@ -224,7 +224,7 @@
           ]
         },
         {
-          "id": "ckje6siah",
+          "id": "4b4dpjddh",
           "name": "Line 3",
           "type": "LINE",
           "layout": {
@@ -241,7 +241,7 @@
           "tailwind": "w-[425px] h-[0px]"
         },
         {
-          "id": "p15jztdxp",
+          "id": "km6n2s8jt",
           "name": "2",
           "type": "GROUP",
           "layout": {
@@ -256,7 +256,7 @@
           "tailwind": "w-[195px] h-[105px]",
           "children": [
             {
-              "id": "s51eo28ct",
+              "id": "pse4nawx3",
               "name": "46K+",
               "type": "TEXT",
               "layout": {
@@ -285,7 +285,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "66x1b8ssi",
+              "id": "d4sksgbw4",
               "name": "Active Customers Rate",
               "type": "TEXT",
               "layout": {
@@ -316,7 +316,7 @@
           ]
         },
         {
-          "id": "g99fc464a",
+          "id": "5mqvkf3gt",
           "name": "Line 4",
           "type": "LINE",
           "layout": {
@@ -333,7 +333,7 @@
           "tailwind": "w-[425px] h-[0px]"
         },
         {
-          "id": "q412qp4wj",
+          "id": "c056trmt6",
           "name": "3",
           "type": "GROUP",
           "layout": {
@@ -348,7 +348,7 @@
           "tailwind": "w-[232px] h-[105px]",
           "children": [
             {
-              "id": "uojazsf98",
+              "id": "pmtpo2sha",
               "name": "99%",
               "type": "TEXT",
               "layout": {
@@ -377,7 +377,7 @@
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "vazkhxm3x",
+              "id": "5it8yobae",
               "name": "Customer Satisfaction Rate",
               "type": "TEXT",
               "layout": {
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": "uwkpt9hgu",
+      "id": "zbu5avr9w",
       "name": "Content",
       "type": "GROUP",
       "layout": {
@@ -425,7 +425,7 @@
       "tailwind": "w-[500px] h-[245px]",
       "children": [
         {
-          "id": "w5yfa4n5c",
+          "id": "dmfoeqmd2",
           "name": "Numbers are telling our story",
           "type": "TEXT",
           "layout": {
@@ -454,7 +454,7 @@
           "tailwind": "font-size-[60px] h-[66px] text-white"
         },
         {
-          "id": "jbin77wi1",
+          "id": "v6vxt6v6a",
           "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
           "type": "TEXT",
           "layout": {
