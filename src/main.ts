@@ -81,8 +81,16 @@ async function handleCreateOrEdit({
     }
 
     // -- Snapshot the selected node --
-    let snapshotUrl;
-    const isSavedSnapshotValid = await canUseSavedSnapshot(selection);
+    let snapshotUrl, isSavedSnapshotValid;
+    try {
+      isSavedSnapshotValid = await canUseSavedSnapshot(selection);
+    } catch (error) {
+      emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
+        success: false,
+        error: new Error("Error checking for saved snapshot"),
+      });
+      break;
+    }
     if (isSavedSnapshotValid) {
       // get the cached snapshot url
       snapshotUrl = (await figma.clientStorage.getAsync(snapshotUrlKey)) || "";
