@@ -1,6 +1,40 @@
 import { emit } from "@create-figma-plugin/utilities";
-import { SnapshotErrorHandler, SnapshotImageHandler } from "../types";
+import {
+  IMAGE_TYPE,
+  ImageData,
+  SnapshotErrorHandler,
+  SnapshotImageHandler,
+} from "../types";
 import { snapshotIdKey } from "../constants";
+import { SimplifiedNode } from "./nodes";
+
+export async function getImagesFromNodes(
+  node: Partial<SimplifiedNode>,
+  images: ImageData[] = [],
+): Promise<ImageData[]> {
+  if (!node) {
+    return images;
+  }
+  if (node.image && node.image.imageHash) {
+    const imageName = node.image.imageHash;
+    const image = figma.getImageByHash(node.image.imageHash);
+
+    // get the b64-encoded image string
+    const imageBytes = await image?.getBytesAsync();
+    const imageBase64 = convertToBase64(imageBytes as Uint8Array);
+
+    images.push({
+      imageBase64,
+      imageName,
+    } as ImageData);
+  }
+  if (node.children) {
+    for (const child of node.children) {
+      await getImagesFromNodes(child, images);
+    }
+  }
+  return images;
+}
 
 export async function handleSelectionChange() {
   const currentSnapshotId = figma.currentPage.selection[0]?.id;
@@ -56,12 +90,16 @@ export async function snapshotSelectedNode(selection: readonly SceneNode[]) {
   return imageBase64;
 }
 
-export function convertToBase64(imageData: Uint8Array): string {
+export function convertToBase64(
+  imageData: Uint8Array,
+  imageType: IMAGE_TYPE = IMAGE_TYPE.PNG,
+): string {
   const imageString = base64ArrayBufferToString(imageData);
-  const imageBase64 = `data:image/png;base64,${imageString}`;
+  const imageBase64 = `data:${imageType};base64,${imageString}`;
   return imageBase64;
 }
 
+// Figma doesn't have access to the btoa function, so we need to convert the array buffer to a base64 string manually
 function base64ArrayBufferToString(arrayBuffer: ArrayBuffer) {
   let base64 = "";
   const encodings =

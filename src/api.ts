@@ -5,11 +5,7 @@ import {
   SimplifiedNode,
 } from "./utils/nodes";
 import { GitHubRepo } from "./github";
-
-enum IMAGE_TYPE {
-  JPEG = "image/jpeg",
-  PNG = "image/png",
-}
+import { IMAGE_TYPE } from "./types";
 
 export function getSimplifiedNode(node?: BaseNode) {
   if (typeof node === "undefined") {
@@ -20,6 +16,7 @@ export function getSimplifiedNode(node?: BaseNode) {
   if (!simpleNode) {
     return undefined;
   }
+
   return updateCoordinatesRelativeToParent(simpleNode);
 }
 
@@ -34,13 +31,10 @@ export async function createIssuesForFigmaFile(
   fileName: string,
   additionalInstructions: string,
   isNewFile: boolean = false,
-  snapshotUrl: string | undefined = undefined,
+  snapshotUrl?: string | undefined,
+  imageUrls?: string[] | undefined,
 ) {
   const figmaMap = relativeNodes ? getDescriptionOfNode(relativeNodes) : "";
-
-  // Disabling this for now because we are going to change
-  // how images are handled:
-  // await createIssuesForImages(relativeNodes);
 
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
   // const url = `http://localhost:5173/api/design/${isNewFile ? "new" : "edit"}`;
@@ -58,6 +52,7 @@ export async function createIssuesForFigmaFile(
         fileName,
         additionalInstructions,
         snapshotUrl,
+        imageUrls,
       }),
     });
     return (await response.json()) as DesignResponse;
@@ -66,9 +61,11 @@ export async function createIssuesForFigmaFile(
   }
 }
 
-export async function uploadSnapshot(
+export async function uploadImage(
   image: string | undefined,
   imageType: IMAGE_TYPE = IMAGE_TYPE.PNG,
+  shouldResize: boolean = false,
+  imageName?: string,
 ): Promise<{ data: { success: boolean; url?: string }; errors?: string[] }> {
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
   //const url = `http://localhost:5173/api/image/upload`;
@@ -88,6 +85,8 @@ export async function uploadSnapshot(
       body: JSON.stringify({
         image,
         imageType,
+        imageName,
+        shouldResize,
       }),
     });
 

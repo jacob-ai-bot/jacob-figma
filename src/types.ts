@@ -73,3 +73,14 @@ export interface SelectionChangeHandler extends EventHandler {
   name: "SELECTION_CHANGE";
   handler: (selection: readonly SceneNode[]) => void;
 }
+
+export enum IMAGE_TYPE {
+  JPEG = "image/jpeg",
+  PNG = "image/png",
+}
+
+export interface ImageData {
+  imageBase64: string;
+  imageName: string;
+  imageType: IMAGE_TYPE;
+}

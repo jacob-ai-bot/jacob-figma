@@ -2,6 +2,30 @@ import { getSimplifiedNode } from "../src/api";
 import fs from "fs";
 import path from "path";
 import { getDescriptionOfNode } from "../src/utils/nodes";
+import { getImagesFromNodes } from "../src/utils/images";
+import { vi } from "vitest";
+
+const figmaMock = {
+  ui: {
+    postMessage: vi.fn(),
+  },
+  clientStorage: {
+    getAsync: vi.fn().mockResolvedValue("mock-access-token"),
+  },
+  getImageByHash: vi.fn().mockReturnValue({
+    getBytesAsync: vi.fn().mockResolvedValue(new Uint8Array()),
+  }),
+};
+
+// @ts-expect-error - We're adding a mock to the global scope
+global.figma = figmaMock; // Assign the mock to the global scope
+global.fetch = vi.fn().mockResolvedValue({
+  json: () => Promise.resolve({ data: { success: true } }),
+});
+
+vi.mock("@create-figma-plugin/utilities", () => ({
+  emit: vi.fn(),
+}));
 
 function findJsonFiles(
   dir: string,
@@ -75,6 +99,23 @@ describe("getDescriptionsFromSimplifiedNodes", () => {
       expect(nodeDescription).not.toBeNull();
       expect(typeof nodeDescription).toBe("string");
       expect(nodeDescription.length).toBeGreaterThan(0);
+    }
+  });
+});
+
+describe("getImagesFromSimplifiedNodes", () => {
+  it("should generate image urls from simplified nodes", async () => {
+    const mockFolderPath = path.join(__dirname, "../__mocks__/test_samples");
+    const jsonFiles = findJsonFiles(mockFolderPath, [], true);
+
+    for (const file of jsonFiles) {
+      const nodeStr = fs.readFileSync(file, "utf8");
+      const node = JSON.parse(nodeStr);
+      // first get the description of the node
+      const imageUrls = await getImagesFromNodes(node);
+      expect(imageUrls).toBeDefined();
+      expect(imageUrls).not.toBeNull();
+      expect(Array.isArray(imageUrls)).toBe(true);
     }
   });
 });

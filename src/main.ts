@@ -12,6 +12,8 @@ import {
   FileType,
   NotifyHandler,
   ClosePluginHandler,
+  IMAGE_TYPE,
+  ImageData,
 } from "./types";
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
@@ -19,14 +21,15 @@ import { defaultSize, accessTokenKey, snapshotUrlKey } from "./constants";
 import {
   getSimplifiedNode,
   createIssuesForFigmaFile,
-  uploadSnapshot,
+  uploadImage,
 } from "./api";
 import { SimplifiedNode } from "./utils/nodes";
 import {
   snapshotSelectedNode,
   handleSelectionChange,
   canUseSavedSnapshot,
-} from "./utils/imageSnapshot";
+  getImagesFromNodes,
+} from "./utils/images";
 
 export default function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
@@ -86,8 +89,11 @@ async function handleCreateOrEdit({
     } else {
       // upload the snapshot to s3 and get the signed url with a 60 minute expiry
       const snapshot = await snapshotSelectedNode(selection);
-      const { data: snapshotData, errors: snapshotErrors } =
-        await uploadSnapshot(snapshot);
+      const { data: snapshotData, errors: snapshotErrors } = await uploadImage(
+        snapshot,
+        IMAGE_TYPE.PNG,
+        true,
+      );
       if (!snapshotData?.success || snapshotErrors) {
         emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
           success: false,
@@ -100,6 +106,19 @@ async function handleCreateOrEdit({
       await figma.clientStorage.setAsync(snapshotUrlKey, snapshotUrl);
     }
 
+    // -- Get the images from the selected node --
+    const images: ImageData[] = await getImagesFromNodes(node);
+
+    // send to the upload image API in parallel
+    const imageUploadPromises = images.map(
+      ({ imageBase64, imageType, imageName }) =>
+        uploadImage(imageBase64, imageType, false, imageName),
+    );
+    const imageUploadResults = await Promise.all(imageUploadPromises);
+    const imageUrls = imageUploadResults
+      .map((result) => result.data.url)
+      .filter((url) => url !== undefined) as string[];
+
     // -- Create the GitHub issue --
     const { data, errors } = await createIssuesForFigmaFile(
       node,
@@ -108,6 +127,7 @@ async function handleCreateOrEdit({
       additionalInstructions,
       fileType !== undefined,
       snapshotUrl,
+      imageUrls,
     );
     const error = errors?.[0];
     if (!data?.success || error) {

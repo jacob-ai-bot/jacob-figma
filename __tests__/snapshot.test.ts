@@ -1,8 +1,9 @@
-import { convertToBase64 } from "../src/utils/imageSnapshot";
-import { createIssuesForFigmaFile, uploadSnapshot } from "../src/api";
+import { convertToBase64 } from "../src/utils/images";
+import { createIssuesForFigmaFile, uploadImage } from "../src/api";
 import fs from "fs";
 import path from "path";
 import { vi } from "vitest";
+import { IMAGE_TYPE } from "../src/types";
 
 const mockedRepo = vi.hoisted(() => ({
   getRepos: vi.fn().mockImplementation(
@@ -21,7 +22,7 @@ const mockedRepo = vi.hoisted(() => ({
 vi.mock("../src/github", () => mockedRepo);
 
 const mockedApi = vi.hoisted(() => ({
-  uploadSnapshot: vi.fn().mockImplementation(
+  uploadImage: vi.fn().mockImplementation(
     () =>
       new Promise((resolve) =>
         resolve({
@@ -103,7 +104,11 @@ describe("snapshotSelectedNode", () => {
     expect(imageBase64.startsWith("data:image/png;base64,")).toBe(true);
 
     // send the base64 string to the snapshot API
-    const { data, errors } = await uploadSnapshot(imageBase64);
+    const { data, errors } = await uploadImage(
+      imageBase64,
+      IMAGE_TYPE.PNG,
+      true,
+    );
     expect(data).toBeDefined();
     expect(errors).toBeUndefined();
 
