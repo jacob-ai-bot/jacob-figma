@@ -5,7 +5,7 @@ import {
   SnapshotErrorHandler,
   SnapshotImageHandler,
 } from "../types";
-import { snapshotIdKey } from "../constants";
+import { snapshotCacheTimeInMiliseconds, snapshotIdKey } from "../constants";
 import { SimplifiedNode } from "./nodes";
 
 export async function getImagesFromNodes(
@@ -36,7 +36,29 @@ export async function getImagesFromNodes(
   return images;
 }
 
+function selectionIsValid(selection: readonly SceneNode[]) {
+  if (selection.length === 0) {
+    emit<SnapshotErrorHandler>("SNAPSHOT_ERROR", {
+      message:
+        "Please select the frame or group of the design to convert to code.",
+    });
+    return false;
+  }
+  if (selection.length > 1) {
+    emit<SnapshotErrorHandler>("SNAPSHOT_ERROR", {
+      message: "Please select only one frame or group at a time.",
+    });
+    return false;
+  }
+  return true;
+}
+
 export async function handleSelectionChange() {
+  const selection = figma.currentPage.selection;
+  if (!selectionIsValid(selection)) {
+    return;
+  }
+
   const currentSnapshotId = figma.currentPage.selection[0]?.id;
   const canUseSaved = await canUseSavedSnapshot(figma.currentPage.selection);
 
@@ -57,26 +79,22 @@ export async function canUseSavedSnapshot(selection: readonly SceneNode[]) {
   const savedSnapshotId = savedSnapshot?.id;
   const savedTimestamp = savedSnapshot?.timestamp;
 
-  // If the saved snapshot is older than 30 mins, we run the risk of the signed url expiring
+  // The signed url will expire, so we need to check if the snapshot is still valid
   const hasExpired =
-    savedTimestamp && Date.now() - savedTimestamp > 30 * 60 * 1000;
+    savedTimestamp &&
+    Date.now() - savedTimestamp > snapshotCacheTimeInMiliseconds;
 
   return currentSnapshotId === savedSnapshotId && !hasExpired;
 }
 
 export async function snapshotSelectedNode(selection: readonly SceneNode[]) {
-  if (selection.length === 0) {
-    emit<SnapshotErrorHandler>("SNAPSHOT_ERROR", {
-      message:
-        "No node selected. Please select a node to capture its snapshot.",
-    });
+  if (!selectionIsValid(selection)) {
     return;
   }
   let imageBase64: string | undefined;
   try {
     const imageData = await selection[0].exportAsync({
       format: "PNG",
-      constraint: { type: "SCALE", value: 2 },
     });
     imageBase64 = convertToBase64(imageData);
 

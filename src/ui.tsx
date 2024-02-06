@@ -39,7 +39,7 @@ function Plugin() {
   const [newFilename, setNewFilename] = useState("");
   const [additionalInstructions, setAdditionalInstructions] = useState("");
   const [creatingIssue, setCreatingIssue] = useState(false);
-  const [imageBase64, setImageBase64] = useState("");
+  const [imageBase64, setImageBase64] = useState<string | undefined>();
   const [errorMessage, setErrorMessage] = useState("");
 
   useWindowResize(
@@ -85,7 +85,7 @@ function Plugin() {
     // Listening for an error message
     on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
       setErrorMessage(message);
-      setImageBase64(""); // Clear any existing image
+      setImageBase64(undefined); // Clear any existing image
     });
 
     on<UpdateAccessTokenAndReposHandler>(

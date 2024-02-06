@@ -18,3 +18,6 @@ export const resizeValues = {
 export const accessTokenKey = "ACCESS_TOKEN";
 export const snapshotIdKey = "SNAPSHOT_ID";
 export const snapshotUrlKey = "SNAPSHOT_URL";
+const snapshotCacheTimeInMinutes = 30;
+export const snapshotCacheTimeInMiliseconds =
+  snapshotCacheTimeInMinutes * 60 * 1000;
