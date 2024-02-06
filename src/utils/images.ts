@@ -67,7 +67,7 @@ export async function handleSelectionChange() {
     return;
   }
   const currentSnapshotId = getUniqueSnapshotId(selection[0]);
-  const canUseSaved = await canUseSavedSnapshot(selection);
+  const canUseSaved = await canUseSavedSnapshot(currentSnapshotId);
 
   if (currentSnapshotId && !canUseSaved) {
     snapshotSelectedNode(selection);
@@ -80,8 +80,10 @@ export async function handleSelectionChange() {
   }
 }
 
-export async function canUseSavedSnapshot(selection: readonly SceneNode[]) {
-  const currentSnapshotId = getUniqueSnapshotId(selection[0]);
+export async function canUseSavedSnapshot(currentSnapshotId: string | null) {
+  if (!currentSnapshotId) {
+    return false;
+  }
   const savedSnapshot = await figma.clientStorage.getAsync(snapshotIdKey);
   const savedSnapshotId = savedSnapshot?.id;
   const savedTimestamp = savedSnapshot?.timestamp;
