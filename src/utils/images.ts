@@ -53,17 +53,24 @@ function selectionIsValid(selection: readonly SceneNode[]) {
   return true;
 }
 
+const getUniqueSnapshotId = (node: SceneNode): string | null => {
+  const { name, id, width, height } = node;
+  if (!name || !id || !width || !height) {
+    return null;
+  }
+  return `${name}-${id}-${width}-${height}`;
+};
+
 export async function handleSelectionChange() {
   const selection = figma.currentPage.selection;
   if (!selectionIsValid(selection)) {
     return;
   }
-
-  const currentSnapshotId = figma.currentPage.selection[0]?.id;
-  const canUseSaved = await canUseSavedSnapshot(figma.currentPage.selection);
+  const currentSnapshotId = getUniqueSnapshotId(selection[0]);
+  const canUseSaved = await canUseSavedSnapshot(currentSnapshotId);
 
   if (currentSnapshotId && !canUseSaved) {
-    snapshotSelectedNode(figma.currentPage.selection);
+    snapshotSelectedNode(selection);
 
     // Save the current snapshot ID along with the current timestamp
     await figma.clientStorage.setAsync(snapshotIdKey, {
@@ -73,8 +80,10 @@ export async function handleSelectionChange() {
   }
 }
 
-export async function canUseSavedSnapshot(selection: readonly SceneNode[]) {
-  const currentSnapshotId = selection[0]?.id;
+export async function canUseSavedSnapshot(currentSnapshotId: string | null) {
+  if (!currentSnapshotId) {
+    return false;
+  }
   const savedSnapshot = await figma.clientStorage.getAsync(snapshotIdKey);
   const savedSnapshotId = savedSnapshot?.id;
   const savedTimestamp = savedSnapshot?.timestamp;

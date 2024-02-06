@@ -17,7 +17,7 @@ import {
 } from "./types";
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
-import { defaultSize, accessTokenKey, snapshotUrlKey } from "./constants";
+import { defaultSize, accessTokenKey } from "./constants";
 import {
   getSimplifiedNode,
   createIssuesForFigmaFile,
@@ -27,7 +27,6 @@ import { SimplifiedNode } from "./utils/nodes";
 import {
   snapshotSelectedNode,
   handleSelectionChange,
-  canUseSavedSnapshot,
   getImagesFromNodes,
 } from "./utils/images";
 
@@ -80,39 +79,21 @@ async function handleCreateOrEdit({
       fullFileName = fileName;
     }
 
-    // -- Snapshot the selected node --
-    let snapshotUrl, isSavedSnapshotValid;
-    try {
-      isSavedSnapshotValid = await canUseSavedSnapshot(selection);
-    } catch (error) {
+    // upload the snapshot to s3 and get the signed url with a 60 minute expiry
+    const snapshot = await snapshotSelectedNode(selection);
+    const { data: snapshotData, errors: snapshotErrors } = await uploadImage(
+      snapshot,
+      IMAGE_TYPE.PNG,
+      true,
+    );
+    if (!snapshotData?.success || snapshotErrors) {
       emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
         success: false,
-        error: new Error("Error checking for saved snapshot"),
+        error: new Error(snapshotErrors?.[0]),
       });
       break;
     }
-    if (isSavedSnapshotValid) {
-      // get the cached snapshot url
-      snapshotUrl = (await figma.clientStorage.getAsync(snapshotUrlKey)) || "";
-    } else {
-      // upload the snapshot to s3 and get the signed url with a 60 minute expiry
-      const snapshot = await snapshotSelectedNode(selection);
-      const { data: snapshotData, errors: snapshotErrors } = await uploadImage(
-        snapshot,
-        IMAGE_TYPE.PNG,
-        true,
-      );
-      if (!snapshotData?.success || snapshotErrors) {
-        emit<CreateOrEditResultHandler>("CREATE_OR_EDIT_RESULT", {
-          success: false,
-          error: new Error(snapshotErrors?.[0]),
-        });
-        break;
-      }
-      snapshotUrl = snapshotData.url;
-      // save the snapshot url to the client storage
-      await figma.clientStorage.setAsync(snapshotUrlKey, snapshotUrl);
-    }
+    const snapshotUrl = snapshotData.url;
 
     // -- Get the images from the selected node --
     const images: ImageData[] = await getImagesFromNodes(node);
