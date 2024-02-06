@@ -1,0 +1,2357 @@
+{
+  "id": "2841pemoc",
+  "name": "Sidebar",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 320,
+    "height": 1918,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#f8fafc",
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#f8fafc",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[320px] h-[1918px] bg-[#f8fafc]",
+  "children": [
+    {
+      "id": "vgp322r3p",
+      "name": "Header",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 32,
+        "width": 284.5,
+        "height": 41.3,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "CENTER"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[284px] h-[41px]",
+      "children": [
+        {
+          "id": "woeyudd37",
+          "name": "Sidebar/designership-logo",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 32,
+            "width": 54.5,
+            "height": 41.3,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 0.5
+          },
+          "tailwind": "w-[54px] h-[41px] bg-[]",
+          "children": [
+            {
+              "id": "uwdkz7p80",
+              "name": "Rectangle 2",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 24,
+                "y": 32,
+                "width": 54.5,
+                "height": 41.3
+              },
+              "style": {
+                "backgroundColor": "#4e51cc",
+                "borderRadius": 7.4,
+                "borderWidth": 0.7,
+                "opacity": 1,
+                "fill": "#4e51cc",
+                "strokeWidth": 0.7
+              },
+              "tailwind": "w-[54px] h-[41px] bg-[#4e51cc] border-radius-[7.37px]"
+            },
+            {
+              "id": "mdzm2lxrp",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 43.7,
+                "y": 41.3,
+                "width": 14.7,
+                "height": 14.1
+              },
+              "style": {
+                "backgroundColor": "#ffcc02",
+                "borderRadius": 0,
+                "borderWidth": 0.5,
+                "opacity": 1,
+                "fill": "#ffcc02",
+                "strokeWidth": 0.5
+              },
+              "svg": {
+                "fill": "#ffcc02",
+                "strokeWidth": 0.5
+              },
+              "tailwind": "w-[14px] h-[14px] bg-[#ffcc02]"
+            },
+            {
+              "id": "b23i616xu",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 41.4,
+                "y": 45.2,
+                "width": 28.8,
+                "height": 19.4
+              },
+              "style": {
+                "backgroundColor": "#ffcc02",
+                "borderRadius": 0,
+                "borderWidth": 0.5,
+                "opacity": 1,
+                "fill": "#ffcc02",
+                "strokeWidth": 0.5
+              },
+              "svg": {
+                "fill": "#ffcc02",
+                "strokeWidth": 0.5
+              },
+              "tailwind": "w-[28px] h-[19px] bg-[#ffcc02]"
+            },
+            {
+              "id": "li0mrx9o5",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 31.9,
+                "y": 49.9,
+                "width": 20.1,
+                "height": 14.7
+              },
+              "style": {
+                "backgroundColor": "#efae07",
+                "borderRadius": 0,
+                "borderWidth": 0.5,
+                "opacity": 1,
+                "fill": "#efae07",
+                "strokeWidth": 0.5
+              },
+              "svg": {
+                "fill": "#efae07",
+                "strokeWidth": 0.5
+              },
+              "tailwind": "w-[20px] h-[14px] bg-[#efae07]"
+            }
+          ]
+        },
+        {
+          "id": "v6q04gtdt",
+          "name": "Heading",
+          "type": "TEXT",
+          "layout": {
+            "x": 94.5,
+            "y": 41.6,
+            "width": 214,
+            "height": 22
+          },
+          "style": {
+            "backgroundColor": "#0b1428",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#0b1428",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "fontStyle": "Semi Bold",
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#0b1428"
+          },
+          "copy": "Design System v1.3",
+          "tailwind": "text-[18] color-[#0b1428]"
+        }
+      ]
+    },
+    {
+      "id": "jusntbkr1",
+      "name": "Container",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 122,
+        "width": 268,
+        "height": 1629,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[268px] h-[1629px]",
+      "children": [
+        {
+          "id": "0b2k307nm",
+          "name": "Section",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 122,
+            "width": 112,
+            "height": 249,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[112px] h-[249px]",
+          "children": [
+            {
+              "id": "1i14hejj6",
+              "name": "Heading",
+              "type": "TEXT",
+              "layout": {
+                "x": 24,
+                "y": 122,
+                "width": 47,
+                "height": 15
+              },
+              "style": {
+                "backgroundColor": "#4e51cc",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#4e51cc",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "letterSpacing": 8,
+                "textAlign": "LEFT",
+                "color": "#4e51cc"
+              },
+              "copy": "ATOMS",
+              "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
+            },
+            {
+              "id": "00fkfspbk",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 157,
+                "width": 112,
+                "height": 214,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[112px] h-[214px]",
+              "children": [
+                {
+                  "id": "nty7sf69p",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 157,
+                    "width": 50,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Colors",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "nsayxzkp7",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 196,
+                    "width": 92,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Typography",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "rjf1jb5ni",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 235,
+                    "width": 62,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Spacing",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "zl608inqq",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 274,
+                    "width": 33,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Grid",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "jhqgabdyk",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 313,
+                    "width": 42,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Icons",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "7m7d2apug",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 352,
+                    "width": 112,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Drop Shadows",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2xta02aey",
+          "name": "Section",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 413,
+            "width": 107,
+            "height": 795,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[107px] h-[795px]",
+          "children": [
+            {
+              "id": "mpym51q5w",
+              "name": "Heading",
+              "type": "TEXT",
+              "layout": {
+                "x": 24,
+                "y": 413,
+                "width": 82,
+                "height": 15
+              },
+              "style": {
+                "backgroundColor": "#4e51cc",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#4e51cc",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "letterSpacing": 8,
+                "textAlign": "LEFT",
+                "color": "#4e51cc"
+              },
+              "copy": "MOLECULES",
+              "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
+            },
+            {
+              "id": "ebgdf1mft",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 448,
+                "width": 46,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[46px] h-[19px]",
+              "children": [
+                {
+                  "id": "fvgkgl5k7",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 448,
+                    "width": 46,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Alerts",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "9sqvhdf2y",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 487,
+                "width": 86,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[86px] h-[19px]",
+              "children": [
+                {
+                  "id": "js85fd4hb",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 487,
+                    "width": 86,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Accordians",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "oaqzixk7w",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 526,
+                "width": 103,
+                "height": 58,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[103px] h-[58px]",
+              "children": [
+                {
+                  "id": "2n33mo31x",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 526,
+                    "width": 58,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Avatars",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                },
+                {
+                  "id": "udze6p3c5",
+                  "name": "Subtitles",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 24,
+                    "y": 565,
+                    "width": 103,
+                    "height": 19,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[103px] h-[19px]",
+                  "children": [
+                    {
+                      "id": "e7uk4d9qf",
+                      "name": "Subheading",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 24,
+                        "y": 565,
+                        "width": 103,
+                        "height": 19
+                      },
+                      "style": {
+                        "backgroundColor": "#475569",
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#475569",
+                        "strokeWidth": 1
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 16,
+                        "fontStyle": "Medium",
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#475569"
+                      },
+                      "copy": "Breadcrumbs",
+                      "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "9oyww738q",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 604,
+                "width": 60,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[60px] h-[19px]",
+              "children": [
+                {
+                  "id": "dqclnluoe",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 604,
+                    "width": 60,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Buttons",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "vhtd4jwpx",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 643,
+                "width": 77,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[77px] h-[19px]",
+              "children": [
+                {
+                  "id": "dvj3cm2iy",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 643,
+                    "width": 77,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Checkbox",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "5jo56nejc",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 682,
+                "width": 87,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[87px] h-[19px]",
+              "children": [
+                {
+                  "id": "xcz6u1z84",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 682,
+                    "width": 87,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Data picker",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "w7gu9i369",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 721,
+                "width": 80,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[80px] h-[19px]",
+              "children": [
+                {
+                  "id": "5jjoipzxc",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 721,
+                    "width": 80,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Dropdown",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "4544xtzx9",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 760,
+                "width": 48,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[48px] h-[19px]",
+              "children": [
+                {
+                  "id": "hdc0bhk4g",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 760,
+                    "width": 48,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Forms",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "p8rjj8oa6",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 799,
+                "width": 48,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[48px] h-[19px]",
+              "children": [
+                {
+                  "id": "57n3v77uj",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 799,
+                    "width": 48,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Inputs",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "zzb2vc28q",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 838,
+                "width": 36,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[36px] h-[19px]",
+              "children": [
+                {
+                  "id": "o6mn40hw5",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 838,
+                    "width": 36,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Lists",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "w5d7akvps",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 877,
+                "width": 56,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[56px] h-[19px]",
+              "children": [
+                {
+                  "id": "2l37xzo3d",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 877,
+                    "width": 56,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Modals",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "7sgewgjxz",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 916,
+                "width": 81,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[81px] h-[19px]",
+              "children": [
+                {
+                  "id": "wj6zx48ef",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 916,
+                    "width": 81,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Pagination",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "2ep3ofo0a",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 955,
+                "width": 107,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[107px] h-[19px]",
+              "children": [
+                {
+                  "id": "x3wc95og0",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 955,
+                    "width": 107,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Progress bars",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "ltdn34hat",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 994,
+                "width": 53,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[53px] h-[19px]",
+              "children": [
+                {
+                  "id": "rvcxkxbl5",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 994,
+                    "width": 53,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Sliders",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "qlufhg97s",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1033,
+                "width": 37,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[37px] h-[19px]",
+              "children": [
+                {
+                  "id": "wbfyrg5xc",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1033,
+                    "width": 37,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Tabs",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "ywbq4rurs",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1072,
+                "width": 51,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[51px] h-[19px]",
+              "children": [
+                {
+                  "id": "efzjdjr3i",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1072,
+                    "width": 51,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Tables",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "lmbbafdd5",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1111,
+                "width": 37,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[37px] h-[19px]",
+              "children": [
+                {
+                  "id": "vq19khlu5",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1111,
+                    "width": 37,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Tags",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "azcqqq8ji",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1150,
+                "width": 61,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[61px] h-[19px]",
+              "children": [
+                {
+                  "id": "uk5rferdc",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1150,
+                    "width": 61,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Toggles",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "ejwdl3s1w",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1189,
+                "width": 61,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[61px] h-[19px]",
+              "children": [
+                {
+                  "id": "vyctdpgy2",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1189,
+                    "width": 61,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Tooltips",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aa49z1sg0",
+          "name": "Section",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 1250,
+            "width": 81,
+            "height": 93,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[81px] h-[93px]",
+          "children": [
+            {
+              "id": "qw1ou6bde",
+              "name": "Heading",
+              "type": "TEXT",
+              "layout": {
+                "x": 24,
+                "y": 1250,
+                "width": 81,
+                "height": 15
+              },
+              "style": {
+                "backgroundColor": "#4e51cc",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#4e51cc",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "letterSpacing": 8,
+                "textAlign": "LEFT",
+                "color": "#4e51cc"
+              },
+              "copy": "Organisms",
+              "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
+            },
+            {
+              "id": "u6hhrtoss",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1285,
+                "width": 56,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[56px] h-[19px]",
+              "children": [
+                {
+                  "id": "rdc9u1es4",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1285,
+                    "width": 56,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Header",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "xu0brz4na",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1324,
+                "width": 59,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[59px] h-[19px]",
+              "children": [
+                {
+                  "id": "4sqewhi6i",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1324,
+                    "width": 59,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Sidebar",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xlwn7a96n",
+          "name": "Section",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 1385,
+            "width": 268,
+            "height": 366,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[268px] h-[366px]",
+          "children": [
+            {
+              "id": "6gemhntz9",
+              "name": "Heading",
+              "type": "TEXT",
+              "layout": {
+                "x": 24,
+                "y": 1385,
+                "width": 80,
+                "height": 15
+              },
+              "style": {
+                "backgroundColor": "#4e51cc",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#4e51cc",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "letterSpacing": 8,
+                "textAlign": "LEFT",
+                "color": "#4e51cc"
+              },
+              "copy": "templates",
+              "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
+            },
+            {
+              "id": "owebdn71d",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1420,
+                "width": 104,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[104px] h-[19px]",
+              "children": [
+                {
+                  "id": "afpuyrwz7",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1420,
+                    "width": 104,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Hero banners",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "3gcjjhsmz",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1459,
+                "width": 112,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[112px] h-[19px]",
+              "children": [
+                {
+                  "id": "caub4agpt",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1459,
+                    "width": 112,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Meet the team ",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "m8hvvfctb",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1498,
+                "width": 135,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[135px] h-[19px]",
+              "children": [
+                {
+                  "id": "idf39vm7f",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1498,
+                    "width": 135,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Portfolio sections",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "w9r55wfhw",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1537,
+                "width": 218,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[218px] h-[19px]",
+              "children": [
+                {
+                  "id": "me6umiw8x",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1537,
+                    "width": 218,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Empty states (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "uuc8mnc34",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1576,
+                "width": 227,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[227px] h-[19px]",
+              "children": [
+                {
+                  "id": "2mmuudqd8",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1576,
+                    "width": 227,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Contact forms (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "fij15c36p",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1615,
+                "width": 209,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[209px] h-[19px]",
+              "children": [
+                {
+                  "id": "rvmbrkvt2",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1615,
+                    "width": 209,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Dashboards (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "m0jlq548e",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1654,
+                "width": 217,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[217px] h-[19px]",
+              "children": [
+                {
+                  "id": "oelg9f69z",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1654,
+                    "width": 217,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Profile pages (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "6xd0p65y0",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1693,
+                "width": 243,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[243px] h-[19px]",
+              "children": [
+                {
+                  "id": "om3jobufw",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1693,
+                    "width": 243,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "CRM data pages (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            },
+            {
+              "id": "24u8tzl64",
+              "name": "Subtitles",
+              "type": "FRAME",
+              "layout": {
+                "x": 24,
+                "y": 1732,
+                "width": 268,
+                "height": 19,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[268px] h-[19px]",
+              "children": [
+                {
+                  "id": "03k34jlwd",
+                  "name": "Subheading",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 24,
+                    "y": 1732,
+                    "width": 268,
+                    "height": 19
+                  },
+                  "style": {
+                    "backgroundColor": "#475569",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#475569",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontStyle": "Medium",
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "color": "#475569"
+                  },
+                  "copy": "Onboarding funnels (Coming soon)",
+                  "tailwind": "font-size-[16px] font-medium color-[#475569]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

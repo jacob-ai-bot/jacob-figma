@@ -22,6 +22,8 @@ import {
   FileType,
   NotifyHandler,
   ClosePluginHandler,
+  SnapshotErrorHandler,
+  SnapshotImageHandler,
 } from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
@@ -37,6 +39,8 @@ function Plugin() {
   const [newFilename, setNewFilename] = useState("");
   const [additionalInstructions, setAdditionalInstructions] = useState("");
   const [creatingIssue, setCreatingIssue] = useState(false);
+  const [imageBase64, setImageBase64] = useState<string | undefined>();
+  const [errorMessage, setErrorMessage] = useState("");
 
   useWindowResize(
     (windowSize) => emit<ResizeWindowHandler>("RESIZE_WINDOW", windowSize),
@@ -71,28 +75,42 @@ function Plugin() {
     updateTree();
   }, [selectedRepo]);
 
-  on<UpdateAccessTokenAndReposHandler>(
-    "UPDATE_ACCESS_TOKEN_AND_REPOS",
-    ({ accessToken, repos }) => {
-      setAccessToken(accessToken);
-      setRepos(repos);
-    },
-  );
+  useEffect(() => {
+    // Listening for an image snapshot
+    on<SnapshotImageHandler>("SNAPSHOT_IMAGE", ({ imageBase64 }) => {
+      setImageBase64(imageBase64);
+      setErrorMessage("");
+    });
 
-  on<CreateOrEditResultHandler>(
-    "CREATE_OR_EDIT_RESULT",
-    ({ success, error }) => {
-      setCreatingIssue(false);
-      if (success) {
-        emit<NotifyHandler>("NOTIFY", "Successfully created GitHub issue");
-        emit<ClosePluginHandler>("CLOSE_PLUGIN");
-      }
-      if (error) {
-        emit<NotifyHandler>("NOTIFY", "Error: Failed to create GitHub issue");
-        console.error("Failed to create issue", error);
-      }
-    },
-  );
+    // Listening for an error message
+    on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
+      setErrorMessage(message);
+      setImageBase64(undefined); // Clear any existing image
+    });
+
+    on<UpdateAccessTokenAndReposHandler>(
+      "UPDATE_ACCESS_TOKEN_AND_REPOS",
+      ({ accessToken, repos }) => {
+        setAccessToken(accessToken);
+        setRepos(repos);
+      },
+    );
+
+    on<CreateOrEditResultHandler>(
+      "CREATE_OR_EDIT_RESULT",
+      ({ success, error }) => {
+        setCreatingIssue(false);
+        if (success) {
+          emit<NotifyHandler>("NOTIFY", "Successfully created GitHub issue");
+          emit<ClosePluginHandler>("CLOSE_PLUGIN");
+        }
+        if (error) {
+          emit<NotifyHandler>("NOTIFY", "Error: Failed to create GitHub issue");
+          console.error("Failed to create issue", error);
+        }
+      },
+    );
+  }, []);
 
   const onRepoChange = (fullName: string) => {
     setSelectedRepo(repos?.find((repo) => repo.full_name === fullName));
@@ -187,11 +205,23 @@ function Plugin() {
           onValueInput={setAdditionalInstructions}
         />
       </Section>
+      <Section label="Preview:" isCollapsable={true}>
+        {errorMessage && <div className="error">{errorMessage}</div>}
+        {imageBase64 && (
+          <img
+            src={imageBase64}
+            alt="Snapshot of the selected node"
+            style={{ objectFit: "contain", maxHeight: "150px" }}
+          />
+        )}
+        {!imageBase64 && !errorMessage && <div>Please select a node.</div>}
+      </Section>
       <div className="p-4">
         <Button
           disabled={
             creatingIssue ||
             !selectedRepo ||
+            !imageBase64 ||
             (!selectedFile && !newFilename.trim())
           }
           loading={creatingIssue}

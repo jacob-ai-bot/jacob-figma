@@ -1,0 +1,1854 @@
+{
+  "id": "ntcggnl9x",
+  "name": "Header",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 1400,
+    "height": 112,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[1400px] h-[112px] bg-white",
+  "children": [
+    {
+      "id": "o5epabpjt",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 222,
+        "y": 16,
+        "width": 138,
+        "height": 40,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#4094f7",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#4094f7",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[138px] h-[40px] bg-[#4094f7] border-radius-[6px]",
+      "children": [
+        {
+          "id": "1ypctpwo7",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 238,
+            "y": 24,
+            "width": 106,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[106px] h-[24px]",
+          "children": [
+            {
+              "id": "ykzm3nl0d",
+              "name": "Menu hamburger",
+              "type": "FRAME",
+              "layout": {
+                "x": 238,
+                "y": 24,
+                "width": 24,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[24px] h-[24px]",
+              "children": [
+                {
+                  "id": "91eplplnb",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 243,
+                    "y": 30,
+                    "width": 14,
+                    "height": 12
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#ffffff",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[14px] h-[12px] bg-white"
+                }
+              ]
+            },
+            {
+              "id": "s7hi29dpq",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 270,
+                "y": 24,
+                "width": 74,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#f6f8f9",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#f6f8f9",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "LEFT",
+                "color": "#f6f8f9"
+              },
+              "copy": "Categories",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#f6f8f9]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jcfi6sdtb",
+      "name": "Text input",
+      "type": "FRAME",
+      "layout": {
+        "x": 372,
+        "y": 16,
+        "width": 560,
+        "height": 40,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#dde2e4",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#dde2e4",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[560px] h-[40px] bg-white border border-solid border-color-[#dde2e4] border-radius-[6px]",
+      "children": [
+        {
+          "id": "xc0tiiqze",
+          "name": "Value",
+          "type": "TEXT",
+          "layout": {
+            "x": 388,
+            "y": 24,
+            "width": 504,
+            "height": 24
+          },
+          "style": {
+            "backgroundColor": "#252c32",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#252c32",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 14,
+            "fontStyle": "Regular",
+            "lineHeight": 24,
+            "letterSpacing": -0.6,
+            "textAlign": "LEFT",
+            "color": "#252c32"
+          },
+          "copy": "DJI phantom",
+          "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
+        },
+        {
+          "id": "jnq3mvgg7",
+          "name": "Search",
+          "type": "FRAME",
+          "layout": {
+            "x": 900,
+            "y": 24,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "p6ikyy7qp",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 904,
+                "y": 28,
+                "width": 16,
+                "height": 16
+              },
+              "style": {
+                "backgroundColor": "#b0babf",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#b0babf",
+                "strokeWidth": 1
+              },
+              "svg": {
+                "fill": "#b0babf",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[15px] h-[15px] bg-[#b0babf]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j7vcymt44",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 948,
+        "y": 16,
+        "width": 109,
+        "height": 40,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[109px] h-[40px] border-radius-[6px]",
+      "children": [
+        {
+          "id": "nhpowhjnf",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 964,
+            "y": 24,
+            "width": 77,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[77px] h-[24px]",
+          "children": [
+            {
+              "id": "62pppcyrh",
+              "name": "Cube",
+              "type": "FRAME",
+              "layout": {
+                "x": 964,
+                "y": 24,
+                "width": 24,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[24px] h-[24px]",
+              "children": [
+                {
+                  "id": "97ka7rzrz",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 969,
+                    "y": 28,
+                    "width": 14,
+                    "height": 16
+                  },
+                  "style": {
+                    "backgroundColor": "#b0babf",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[14px] h-[16px] bg-[#b0babf]"
+                }
+              ]
+            },
+            {
+              "id": "ya5jx22d1",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 996,
+                "y": 24,
+                "width": 45,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "LEFT",
+                "color": "#252c32"
+              },
+              "copy": "Orders",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uqjrk8zyn",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 1057,
+        "y": 16,
+        "width": 125,
+        "height": 40,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[125px] h-[40px] border-radius-[6px]",
+      "children": [
+        {
+          "id": "lcex6cso2",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 1073,
+            "y": 24,
+            "width": 93,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[93px] h-[24px]",
+          "children": [
+            {
+              "id": "f5mvlmz7l",
+              "name": "Heart",
+              "type": "FRAME",
+              "layout": {
+                "x": 1073,
+                "y": 24,
+                "width": 24,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[24px] h-[24px]",
+              "children": [
+                {
+                  "id": "yi86lts5v",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 1077,
+                    "y": 29,
+                    "width": 16,
+                    "height": 13.7
+                  },
+                  "style": {
+                    "backgroundColor": "#b0babf",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[13px] bg-[#b0babf]"
+                }
+              ]
+            },
+            {
+              "id": "bi5ry9yv5",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 1105,
+                "y": 24,
+                "width": 61,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "LEFT",
+                "color": "#252c32"
+              },
+              "copy": "Favorites",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1es23ag3t",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 1182,
+        "y": 16,
+        "width": 93,
+        "height": 40,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[93px] h-[40px] border-radius-[6px]",
+      "children": [
+        {
+          "id": "bie0gtq0w",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 1198,
+            "y": 24,
+            "width": 61,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[61px] h-[24px]",
+          "children": [
+            {
+              "id": "i0tcd2thq",
+              "name": "Shopping cart",
+              "type": "FRAME",
+              "layout": {
+                "x": 1198,
+                "y": 24,
+                "width": 24,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[24px] h-[24px]",
+              "children": [
+                {
+                  "id": "7m0fwus8x",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 1202,
+                    "y": 27,
+                    "width": 16,
+                    "height": 17
+                  },
+                  "style": {
+                    "backgroundColor": "#b0babf",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[16px] h-[17px] bg-[#b0babf]"
+                }
+              ]
+            },
+            {
+              "id": "m5zohakjy",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 1230,
+                "y": 24,
+                "width": 29,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "LEFT",
+                "color": "#252c32"
+              },
+              "copy": "Cart",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pbu7ge02i",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 1299,
+        "y": 16,
+        "width": 77,
+        "height": 40,
+        "paddingTop": 8,
+        "paddingRight": 16,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "solid",
+        "borderColor": "#dde2e4",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "stroke": "#dde2e4",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[77px] h-[40px] bg-white border border-solid border-color-[#dde2e4] border-radius-[6px]",
+      "children": [
+        {
+          "id": "bcjkuf7re",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 1315,
+            "y": 24,
+            "width": 45,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[45px] h-[24px]",
+          "children": [
+            {
+              "id": "rvugs04dq",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 1315,
+                "y": 24,
+                "width": 45,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "CENTER",
+                "color": "#252c32"
+              },
+              "copy": "Sign In",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2shae95cl",
+      "name": "Counter",
+      "type": "FRAME",
+      "layout": {
+        "x": 1212,
+        "y": 18,
+        "width": 16,
+        "height": 16,
+        "paddingTop": 0,
+        "paddingRight": 4,
+        "paddingBottom": 0,
+        "paddingLeft": 4,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#f76659",
+        "borderStyle": "solid",
+        "borderColor": "#ffffff",
+        "borderRadius": 8,
+        "borderWidth": 2,
+        "opacity": 1,
+        "fill": "#f76659",
+        "stroke": "#ffffff",
+        "strokeWidth": 2
+      },
+      "tailwind": "w-[16px] h-[16px] bg-[#f76659] border-2 border-solid border-white rounded-8",
+      "children": [
+        {
+          "id": "ob6m6a4fp",
+          "name": "Number",
+          "type": "TEXT",
+          "layout": {
+            "x": 1216,
+            "y": 18,
+            "width": 8,
+            "height": 16
+          },
+          "style": {
+            "backgroundColor": "#ffefeb",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffefeb",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "fontStyle": "Semi Bold",
+            "lineHeight": 16,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffefeb"
+          },
+          "copy": "3",
+          "tailwind": "text-[12] leading-16 color-[#ffefeb]"
+        }
+      ]
+    },
+    {
+      "id": "6bqy0sbt4",
+      "name": "Logo",
+      "type": "GROUP",
+      "layout": {
+        "x": 24,
+        "y": 24,
+        "width": 162,
+        "height": 24
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[162px] h-[24px]",
+      "children": [
+        {
+          "id": "0ugh0x0ir",
+          "name": "Chip",
+          "type": "FRAME",
+          "layout": {
+            "x": 24,
+            "y": 24,
+            "width": 24,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[24px] h-[24px]",
+          "children": [
+            {
+              "id": "d62x9rjap",
+              "name": "Vector",
+              "type": "VECTOR",
+              "layout": {
+                "x": 27,
+                "y": 27,
+                "width": 18,
+                "height": 18
+              },
+              "style": {
+                "backgroundColor": "#f76659",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#f76659",
+                "strokeWidth": 1
+              },
+              "svg": {
+                "fill": "#f76659",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[18px] h-[18px] bg-[#f76659]"
+            }
+          ]
+        },
+        {
+          "id": "y94nfj1u1",
+          "name": "What a Market!",
+          "type": "TEXT",
+          "layout": {
+            "x": 56,
+            "y": 24,
+            "width": 130,
+            "height": 24
+          },
+          "style": {
+            "backgroundColor": "#252c32",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#252c32",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "fontStyle": "Semi Bold",
+            "lineHeight": 24,
+            "letterSpacing": -1.4,
+            "textAlign": "LEFT",
+            "color": "#252c32"
+          },
+          "copy": "What a Market!",
+          "tailwind": "text-[18] leading-24 letter-spacing-[-0.01399999976158142em] color-[#252c32]"
+        }
+      ]
+    },
+    {
+      "id": "kuu5r1ntu",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 24,
+        "y": 72,
+        "width": 110,
+        "height": 24,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[110px] h-[24px] rounded-4",
+      "children": [
+        {
+          "id": "gq34wgb9q",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 32,
+            "y": 72,
+            "width": 94,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[94px] h-[24px]",
+          "children": [
+            {
+              "id": "ujwxtnofy",
+              "name": "Location marker",
+              "type": "FRAME",
+              "layout": {
+                "x": 32,
+                "y": 72,
+                "width": 24,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[24px] h-[24px]",
+              "children": [
+                {
+                  "id": "1itq2i41b",
+                  "name": "Vector",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 37,
+                    "y": 76,
+                    "width": 14,
+                    "height": 16.9
+                  },
+                  "style": {
+                    "backgroundColor": "#b0babf",
+                    "borderRadius": 0,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "svg": {
+                    "fill": "#b0babf",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[14px] h-[16px] bg-[#b0babf]"
+                }
+              ]
+            },
+            {
+              "id": "8ro5lzwdm",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 64,
+                "y": 72,
+                "width": 62,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "LEFT",
+                "color": "#252c32"
+              },
+              "copy": "California",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lfb9dur6n",
+      "name": "Categories",
+      "type": "GROUP",
+      "layout": {
+        "x": 311,
+        "y": 72,
+        "width": 779,
+        "height": 24
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[779px] h-[24px]",
+      "children": [
+        {
+          "id": "01xyyyipe",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 311,
+            "y": 72,
+            "width": 94,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[94px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "j6s358wzx",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 319,
+                "y": 72,
+                "width": 78,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[78px] h-[24px]",
+              "children": [
+                {
+                  "id": "gbei7xs9v",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 319,
+                    "y": 72,
+                    "width": 78,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Best Sellers",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16um85exj",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 421,
+            "y": 72,
+            "width": 109,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[109px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "tavqontud",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 429,
+                "y": 72,
+                "width": 93,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[93px] h-[24px]",
+              "children": [
+                {
+                  "id": "a265iq8jg",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 429,
+                    "y": 72,
+                    "width": 93,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "New Releases",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6lrg36yrz",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 546,
+            "y": 72,
+            "width": 57,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[57px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "wm0i013ic",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 554,
+                "y": 72,
+                "width": 41,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[41px] h-[24px]",
+              "children": [
+                {
+                  "id": "97z9kjl6c",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 554,
+                    "y": 72,
+                    "width": 41,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Books",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tbdd5p7lf",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 619,
+            "y": 72,
+            "width": 89,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[89px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "vrea0tt7h",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 627,
+                "y": 72,
+                "width": 73,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[73px] h-[24px]",
+              "children": [
+                {
+                  "id": "nxzci6po8",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 627,
+                    "y": 72,
+                    "width": 73,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Computers",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ueeefijoz",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 724,
+            "y": 72,
+            "width": 68,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[68px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "x9mf4fyak",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 732,
+                "y": 72,
+                "width": 52,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[52px] h-[24px]",
+              "children": [
+                {
+                  "id": "8sary9zmt",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 732,
+                    "y": 72,
+                    "width": 52,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Fashion",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4f5jlmc8g",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 808,
+            "y": 72,
+            "width": 59,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[59px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "nxgwxyz3e",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 816,
+                "y": 72,
+                "width": 43,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[43px] h-[24px]",
+              "children": [
+                {
+                  "id": "le15ev5et",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 816,
+                    "y": 72,
+                    "width": 43,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Health",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3acetewkq",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 883,
+            "y": 72,
+            "width": 82,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[82px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "cla6y0es7",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 891,
+                "y": 72,
+                "width": 66,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[66px] h-[24px]",
+              "children": [
+                {
+                  "id": "kckrsvts8",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 891,
+                    "y": 72,
+                    "width": 66,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Pharmacy",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ee64k775b",
+          "name": "Button",
+          "type": "FRAME",
+          "layout": {
+            "x": 981,
+            "y": 72,
+            "width": 109,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 8,
+            "paddingBottom": 0,
+            "paddingLeft": 8,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[109px] h-[24px] rounded-4",
+          "children": [
+            {
+              "id": "qafpw51o7",
+              "name": "Button title",
+              "type": "FRAME",
+              "layout": {
+                "x": 989,
+                "y": 72,
+                "width": 93,
+                "height": 24,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[93px] h-[24px]",
+              "children": [
+                {
+                  "id": "xclgl130i",
+                  "name": "Button title",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 989,
+                    "y": 72,
+                    "width": 93,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#252c32",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#252c32",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontStyle": "Regular",
+                    "lineHeight": 24,
+                    "letterSpacing": -0.6,
+                    "textAlign": "CENTER",
+                    "color": "#252c32"
+                  },
+                  "copy": "Toys & Games",
+                  "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vneugcoks",
+      "name": "Button",
+      "type": "FRAME",
+      "layout": {
+        "x": 1256,
+        "y": 72,
+        "width": 120,
+        "height": 24,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "CENTER",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[120px] h-[24px] rounded-4",
+      "children": [
+        {
+          "id": "zbchr97ab",
+          "name": "Button title",
+          "type": "FRAME",
+          "layout": {
+            "x": 1264,
+            "y": 72,
+            "width": 104,
+            "height": 24,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[104px] h-[24px]",
+          "children": [
+            {
+              "id": "pu52cjuxb",
+              "name": "Button title",
+              "type": "TEXT",
+              "layout": {
+                "x": 1264,
+                "y": 72,
+                "width": 104,
+                "height": 24
+              },
+              "style": {
+                "backgroundColor": "#252c32",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#252c32",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 14,
+                "fontStyle": "Regular",
+                "lineHeight": 24,
+                "letterSpacing": -0.6,
+                "textAlign": "CENTER",
+                "color": "#252c32"
+              },
+              "copy": "Become a seller",
+              "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l8vcommu1",
+      "name": "Divider",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 111,
+        "width": 1400,
+        "height": 1,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#e5e9eb",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#e5e9eb",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[1400px] h-[1px] bg-[#e5e9eb]",
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,2004 @@
+{
+  "id": "j5ds2dfpi",
+  "name": "Hero",
+  "type": "FRAME",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 877,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisAlignItems": "MIN",
+    "primaryAxisAlignItems": "MIN"
+  },
+  "style": {
+    "backgroundColor": "#ffffff",
+    "borderRadius": 0,
+    "borderWidth": 1,
+    "opacity": 1,
+    "fill": "#ffffff",
+    "strokeWidth": 1
+  },
+  "tailwind": "w-[1440px] h-[877px] bg-white",
+  "children": [
+    {
+      "id": "f969tv3nk",
+      "name": "Navbar",
+      "type": "FRAME",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 90,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[1440px] h-[90px] bg-[]",
+      "children": [
+        {
+          "id": "73ref8y3k",
+          "name": "Links",
+          "type": "FRAME",
+          "layout": {
+            "x": 70,
+            "y": 0,
+            "width": 370,
+            "height": 90,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[370px] h-[90px]",
+          "children": [
+            {
+              "id": "pim4pazq2",
+              "name": "Link item",
+              "type": "FRAME",
+              "layout": {
+                "x": 70,
+                "y": 0,
+                "width": 86,
+                "height": 90,
+                "paddingTop": 33,
+                "paddingRight": 20,
+                "paddingBottom": 33,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[86px] h-[90px]",
+              "children": [
+                {
+                  "id": "irex2ohuh",
+                  "name": "Home",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 90,
+                    "y": 33,
+                    "width": 46,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#0f172a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#0f172a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 24,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#0f172a"
+                  },
+                  "copy": "Home",
+                  "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
+                }
+              ]
+            },
+            {
+              "id": "c45jm9oua",
+              "name": "Link item",
+              "type": "FRAME",
+              "layout": {
+                "x": 156,
+                "y": 0,
+                "width": 88,
+                "height": 90,
+                "paddingTop": 33,
+                "paddingRight": 20,
+                "paddingBottom": 33,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[88px] h-[90px]",
+              "children": [
+                {
+                  "id": "6e108j6oz",
+                  "name": "About",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 176,
+                    "y": 33,
+                    "width": 48,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#0f172a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#0f172a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 24,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#0f172a"
+                  },
+                  "copy": "About",
+                  "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
+                }
+              ]
+            },
+            {
+              "id": "tp63kenk3",
+              "name": "Link item",
+              "type": "FRAME",
+              "layout": {
+                "x": 244,
+                "y": 0,
+                "width": 102,
+                "height": 90,
+                "paddingTop": 33,
+                "paddingRight": 20,
+                "paddingBottom": 33,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[102px] h-[90px]",
+              "children": [
+                {
+                  "id": "wf7ajw3la",
+                  "name": "Contact",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 264,
+                    "y": 33,
+                    "width": 62,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#0f172a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#0f172a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 24,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#0f172a"
+                  },
+                  "copy": "Contact",
+                  "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
+                }
+              ]
+            },
+            {
+              "id": "zdex5ar5p",
+              "name": "Link item",
+              "type": "FRAME",
+              "layout": {
+                "x": 346,
+                "y": 0,
+                "width": 94,
+                "height": 90,
+                "paddingTop": 33,
+                "paddingRight": 20,
+                "paddingBottom": 33,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "opacity": 1,
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[94px] h-[90px]",
+              "children": [
+                {
+                  "id": "37cj0lmgr",
+                  "name": "Pricing",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 366,
+                    "y": 33,
+                    "width": 54,
+                    "height": 24
+                  },
+                  "style": {
+                    "backgroundColor": "#0f172a",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#0f172a",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 24,
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "color": "#0f172a"
+                  },
+                  "copy": "Pricing",
+                  "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1jx25k9v",
+          "name": "Nav items",
+          "type": "FRAME",
+          "layout": {
+            "x": 1146,
+            "y": 23,
+            "width": 224,
+            "height": 44,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[224px] h-[44px]",
+          "children": [
+            {
+              "id": "i4jqhujit",
+              "name": "Button",
+              "type": "FRAME",
+              "layout": {
+                "x": 1146,
+                "y": 23,
+                "width": 80,
+                "height": 44,
+                "paddingTop": 12,
+                "paddingRight": 18,
+                "paddingBottom": 12,
+                "paddingLeft": 18,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "borderStyle": "solid",
+                "borderColor": "#6183e4",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "stroke": "#6183e4",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[80px] h-[44px] border border-solid border-color-[#6183e4] border-radius-[5px]",
+              "children": [
+                {
+                  "id": "jbk9g9dop",
+                  "name": "Button CTA",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 1164,
+                    "y": 35,
+                    "width": 44,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#6183e4",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#6183e4",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 20,
+                    "letterSpacing": -2,
+                    "textAlign": "CENTER",
+                    "color": "#6183e4"
+                  },
+                  "copy": "Sign in",
+                  "tailwind": "text-[14] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#6183e4]"
+                }
+              ]
+            },
+            {
+              "id": "3fop0c1mp",
+              "name": "Button",
+              "type": "FRAME",
+              "layout": {
+                "x": 1246,
+                "y": 23,
+                "width": 124,
+                "height": 44,
+                "paddingTop": 12,
+                "paddingRight": 18,
+                "paddingBottom": 12,
+                "paddingLeft": 18,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "backgroundColor": "#1d4ed8",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#1d4ed8",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[124px] h-[44px] bg-[#1d4ed8] border-radius-[5px]",
+              "children": [
+                {
+                  "id": "nrajunjeo",
+                  "name": "Button CTA",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 1264,
+                    "y": 35,
+                    "width": 88,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#f8fafc",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#f8fafc",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 20,
+                    "letterSpacing": -2,
+                    "textAlign": "CENTER",
+                    "color": "#f8fafc"
+                  },
+                  "copy": "Request Beta",
+                  "tailwind": "text-[14] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#f8fafc]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rf3bw37jp",
+          "name": "Logo",
+          "type": "GROUP",
+          "layout": {
+            "x": 695,
+            "y": 29,
+            "width": 50.4,
+            "height": 32.4
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[50px] h-[32px]",
+          "children": [
+            {
+              "id": "wx33bs6co",
+              "name": "Logomark",
+              "type": "FRAME",
+              "layout": {
+                "x": 695,
+                "y": 29,
+                "width": 50.4,
+                "height": 32.4,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 2.7,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 2.7
+              },
+              "tailwind": "w-[50px] h-[32px] bg-[]",
+              "children": [
+                {
+                  "id": "lhazhzoqr",
+                  "name": "Symbols",
+                  "type": "GROUP",
+                  "layout": {
+                    "x": 695.5,
+                    "y": 29.2,
+                    "width": 49.2,
+                    "height": 32
+                  },
+                  "style": {
+                    "opacity": 1
+                  },
+                  "tailwind": "w-[49px] h-[31px]",
+                  "children": [
+                    {
+                      "id": "b6h8yo6s5",
+                      "name": "Logo",
+                      "type": "GROUP",
+                      "layout": {
+                        "x": 695.5,
+                        "y": 29.2,
+                        "width": 49.2,
+                        "height": 32
+                      },
+                      "style": {
+                        "opacity": 1
+                      },
+                      "tailwind": "w-[46px] h-[26px]",
+                      "children": [
+                        {
+                          "id": "c1wkcpgf7",
+                          "name": "Fill 10",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 709.2,
+                            "y": 31,
+                            "width": 19.6,
+                            "height": 18.9
+                          },
+                          "style": {
+                            "backgroundColor": "#ffcc02",
+                            "borderRadius": 0,
+                            "borderWidth": 2.7,
+                            "opacity": 1,
+                            "fill": "#ffcc02",
+                            "strokeWidth": 2.7
+                          },
+                          "svg": {
+                            "fill": "#ffcc02",
+                            "strokeWidth": 2.7
+                          },
+                          "tailwind": "w-[17px] h-[16px] bg-[#ffcc02]"
+                        },
+                        {
+                          "id": "7uepcq3u8",
+                          "name": "Fill 5",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 705.7,
+                            "y": 36.7,
+                            "width": 39,
+                            "height": 23.3
+                          },
+                          "style": {
+                            "backgroundColor": "#ffcc02",
+                            "borderRadius": 0,
+                            "borderWidth": 2.7,
+                            "opacity": 1,
+                            "fill": "#ffcc02",
+                            "strokeWidth": 2.7
+                          },
+                          "svg": {
+                            "fill": "#ffcc02",
+                            "strokeWidth": 2.7
+                          },
+                          "tailwind": "w-[36px] h-[19px] bg-[#ffcc02]"
+                        },
+                        {
+                          "id": "v1hwms3bh",
+                          "name": "Fill 7",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 696.4,
+                            "y": 39.7,
+                            "width": 25.2,
+                            "height": 21.2
+                          },
+                          "style": {
+                            "backgroundColor": "#efae07",
+                            "borderRadius": 0,
+                            "borderWidth": 2.7,
+                            "opacity": 1,
+                            "fill": "#efae07",
+                            "strokeWidth": 2.7
+                          },
+                          "svg": {
+                            "fill": "#efae07",
+                            "strokeWidth": 2.7
+                          },
+                          "tailwind": "w-[22px] h-[18px] bg-[#efae07]"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e2vjuztt",
+      "name": "Header",
+      "type": "FRAME",
+      "layout": {
+        "x": 100,
+        "y": 222,
+        "width": 530,
+        "height": 434,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "strokeWidth": 1
+      },
+      "tailwind": "w-[530px] h-[434px]",
+      "children": [
+        {
+          "id": "iy51jwo72",
+          "name": "Content",
+          "type": "FRAME",
+          "layout": {
+            "x": 100,
+            "y": 222,
+            "width": 530,
+            "height": 318,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[530px] h-[318px]",
+          "children": [
+            {
+              "id": "qtoytb1g1",
+              "name": "Manage your freelance business with this suit",
+              "type": "TEXT",
+              "layout": {
+                "x": 100,
+                "y": 222,
+                "width": 530,
+                "height": 216
+              },
+              "style": {
+                "backgroundColor": "#0f172a",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#0f172a",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 60,
+                "fontWeight": "bold",
+                "fontStyle": "Semi Bold",
+                "lineHeight": 72,
+                "letterSpacing": -4,
+                "textAlign": "LEFT",
+                "color": "#0f172a"
+              },
+              "copy": "Manage your freelance business with this suit ",
+              "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.04em] color-[#0f172a]"
+            },
+            {
+              "id": "qtsqfu2rm",
+              "name": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+              "type": "TEXT",
+              "layout": {
+                "x": 100,
+                "y": 462,
+                "width": 419,
+                "height": 78
+              },
+              "style": {
+                "backgroundColor": "#475569",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#475569",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 26,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#475569"
+              },
+              "copy": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+              "tailwind": "text-[18] h-[26px] color-[#475569]"
+            }
+          ]
+        },
+        {
+          "id": "5thau3jen",
+          "name": "CTA",
+          "type": "FRAME",
+          "layout": {
+            "x": 100,
+            "y": 604,
+            "width": 387,
+            "height": 52,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[387px] h-[52px]",
+          "children": [
+            {
+              "id": "wnevmuhc4",
+              "name": "Input",
+              "type": "FRAME",
+              "layout": {
+                "x": 100,
+                "y": 604,
+                "width": 220,
+                "height": 52,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderStyle": "solid",
+                "borderColor": "#cbd5e1",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "stroke": "#cbd5e1",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[220px] h-[52px] bg-white border border-solid border-color-[#cbd5e1] border-radius-[5px]",
+              "children": [
+                {
+                  "id": "jkvu09q80",
+                  "name": ".Input",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 100,
+                    "y": 604,
+                    "width": 220,
+                    "height": 52,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderStyle": "solid",
+                    "borderColor": "#cbd5e1",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "stroke": "#cbd5e1",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[220px] h-[52px] bg-white border border-solid border-color-[#cbd5e1] rounded-4",
+                  "children": [
+                    {
+                      "id": "nyzdeivug",
+                      "name": "Input text here",
+                      "type": "TEXT",
+                      "layout": {
+                        "x": 116,
+                        "y": 618,
+                        "width": 111,
+                        "height": 24
+                      },
+                      "style": {
+                        "backgroundColor": "#94a3b8",
+                        "borderWidth": 1,
+                        "opacity": 1,
+                        "fill": "#94a3b8",
+                        "strokeWidth": 1
+                      },
+                      "text": {
+                        "fontFamily": "Inter",
+                        "fontSize": 16,
+                        "fontStyle": "Regular",
+                        "lineHeight": 24,
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "color": "#94a3b8"
+                      },
+                      "copy": "Input text here",
+                      "tailwind": "font-size-[16px] leading-24 color-[#94a3b8]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so0u4cq4c",
+              "name": "Button",
+              "type": "FRAME",
+              "layout": {
+                "x": 336,
+                "y": 604,
+                "width": 151,
+                "height": 48,
+                "paddingTop": 14,
+                "paddingRight": 20,
+                "paddingBottom": 14,
+                "paddingLeft": 20,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER"
+              },
+              "style": {
+                "backgroundColor": "#1d4ed8",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#1d4ed8",
+                "strokeWidth": 1
+              },
+              "tailwind": "w-[151px] h-[48px] bg-[#1d4ed8] border-radius-[5px]",
+              "children": [
+                {
+                  "id": "nx88fwd0n",
+                  "name": "Button CTA",
+                  "type": "TEXT",
+                  "layout": {
+                    "x": 356,
+                    "y": 618,
+                    "width": 87,
+                    "height": 20
+                  },
+                  "style": {
+                    "backgroundColor": "#f8fafc",
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#f8fafc",
+                    "strokeWidth": 1
+                  },
+                  "text": {
+                    "fontFamily": "Inter",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "fontStyle": "Semi Bold",
+                    "lineHeight": 20,
+                    "letterSpacing": -2,
+                    "textAlign": "CENTER",
+                    "color": "#f8fafc"
+                  },
+                  "copy": "Get Started",
+                  "tailwind": "font-size-[16px] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#f8fafc]"
+                },
+                {
+                  "id": "ntam376rh",
+                  "name": "Icon",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 449,
+                    "y": 619,
+                    "width": 18,
+                    "height": 18,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 0,
+                    "borderWidth": 0.7,
+                    "opacity": 1,
+                    "fill": "#ffffff",
+                    "strokeWidth": 0.7
+                  },
+                  "tailwind": "w-[18px] h-[18px] bg-[]",
+                  "children": [
+                    {
+                      "id": "uu91x1o9o",
+                      "name": "Vector",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 458,
+                        "y": 622.8,
+                        "width": 5.2,
+                        "height": 10.5
+                      },
+                      "style": {
+                        "borderStyle": "solid",
+                        "borderColor": "#f8fafc",
+                        "borderRadius": 0,
+                        "borderWidth": 1.5,
+                        "opacity": 1,
+                        "stroke": "#f8fafc",
+                        "strokeWidth": 1.5
+                      },
+                      "svg": {
+                        "stroke": "#f8fafc",
+                        "strokeWidth": 1.5
+                      },
+                      "tailwind": "w-[5px] h-[10px] w-[1px] border-solid border-color-[#f8fafc]"
+                    },
+                    {
+                      "id": "crxsdiaze",
+                      "name": "Vector",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 452.8,
+                        "y": 628,
+                        "width": 10.5,
+                        "height": 0
+                      },
+                      "style": {
+                        "borderStyle": "solid",
+                        "borderColor": "#f8fafc",
+                        "borderRadius": 0,
+                        "borderWidth": 1.5,
+                        "opacity": 1,
+                        "stroke": "#f8fafc",
+                        "strokeWidth": 1.5
+                      },
+                      "svg": {
+                        "stroke": "#f8fafc",
+                        "strokeWidth": 1.5
+                      },
+                      "tailwind": "w-[10px] h-[0px] w-[1px] border-solid border-color-[#f8fafc]"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ztmkl0ix6",
+      "name": "Browser Frame",
+      "type": "FRAME",
+      "layout": {
+        "x": 840,
+        "y": 223,
+        "width": 1085,
+        "height": 664.5,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisAlignItems": "MIN",
+        "primaryAxisAlignItems": "MIN"
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 8.5,
+        "borderWidth": 0,
+        "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        "opacity": 1,
+        "fill": "#ffffff",
+        "strokeWidth": 0
+      },
+      "tailwind": "w-[1084px] h-[664px] bg-white border-radius-[8.48px] box-shadow-[0 28.43px 56.86px -13.65px rgba(0, 0, 0, 0.25)]",
+      "children": [
+        {
+          "id": "8z8f6ca61",
+          "name": "Core / Safari (Big Sur) / Toolbar / Light",
+          "type": "FRAME",
+          "layout": {
+            "x": 840,
+            "y": 223,
+            "width": 1085,
+            "height": 44.9,
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisAlignItems": "MIN",
+            "primaryAxisAlignItems": "MIN"
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 0.8,
+            "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 0.8
+          },
+          "tailwind": "w-[1084px] h-[44px] bg-white border-radius-[8.48px 8.48px 0 0] box-shadow-[inset 0 -0.42px 0 0 rgba(0, 0, 0, 0.05), 0 0.42px 0 0 rgba(0, 0, 0, 0.15)]",
+          "children": [
+            {
+              "id": "h8vag5exw",
+              "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+              "type": "FRAME",
+              "layout": {
+                "x": 918,
+                "y": 233.2,
+                "width": 28,
+                "height": 23.7,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#000000",
+                "borderRadius": 5.1,
+                "borderWidth": 0.8,
+                "opacity": 1,
+                "fill": "#000000",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+              "children": [
+                {
+                  "id": "d1rfttc8q",
+                  "name": "􀏚",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 923.7,
+                    "y": 238.6,
+                    "width": 16.6,
+                    "height": 13
+                  },
+                  "style": {
+                    "backgroundColor": "#737373",
+                    "borderRadius": 0,
+                    "borderWidth": 0,
+                    "opacity": 1,
+                    "fill": "#737373",
+                    "strokeWidth": 0
+                  },
+                  "svg": {
+                    "fill": "#737373",
+                    "strokeWidth": 0
+                  },
+                  "tailwind": "w-[16px] h-[12px] bg-[#737373]"
+                }
+              ]
+            },
+            {
+              "id": "q654ywenc",
+              "name": "Toolbar Group",
+              "type": "FRAME",
+              "layout": {
+                "x": 953.6,
+                "y": 233.2,
+                "width": 55.9,
+                "height": 23.7,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 0.8,
+                "opacity": 1,
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[55px] h-[23px]",
+              "children": [
+                {
+                  "id": "5ddi9u577",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 953.6,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "o5urxo6ek",
+                      "name": "􀆉",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 964.1,
+                        "y": 238.9,
+                        "width": 6.9,
+                        "height": 12.2
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[6px] h-[12px] bg-[#737373]"
+                    }
+                  ]
+                },
+                {
+                  "id": "0sjvubj94",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 981.6,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "ysbb7nxpl",
+                      "name": "􀆊",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 992.1,
+                        "y": 238.9,
+                        "width": 6.9,
+                        "height": 12.2
+                      },
+                      "style": {
+                        "backgroundColor": "#bfbfbf",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#bfbfbf",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#bfbfbf",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[6px] h-[12px] bg-[#bfbfbf]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sjwwgk44b",
+              "name": "Frame 10",
+              "type": "FRAME",
+              "layout": {
+                "x": 1128.2,
+                "y": 233.2,
+                "width": 508.6,
+                "height": 23.7,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 0.8,
+                "opacity": 1,
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[508px] h-[23px]",
+              "children": [
+                {
+                  "id": "ul5b2u4u2",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1128.2,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "vy1g23z19",
+                      "name": "􀙨",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1136.3,
+                        "y": 238.1,
+                        "width": 11.7,
+                        "height": 14.2
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[11px] h-[14px] bg-[#737373]"
+                    }
+                  ]
+                },
+                {
+                  "id": "o22uhi5nj",
+                  "name": "Core / Safari (Big Sur) / Search Bar (Default)",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1163.8,
+                    "y": 233.2,
+                    "width": 437.4,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[437px] h-[23px] bg-[rgba(0, 0, 0, 0.05)] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "tkjseiifb",
+                      "name": "Frame 8",
+                      "type": "FRAME",
+                      "layout": {
+                        "x": 1322.6,
+                        "y": 238.2,
+                        "width": 119.8,
+                        "height": 13.6,
+                        "paddingTop": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "primaryAxisSizingMode": "AUTO",
+                        "counterAxisAlignItems": "CENTER",
+                        "primaryAxisAlignItems": "MIN"
+                      },
+                      "style": {
+                        "borderRadius": 0,
+                        "borderWidth": 0.8,
+                        "opacity": 1,
+                        "strokeWidth": 0.8
+                      },
+                      "tailwind": "w-[119px] h-[13px]",
+                      "children": [
+                        {
+                          "id": "fe2wsb0ik",
+                          "name": "Text",
+                          "type": "TEXT",
+                          "layout": {
+                            "x": 1334.3,
+                            "y": 238.2,
+                            "width": 108,
+                            "height": 13.6
+                          },
+                          "style": {
+                            "backgroundColor": "#4c4c4c",
+                            "borderWidth": 0.8,
+                            "opacity": 1,
+                            "fill": "#4c4c4c",
+                            "strokeWidth": 0.8
+                          },
+                          "text": {
+                            "fontFamily": "SF Pro Text",
+                            "fontSize": 11.01911735534668,
+                            "fontStyle": "Regular",
+                            "letterSpacing": -0.4,
+                            "textAlign": "LEFT",
+                            "color": "#4c4c4c"
+                          },
+                          "copy": "thedesignership.com",
+                          "tailwind": "font-size-[11.02px] letter-spacing-[-0.004000000059604645em] color-[#4c4c4c]"
+                        },
+                        {
+                          "id": "w9eyzvm2i",
+                          "name": "Lock",
+                          "type": "VECTOR",
+                          "layout": {
+                            "x": 1322.6,
+                            "y": 240.2,
+                            "width": 6.6,
+                            "height": 9.7
+                          },
+                          "style": {
+                            "backgroundColor": "#9e9e9e",
+                            "borderRadius": 0,
+                            "borderWidth": 0.8,
+                            "opacity": 1,
+                            "fill": "#9e9e9e",
+                            "strokeWidth": 0.8
+                          },
+                          "svg": {
+                            "fill": "#9e9e9e",
+                            "strokeWidth": 0.8
+                          },
+                          "tailwind": "w-[6px] h-[9px] bg-[#9e9e9e]"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "56buapbwy",
+                      "name": "Lock",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1587,
+                        "y": 239.8,
+                        "width": 8.8,
+                        "height": 10.7
+                      },
+                      "style": {
+                        "backgroundColor": "#797979",
+                        "borderRadius": 0,
+                        "borderWidth": 0.8,
+                        "opacity": 1,
+                        "fill": "#797979",
+                        "strokeWidth": 0.8
+                      },
+                      "svg": {
+                        "fill": "#797979",
+                        "strokeWidth": 0.8
+                      },
+                      "tailwind": "w-[8px] h-[10px] bg-[#797979]"
+                    }
+                  ]
+                },
+                {
+                  "id": "9ebly02lu",
+                  "name": "SPACER",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1695.2,
+                    "y": 233.2,
+                    "width": 33,
+                    "height": 28,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 6,
+                    "borderWidth": 1,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 1
+                  },
+                  "tailwind": "w-[33px] h-[28px] bg-[] border-radius-[6px]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n5nm05byk",
+              "name": "Toolbar Group",
+              "type": "FRAME",
+              "layout": {
+                "x": 1782.6,
+                "y": 233.2,
+                "width": 132.2,
+                "height": 23.7,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "borderRadius": 0,
+                "borderWidth": 0.8,
+                "opacity": 1,
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[132px] h-[23px]",
+              "children": [
+                {
+                  "id": "a82edn2ca",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1782.6,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "7n9hj48e1",
+                      "name": "􀁸",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1789.4,
+                        "y": 237.9,
+                        "width": 14.4,
+                        "height": 14.4
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[14px] h-[14px] bg-[#737373]"
+                    }
+                  ]
+                },
+                {
+                  "id": "7eg34pr3f",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1817.3,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "6r6j3s2cr",
+                      "name": "􀈂",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1825,
+                        "y": 236.6,
+                        "width": 12.5,
+                        "height": 15.9
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[12px] h-[15px] bg-[#737373]"
+                    }
+                  ]
+                },
+                {
+                  "id": "byb92art0",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1852.1,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "pcuaaf9u9",
+                      "name": "􀅼",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1860.2,
+                        "y": 239.1,
+                        "width": 11.6,
+                        "height": 11.8
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[11px] h-[11px] bg-[#737373]"
+                    }
+                  ]
+                },
+                {
+                  "id": "7x72g62jp",
+                  "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
+                  "type": "FRAME",
+                  "layout": {
+                    "x": 1886.8,
+                    "y": 233.2,
+                    "width": 28,
+                    "height": 23.7,
+                    "paddingTop": 0,
+                    "paddingRight": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "primaryAxisSizingMode": "AUTO",
+                    "counterAxisAlignItems": "MIN",
+                    "primaryAxisAlignItems": "MIN"
+                  },
+                  "style": {
+                    "backgroundColor": "#000000",
+                    "borderRadius": 5.1,
+                    "borderWidth": 0.8,
+                    "opacity": 1,
+                    "fill": "#000000",
+                    "strokeWidth": 0.8
+                  },
+                  "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
+                  "children": [
+                    {
+                      "id": "klfvt51ul",
+                      "name": "􀐅",
+                      "type": "VECTOR",
+                      "layout": {
+                        "x": 1893.4,
+                        "y": 237.7,
+                        "width": 14.9,
+                        "height": 14.7
+                      },
+                      "style": {
+                        "backgroundColor": "#737373",
+                        "borderRadius": 0,
+                        "borderWidth": 0,
+                        "opacity": 1,
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "svg": {
+                        "fill": "#737373",
+                        "strokeWidth": 0
+                      },
+                      "tailwind": "w-[14px] h-[14px] bg-[#737373]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "28z5749ao",
+              "name": "Core / Traffic Lights (Big Sur)",
+              "type": "FRAME",
+              "layout": {
+                "x": 857.8,
+                "y": 240,
+                "width": 44.1,
+                "height": 10.2,
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisAlignItems": "MIN",
+                "primaryAxisAlignItems": "MIN"
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 0,
+                "borderWidth": 0.8,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[44px] h-[10px] bg-[]",
+              "children": [
+                {
+                  "id": "55r67si1k",
+                  "name": "close",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 857.8,
+                    "y": 240,
+                    "width": 10.2,
+                    "height": 10.2
+                  },
+                  "style": {
+                    "backgroundColor": "#ee6a5f",
+                    "borderStyle": "solid",
+                    "borderColor": "#ce5347",
+                    "borderRadius": 0,
+                    "borderWidth": 0.4,
+                    "boxShadow": "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
+                    "opacity": 1,
+                    "fill": "#ee6a5f",
+                    "stroke": "#ce5347",
+                    "strokeWidth": 0.4
+                  },
+                  "svg": {
+                    "fill": "#ee6a5f",
+                    "stroke": "#ce5347",
+                    "strokeWidth": 0.4
+                  },
+                  "tailwind": "w-[10px] h-[10px] bg-[#ee6a5f] w-[0px] border-solid border-color-[#ce5347] box-shadow-[inset 0 0 5.09px 0 #ec6d62]"
+                },
+                {
+                  "id": "xx8ah72wp",
+                  "name": "minimize",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 874.8,
+                    "y": 240,
+                    "width": 10.2,
+                    "height": 10.2
+                  },
+                  "style": {
+                    "backgroundColor": "#f5bd4f",
+                    "borderStyle": "solid",
+                    "borderColor": "#d6a243",
+                    "borderRadius": 0,
+                    "borderWidth": 0.4,
+                    "boxShadow": "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
+                    "opacity": 1,
+                    "fill": "#f5bd4f",
+                    "stroke": "#d6a243",
+                    "strokeWidth": 0.4
+                  },
+                  "svg": {
+                    "fill": "#f5bd4f",
+                    "stroke": "#d6a243",
+                    "strokeWidth": 0.4
+                  },
+                  "tailwind": "w-[10px] h-[10px] bg-[#f5bd4f] w-[0px] border-solid border-color-[#d6a243] box-shadow-[inset 0 0 5.09px 0 #f5c451]"
+                },
+                {
+                  "id": "mdq2eowql",
+                  "name": "fullscreen",
+                  "type": "VECTOR",
+                  "layout": {
+                    "x": 891.7,
+                    "y": 240,
+                    "width": 10.2,
+                    "height": 10.2
+                  },
+                  "style": {
+                    "backgroundColor": "#61c454",
+                    "borderStyle": "solid",
+                    "borderColor": "#58a942",
+                    "borderRadius": 0,
+                    "borderWidth": 0.4,
+                    "boxShadow": "inset 0px 4px 4px rgba(0, 0, 0, 0.25)",
+                    "opacity": 1,
+                    "fill": "#61c454",
+                    "stroke": "#58a942",
+                    "strokeWidth": 0.4
+                  },
+                  "svg": {
+                    "fill": "#61c454",
+                    "stroke": "#58a942",
+                    "strokeWidth": 0.4
+                  },
+                  "tailwind": "w-[10px] h-[10px] bg-[#61c454] w-[0px] border-solid border-color-[#58a942] box-shadow-[inset 0 0 5.09px 0 #68cc58]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qe4ajfuhu",
+          "name": "Body",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 840,
+            "y": 267.9,
+            "width": 1085,
+            "height": 619.6
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 0,
+            "borderWidth": 0.8,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 0.8
+          },
+          "tailwind": "w-[1084px] h-[619px] bg-white"
+        }
+      ]
+    },
+    {
+      "id": "rhj5r8j1i",
+      "name": "Mockup",
+      "type": "GROUP",
+      "layout": {
+        "x": 728,
+        "y": 428,
+        "width": 280.5,
+        "height": 561.7
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[280px] h-[561px]",
+      "children": [
+        {
+          "id": "vs8hu8r4d",
+          "name": "Rectangle 50",
+          "type": "VECTOR",
+          "layout": {
+            "x": 728,
+            "y": 428,
+            "width": 280.5,
+            "height": 561.7
+          },
+          "style": {
+            "backgroundColor": "#eeeeee",
+            "borderWidth": 0.8,
+            "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            "opacity": 1,
+            "fill": "#eeeeee",
+            "strokeWidth": 0.8
+          },
+          "svg": {
+            "fill": "#eeeeee",
+            "strokeWidth": 0.8
+          },
+          "tailwind": "w-[280px] h-[561px] bg-[#eee] box-shadow-[57.59px 82.27px 164.54px 0 rgba(0, 0, 0, 0.17)]"
+        },
+        {
+          "id": "9zfnhcf8a",
+          "name": "Group 56",
+          "type": "GROUP",
+          "layout": {
+            "x": 810.8,
+            "y": 436.6,
+            "width": 109.9,
+            "height": 11.9
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[109px] h-[11px]",
+          "children": [
+            {
+              "id": "r7aljbofv",
+              "name": "Rectangle 56",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 908.8,
+                "y": 436.6,
+                "width": 11.9,
+                "height": 11.9
+              },
+              "style": {
+                "backgroundColor": "#dddddd",
+                "borderRadius": 9,
+                "borderWidth": 0.8,
+                "opacity": 0.5,
+                "fill": "#dddddd",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[11px] h-[11px] bg-[#ddd] border-radius-[9.05px]"
+            },
+            {
+              "id": "fc8d3ryox",
+              "name": "Rectangle 58",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 911.5,
+                "y": 439.3,
+                "width": 6.6,
+                "height": 6.6
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 9,
+                "borderWidth": 0.8,
+                "opacity": 0.5,
+                "fill": "#ffffff",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[6px] h-[6px] bg-white border-radius-[9.05px]"
+            },
+            {
+              "id": "1uz0tlkgi",
+              "name": "Rectangle 57",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 810.8,
+                "y": 439.9,
+                "width": 5.3,
+                "height": 5.3
+              },
+              "style": {
+                "backgroundColor": "#cccccc",
+                "borderRadius": 3.3,
+                "borderWidth": 0.8,
+                "opacity": 0.5,
+                "fill": "#cccccc",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[5px] h-[5px] bg-[#ccc] border-radius-[3.29px]"
+            },
+            {
+              "id": "ugoi48c7c",
+              "name": "Rectangle 55",
+              "type": "RECTANGLE",
+              "layout": {
+                "x": 842.6,
+                "y": 439.9,
+                "width": 57,
+                "height": 5.3
+              },
+              "style": {
+                "backgroundColor": "#cccccc",
+                "borderRadius": 3.3,
+                "borderWidth": 0.8,
+                "opacity": 0.4,
+                "fill": "#cccccc",
+                "strokeWidth": 0.8
+              },
+              "tailwind": "w-[56px] h-[5px] bg-[#ccc] border-radius-[3.29px]"
+            }
+          ]
+        },
+        {
+          "id": "sajbel97x",
+          "name": "add image",
+          "type": "VECTOR",
+          "layout": {
+            "x": 743.9,
+            "y": 439.9,
+            "width": 248.4,
+            "height": 537.8
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 0,
+            "borderWidth": 0.8,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 0.8
+          },
+          "svg": {
+            "fill": "#ffffff",
+            "strokeWidth": 0.8
+          },
+          "tailwind": "w-[248px] h-[537px] bg-white"
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,49 @@
 import { getSimplifiedNode } from "../src/api";
 import fs from "fs";
 import path from "path";
+import { getDescriptionOfNode } from "../src/utils/nodes";
+import { getImagesFromNodes } from "../src/utils/images";
+import { vi } from "vitest";
 
-function findJsonFiles(dir: string, jsonFiles: string[] = []) {
+const figmaMock = {
+  ui: {
+    postMessage: vi.fn(),
+  },
+  clientStorage: {
+    getAsync: vi.fn().mockResolvedValue("mock-access-token"),
+  },
+  getImageByHash: vi.fn().mockReturnValue({
+    getBytesAsync: vi.fn().mockResolvedValue(new Uint8Array()),
+  }),
+};
+
+// @ts-expect-error - We're adding a mock to the global scope
+global.figma = figmaMock; // Assign the mock to the global scope
+global.fetch = vi.fn().mockResolvedValue({
+  json: () => Promise.resolve({ data: { success: true } }),
+});
+
+vi.mock("@create-figma-plugin/utilities", () => ({
+  emit: vi.fn(),
+}));
+
+function findJsonFiles(
+  dir: string,
+  jsonFiles: string[] = [],
+  findSimplified = false,
+) {
   const files = fs.readdirSync(dir);
 
   files.forEach((file) => {
     const filePath = path.join(dir, file) as string;
     if (fs.statSync(filePath).isDirectory()) {
-      findJsonFiles(filePath, jsonFiles);
-    } else if (path.extname(file) === ".json") {
+      findJsonFiles(filePath, jsonFiles, findSimplified);
+    } else if (
+      path.extname(file) === ".json" &&
+      (findSimplified
+        ? file.startsWith("simplified_")
+        : !file.startsWith("simplified_"))
+    ) {
       jsonFiles.push(filePath);
     }
   });
@@ -38,15 +72,50 @@ describe("getSimplifiedNode", () => {
       } catch (error) {
         throw new Error(`Error parsing json file: ${file}`);
       }
+
+      // there should only be one node in the array
       for (const node of nodeArray) {
         const result = getSimplifiedNode(node);
-        // the results has to be an object and not be empty
         expect(typeof result).toBe("object");
         expect(Object.keys(result || {}).length).toBeGreaterThan(0);
-        // it must have an id key
         expect(result?.id).toBeDefined();
         expect(result?.name).toBeDefined();
       }
     });
+  });
+});
+
+describe("getDescriptionsFromSimplifiedNodes", () => {
+  it("should generate node descriptions from simplified nodes", async () => {
+    const mockFolderPath = path.join(__dirname, "../__mocks__/test_samples");
+    const jsonFiles = findJsonFiles(mockFolderPath, [], true);
+
+    for (const file of jsonFiles) {
+      const nodeStr = fs.readFileSync(file, "utf8");
+      const node = JSON.parse(nodeStr);
+      // first get the description of the node
+      const nodeDescription = getDescriptionOfNode(node);
+      expect(nodeDescription).toBeDefined();
+      expect(nodeDescription).not.toBeNull();
+      expect(typeof nodeDescription).toBe("string");
+      expect(nodeDescription.length).toBeGreaterThan(0);
+    }
+  });
+});
+
+describe("getImagesFromSimplifiedNodes", () => {
+  it("should generate image urls from simplified nodes", async () => {
+    const mockFolderPath = path.join(__dirname, "../__mocks__/test_samples");
+    const jsonFiles = findJsonFiles(mockFolderPath, [], true);
+
+    for (const file of jsonFiles) {
+      const nodeStr = fs.readFileSync(file, "utf8");
+      const node = JSON.parse(nodeStr);
+      // first get the description of the node
+      const imageUrls = await getImagesFromNodes(node);
+      expect(imageUrls).toBeDefined();
+      expect(imageUrls).not.toBeNull();
+      expect(Array.isArray(imageUrls)).toBe(true);
+    }
   });
 });

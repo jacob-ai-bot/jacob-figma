@@ -1,0 +1,488 @@
+{
+  "id": "4u8g4wtf2",
+  "name": "Stats",
+  "type": "GROUP",
+  "layout": {
+    "x": 0,
+    "y": 0,
+    "width": 1600,
+    "height": 824
+  },
+  "style": {
+    "opacity": 1
+  },
+  "tailwind": "w-[1600px] h-[824px]",
+  "children": [
+    {
+      "id": "o0mmtbrt8",
+      "name": "BG",
+      "type": "GROUP",
+      "layout": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 824
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[1600px] h-[824px]",
+      "children": [
+        {
+          "id": "93bbsumex",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 824
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[824px] bg-black"
+        },
+        {
+          "id": "rckn7kk5i",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 824
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[1600px] h-[824px] bg-black"
+        },
+        {
+          "id": "8aa3fjenx",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 824
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "opacity": 0.3,
+            "strokeWidth": 1
+          },
+          "image": {
+            "imageHash": "e887b2712cade5c5401477c2b85dbaf2fec3fff5"
+          },
+          "tailwind": "w-[1600px] h-[824px] mix-blend-mode-[overlay] background-[url()]"
+        },
+        {
+          "id": "ur79hwjw9",
+          "name": "Ellipse 33",
+          "type": "VECTOR",
+          "layout": {
+            "x": 875,
+            "y": 119,
+            "width": 628.7,
+            "height": 560.8
+          },
+          "style": {
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "svg": {
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[394px] h-[518px] background-[undefined] filter-[blur(210px)]"
+        }
+      ]
+    },
+    {
+      "id": "y022weja7",
+      "name": "Card",
+      "type": "GROUP",
+      "layout": {
+        "x": 946,
+        "y": 145,
+        "width": 425,
+        "height": 533
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[425px] h-[533px]",
+      "children": [
+        {
+          "id": "8pxdousoc",
+          "name": "BG",
+          "type": "RECTANGLE",
+          "layout": {
+            "x": 946,
+            "y": 145,
+            "width": 425,
+            "height": 533
+          },
+          "style": {
+            "backgroundColor": "#000000",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#000000",
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[425px] h-[533px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
+        },
+        {
+          "id": "cuspzsswg",
+          "name": "1",
+          "type": "GROUP",
+          "layout": {
+            "x": 994,
+            "y": 184,
+            "width": 248,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[248px] h-[105px]",
+          "children": [
+            {
+              "id": "9fl3rd00r",
+              "name": "2M+",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 184,
+                "width": 121,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "2M+",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "u9ofz5q8i",
+              "name": "Tickets Delivered This Month",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 261,
+                "width": 248,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Tickets Delivered This Month",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        },
+        {
+          "id": "4b4dpjddh",
+          "name": "Line 3",
+          "type": "LINE",
+          "layout": {
+            "x": 946,
+            "y": 330,
+            "width": 425,
+            "height": 0
+          },
+          "style": {
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[425px] h-[0px]"
+        },
+        {
+          "id": "km6n2s8jt",
+          "name": "2",
+          "type": "GROUP",
+          "layout": {
+            "x": 994,
+            "y": 355,
+            "width": 195,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[195px] h-[105px]",
+          "children": [
+            {
+              "id": "pse4nawx3",
+              "name": "46K+",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 355,
+                "width": 146,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "46K+",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "d4sksgbw4",
+              "name": "Active Customers Rate",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 432,
+                "width": 195,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Active Customers Rate",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        },
+        {
+          "id": "5mqvkf3gt",
+          "name": "Line 4",
+          "type": "LINE",
+          "layout": {
+            "x": 946,
+            "y": 499,
+            "width": 425,
+            "height": 0
+          },
+          "style": {
+            "borderWidth": 1,
+            "opacity": 1,
+            "strokeWidth": 1
+          },
+          "tailwind": "w-[425px] h-[0px]"
+        },
+        {
+          "id": "c056trmt6",
+          "name": "3",
+          "type": "GROUP",
+          "layout": {
+            "x": 994,
+            "y": 526,
+            "width": 232,
+            "height": 105
+          },
+          "style": {
+            "opacity": 1
+          },
+          "tailwind": "w-[232px] h-[105px]",
+          "children": [
+            {
+              "id": "pmtpo2sha",
+              "name": "99%",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 526,
+                "width": 128,
+                "height": 66
+              },
+              "style": {
+                "backgroundColor": "#ffffff",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#ffffff",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "IBM Plex Sans",
+                "fontSize": 60,
+                "fontStyle": "Regular",
+                "lineHeight": 66,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#ffffff"
+              },
+              "copy": "99%",
+              "tailwind": "font-size-[60px] h-[66px] text-white"
+            },
+            {
+              "id": "5it8yobae",
+              "name": "Customer Satisfaction Rate",
+              "type": "TEXT",
+              "layout": {
+                "x": 994,
+                "y": 603,
+                "width": 232,
+                "height": 28
+              },
+              "style": {
+                "backgroundColor": "#a1a1aa",
+                "borderWidth": 1,
+                "opacity": 1,
+                "fill": "#a1a1aa",
+                "strokeWidth": 1
+              },
+              "text": {
+                "fontFamily": "Inter",
+                "fontSize": 18,
+                "fontStyle": "Regular",
+                "lineHeight": 28,
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "color": "#a1a1aa"
+              },
+              "copy": "Customer Satisfaction Rate",
+              "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zbu5avr9w",
+      "name": "Content",
+      "type": "GROUP",
+      "layout": {
+        "x": 152,
+        "y": 289,
+        "width": 500,
+        "height": 245
+      },
+      "style": {
+        "opacity": 1
+      },
+      "tailwind": "w-[500px] h-[245px]",
+      "children": [
+        {
+          "id": "dmfoeqmd2",
+          "name": "Numbers are telling our story",
+          "type": "TEXT",
+          "layout": {
+            "x": 152,
+            "y": 289,
+            "width": 500,
+            "height": 132
+          },
+          "style": {
+            "backgroundColor": "#ffffff",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#ffffff",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": 60,
+            "fontStyle": "Regular",
+            "lineHeight": 66,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#ffffff"
+          },
+          "copy": "Numbers are telling our story",
+          "tailwind": "font-size-[60px] h-[66px] text-white"
+        },
+        {
+          "id": "v6vxt6v6a",
+          "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "type": "TEXT",
+          "layout": {
+            "x": 152,
+            "y": 450,
+            "width": 440,
+            "height": 84
+          },
+          "style": {
+            "backgroundColor": "#a1a1aa",
+            "borderWidth": 1,
+            "opacity": 1,
+            "fill": "#a1a1aa",
+            "strokeWidth": 1
+          },
+          "text": {
+            "fontFamily": "Inter",
+            "fontSize": 18,
+            "fontStyle": "Regular",
+            "lineHeight": 28,
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "color": "#a1a1aa"
+          },
+          "copy": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
+        }
+      ]
+    }
+  ]
+}
