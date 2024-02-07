@@ -77,6 +77,7 @@ export interface SimplifiedNode {
   text: SimplifiedText;
   copy: string;
   tailwind: string;
+  css: string;
   children?: Partial<SimplifiedNode>[];
   components?: Partial<SimplifiedNode>[];
 }
@@ -213,7 +214,7 @@ export function simplifyNode(node: SceneNode): Partial<SimplifiedNode> {
     text: node.type === "TEXT" ? handleText(node) : undefined,
     copy: node.type === "TEXT" ? handleCopy(node) : undefined,
     image: handleImage(node as VectorNode | RectangleNode),
-    tailwind: convertNodeToTailwind(node),
+    ...convertNodeToTailwind(node),
     children: handleChildren(node),
   };
 
@@ -486,7 +487,7 @@ function roundCoor(num: number): number {
 
 export const getDescriptionOfNode = (
   node: Partial<SimplifiedNode>,
-
+  tailwind: boolean,
   indent = "",
 ) => {
   if (!node) return "";
@@ -498,14 +499,18 @@ export const getDescriptionOfNode = (
   })`;
 
   description += `\n${indent}\t(${node.layout?.x}, ${node.layout?.y}) ${
-    isComponentSet ? "" : node.tailwind || ""
+    isComponentSet ? "" : (tailwind ? node.tailwind : node.css) ?? ""
   }`;
   if (node.copy) {
     description += `\n${indent}\t${node.copy}`;
   }
   if (node.children) {
     for (const child of node.children) {
-      description += `\n${getDescriptionOfNode(child, indent + "\t")}`;
+      description += `\n${getDescriptionOfNode(
+        child,
+        tailwind,
+        indent + "\t",
+      )}`;
     }
   }
   return description;

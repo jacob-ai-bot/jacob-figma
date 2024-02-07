@@ -93,12 +93,18 @@ describe("getDescriptionsFromSimplifiedNodes", () => {
     for (const file of jsonFiles) {
       const nodeStr = fs.readFileSync(file, "utf8");
       const node = JSON.parse(nodeStr);
-      // first get the description of the node
-      const nodeDescription = getDescriptionOfNode(node);
-      expect(nodeDescription).toBeDefined();
-      expect(nodeDescription).not.toBeNull();
-      expect(typeof nodeDescription).toBe("string");
-      expect(nodeDescription.length).toBeGreaterThan(0);
+
+      const nodeDescriptionTailwind = getDescriptionOfNode(node, true);
+      expect(nodeDescriptionTailwind).toBeDefined();
+      expect(nodeDescriptionTailwind).not.toBeNull();
+      expect(typeof nodeDescriptionTailwind).toBe("string");
+      expect(nodeDescriptionTailwind.length).toBeGreaterThan(0);
+
+      const nodeDescriptionCSS = getDescriptionOfNode(node, false);
+      expect(nodeDescriptionCSS).toBeDefined();
+      expect(nodeDescriptionCSS).not.toBeNull();
+      expect(typeof nodeDescriptionCSS).toBe("string");
+      expect(nodeDescriptionCSS.length).toBeGreaterThan(0);
     }
   });
 });
