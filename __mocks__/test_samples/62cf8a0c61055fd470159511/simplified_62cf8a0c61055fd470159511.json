@@ -1,5 +1,5 @@
 {
-  "id": "b7rxvq3mo",
+  "id": "zlie32abm",
   "name": "Polar Area",
   "type": "INSTANCE",
   "layout": {
@@ -21,10 +21,11 @@
     "opacity": 1,
     "strokeWidth": 1
   },
+  "css": "width: 430px; height: 432px;",
   "tailwind": "w-[430px] h-[432px]",
   "children": [
     {
-      "id": "d24klm7ha",
+      "id": "0k8h6c11u",
       "name": "Rectangle 2045",
       "type": "RECTANGLE",
       "layout": {
@@ -42,10 +43,11 @@
         "fill": "#2c2d33",
         "strokeWidth": 1
       },
+      "css": "width: 430px; height: 432px; background-color: #2c2d33; border-radius: 6px; box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);",
       "tailwind": "w-[430px] h-[432px] bg-[#2c2d33] border-radius-[6px] box-shadow-[0 2px 10px 0 rgba(0, 0, 0, 0.1)]"
     },
     {
-      "id": "1i731h6y3",
+      "id": "jtrv16it6",
       "name": "PRIMARY TEXT",
       "type": "TEXT",
       "layout": {
@@ -71,10 +73,11 @@
         "color": "#828282"
       },
       "copy": "PRIMARY TEXT",
+      "css": "font-size: 16px; color: #828282;",
       "tailwind": "font-size-[16px] color-[#828282]"
     },
     {
-      "id": "zwrpninje",
+      "id": "bul3a0ycw",
       "name": "Group 2290",
       "type": "GROUP",
       "layout": {
@@ -86,10 +89,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 24px; height: 24px;",
       "tailwind": "w-[24px] h-[24px]",
       "children": [
         {
-          "id": "vigubh2g2",
+          "id": "u9teo803u",
           "name": "Ellipse 16",
           "type": "ELLIPSE",
           "layout": {
@@ -106,10 +110,11 @@
             "fill": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px; background-color: #bdbdbd;",
           "tailwind": "w-[24px] h-[24px] bg-[#bdbdbd]"
         },
         {
-          "id": "dt74qzuwq",
+          "id": "adxm5bwd7",
           "name": "Group 5",
           "type": "GROUP",
           "layout": {
@@ -121,10 +126,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 4px; height: 16px;",
           "tailwind": "w-[4px] h-[16px]",
           "children": [
             {
-              "id": "0fcr7ji8l",
+              "id": "etihukqpq",
               "name": "Rectangle 9",
               "type": "RECTANGLE",
               "layout": {
@@ -141,10 +147,11 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 4px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[4px] bg-[#2c2d33] border-radius-[6px]"
             },
             {
-              "id": "phglpzwkf",
+              "id": "o8k10lv0j",
               "name": "Rectangle 8",
               "type": "RECTANGLE",
               "layout": {
@@ -161,6 +168,7 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 10.67px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[10px] bg-[#2c2d33] border-radius-[6px]"
             }
           ]
@@ -168,7 +176,7 @@
       ]
     },
     {
-      "id": "15c0w50j8",
+      "id": "8qyj4fqpm",
       "name": "5.987,34",
       "type": "TEXT",
       "layout": {
@@ -193,10 +201,11 @@
         "color": "#ffffff"
       },
       "copy": "5.987,34",
+      "css": "font-size: 40px; font-weight: 500; letter-spacing: -0.0375em; color: #fff;",
       "tailwind": "font-size-[40px] font-medium letter-spacing-[-0.0375em] text-white"
     },
     {
-      "id": "5p2s77i6a",
+      "id": "slmf4gktd",
       "name": "Secondary text",
       "type": "TEXT",
       "layout": {
@@ -221,10 +230,11 @@
         "color": "#ffffff"
       },
       "copy": "Secondary text",
+      "css": "font-size: 14px; color: #fff;",
       "tailwind": "text-[14] text-white"
     },
     {
-      "id": "gv8w6je7m",
+      "id": "jz70bqj8s",
       "name": "Vector 50",
       "type": "VECTOR",
       "layout": {
@@ -246,10 +256,11 @@
         "stroke": "#4f4f4f",
         "strokeWidth": 2
       },
+      "css": "width: 430px; height: 0; border: 2px solid #4f4f4f;",
       "tailwind": "w-[430px] h-[0px] border-2 border-solid border-color-[#4f4f4f]"
     },
     {
-      "id": "7czp4m3e1",
+      "id": "qrcblve8c",
       "name": "Ellipse 227",
       "type": "ELLIPSE",
       "layout": {
@@ -266,10 +277,11 @@
         "fill": "#63abfd",
         "strokeWidth": 1
       },
+      "css": "width: 189.91px; height: 189.91px; background-color: #63abfd;",
       "tailwind": "w-[189px] h-[189px] bg-[#63abfd]"
     },
     {
-      "id": "c8sf31xt1",
+      "id": "fphvl8nb2",
       "name": "Ellipse 223",
       "type": "ELLIPSE",
       "layout": {
@@ -286,10 +298,11 @@
         "fill": "#82f0ff",
         "strokeWidth": 1
       },
+      "css": "width: 197.2px; height: 197.2px; background-color: #82f0ff;",
       "tailwind": "w-[197px] h-[197px] bg-[#82f0ff]"
     },
     {
-      "id": "q875hmd6g",
+      "id": "vqg2zuiuk",
       "name": "70",
       "type": "TEXT",
       "layout": {
@@ -314,10 +327,11 @@
         "color": "#bdbdbd"
       },
       "copy": "70",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "bc99gmctw",
+      "id": "u3xc9z7kp",
       "name": "Group 2292",
       "type": "GROUP",
       "layout": {
@@ -329,10 +343,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 216.26px; height: 216.26px;",
       "tailwind": "w-[216px] h-[216px]",
       "children": [
         {
-          "id": "x2o5frzjs",
+          "id": "ome9znh7g",
           "name": "Ellipse 217",
           "type": "ELLIPSE",
           "layout": {
@@ -350,10 +365,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 216.26px; height: 216.26px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[216px] h-[216px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "7lj04trfa",
+          "id": "9nxx1miq6",
           "name": "Ellipse 216",
           "type": "ELLIPSE",
           "layout": {
@@ -371,10 +387,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 185.36px; height: 185.36px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[185px] h-[185px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "1dvhgweqk",
+          "id": "yreruedr8",
           "name": "Ellipse 215",
           "type": "ELLIPSE",
           "layout": {
@@ -392,10 +409,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 154.47px; height: 154.47px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[154px] h-[154px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "ef3puvpk3",
+          "id": "y06agnpza",
           "name": "Ellipse 214",
           "type": "ELLIPSE",
           "layout": {
@@ -413,10 +431,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 123.58px; height: 123.58px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[123px] h-[123px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "tjrdvkwls",
+          "id": "r2mzetm5g",
           "name": "Ellipse 213",
           "type": "ELLIPSE",
           "layout": {
@@ -434,10 +453,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 92.68px; height: 92.68px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[92px] h-[92px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "5w16uvia0",
+          "id": "9cwdy2bje",
           "name": "Ellipse 212",
           "type": "ELLIPSE",
           "layout": {
@@ -455,10 +475,11 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 63.61px; height: 63.61px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[63px] h-[63px] border border-solid border-color-[#bdbdbd]"
         },
         {
-          "id": "z4j1761jl",
+          "id": "89z03k97f",
           "name": "Ellipse 211",
           "type": "ELLIPSE",
           "layout": {
@@ -476,12 +497,13 @@
             "stroke": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 32.71px; height: 32.71px; border: 1px solid #bdbdbd;",
           "tailwind": "w-[32px] h-[32px] border border-solid border-color-[#bdbdbd]"
         }
       ]
     },
     {
-      "id": "eztulybjf",
+      "id": "f7iinohji",
       "name": "60",
       "type": "TEXT",
       "layout": {
@@ -506,10 +528,11 @@
         "color": "#bdbdbd"
       },
       "copy": "60",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "oue1o51m1",
+      "id": "d0pvnnnui",
       "name": "Ellipse 223",
       "type": "ELLIPSE",
       "layout": {
@@ -526,10 +549,11 @@
         "fill": "#7affc7",
         "strokeWidth": 1
       },
+      "css": "width: 152.52px; height: 152.52px; background-color: #7affc7;",
       "tailwind": "w-[152px] h-[152px] bg-[#7affc7]"
     },
     {
-      "id": "0714yxcro",
+      "id": "tqeqadebh",
       "name": "Group 2291",
       "type": "GROUP",
       "layout": {
@@ -541,10 +565,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 91px; height: 17px;",
       "tailwind": "w-[91px] h-[17px]",
       "children": [
         {
-          "id": "mv6bmhth2",
+          "id": "wwagnhdol",
           "name": "Product 1",
           "type": "TEXT",
           "layout": {
@@ -569,10 +594,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 1",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "ok8ixa4sc",
+          "id": "5p7qs6m82",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {
@@ -589,12 +615,13 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #165baa;",
           "tailwind": "w-[21px] h-[8px] bg-[#165baa]"
         }
       ]
     },
     {
-      "id": "g6aosivf3",
+      "id": "p6n095ktj",
       "name": "50",
       "type": "TEXT",
       "layout": {
@@ -619,10 +646,11 @@
         "color": "#bdbdbd"
       },
       "copy": "50",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "gg7os8983",
+      "id": "n9u8o0uwa",
       "name": "Ellipse 223",
       "type": "ELLIPSE",
       "layout": {
@@ -639,10 +667,11 @@
         "fill": "#ffa5cb",
         "strokeWidth": 1
       },
+      "css": "width: 145.38px; height: 145.38px; background-color: #ffa5cb;",
       "tailwind": "w-[145px] h-[145px] bg-[#ffa5cb]"
     },
     {
-      "id": "suc7y1go0",
+      "id": "fvfo1k2ph",
       "name": "Ellipse 224",
       "type": "ELLIPSE",
       "layout": {
@@ -659,10 +688,11 @@
         "fill": "#e697ff",
         "strokeWidth": 1
       },
+      "css": "width: 113.37px; height: 113.37px; background-color: #e697ff;",
       "tailwind": "w-[113px] h-[113px] bg-[#e697ff]"
     },
     {
-      "id": "erag2wjoy",
+      "id": "ujgzcj0vl",
       "name": "Group 2293",
       "type": "GROUP",
       "layout": {
@@ -674,10 +704,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 91px; height: 90px;",
       "tailwind": "w-[91px] h-[90px]",
       "children": [
         {
-          "id": "v0d7uh5j1",
+          "id": "y21njrfg4",
           "name": "Product 2",
           "type": "TEXT",
           "layout": {
@@ -702,10 +733,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 2",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "0fazbcdzu",
+          "id": "078ymncta",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {
@@ -722,10 +754,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #a155b9;",
           "tailwind": "w-[21px] h-[8px] bg-[#a155b9]"
         },
         {
-          "id": "sqei8c8aa",
+          "id": "xh2jibexg",
           "name": "Product 3",
           "type": "TEXT",
           "layout": {
@@ -750,10 +783,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 3",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "hs35679o0",
+          "id": "m3pses05t",
           "name": "Rectangle 1340",
           "type": "RECTANGLE",
           "layout": {
@@ -770,10 +804,11 @@
             "fill": "#ffa5cb",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #ffa5cb;",
           "tailwind": "w-[21px] h-[8px] bg-[#ffa5cb]"
         },
         {
-          "id": "etfob4le7",
+          "id": "iahz4vriy",
           "name": "Product 4",
           "type": "TEXT",
           "layout": {
@@ -798,10 +833,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 4",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "1wuf1x9eb",
+          "id": "dwp0ktf2i",
           "name": "Rectangle 1341",
           "type": "RECTANGLE",
           "layout": {
@@ -818,10 +854,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #16bfd6;",
           "tailwind": "w-[21px] h-[8px] bg-[#16bfd6]"
         },
         {
-          "id": "8mdprgedq",
+          "id": "4xp1p208b",
           "name": "Product 5",
           "type": "TEXT",
           "layout": {
@@ -846,10 +883,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 5",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "2a21yy835",
+          "id": "mcnd5hsc4",
           "name": "Rectangle 1342",
           "type": "RECTANGLE",
           "layout": {
@@ -866,12 +904,13 @@
             "fill": "#1ddd8d",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #1ddd8d;",
           "tailwind": "w-[21px] h-[8px] bg-[#1ddd8d]"
         }
       ]
     },
     {
-      "id": "pw7yzrews",
+      "id": "fbkza7vl9",
       "name": "40",
       "type": "TEXT",
       "layout": {
@@ -896,10 +935,11 @@
         "color": "#bdbdbd"
       },
       "copy": "40",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "vu0r4ksxo",
+      "id": "5jqcb4eif",
       "name": "30",
       "type": "TEXT",
       "layout": {
@@ -924,10 +964,11 @@
         "color": "#bdbdbd"
       },
       "copy": "30",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "x5vzcr16p",
+      "id": "bmdwfwi7r",
       "name": "20",
       "type": "TEXT",
       "layout": {
@@ -952,10 +993,11 @@
         "color": "#bdbdbd"
       },
       "copy": "20",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     },
     {
-      "id": "t3wreissj",
+      "id": "p6vfp7qpl",
       "name": "10",
       "type": "TEXT",
       "layout": {
@@ -980,6 +1022,7 @@
         "color": "#bdbdbd"
       },
       "copy": "10",
+      "css": "font-size: 12px; text-align: center; color: #bdbdbd;",
       "tailwind": "text-[12] text-align-[center] color-[#bdbdbd]"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "id": "ytnaaxo40",
+  "id": "rgih4iu82",
   "name": "Radar",
   "type": "INSTANCE",
   "layout": {
@@ -21,10 +21,11 @@
     "opacity": 1,
     "strokeWidth": 1
   },
+  "css": "width: 430px; height: 433px;",
   "tailwind": "w-[430px] h-[433px]",
   "children": [
     {
-      "id": "zpekgi8c3",
+      "id": "3hvuij0k8",
       "name": "Rectangle 2045",
       "type": "RECTANGLE",
       "layout": {
@@ -42,10 +43,11 @@
         "fill": "#2c2d33",
         "strokeWidth": 1
       },
+      "css": "width: 430px; height: 433px; background-color: #2c2d33; border-radius: 6px; box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);",
       "tailwind": "w-[430px] h-[433px] bg-[#2c2d33] border-radius-[6px] box-shadow-[0 2px 10px 0 rgba(0, 0, 0, 0.1)]"
     },
     {
-      "id": "wq2v0ceo1",
+      "id": "fv0uexxnk",
       "name": "PRIMARY TEXT",
       "type": "TEXT",
       "layout": {
@@ -71,10 +73,11 @@
         "color": "#828282"
       },
       "copy": "PRIMARY TEXT",
+      "css": "font-size: 16px; color: #828282;",
       "tailwind": "font-size-[16px] color-[#828282]"
     },
     {
-      "id": "fevnvl8ly",
+      "id": "7qdme8hvr",
       "name": "Group 2290",
       "type": "GROUP",
       "layout": {
@@ -86,10 +89,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 24px; height: 24px;",
       "tailwind": "w-[24px] h-[24px]",
       "children": [
         {
-          "id": "ddegadxi5",
+          "id": "zge1sf1f5",
           "name": "Ellipse 16",
           "type": "ELLIPSE",
           "layout": {
@@ -106,10 +110,11 @@
             "fill": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px; background-color: #828282;",
           "tailwind": "w-[24px] h-[24px] bg-[#828282]"
         },
         {
-          "id": "60pn6ytlr",
+          "id": "66ikmtc3v",
           "name": "Group 5",
           "type": "GROUP",
           "layout": {
@@ -121,10 +126,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 4px; height: 16px;",
           "tailwind": "w-[4px] h-[16px]",
           "children": [
             {
-              "id": "ba37j8l1w",
+              "id": "ku1yasnc6",
               "name": "Rectangle 9",
               "type": "RECTANGLE",
               "layout": {
@@ -141,10 +147,11 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 4px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[4px] bg-[#2c2d33] border-radius-[6px]"
             },
             {
-              "id": "ssmeekk6v",
+              "id": "4lwcahmrs",
               "name": "Rectangle 8",
               "type": "RECTANGLE",
               "layout": {
@@ -161,6 +168,7 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 10.67px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[10px] bg-[#2c2d33] border-radius-[6px]"
             }
           ]
@@ -168,7 +176,7 @@
       ]
     },
     {
-      "id": "nzkaug2zh",
+      "id": "tbyxhhpn1",
       "name": "5.987,34",
       "type": "TEXT",
       "layout": {
@@ -193,10 +201,11 @@
         "color": "#ffffff"
       },
       "copy": "5.987,34",
+      "css": "font-size: 40px; font-weight: 500; letter-spacing: -0.0375em; color: #fff;",
       "tailwind": "font-size-[40px] font-medium letter-spacing-[-0.0375em] text-white"
     },
     {
-      "id": "8yh2gu4p1",
+      "id": "k279p6vmo",
       "name": "Secondary text",
       "type": "TEXT",
       "layout": {
@@ -221,10 +230,11 @@
         "color": "#ffffff"
       },
       "copy": "Secondary text",
+      "css": "font-size: 14px; color: #fff;",
       "tailwind": "text-[14] text-white"
     },
     {
-      "id": "r1thxjo7r",
+      "id": "uwu95nw44",
       "name": "Vector 50",
       "type": "VECTOR",
       "layout": {
@@ -246,10 +256,11 @@
         "stroke": "#4f4f4f",
         "strokeWidth": 2
       },
+      "css": "width: 430px; height: 0; border: 2px solid #4f4f4f;",
       "tailwind": "w-[430px] h-[0px] border-2 border-solid border-color-[#4f4f4f]"
     },
     {
-      "id": "eri66fbus",
+      "id": "cejllajis",
       "name": "Jan",
       "type": "TEXT",
       "layout": {
@@ -274,10 +285,11 @@
         "color": "#828282"
       },
       "copy": "Jan",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "t02pnrof6",
+      "id": "1k79o4j4d",
       "name": "100",
       "type": "TEXT",
       "layout": {
@@ -302,10 +314,11 @@
         "color": "#828282"
       },
       "copy": "100",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "dumsbfpkq",
+      "id": "vd5k98y7f",
       "name": "Group 2295",
       "type": "GROUP",
       "layout": {
@@ -317,10 +330,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 193px; height: 174px;",
       "tailwind": "w-[193px] h-[174px]",
       "children": [
         {
-          "id": "n9ifbej96",
+          "id": "onaz0ct0i",
           "name": "Ellipse 228",
           "type": "ELLIPSE",
           "layout": {
@@ -337,10 +351,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "37wjx0r7n",
+          "id": "rmkl7w4am",
           "name": "Ellipse 242",
           "type": "ELLIPSE",
           "layout": {
@@ -357,10 +372,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "8xtymer1e",
+          "id": "06s6ogdxy",
           "name": "Vector 72",
           "type": "VECTOR",
           "layout": {
@@ -385,10 +401,11 @@
             "stroke": "#f765a3",
             "strokeWidth": 2
           },
+          "css": "width: 134px; height: 121px; background-color: #ffa5cb; border: 2px solid #f765a3;",
           "tailwind": "w-[134px] h-[121px] bg-[#ffa5cb] border-2 border-solid border-color-[#f765a3]"
         },
         {
-          "id": "ymaye9vcj",
+          "id": "m24dzgzrs",
           "name": "Ellipse 254",
           "type": "ELLIPSE",
           "layout": {
@@ -405,10 +422,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "r5tga9dpb",
+          "id": "14p6dt008",
           "name": "Ellipse 255",
           "type": "ELLIPSE",
           "layout": {
@@ -425,10 +443,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "z3v0dt425",
+          "id": "0eaom5atk",
           "name": "Vector 73",
           "type": "VECTOR",
           "layout": {
@@ -453,10 +472,11 @@
             "stroke": "#16bfd6",
             "strokeWidth": 2
           },
+          "css": "width: 188px; height: 89px; background-color: #82f0ff; border: 2px solid #16bfd6;",
           "tailwind": "w-[188px] h-[89px] bg-[#82f0ff] border-2 border-solid border-color-[#16bfd6]"
         },
         {
-          "id": "eafb2m55e",
+          "id": "ewbv4wjt7",
           "name": "Ellipse 248",
           "type": "ELLIPSE",
           "layout": {
@@ -473,10 +493,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "mg11qarqp",
+          "id": "0q9aqbkog",
           "name": "Ellipse 250",
           "type": "ELLIPSE",
           "layout": {
@@ -493,10 +514,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "qnac0yifb",
+          "id": "bi6x3hhzd",
           "name": "Ellipse 243",
           "type": "ELLIPSE",
           "layout": {
@@ -513,10 +535,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "psx4yd68q",
+          "id": "xngjgjukq",
           "name": "Ellipse 239",
           "type": "ELLIPSE",
           "layout": {
@@ -533,10 +556,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "r2lp0dag4",
+          "id": "507gogtq7",
           "name": "Ellipse 229",
           "type": "ELLIPSE",
           "layout": {
@@ -553,10 +577,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "c6p3mr651",
+          "id": "1o4o3u81u",
           "name": "Ellipse 240",
           "type": "ELLIPSE",
           "layout": {
@@ -573,10 +598,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "nkx1whizx",
+          "id": "ugm0tikaf",
           "name": "Ellipse 238",
           "type": "ELLIPSE",
           "layout": {
@@ -593,10 +619,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "p2q577xqy",
+          "id": "ma3dh1vxd",
           "name": "Ellipse 234",
           "type": "ELLIPSE",
           "layout": {
@@ -613,10 +640,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "4pkmbmi4l",
+          "id": "yscnhsp03",
           "name": "Ellipse 230",
           "type": "ELLIPSE",
           "layout": {
@@ -633,10 +661,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "htshgkxha",
+          "id": "8k62771z9",
           "name": "Ellipse 247",
           "type": "ELLIPSE",
           "layout": {
@@ -653,10 +682,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "042g9ar73",
+          "id": "yjz2tfy7w",
           "name": "Ellipse 241",
           "type": "ELLIPSE",
           "layout": {
@@ -673,10 +703,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "t92rsyqc7",
+          "id": "vn2977e8k",
           "name": "Ellipse 253",
           "type": "ELLIPSE",
           "layout": {
@@ -693,10 +724,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "qbjt5tsau",
+          "id": "3vjsfcxox",
           "name": "Ellipse 233",
           "type": "ELLIPSE",
           "layout": {
@@ -713,10 +745,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "lfjvfufeu",
+          "id": "kcxhqz4s8",
           "name": "Ellipse 244",
           "type": "ELLIPSE",
           "layout": {
@@ -733,10 +766,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "9sxt4e5sg",
+          "id": "mwqkb9uys",
           "name": "Ellipse 232",
           "type": "ELLIPSE",
           "layout": {
@@ -753,10 +787,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         },
         {
-          "id": "oxl1kh2vj",
+          "id": "7rot63ha6",
           "name": "Ellipse 235",
           "type": "ELLIPSE",
           "layout": {
@@ -773,10 +808,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "okagj918c",
+          "id": "q6p5r8gah",
           "name": "Ellipse 249",
           "type": "ELLIPSE",
           "layout": {
@@ -793,10 +829,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "3846z5d9f",
+          "id": "imw1a3ijc",
           "name": "Ellipse 252",
           "type": "ELLIPSE",
           "layout": {
@@ -813,10 +850,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "p70hf79e4",
+          "id": "lpka5ndg5",
           "name": "Ellipse 251",
           "type": "ELLIPSE",
           "layout": {
@@ -833,10 +871,11 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #16bfd6;",
           "tailwind": "w-[5px] h-[5px] bg-[#16bfd6]"
         },
         {
-          "id": "3b0fswq8r",
+          "id": "7ltv99to4",
           "name": "Ellipse 245",
           "type": "ELLIPSE",
           "layout": {
@@ -853,10 +892,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "iw1tqaj5e",
+          "id": "ib5wlk8o1",
           "name": "Ellipse 246",
           "type": "ELLIPSE",
           "layout": {
@@ -873,10 +913,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #f765a3;",
           "tailwind": "w-[5px] h-[5px] bg-[#f765a3]"
         },
         {
-          "id": "hzkta465c",
+          "id": "qwvauae8g",
           "name": "Ellipse 236",
           "type": "ELLIPSE",
           "layout": {
@@ -893,10 +934,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "shqo5okqh",
+          "id": "8j3bfczyy",
           "name": "Ellipse 237",
           "type": "ELLIPSE",
           "layout": {
@@ -913,10 +955,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #a155b9;",
           "tailwind": "w-[5px] h-[5px] bg-[#a155b9]"
         },
         {
-          "id": "hs3cytkf3",
+          "id": "k6z7wzh1s",
           "name": "Ellipse 231",
           "type": "ELLIPSE",
           "layout": {
@@ -933,12 +976,13 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 5px; height: 5px; background-color: #165baa;",
           "tailwind": "w-[5px] h-[5px] bg-[#165baa]"
         }
       ]
     },
     {
-      "id": "o9pty0a75",
+      "id": "io4rspiqm",
       "name": "Group 2294",
       "type": "GROUP",
       "layout": {
@@ -950,10 +994,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 215px; height: 224.12px;",
       "tailwind": "w-[215px] h-[224px]",
       "children": [
         {
-          "id": "s904cimms",
+          "id": "6wgw5cz30",
           "name": "Polygon 1",
           "type": "POLYGON",
           "layout": {
@@ -971,10 +1016,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 215px; height: 215px; border: 1px solid #828282;",
           "tailwind": "w-[215px] h-[215px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "x5t25t9we",
+          "id": "llwca8whr",
           "name": "Vector 68",
           "type": "VECTOR",
           "layout": {
@@ -996,10 +1042,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 187px; height: 90px; border: 1px solid #828282;",
           "tailwind": "w-[187px] h-[90px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "lgxl04did",
+          "id": "ompt0fmwe",
           "name": "Vector 67",
           "type": "VECTOR",
           "layout": {
@@ -1021,10 +1068,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 187px; height: 90px; border: 1px solid #828282;",
           "tailwind": "w-[187px] h-[90px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "fobbku72b",
+          "id": "96tlyoxso",
           "name": "Polygon 2",
           "type": "POLYGON",
           "layout": {
@@ -1042,10 +1090,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 171px; height: 171px; border: 1px solid #828282;",
           "tailwind": "w-[171px] h-[171px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "r9gsd82pt",
+          "id": "8hurrmrze",
           "name": "Vector 66",
           "type": "VECTOR",
           "layout": {
@@ -1067,10 +1116,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 187px; height: 90px; border: 1px solid #828282;",
           "tailwind": "w-[187px] h-[90px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "8piwlxnm6",
+          "id": "06cgdqezm",
           "name": "Polygon 3",
           "type": "POLYGON",
           "layout": {
@@ -1088,10 +1138,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 131px; height: 131px; border: 1px solid #828282;",
           "tailwind": "w-[131px] h-[131px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "tq3lp3kk1",
+          "id": "iuywj886e",
           "name": "Polygon 4",
           "type": "POLYGON",
           "layout": {
@@ -1109,10 +1160,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 85px; height: 85px; border: 1px solid #828282;",
           "tailwind": "w-[85px] h-[85px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "pc4ukaxjf",
+          "id": "syxo58idq",
           "name": "Polygon 5",
           "type": "POLYGON",
           "layout": {
@@ -1130,10 +1182,11 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 43px; height: 43px; border: 1px solid #828282;",
           "tailwind": "w-[43px] h-[43px] border border-solid border-color-[#828282]"
         },
         {
-          "id": "ebq09hvsd",
+          "id": "2sott5zyp",
           "name": "Vector 69",
           "type": "VECTOR",
           "layout": {
@@ -1155,12 +1208,13 @@
             "stroke": "#828282",
             "strokeWidth": 1
           },
+          "css": "width: 103.5px; height: 23.5px; border: 1px solid #828282;",
           "tailwind": "w-[103px] h-[23px] border border-solid border-color-[#828282]"
         }
       ]
     },
     {
-      "id": "9s7dsc9nx",
+      "id": "hqjsz78w9",
       "name": "Vector 70",
       "type": "VECTOR",
       "layout": {
@@ -1185,10 +1239,11 @@
         "stroke": "#165baa",
         "strokeWidth": 2
       },
+      "css": "width: 94.5px; height: 169px; background-color: #63abfd; border: 2px solid #165baa;",
       "tailwind": "w-[94px] h-[169px] bg-[#63abfd] border-2 border-solid border-color-[#165baa]"
     },
     {
-      "id": "6qu53jltj",
+      "id": "2q5s0rmsi",
       "name": "Group 2291",
       "type": "GROUP",
       "layout": {
@@ -1200,10 +1255,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 91px; height: 83px;",
       "tailwind": "w-[91px] h-[83px]",
       "children": [
         {
-          "id": "i4dq9zyuc",
+          "id": "l3tomf9f8",
           "name": "Product 1",
           "type": "TEXT",
           "layout": {
@@ -1228,10 +1284,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 1",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "wspmqgiz5",
+          "id": "peahhfxgo",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {
@@ -1248,10 +1305,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #165baa;",
           "tailwind": "w-[21px] h-[8px] bg-[#165baa]"
         },
         {
-          "id": "w0u7n9579",
+          "id": "m7wme55ps",
           "name": "Product 2",
           "type": "TEXT",
           "layout": {
@@ -1276,10 +1334,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 2",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "c8y7mf2p6",
+          "id": "vkelvi3s6",
           "name": "Rectangle 1340",
           "type": "RECTANGLE",
           "layout": {
@@ -1296,10 +1355,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #a155b9;",
           "tailwind": "w-[21px] h-[8px] bg-[#a155b9]"
         },
         {
-          "id": "5x7j6epji",
+          "id": "yjm1j6cj4",
           "name": "Product 3",
           "type": "TEXT",
           "layout": {
@@ -1324,10 +1384,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 3",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "tsjgarvlj",
+          "id": "gfqm1d8qt",
           "name": "Rectangle 1341",
           "type": "RECTANGLE",
           "layout": {
@@ -1344,10 +1405,11 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #f765a3;",
           "tailwind": "w-[21px] h-[8px] bg-[#f765a3]"
         },
         {
-          "id": "oe5ui1gxe",
+          "id": "er5az4k2w",
           "name": "Product 4",
           "type": "TEXT",
           "layout": {
@@ -1372,10 +1434,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 4",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "1ao9pv08w",
+          "id": "fsvgmghcc",
           "name": "Rectangle 1342",
           "type": "RECTANGLE",
           "layout": {
@@ -1392,12 +1455,13 @@
             "fill": "#16bfd6",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #16bfd6;",
           "tailwind": "w-[21px] h-[8px] bg-[#16bfd6]"
         }
       ]
     },
     {
-      "id": "q90fqz6sa",
+      "id": "35q8wu4ly",
       "name": "80",
       "type": "TEXT",
       "layout": {
@@ -1422,10 +1486,11 @@
         "color": "#828282"
       },
       "copy": "80",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "xyfgkt017",
+      "id": "vaqxhms5i",
       "name": "Jul",
       "type": "TEXT",
       "layout": {
@@ -1450,10 +1515,11 @@
         "color": "#828282"
       },
       "copy": "Jul",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "eg5axf2m6",
+      "id": "5g809qls1",
       "name": "60",
       "type": "TEXT",
       "layout": {
@@ -1478,10 +1544,11 @@
         "color": "#828282"
       },
       "copy": "60",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "t9f1gme65",
+      "id": "kw9ukwz7n",
       "name": "Feb",
       "type": "TEXT",
       "layout": {
@@ -1506,10 +1573,11 @@
         "color": "#828282"
       },
       "copy": "Feb",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "g9twgndch",
+      "id": "xgqvdux57",
       "name": "40",
       "type": "TEXT",
       "layout": {
@@ -1534,10 +1602,11 @@
         "color": "#828282"
       },
       "copy": "40",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "jbe73i7wf",
+      "id": "a2baes6t0",
       "name": "Vector 71",
       "type": "VECTOR",
       "layout": {
@@ -1562,10 +1631,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 2
       },
+      "css": "width: 114px; height: 99.5px; background-color: #e697ff; border: 2px solid #a155b9;",
       "tailwind": "w-[114px] h-[99px] bg-[#e697ff] border-2 border-solid border-color-[#a155b9]"
     },
     {
-      "id": "y57qk5228",
+      "id": "bftn3eiml",
       "name": "20",
       "type": "TEXT",
       "layout": {
@@ -1590,10 +1660,11 @@
         "color": "#828282"
       },
       "copy": "20",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "00qka1rpr",
+      "id": "djpvori1w",
       "name": "Jun",
       "type": "TEXT",
       "layout": {
@@ -1618,10 +1689,11 @@
         "color": "#828282"
       },
       "copy": "Jun",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "1cuucqk6k",
+      "id": "sh3ofch1b",
       "name": "Mar",
       "type": "TEXT",
       "layout": {
@@ -1646,10 +1718,11 @@
         "color": "#828282"
       },
       "copy": "Mar",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "eeql28bo4",
+      "id": "sxa4j0tjp",
       "name": "May",
       "type": "TEXT",
       "layout": {
@@ -1674,10 +1747,11 @@
         "color": "#828282"
       },
       "copy": "May",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     },
     {
-      "id": "eh3vv8lof",
+      "id": "awpau8pm3",
       "name": "Apr",
       "type": "TEXT",
       "layout": {
@@ -1702,6 +1776,7 @@
         "color": "#828282"
       },
       "copy": "Apr",
+      "css": "font-size: 12px; text-align: center; color: #828282;",
       "tailwind": "text-[12] text-align-[center] color-[#828282]"
     }
   ]

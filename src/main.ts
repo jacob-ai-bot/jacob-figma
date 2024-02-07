@@ -68,13 +68,10 @@ async function handleCreateOrEdit({
     if (fileType) {
       // New component or page - generate a fullFileName
       const newFileName = fileName.trim();
-      const updatedFileName = newFileName.endsWith(".tsx")
-        ? newFileName
-        : `${newFileName}.tsx`;
       fullFileName =
         fileType === FileType.Component
-          ? `src/components/${updatedFileName}`
-          : `src/pages/${updatedFileName}`;
+          ? `src/components/${newFileName}`
+          : `src/pages/${newFileName}`;
     } else {
       fullFileName = fileName;
     }

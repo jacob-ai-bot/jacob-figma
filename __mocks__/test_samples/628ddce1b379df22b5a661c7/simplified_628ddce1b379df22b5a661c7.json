@@ -1,5 +1,5 @@
 {
-  "id": "p6kx7v000",
+  "id": "ncgn4in0d",
   "name": "Sidebar",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#f8fafc",
     "strokeWidth": 1
   },
+  "css": "width: 320px; height: 1918px; background-color: #f8fafc;",
   "tailwind": "w-[320px] h-[1918px] bg-[#f8fafc]",
   "children": [
     {
-      "id": "nt2w0k4j7",
+      "id": "sdef23p3v",
       "name": "Header",
       "type": "FRAME",
       "layout": {
@@ -48,10 +49,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 284.53px; height: 41.26px;",
       "tailwind": "w-[284px] h-[41px]",
       "children": [
         {
-          "id": "cg3tio4gn",
+          "id": "bhjtvhtyv",
           "name": "Sidebar/designership-logo",
           "type": "FRAME",
           "layout": {
@@ -75,10 +77,11 @@
             "fill": "#ffffff",
             "strokeWidth": 0.5
           },
+          "css": "width: 54.53px; height: 41.26px; background-color: ;",
           "tailwind": "w-[54px] h-[41px] bg-[]",
           "children": [
             {
-              "id": "zgm19r7og",
+              "id": "awdkbct6c",
               "name": "Rectangle 2",
               "type": "RECTANGLE",
               "layout": {
@@ -95,10 +98,11 @@
                 "fill": "#4e51cc",
                 "strokeWidth": 0.7
               },
+              "css": "width: 54.53px; height: 41.26px; background-color: #4e51cc; border-radius: 7.37px;",
               "tailwind": "w-[54px] h-[41px] bg-[#4e51cc] border-radius-[7.37px]"
             },
             {
-              "id": "sbe7ril9i",
+              "id": "z9dvvkxfz",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -119,10 +123,11 @@
                 "fill": "#ffcc02",
                 "strokeWidth": 0.5
               },
+              "css": "width: 14.66px; height: 14.11px; background-color: #ffcc02;",
               "tailwind": "w-[14px] h-[14px] bg-[#ffcc02]"
             },
             {
-              "id": "6h2s0m6kf",
+              "id": "zrusnri8v",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -143,10 +148,11 @@
                 "fill": "#ffcc02",
                 "strokeWidth": 0.5
               },
+              "css": "width: 28.76px; height: 19.44px; background-color: #ffcc02;",
               "tailwind": "w-[28px] h-[19px] bg-[#ffcc02]"
             },
             {
-              "id": "hkln5cj5n",
+              "id": "ua8ep82d8",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -167,12 +173,13 @@
                 "fill": "#efae07",
                 "strokeWidth": 0.5
               },
+              "css": "width: 20.14px; height: 14.74px; background-color: #efae07;",
               "tailwind": "w-[20px] h-[14px] bg-[#efae07]"
             }
           ]
         },
         {
-          "id": "2n7x1afp5",
+          "id": "r8jlvdnou",
           "name": "Heading",
           "type": "TEXT",
           "layout": {
@@ -198,12 +205,13 @@
             "color": "#0b1428"
           },
           "copy": "Design System v1.3",
+          "css": "font-size: 18px; color: #0b1428;",
           "tailwind": "text-[18] color-[#0b1428]"
         }
       ]
     },
     {
-      "id": "knok4j8n1",
+      "id": "wnhctqfii",
       "name": "Container",
       "type": "FRAME",
       "layout": {
@@ -225,10 +233,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 268px; height: 1629px;",
       "tailwind": "w-[268px] h-[1629px]",
       "children": [
         {
-          "id": "yeut8jqga",
+          "id": "xkslnku8z",
           "name": "Section",
           "type": "FRAME",
           "layout": {
@@ -250,10 +259,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 112px; height: 249px;",
           "tailwind": "w-[112px] h-[249px]",
           "children": [
             {
-              "id": "n9l8a4cj6",
+              "id": "kjl1sdmaf",
               "name": "Heading",
               "type": "TEXT",
               "layout": {
@@ -279,10 +289,11 @@
                 "color": "#4e51cc"
               },
               "copy": "ATOMS",
+              "css": "font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4e51cc;",
               "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
             },
             {
-              "id": "o90gazx5x",
+              "id": "9eoq47axt",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -304,10 +315,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 112px; height: 214px;",
               "tailwind": "w-[112px] h-[214px]",
               "children": [
                 {
-                  "id": "fpmua8dg9",
+                  "id": "dd1dnr586",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -332,10 +344,11 @@
                     "color": "#475569"
                   },
                   "copy": "Colors",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "82g5cp3rg",
+                  "id": "r2xx2nih3",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -360,10 +373,11 @@
                     "color": "#475569"
                   },
                   "copy": "Typography",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "i9oebb715",
+                  "id": "z1b4kkpql",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -388,10 +402,11 @@
                     "color": "#475569"
                   },
                   "copy": "Spacing",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "u7z7m4nog",
+                  "id": "0c279yufd",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -416,10 +431,11 @@
                     "color": "#475569"
                   },
                   "copy": "Grid",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "1a074cvmn",
+                  "id": "rlmc1vwbv",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -444,10 +460,11 @@
                     "color": "#475569"
                   },
                   "copy": "Icons",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "k5c8b9cge",
+                  "id": "k2qji3au1",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -472,6 +489,7 @@
                     "color": "#475569"
                   },
                   "copy": "Drop Shadows",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
@@ -479,7 +497,7 @@
           ]
         },
         {
-          "id": "z4avd6ed4",
+          "id": "wj6xau1wz",
           "name": "Section",
           "type": "FRAME",
           "layout": {
@@ -501,10 +519,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 107px; height: 795px;",
           "tailwind": "w-[107px] h-[795px]",
           "children": [
             {
-              "id": "q21dip2m7",
+              "id": "cy7rit7bl",
               "name": "Heading",
               "type": "TEXT",
               "layout": {
@@ -530,10 +549,11 @@
                 "color": "#4e51cc"
               },
               "copy": "MOLECULES",
+              "css": "font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4e51cc;",
               "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
             },
             {
-              "id": "6wqm2tb2h",
+              "id": "zzrei5zwk",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -555,10 +575,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 46px; height: 19px;",
               "tailwind": "w-[46px] h-[19px]",
               "children": [
                 {
-                  "id": "kaoool5ok",
+                  "id": "msk71eaxs",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -583,12 +604,13 @@
                     "color": "#475569"
                   },
                   "copy": "Alerts",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "pygvk5hp5",
+              "id": "7zslctjj1",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -610,10 +632,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 86px; height: 19px;",
               "tailwind": "w-[86px] h-[19px]",
               "children": [
                 {
-                  "id": "1lkpl53ot",
+                  "id": "zq7yducev",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -638,12 +661,13 @@
                     "color": "#475569"
                   },
                   "copy": "Accordians",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "g0o636s90",
+              "id": "gdfzjoksm",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -665,10 +689,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 103px; height: 58px;",
               "tailwind": "w-[103px] h-[58px]",
               "children": [
                 {
-                  "id": "af43jw69e",
+                  "id": "kcr6pk3n1",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -693,10 +718,11 @@
                     "color": "#475569"
                   },
                   "copy": "Avatars",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 },
                 {
-                  "id": "5y98lk0yu",
+                  "id": "r4ngmlotj",
                   "name": "Subtitles",
                   "type": "FRAME",
                   "layout": {
@@ -718,10 +744,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 103px; height: 19px;",
                   "tailwind": "w-[103px] h-[19px]",
                   "children": [
                     {
-                      "id": "mogbl0qze",
+                      "id": "wew986mz9",
                       "name": "Subheading",
                       "type": "TEXT",
                       "layout": {
@@ -746,6 +773,7 @@
                         "color": "#475569"
                       },
                       "copy": "Breadcrumbs",
+                      "css": "font-size: 16px; font-weight: 500; color: #475569;",
                       "tailwind": "font-size-[16px] font-medium color-[#475569]"
                     }
                   ]
@@ -753,7 +781,7 @@
               ]
             },
             {
-              "id": "cvmf94p1n",
+              "id": "egi3heyqg",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -775,10 +803,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 60px; height: 19px;",
               "tailwind": "w-[60px] h-[19px]",
               "children": [
                 {
-                  "id": "2rumqjfu2",
+                  "id": "9e5mn7flk",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -803,12 +832,13 @@
                     "color": "#475569"
                   },
                   "copy": "Buttons",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "4zvsf9ttm",
+              "id": "95ayms00p",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -830,10 +860,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 77px; height: 19px;",
               "tailwind": "w-[77px] h-[19px]",
               "children": [
                 {
-                  "id": "y3q1r0nyu",
+                  "id": "r7lmnu3n8",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -858,12 +889,13 @@
                     "color": "#475569"
                   },
                   "copy": "Checkbox",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "5xlhf03db",
+              "id": "sngldhc6h",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -885,10 +917,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 87px; height: 19px;",
               "tailwind": "w-[87px] h-[19px]",
               "children": [
                 {
-                  "id": "mkfuv0qny",
+                  "id": "qv4dt6yke",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -913,12 +946,13 @@
                     "color": "#475569"
                   },
                   "copy": "Data picker",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "85mbxlw07",
+              "id": "ukqzqe148",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -940,10 +974,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 80px; height: 19px;",
               "tailwind": "w-[80px] h-[19px]",
               "children": [
                 {
-                  "id": "ic5u76oyu",
+                  "id": "0ub96px9e",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -968,12 +1003,13 @@
                     "color": "#475569"
                   },
                   "copy": "Dropdown",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "vp4lom9xj",
+              "id": "ps7nh8map",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -995,10 +1031,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 48px; height: 19px;",
               "tailwind": "w-[48px] h-[19px]",
               "children": [
                 {
-                  "id": "4kou7tf4e",
+                  "id": "o172wgcxw",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1023,12 +1060,13 @@
                     "color": "#475569"
                   },
                   "copy": "Forms",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "2kcxdare7",
+              "id": "iqells2vl",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1050,10 +1088,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 48px; height: 19px;",
               "tailwind": "w-[48px] h-[19px]",
               "children": [
                 {
-                  "id": "k6ywdo195",
+                  "id": "ccmjz9ga5",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1078,12 +1117,13 @@
                     "color": "#475569"
                   },
                   "copy": "Inputs",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "34b52p501",
+              "id": "bm736v4h9",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1105,10 +1145,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 36px; height: 19px;",
               "tailwind": "w-[36px] h-[19px]",
               "children": [
                 {
-                  "id": "m1ux7kr63",
+                  "id": "76x5bber7",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1133,12 +1174,13 @@
                     "color": "#475569"
                   },
                   "copy": "Lists",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "pw2oa1ynv",
+              "id": "u6fv82t6h",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1160,10 +1202,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 56px; height: 19px;",
               "tailwind": "w-[56px] h-[19px]",
               "children": [
                 {
-                  "id": "tg5tuzjxd",
+                  "id": "nrpb2cm38",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1188,12 +1231,13 @@
                     "color": "#475569"
                   },
                   "copy": "Modals",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "nxjqav9e1",
+              "id": "dw9523gkp",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1215,10 +1259,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 81px; height: 19px;",
               "tailwind": "w-[81px] h-[19px]",
               "children": [
                 {
-                  "id": "bfzq1xqej",
+                  "id": "hjqe5yak2",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1243,12 +1288,13 @@
                     "color": "#475569"
                   },
                   "copy": "Pagination",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "31gfdr1lj",
+              "id": "eqv9a0b0q",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1270,10 +1316,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 107px; height: 19px;",
               "tailwind": "w-[107px] h-[19px]",
               "children": [
                 {
-                  "id": "9gifxxjhq",
+                  "id": "owcor3m9l",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1298,12 +1345,13 @@
                     "color": "#475569"
                   },
                   "copy": "Progress bars",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "9hslml2sm",
+              "id": "le7haasj1",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1325,10 +1373,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 53px; height: 19px;",
               "tailwind": "w-[53px] h-[19px]",
               "children": [
                 {
-                  "id": "e1nv0otvw",
+                  "id": "jv5wi5373",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1353,12 +1402,13 @@
                     "color": "#475569"
                   },
                   "copy": "Sliders",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "8hg6b0j3d",
+              "id": "be6vn37v3",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1380,10 +1430,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 37px; height: 19px;",
               "tailwind": "w-[37px] h-[19px]",
               "children": [
                 {
-                  "id": "97kzwppb6",
+                  "id": "hsewfs4f7",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1408,12 +1459,13 @@
                     "color": "#475569"
                   },
                   "copy": "Tabs",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "bzj00a106",
+              "id": "kfol48mku",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1435,10 +1487,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 51px; height: 19px;",
               "tailwind": "w-[51px] h-[19px]",
               "children": [
                 {
-                  "id": "miqeev3pp",
+                  "id": "hofot6mql",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1463,12 +1516,13 @@
                     "color": "#475569"
                   },
                   "copy": "Tables",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "08mmeiyur",
+              "id": "29grofbg2",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1490,10 +1544,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 37px; height: 19px;",
               "tailwind": "w-[37px] h-[19px]",
               "children": [
                 {
-                  "id": "3chknvtsz",
+                  "id": "319y0xuj0",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1518,12 +1573,13 @@
                     "color": "#475569"
                   },
                   "copy": "Tags",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "qhkzm1kgk",
+              "id": "6hbuhx5dl",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1545,10 +1601,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 61px; height: 19px;",
               "tailwind": "w-[61px] h-[19px]",
               "children": [
                 {
-                  "id": "a5x7no0mw",
+                  "id": "y27bxmtxp",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1573,12 +1630,13 @@
                     "color": "#475569"
                   },
                   "copy": "Toggles",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "qakqaqr35",
+              "id": "8ewaxnjua",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1600,10 +1658,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 61px; height: 19px;",
               "tailwind": "w-[61px] h-[19px]",
               "children": [
                 {
-                  "id": "1pw8o8oq4",
+                  "id": "ivgmnfw86",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1628,6 +1687,7 @@
                     "color": "#475569"
                   },
                   "copy": "Tooltips",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
@@ -1635,7 +1695,7 @@
           ]
         },
         {
-          "id": "sufczsxsw",
+          "id": "0nxl4ma29",
           "name": "Section",
           "type": "FRAME",
           "layout": {
@@ -1657,10 +1717,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 81px; height: 93px;",
           "tailwind": "w-[81px] h-[93px]",
           "children": [
             {
-              "id": "8j7z2lxco",
+              "id": "5u8au0e49",
               "name": "Heading",
               "type": "TEXT",
               "layout": {
@@ -1686,10 +1747,11 @@
                 "color": "#4e51cc"
               },
               "copy": "Organisms",
+              "css": "font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4e51cc;",
               "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
             },
             {
-              "id": "jzvhyluhf",
+              "id": "brjisw9t5",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1711,10 +1773,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 56px; height: 19px;",
               "tailwind": "w-[56px] h-[19px]",
               "children": [
                 {
-                  "id": "2ua5fsim9",
+                  "id": "pea1dzy5c",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1739,12 +1802,13 @@
                     "color": "#475569"
                   },
                   "copy": "Header",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "outh0jty2",
+              "id": "1nl1ojg3y",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1766,10 +1830,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 59px; height: 19px;",
               "tailwind": "w-[59px] h-[19px]",
               "children": [
                 {
-                  "id": "k7opihnir",
+                  "id": "9dbi9niii",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1794,6 +1859,7 @@
                     "color": "#475569"
                   },
                   "copy": "Sidebar",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
@@ -1801,7 +1867,7 @@
           ]
         },
         {
-          "id": "zt9oig3d4",
+          "id": "5bxffk79t",
           "name": "Section",
           "type": "FRAME",
           "layout": {
@@ -1823,10 +1889,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 268px; height: 366px;",
           "tailwind": "w-[268px] h-[366px]",
           "children": [
             {
-              "id": "jjfrtynsu",
+              "id": "7lm57pzv4",
               "name": "Heading",
               "type": "TEXT",
               "layout": {
@@ -1852,10 +1919,11 @@
                 "color": "#4e51cc"
               },
               "copy": "templates",
+              "css": "font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4e51cc;",
               "tailwind": "text-[12] letter-spacing-[0.08em] text-transform-[uppercase] color-[#4e51cc]"
             },
             {
-              "id": "e5xj70361",
+              "id": "7uzoon4dv",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1877,10 +1945,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 104px; height: 19px;",
               "tailwind": "w-[104px] h-[19px]",
               "children": [
                 {
-                  "id": "5qfhasgoo",
+                  "id": "tuit869a3",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1905,12 +1974,13 @@
                     "color": "#475569"
                   },
                   "copy": "Hero banners",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "or915wht6",
+              "id": "xq6celnsc",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1932,10 +2002,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 112px; height: 19px;",
               "tailwind": "w-[112px] h-[19px]",
               "children": [
                 {
-                  "id": "djolnkpt1",
+                  "id": "4i6m38sgu",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -1960,12 +2031,13 @@
                     "color": "#475569"
                   },
                   "copy": "Meet the team ",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "9k4ujomj6",
+              "id": "ou89f4mjv",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -1987,10 +2059,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 135px; height: 19px;",
               "tailwind": "w-[135px] h-[19px]",
               "children": [
                 {
-                  "id": "ba6l0p31l",
+                  "id": "merivsk9s",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2015,12 +2088,13 @@
                     "color": "#475569"
                   },
                   "copy": "Portfolio sections",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "vwtl95atc",
+              "id": "328idpzx3",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2042,10 +2116,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 218px; height: 19px;",
               "tailwind": "w-[218px] h-[19px]",
               "children": [
                 {
-                  "id": "fgxeg6ug9",
+                  "id": "btb9v6nc5",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2070,12 +2145,13 @@
                     "color": "#475569"
                   },
                   "copy": "Empty states (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "s76e60wj3",
+              "id": "y7i2nsncn",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2097,10 +2173,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 227px; height: 19px;",
               "tailwind": "w-[227px] h-[19px]",
               "children": [
                 {
-                  "id": "gbizyxr7z",
+                  "id": "hnx6wzfsk",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2125,12 +2202,13 @@
                     "color": "#475569"
                   },
                   "copy": "Contact forms (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "lqqxzu0yu",
+              "id": "uquul8x8o",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2152,10 +2230,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 209px; height: 19px;",
               "tailwind": "w-[209px] h-[19px]",
               "children": [
                 {
-                  "id": "6azpyat82",
+                  "id": "gnwaum1ju",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2180,12 +2259,13 @@
                     "color": "#475569"
                   },
                   "copy": "Dashboards (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "91t08cbml",
+              "id": "ko2a9mdgj",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2207,10 +2287,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 217px; height: 19px;",
               "tailwind": "w-[217px] h-[19px]",
               "children": [
                 {
-                  "id": "96si5vzz5",
+                  "id": "qkin1dnbk",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2235,12 +2316,13 @@
                     "color": "#475569"
                   },
                   "copy": "Profile pages (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "7xf7gdko4",
+              "id": "np32omt7e",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2262,10 +2344,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 243px; height: 19px;",
               "tailwind": "w-[243px] h-[19px]",
               "children": [
                 {
-                  "id": "bjump092h",
+                  "id": "50ivx6eza",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2290,12 +2373,13 @@
                     "color": "#475569"
                   },
                   "copy": "CRM data pages (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]
             },
             {
-              "id": "6nuwgmive",
+              "id": "jvnywwoz1",
               "name": "Subtitles",
               "type": "FRAME",
               "layout": {
@@ -2317,10 +2401,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 268px; height: 19px;",
               "tailwind": "w-[268px] h-[19px]",
               "children": [
                 {
-                  "id": "h5v2cq3vm",
+                  "id": "h2755r1q9",
                   "name": "Subheading",
                   "type": "TEXT",
                   "layout": {
@@ -2345,6 +2430,7 @@
                     "color": "#475569"
                   },
                   "copy": "Onboarding funnels (Coming soon)",
+                  "css": "font-size: 16px; font-weight: 500; color: #475569;",
                   "tailwind": "font-size-[16px] font-medium color-[#475569]"
                 }
               ]

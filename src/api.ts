@@ -34,7 +34,12 @@ export async function createIssuesForFigmaFile(
   snapshotUrl?: string | undefined,
   imageUrls?: string[] | undefined,
 ) {
-  const figmaMap = relativeNodes ? getDescriptionOfNode(relativeNodes) : "";
+  const figmaMap = relativeNodes
+    ? getDescriptionOfNode(relativeNodes, true)
+    : "";
+  const figmaMapCSS = relativeNodes
+    ? getDescriptionOfNode(relativeNodes, false)
+    : "";
 
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
   // const url = `http://localhost:5173/api/design/${isNewFile ? "new" : "edit"}`;
@@ -48,6 +53,7 @@ export async function createIssuesForFigmaFile(
       },
       body: JSON.stringify({
         figmaMap,
+        figmaMapCSS,
         repo,
         fileName,
         additionalInstructions,

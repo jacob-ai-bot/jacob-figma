@@ -1,5 +1,5 @@
 {
-  "id": "2wjqrxd24",
+  "id": "01psejo58",
   "name": "Setup - Personalization 1",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #fff; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "axgsua4bj",
+      "id": "joq5rqqas",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px; background-color: #fff;",
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "gwzdp5b87",
+          "id": "ek0xohnb7",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -79,10 +81,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "cxcvtjq44",
+          "id": "73bcqkrc5",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -94,10 +97,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "a8vyadnqt",
+              "id": "v5mt98jqp",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -109,10 +113,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "yjp6xj69y",
+                  "id": "478luy7hn",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -134,10 +139,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "g0rsow8vb",
+                  "id": "2tt1rvskz",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -158,10 +164,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "jukqcqa80",
+                  "id": "rnfl214a3",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -182,6 +189,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -189,7 +197,7 @@
           ]
         },
         {
-          "id": "7ynf59bhl",
+          "id": "nxhlblk1t",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -201,10 +209,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "rqendc84z",
+              "id": "9q09e4nb1",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -221,10 +230,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "jwjzp3502",
+                  "id": "ol9roebh6",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -245,10 +255,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "xn2ull6mv",
+                  "id": "urfutd199",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -269,10 +280,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "atev92x4m",
+                  "id": "9uuvy0tb8",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -293,6 +305,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -300,7 +313,7 @@
           ]
         },
         {
-          "id": "b8f61s600",
+          "id": "yp4738qqn",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -312,10 +325,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "saczd5n4z",
+              "id": "qzm4vg80q",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -332,10 +346,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "5iitz03wn",
+                  "id": "1w4522uzo",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -356,10 +371,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "o4tpztkhy",
+                  "id": "x2jpl9ltp",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -380,10 +396,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "ds24zhk6o",
+                  "id": "kru6c3qay",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -404,10 +421,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "r1lylwqv6",
+                  "id": "tr89rn67y",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -428,6 +446,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -437,7 +456,7 @@
       ]
     },
     {
-      "id": "xg9su1nn9",
+      "id": "a0w61tchi",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -461,10 +480,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 48px; background-color: #fff;",
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "ndorlokyr",
+          "id": "c786wempn",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -486,10 +506,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "124c7zs4a",
+              "id": "ag0ywytp5",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -511,12 +532,13 @@
                 "stroke": "#090a0a",
                 "strokeWidth": 1.5
               },
+              "css": "width: 6px; height: 12px; border: 1.5px solid #090a0a;",
               "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "4s292t5ns",
+          "id": "acn0wqc98",
           "name": "Right Actionable",
           "type": "TEXT",
           "layout": {
@@ -542,12 +564,13 @@
             "color": "#979c9e"
           },
           "copy": "Skip",
+          "css": "font-size: 18px; font-weight: 500; line-height: 18px; text-align: right; color: #979c9e;",
           "tailwind": "text-[18] font-medium leading-18 text-align-[right] color-[#979c9e]"
         }
       ]
     },
     {
-      "id": "z6jdemvzr",
+      "id": "japisjfsb",
       "name": "Stepper - Dots",
       "type": "FRAME",
       "layout": {
@@ -569,10 +592,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 40px; height: 8px;",
       "tailwind": "w-[40px] h-[8px]",
       "children": [
         {
-          "id": "5c7hnjh6s",
+          "id": "nh62hi6ru",
           "name": "Controls / Page Controls: Dot",
           "type": "FRAME",
           "layout": {
@@ -596,11 +620,12 @@
             "fill": "#e3e5e5",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #e3e5e5; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#e3e5e5] border-radius-[100px]",
           "children": []
         },
         {
-          "id": "u9cij0ws3",
+          "id": "1w2tqm9t7",
           "name": "Ellipse 11",
           "type": "FRAME",
           "layout": {
@@ -624,11 +649,12 @@
             "fill": "#6b4eff",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #6b4eff; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#6b4eff] border-radius-[100px]",
           "children": []
         },
         {
-          "id": "h2iera91g",
+          "id": "lrk9e79sj",
           "name": "Ellipse 10",
           "type": "FRAME",
           "layout": {
@@ -652,13 +678,14 @@
             "fill": "#e3e5e5",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #e3e5e5; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#e3e5e5] border-radius-[100px]",
           "children": []
         }
       ]
     },
     {
-      "id": "hahd9lcq0",
+      "id": "nsz4bbthb",
       "name": "Title",
       "type": "FRAME",
       "layout": {
@@ -682,10 +709,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 92px; background-color: #fff;",
       "tailwind": "w-[375px] h-[92px] bg-white",
       "children": [
         {
-          "id": "b99z2j3u6",
+          "id": "euw2xp342",
           "name": "Practice Area",
           "type": "TEXT",
           "layout": {
@@ -712,10 +740,11 @@
             "color": "#090a0a"
           },
           "copy": "Practice Area",
+          "css": "font-size: 32px; font-weight: 700; line-height: 36px; text-align: center; color: #090a0a;",
           "tailwind": "text-[32] font-weight-[700] leading-36 text-align-[center] color-[#090a0a]"
         },
         {
-          "id": "3hfnzovb1",
+          "id": "9s8r6rvbw",
           "name": "So we can recommend exercises",
           "type": "TEXT",
           "layout": {
@@ -741,12 +770,13 @@
             "color": "#6c7072"
           },
           "copy": "So we can recommend exercises",
+          "css": "font-size: 16px; line-height: 24px; text-align: center; color: #6c7072;",
           "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#6c7072]"
         }
       ]
     },
     {
-      "id": "8cjveyrya",
+      "id": "jrjcst8b9",
       "name": "Chips-group",
       "type": "FRAME",
       "layout": {
@@ -768,10 +798,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 612px;",
       "tailwind": "w-[327px] h-[612px]",
       "children": [
         {
-          "id": "31g710izr",
+          "id": "zk7od6mbg",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -795,10 +826,11 @@
             "fill": "#e7e7ff",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #e7e7ff; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#e7e7ff] rounded-8",
           "children": [
             {
-              "id": "sx02ftsg3",
+              "id": "locctzftb",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -824,12 +856,13 @@
                 "color": "#6b4eff"
               },
               "copy": "None",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #6b4eff;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#6b4eff]"
             }
           ]
         },
         {
-          "id": "5vmpqhvmf",
+          "id": "cpnd7f0ez",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -853,10 +886,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "bjcnvgnek",
+              "id": "vdqo75rcs",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -882,12 +916,13 @@
                 "color": "#090a0a"
               },
               "copy": "Core Strength",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "4zflcnywo",
+          "id": "mbxbxxuda",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -911,10 +946,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "gas7pxpng",
+              "id": "j05tm3mwc",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -940,12 +976,13 @@
                 "color": "#090a0a"
               },
               "copy": "Chest",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "86szep5aa",
+          "id": "dyxuuw9ir",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -969,10 +1006,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "tmmxgdimx",
+              "id": "n08hb7vqg",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -998,12 +1036,13 @@
                 "color": "#090a0a"
               },
               "copy": "Shoulder",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "jol5u9jdc",
+          "id": "p7z4axwr4",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1027,10 +1066,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "7xt7nkg23",
+              "id": "on043vka3",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1056,12 +1096,13 @@
                 "color": "#090a0a"
               },
               "copy": "Backbends",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "fjqy68d3y",
+          "id": "pe5sscafg",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1085,10 +1126,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "djocoygon",
+              "id": "ezj1j72xs",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1114,12 +1156,13 @@
                 "color": "#090a0a"
               },
               "copy": "Traps",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "jj6ys4cz9",
+          "id": "sded85pef",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1143,10 +1186,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "kgdfvhf3k",
+              "id": "1kbm25mvd",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1172,12 +1216,13 @@
                 "color": "#090a0a"
               },
               "copy": "Forearms",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "bu1f0kve2",
+          "id": "rfx79wyvq",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1201,10 +1246,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "qgp19yts8",
+              "id": "v4v20hhhy",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1230,12 +1276,13 @@
                 "color": "#090a0a"
               },
               "copy": "Hamstring",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "nmdmonsh8",
+          "id": "1npcacx8u",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1259,10 +1306,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "j189ji8bg",
+              "id": "cebqpvsv3",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1288,12 +1336,13 @@
                 "color": "#090a0a"
               },
               "copy": "Upper Back",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "t45x4a6ac",
+          "id": "scu1aws1z",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1317,10 +1366,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "adxk6sexd",
+              "id": "p4z3rsgp1",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1346,12 +1396,13 @@
                 "color": "#090a0a"
               },
               "copy": "Lower Back",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "kuw6tftse",
+          "id": "ql33rkbkk",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1375,10 +1426,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "cj7q992uy",
+              "id": "igzgc4ss0",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1404,12 +1456,13 @@
                 "color": "#090a0a"
               },
               "copy": "Upper Back",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "dwf3m4h8p",
+          "id": "gez2whvkp",
           "name": "Controls / Chips: Rounded",
           "type": "FRAME",
           "layout": {
@@ -1433,10 +1486,11 @@
             "fill": "#f2f4f5",
             "strokeWidth": 1
           },
+          "css": "width: 327px; height: 40px; background-color: #f2f4f5; border-radius: 8px;",
           "tailwind": "w-[327px] h-[40px] bg-[#f2f4f5] rounded-8",
           "children": [
             {
-              "id": "pfyvlxu88",
+              "id": "ex84sv550",
               "name": "Chip",
               "type": "TEXT",
               "layout": {
@@ -1462,6 +1516,7 @@
                 "color": "#090a0a"
               },
               "copy": "Upper Back",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
@@ -1469,7 +1524,7 @@
       ]
     },
     {
-      "id": "bh8qr665i",
+      "id": "ty0nq7jcz",
       "name": "Transparent Background",
       "type": "VECTOR",
       "layout": {
@@ -1487,10 +1542,11 @@
       "svg": {
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 130px; background: undefined;",
       "tailwind": "w-[375px] h-[130px] background-[undefined]"
     },
     {
-      "id": "mi4bmo1ay",
+      "id": "3oc3d8ul9",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -1514,10 +1570,11 @@
         "fill": "#6b4eff",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #6b4eff; border-radius: 48px;",
       "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
       "children": [
         {
-          "id": "kjswgv8ur",
+          "id": "lcpai51is",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -1543,12 +1600,13 @@
             "color": "#ffffff"
           },
           "copy": "Select",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #fff;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
         }
       ]
     },
     {
-      "id": "2domtxssd",
+      "id": "l3qplaqzu",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -1570,10 +1628,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 34px;",
       "tailwind": "w-[375px] h-[34px]",
       "children": [
         {
-          "id": "rtupkdeh4",
+          "id": "0irpqk6d2",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {
@@ -1594,6 +1653,7 @@
             "fill": "#090a0a",
             "strokeWidth": 0
           },
+          "css": "width: 148px; height: 5px; background-color: #090a0a; border-radius: 100px;",
           "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
         }
       ]

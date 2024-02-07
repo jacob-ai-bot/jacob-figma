@@ -1,5 +1,5 @@
 {
-  "id": "n0dz83swz",
+  "id": "nsx9sm6lz",
   "name": "Login - Email",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #fff; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "pjynglko2",
+      "id": "35h3x2cvz",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px; background-color: #fff;",
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "13mw18m1n",
+          "id": "k3gp8pq97",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -79,10 +81,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "nioq1j5zr",
+          "id": "g2w1azjf5",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -94,10 +97,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "q0zfly0l8",
+              "id": "yglr1m8py",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -109,10 +113,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "x6ajx9s0e",
+                  "id": "hyee978d5",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -134,10 +139,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "aeumh1q5f",
+                  "id": "gzy0pu0bn",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -158,10 +164,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "33l9ywo23",
+                  "id": "4bbo5o2ht",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -182,6 +189,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -189,7 +197,7 @@
           ]
         },
         {
-          "id": "rmhr3l4m8",
+          "id": "l3yxz1pv9",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -201,10 +209,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "76plv87ze",
+              "id": "8ke8iqcmb",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -221,10 +230,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "s0wzlkoi2",
+                  "id": "ygiul0ap5",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -245,10 +255,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "ctm5oywbh",
+                  "id": "9b4c5x1fl",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -269,10 +280,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "wrsktvkox",
+                  "id": "kdllcrsj8",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -293,6 +305,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -300,7 +313,7 @@
           ]
         },
         {
-          "id": "evczium20",
+          "id": "dcpl0ufjd",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -312,10 +325,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "g655cvezw",
+              "id": "2ip7qb8qz",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -332,10 +346,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "gh7i8bocd",
+                  "id": "1sg0nnks4",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -356,10 +371,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "o5mmbbd5a",
+                  "id": "3itgynt5j",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -380,10 +396,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "9rh6l5ju0",
+                  "id": "blga73c83",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -404,10 +421,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "5yb33jstn",
+                  "id": "q7hyj3rrs",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -428,6 +446,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -437,7 +456,7 @@
       ]
     },
     {
-      "id": "z1vacemeu",
+      "id": "mlqfvozpi",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -461,10 +480,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 48px; background-color: #fff;",
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "qtj953ag4",
+          "id": "hhpn9805o",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -486,10 +506,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "4bipcb0jx",
+              "id": "0ax6tv6ke",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -511,12 +532,13 @@
                 "stroke": "#090a0a",
                 "strokeWidth": 1.5
               },
+              "css": "width: 6px; height: 12px; border: 1.5px solid #090a0a;",
               "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "p3vlttxkr",
+          "id": "69ww13e8k",
           "name": "Title",
           "type": "TEXT",
           "layout": {
@@ -542,12 +564,13 @@
             "color": "#090a0a"
           },
           "copy": "Log in",
+          "css": "font-size: 18px; line-height: 18px; text-align: center; color: #090a0a;",
           "tailwind": "text-[18] leading-18 text-align-[center] color-[#090a0a]"
         }
       ]
     },
     {
-      "id": "n2p0axgas",
+      "id": "u5gajudih",
       "name": "Controls / Text Field: Floating Label",
       "type": "FRAME",
       "layout": {
@@ -574,10 +597,11 @@
         "stroke": "#e3e5e5",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #fff; border: 1px solid #e3e5e5; border-radius: 8px;",
       "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
       "children": [
         {
-          "id": "d50tdbxqg",
+          "id": "j8qfsq55u",
           "name": "_Partials / Text Field: Floating Label",
           "type": "FRAME",
           "layout": {
@@ -599,10 +623,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 187px; height: 32px;",
           "tailwind": "w-[187px] h-[32px]",
           "children": [
             {
-              "id": "muy0ldjey",
+              "id": "xxa4x347c",
               "name": "Email",
               "type": "TEXT",
               "layout": {
@@ -628,10 +653,11 @@
                 "color": "#72777a"
               },
               "copy": "Email",
+              "css": "font-size: 12px; line-height: 12px; color: #72777a;",
               "tailwind": "text-[12] leading-12 color-[#72777a]"
             },
             {
-              "id": "j556fndbz",
+              "id": "x8mso3z0l",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -657,6 +683,7 @@
                 "color": "#090a0a"
               },
               "copy": "juinal.william@gmail.com",
+              "css": "font-size: 16px; line-height: 16px; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 color-[#090a0a]"
             }
           ]
@@ -664,7 +691,7 @@
       ]
     },
     {
-      "id": "gg1e9umj7",
+      "id": "sl6mr6msp",
       "name": "Controls / Text Field: Floating Label",
       "type": "FRAME",
       "layout": {
@@ -691,10 +718,11 @@
         "stroke": "#e3e5e5",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #fff; border: 1px solid #e3e5e5; border-radius: 8px;",
       "tailwind": "w-[327px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] rounded-8",
       "children": [
         {
-          "id": "7aid2vxua",
+          "id": "afpu2yty5",
           "name": "_Partials / Text Field: Floating Label",
           "type": "FRAME",
           "layout": {
@@ -716,10 +744,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 295px; height: 16px;",
           "tailwind": "w-[295px] h-[16px]",
           "children": [
             {
-              "id": "31veo1z2i",
+              "id": "dzq9ajl0i",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -745,6 +774,7 @@
                 "color": "#72777a"
               },
               "copy": "password",
+              "css": "font-size: 16px; line-height: 16px; color: #72777a;",
               "tailwind": "font-size-[16px] leading-16 color-[#72777a]"
             }
           ]
@@ -752,7 +782,7 @@
       ]
     },
     {
-      "id": "azav69wof",
+      "id": "jo9enkqks",
       "name": "Forgot password?",
       "type": "TEXT",
       "layout": {
@@ -778,10 +808,11 @@
         "color": "#6b4eff"
       },
       "copy": "Forgot password?",
+      "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #6b4eff;",
       "tailwind": "font-size-[16px] font-medium leading-16 color-[#6b4eff]"
     },
     {
-      "id": "ltdqd1hqj",
+      "id": "6vzh3usni",
       "name": "By continuing, you agree to our Terms of Service and Privacy Policy.",
       "type": "TEXT",
       "layout": {
@@ -804,10 +835,11 @@
         "textAlign": "LEFT"
       },
       "copy": "By continuing, you agree to our Terms of Service and Privacy Policy.",
+      "css": "font-size: 12px; line-height: 16px;",
       "tailwind": "text-[12] leading-16"
     },
     {
-      "id": "o2ohwon3f",
+      "id": "2a21nj6t3",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -831,10 +863,11 @@
         "fill": "#6b4eff",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #6b4eff; border-radius: 48px;",
       "tailwind": "w-[327px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
       "children": [
         {
-          "id": "anf23t8ht",
+          "id": "btaonjh9i",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -860,12 +893,13 @@
             "color": "#ffffff"
           },
           "copy": "Log in",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #fff;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
         }
       ]
     },
     {
-      "id": "cy1pmqw7a",
+      "id": "xt1lp6ovc",
       "name": "Native / Keyboard",
       "type": "FRAME",
       "layout": {
@@ -887,10 +921,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 291px;",
       "tailwind": "w-[375px] h-[291px]",
       "children": [
         {
-          "id": "e23v0mj76",
+          "id": "xwe938m36",
           "name": "Background",
           "type": "FRAME",
           "layout": {
@@ -912,10 +947,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 291px;",
           "tailwind": "w-[375px] h-[291px]",
           "children": [
             {
-              "id": "tw22vz34i",
+              "id": "aqqtkr1s8",
               "name": "Background",
               "type": "RECTANGLE",
               "layout": {
@@ -933,12 +969,13 @@
                 "fill": "#e3e5e5",
                 "strokeWidth": 0
               },
+              "css": "width: 375px; height: 291px; background-color: #e3e5e5; backdrop-filter: blur(81.54845428466797px);",
               "tailwind": "w-[375px] h-[291px] bg-[#e3e5e5] backdrop-filter-[blur(81.54845428466797px)]"
             }
           ]
         },
         {
-          "id": "ksabfstgx",
+          "id": "mukhvhmuo",
           "name": "Keys",
           "type": "GROUP",
           "layout": {
@@ -950,10 +987,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 369px; height: 259px;",
           "tailwind": "w-[369px] h-[259px]",
           "children": [
             {
-              "id": "hpvatmlaj",
+              "id": "3xg47e98r",
               "name": "Q",
               "type": "FRAME",
               "layout": {
@@ -975,10 +1013,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "uwu9qc9fn",
+                  "id": "3t52cdtsb",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -995,10 +1034,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "t1gyvkiyx",
+                  "id": "78e124u75",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1023,12 +1063,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "Q",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "grft07vyh",
+              "id": "osk6hj93g",
               "name": "W",
               "type": "FRAME",
               "layout": {
@@ -1050,10 +1091,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "oyno8aczz",
+                  "id": "b8mev228v",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1070,10 +1112,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "x5958y21i",
+                  "id": "ep4nymjyl",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1098,12 +1141,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "W",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "9h1o28fxi",
+              "id": "v3v9ddhsz",
               "name": "E",
               "type": "FRAME",
               "layout": {
@@ -1125,10 +1169,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "63kea3dyi",
+                  "id": "coe9epdce",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1145,10 +1190,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "wubx5c2pr",
+                  "id": "xfsghxq8x",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1173,12 +1219,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "E",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "m8v40cj1l",
+              "id": "i0higx6mg",
               "name": "R",
               "type": "FRAME",
               "layout": {
@@ -1200,10 +1247,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "85hletrr2",
+                  "id": "346u1jo25",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1220,10 +1268,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "rfwcinkvg",
+                  "id": "xmar0t6b5",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1248,12 +1297,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "R",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "16yjwlu97",
+              "id": "rq0rm0r6w",
               "name": "T",
               "type": "FRAME",
               "layout": {
@@ -1275,10 +1325,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "wefnf6nyc",
+                  "id": "me4mm3qth",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1295,10 +1346,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "nvs3f69xy",
+                  "id": "tuvow6yjx",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1323,12 +1375,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "T",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "dill94ktz",
+              "id": "yt79tndto",
               "name": "Y",
               "type": "FRAME",
               "layout": {
@@ -1350,10 +1403,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "e9jlwpbmn",
+                  "id": "4v6fmexha",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1370,10 +1424,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "vi7mw0gz5",
+                  "id": "11oeu814s",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1398,12 +1453,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "Y",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "2xlsdjbq1",
+              "id": "hmh2z6hxs",
               "name": "U",
               "type": "FRAME",
               "layout": {
@@ -1425,10 +1481,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "qm4hvh3tn",
+                  "id": "01kptgk3z",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1445,10 +1502,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "8w0iownv3",
+                  "id": "4ab6fr9vx",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1473,12 +1531,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "U",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "rcvhsh31a",
+              "id": "i7a7llhet",
               "name": "I",
               "type": "FRAME",
               "layout": {
@@ -1500,10 +1559,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "gmr52wo8i",
+                  "id": "6kpkylntu",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1520,10 +1580,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "fgzt593mg",
+                  "id": "xk2hbi1do",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1548,12 +1609,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "I",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "swcpt8xp4",
+              "id": "ewd52r3gv",
               "name": "O",
               "type": "FRAME",
               "layout": {
@@ -1575,10 +1637,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "zrgxbv6l3",
+                  "id": "6mbchimr7",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1595,10 +1658,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "wksmh279a",
+                  "id": "ez1qrzbt4",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1623,12 +1687,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "O",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "qq1avx98o",
+              "id": "95wwucqaw",
               "name": "P",
               "type": "FRAME",
               "layout": {
@@ -1650,10 +1715,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "hlql4azxs",
+                  "id": "sm05vzpyq",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1670,10 +1736,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "t1k34rmfu",
+                  "id": "x0q6o6wjq",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1698,12 +1765,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "P",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "g92kd6ow5",
+              "id": "n475pkfuo",
               "name": "A",
               "type": "FRAME",
               "layout": {
@@ -1725,10 +1793,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "wqm803k1s",
+                  "id": "peaa4zb4r",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1745,10 +1814,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "3a71a1ob2",
+                  "id": "14yavqavi",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1773,12 +1843,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "A",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "fmjeuraip",
+              "id": "9qmxm5a40",
               "name": "S",
               "type": "FRAME",
               "layout": {
@@ -1800,10 +1871,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "rsb60q52n",
+                  "id": "hbiov8qfk",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1820,10 +1892,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "grsurm64c",
+                  "id": "kgr5gzobt",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1848,12 +1921,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "S",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "adojalgup",
+              "id": "9vj4vn9eq",
               "name": "D",
               "type": "FRAME",
               "layout": {
@@ -1875,10 +1949,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "62ynmo8yf",
+                  "id": "d10l9t1yv",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1895,10 +1970,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "lvsd4jz0l",
+                  "id": "hk053j0gi",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1923,12 +1999,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "D",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "fcbsgogyd",
+              "id": "o5q9uu47t",
               "name": "F",
               "type": "FRAME",
               "layout": {
@@ -1950,10 +2027,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "mx26adrva",
+                  "id": "tde3obbti",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -1970,10 +2048,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ppqqh8ufb",
+                  "id": "ekw59ubem",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -1998,12 +2077,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "F",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "r942xucad",
+              "id": "8c4eghk8i",
               "name": "G",
               "type": "FRAME",
               "layout": {
@@ -2025,10 +2105,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "fygg3hxn7",
+                  "id": "5z09j9eoq",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2045,10 +2126,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "kee13rlad",
+                  "id": "8iw28smlv",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2073,12 +2155,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "G",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "c4dcraoen",
+              "id": "l5e7x86k6",
               "name": "H",
               "type": "FRAME",
               "layout": {
@@ -2100,10 +2183,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "qm7ucb954",
+                  "id": "gkda31sue",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2120,10 +2204,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ass37znrm",
+                  "id": "ighfdcrw6",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2148,12 +2233,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "H",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "4n4pp62c8",
+              "id": "kimx3ntvi",
               "name": "J",
               "type": "FRAME",
               "layout": {
@@ -2175,10 +2261,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "az2559fr2",
+                  "id": "f0wwq0fdo",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2195,10 +2282,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ltdc6t47b",
+                  "id": "58rwwu5fr",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2223,12 +2311,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "J",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "vezrftpdt",
+              "id": "mr0kr7lkf",
               "name": "K",
               "type": "FRAME",
               "layout": {
@@ -2250,10 +2339,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "te4pf68dx",
+                  "id": "8a6mhs3e3",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2270,10 +2360,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "231uwlq2x",
+                  "id": "q049s1tbh",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2298,12 +2389,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "K",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "mukrzl9hf",
+              "id": "n9oqxdvqi",
               "name": "L",
               "type": "FRAME",
               "layout": {
@@ -2325,10 +2417,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "eg95twhe8",
+                  "id": "ztnpgin1q",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2345,10 +2438,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "l1uefc7iw",
+                  "id": "ql8k02bjx",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2373,12 +2467,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "L",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "hnap5on7d",
+              "id": "in2ak7n6w",
               "name": "Shift",
               "type": "GROUP",
               "layout": {
@@ -2390,10 +2485,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 42px; height: 42px;",
               "tailwind": "w-[42px] h-[42px]",
               "children": [
                 {
-                  "id": "lhf74laq0",
+                  "id": "jhu560jp0",
                   "name": "Key Light",
                   "type": "FRAME",
                   "layout": {
@@ -2415,10 +2511,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 42px; height: 42px;",
                   "tailwind": "w-[42px] h-[42px]",
                   "children": [
                     {
-                      "id": "b122q37kw",
+                      "id": "m4x4zvcqc",
                       "name": "Rectangle",
                       "type": "RECTANGLE",
                       "layout": {
@@ -2435,10 +2532,11 @@
                         "fill": "#ffffff",
                         "strokeWidth": 0
                       },
+                      "css": "width: 42px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                       "tailwind": "w-[42px] h-[42px] bg-white border-radius-[4.6px]"
                     },
                     {
-                      "id": "ti6g0tx1q",
+                      "id": "z2iuupyc2",
                       "name": "Symbol",
                       "type": "TEXT",
                       "layout": {
@@ -2463,12 +2561,13 @@
                         "color": "#090a0a"
                       },
                       "copy": " ",
+                      "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                       "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                     }
                   ]
                 },
                 {
-                  "id": "cflataext",
+                  "id": "co4zss23c",
                   "name": "Shift",
                   "type": "VECTOR",
                   "layout": {
@@ -2489,12 +2588,13 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 18.88px; height: 16.46px; background-color: #090a0a;",
                   "tailwind": "w-[18px] h-[16px] bg-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "5gyhudw8i",
+              "id": "1qkz3uomn",
               "name": "Z",
               "type": "FRAME",
               "layout": {
@@ -2516,10 +2616,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "omujd0lf6",
+                  "id": "45e4z1fzd",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2536,10 +2637,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "156c385dv",
+                  "id": "zxk0m3h45",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2564,12 +2666,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "Z",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "uocscyni4",
+              "id": "gr13360h8",
               "name": "X",
               "type": "FRAME",
               "layout": {
@@ -2591,10 +2694,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "6ukenpdom",
+                  "id": "8e3c27qsr",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2611,10 +2715,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ooaxww67s",
+                  "id": "2so9mrxgu",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2639,12 +2744,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "X",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "srgt6tphn",
+              "id": "baluo3kg6",
               "name": "C",
               "type": "FRAME",
               "layout": {
@@ -2666,10 +2772,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "hvksemeeu",
+                  "id": "amxpnkqup",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2686,10 +2793,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "trdfxjt6k",
+                  "id": "5hhjx5fbr",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2714,12 +2822,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "C",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "uva7hegnu",
+              "id": "i9s90zb0d",
               "name": "V",
               "type": "FRAME",
               "layout": {
@@ -2741,10 +2850,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "740tekbgi",
+                  "id": "c81hmomgk",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2761,10 +2871,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "wsdu01rjm",
+                  "id": "m0vmmrbmw",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2789,12 +2900,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "V",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "ha46la6sm",
+              "id": "fy68dy3ho",
               "name": "B",
               "type": "FRAME",
               "layout": {
@@ -2816,10 +2928,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "lwurm57g1",
+                  "id": "rb9w815ae",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2836,10 +2949,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "6wwg6son2",
+                  "id": "v14d7r6ob",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2864,12 +2978,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "B",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "317mcqg7o",
+              "id": "lrdfnqzrj",
               "name": "N",
               "type": "FRAME",
               "layout": {
@@ -2891,10 +3006,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "56oiezaw1",
+                  "id": "yph54s3mk",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2911,10 +3027,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "hy822cm1z",
+                  "id": "0rrcgiylz",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -2939,12 +3056,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "N",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "fqzskkozb",
+              "id": "t3x8nxov8",
               "name": "M",
               "type": "FRAME",
               "layout": {
@@ -2966,10 +3084,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 42px;",
               "tailwind": "w-[32px] h-[42px]",
               "children": [
                 {
-                  "id": "0ecx139jy",
+                  "id": "mrb11m84i",
                   "name": "Rectangle",
                   "type": "RECTANGLE",
                   "layout": {
@@ -2986,10 +3105,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 32px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[32px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "ifp2bvbqy",
+                  "id": "v2gi810rc",
                   "name": "Symbol",
                   "type": "TEXT",
                   "layout": {
@@ -3014,12 +3134,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "M",
+                  "css": "font-size: 22.5px; letter-spacing: -0.55px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[22.5px] letter-spacing-[-0.55px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "4lacq4npb",
+              "id": "pc4pqzokx",
               "name": "Delete",
               "type": "GROUP",
               "layout": {
@@ -3031,10 +3152,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 42px; height: 42px;",
               "tailwind": "w-[42px] h-[42px]",
               "children": [
                 {
-                  "id": "4hbxj2djo",
+                  "id": "xd2ligunx",
                   "name": "Key Light",
                   "type": "FRAME",
                   "layout": {
@@ -3056,10 +3178,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 42px; height: 42px;",
                   "tailwind": "w-[42px] h-[42px]",
                   "children": [
                     {
-                      "id": "wkpmcslxg",
+                      "id": "fy3u0p3ug",
                       "name": "Rectangle",
                       "type": "VECTOR",
                       "layout": {
@@ -3080,10 +3203,11 @@
                         "fill": "#cdcfd0",
                         "strokeWidth": 0
                       },
+                      "css": "width: 42px; height: 42px; background-color: #cdcfd0; border-radius: 4.6px;",
                       "tailwind": "w-[42px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
                     },
                     {
-                      "id": "j60fwc24c",
+                      "id": "trr19rkxj",
                       "name": "Label",
                       "type": "TEXT",
                       "layout": {
@@ -3109,12 +3233,13 @@
                         "color": "#090a0a"
                       },
                       "copy": " ",
+                      "css": "font-size: 16px; line-height: 21px; letter-spacing: -0.32px; text-align: center; color: #090a0a;",
                       "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
                     }
                   ]
                 },
                 {
-                  "id": "fxv398qc0",
+                  "id": "anb7ogs2r",
                   "name": "Delete Button",
                   "type": "BOOLEAN_OPERATION",
                   "layout": {
@@ -3131,10 +3256,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 22.66px; height: 16.99px; background-color: #090a0a;",
                   "tailwind": "w-[22px] h-[16px] bg-[#090a0a]",
                   "children": [
                     {
-                      "id": "q6iecina7",
+                      "id": "vu33rg2kc",
                       "name": "Exclude",
                       "type": "BOOLEAN_OPERATION",
                       "layout": {
@@ -3151,10 +3277,11 @@
                         "fill": "#dadada",
                         "strokeWidth": 0
                       },
+                      "css": "width: 22.66px; height: 16.99px; background-color: #dadada;",
                       "tailwind": "w-[22px] h-[16px] bg-[#dadada]",
                       "children": [
                         {
-                          "id": "a2dzf8wx2",
+                          "id": "yx7yza0nk",
                           "name": "Border",
                           "type": "VECTOR",
                           "layout": {
@@ -3175,10 +3302,11 @@
                             "fill": "#000000",
                             "strokeWidth": 0
                           },
+                          "css": "width: 22.66px; height: 16.99px; background-color: #000;",
                           "tailwind": "w-[22px] h-[16px] bg-black"
                         },
                         {
-                          "id": "wzlqkls5v",
+                          "id": "fq56n2khk",
                           "name": "Cross-path",
                           "type": "VECTOR",
                           "layout": {
@@ -3199,12 +3327,13 @@
                             "fill": "#000000",
                             "strokeWidth": 0
                           },
+                          "css": "width: 6.68px; height: 6.69px; background-color: #000;",
                           "tailwind": "w-[6px] h-[6px] bg-black"
                         }
                       ]
                     },
                     {
-                      "id": "44znytszd",
+                      "id": "c1zb0w00n",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3225,10 +3354,11 @@
                         "fill": "#090a0a",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.13px; height: 1.13px; background-color: #090a0a;",
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "rgsp86enw",
+                      "id": "8s3vc5wd0",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3249,10 +3379,11 @@
                         "fill": "#090a0a",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.13px; height: 1.13px; background-color: #090a0a;",
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "graymyjbq",
+                      "id": "22vysa4ye",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3273,10 +3404,11 @@
                         "fill": "#090a0a",
                         "strokeWidth": 0
                       },
+                      "css": "width: 6.69px; height: 6.68px; background-color: #090a0a;",
                       "tailwind": "w-[6px] h-[6px] bg-[#090a0a]"
                     },
                     {
-                      "id": "7ohmnl17m",
+                      "id": "x1b5th7vs",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3297,10 +3429,11 @@
                         "fill": "#090a0a",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.13px; height: 1.13px; background-color: #090a0a;",
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     },
                     {
-                      "id": "r5uy08bvh",
+                      "id": "xmf2cl10g",
                       "name": "Cross-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3321,6 +3454,7 @@
                         "fill": "#090a0a",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.13px; height: 1.13px; background-color: #090a0a;",
                       "tailwind": "w-[1px] h-[1px] bg-[#090a0a]"
                     }
                   ]
@@ -3328,7 +3462,7 @@
               ]
             },
             {
-              "id": "r6lwgkrit",
+              "id": "6ixy1afj8",
               "name": "123",
               "type": "FRAME",
               "layout": {
@@ -3350,10 +3484,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 87px; height: 42px;",
               "tailwind": "w-[87px] h-[42px]",
               "children": [
                 {
-                  "id": "23s90xghf",
+                  "id": "z43plm1yi",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3374,10 +3509,11 @@
                     "fill": "#cdcfd0",
                     "strokeWidth": 0
                   },
+                  "css": "width: 87px; height: 42px; background-color: #cdcfd0; border-radius: 4.6px;",
                   "tailwind": "w-[87px] h-[42px] bg-[#cdcfd0] border-radius-[4.6px]"
                 },
                 {
-                  "id": "pu26znd7r",
+                  "id": "0dzflvjw9",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3403,12 +3539,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "123",
+                  "css": "font-size: 16px; line-height: 21px; letter-spacing: -0.32px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "j8uf276as",
+              "id": "459flypzg",
               "name": "Space",
               "type": "FRAME",
               "layout": {
@@ -3430,10 +3567,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 182px; height: 42px;",
               "tailwind": "w-[182px] h-[42px]",
               "children": [
                 {
-                  "id": "6ww9fgpig",
+                  "id": "yqa56usu7",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3454,10 +3592,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 182px; height: 42px; background-color: #fff; border-radius: 4.6px;",
                   "tailwind": "w-[182px] h-[42px] bg-white border-radius-[4.6px]"
                 },
                 {
-                  "id": "xy80m472y",
+                  "id": "s5djb3n86",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3483,12 +3622,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "space",
+                  "css": "font-size: 16px; line-height: 21px; letter-spacing: -0.32px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "7s6mzfden",
+              "id": "z2fwxwwm4",
               "name": "Return",
               "type": "FRAME",
               "layout": {
@@ -3510,10 +3650,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 88px; height: 42px;",
               "tailwind": "w-[88px] h-[42px]",
               "children": [
                 {
-                  "id": "p973rh1id",
+                  "id": "rlc3alili",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -3534,10 +3675,11 @@
                     "fill": "#0065d0",
                     "strokeWidth": 0
                   },
+                  "css": "width: 88px; height: 42px; background-color: #0065d0; border-radius: 4.6px;",
                   "tailwind": "w-[88px] h-[42px] bg-[#0065d0] border-radius-[4.6px]"
                 },
                 {
-                  "id": "pvcl0q1vv",
+                  "id": "zisl01a5f",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -3563,12 +3705,13 @@
                     "color": "#ffffff"
                   },
                   "copy": "Go",
+                  "css": "font-size: 16px; line-height: 21px; letter-spacing: -0.32px; text-align: center; color: #fff;",
                   "tailwind": "font-size-[16px] h-[21px] letter-spacing-[-0.32px] text-align-[center] text-white"
                 }
               ]
             },
             {
-              "id": "rd97rcgou",
+              "id": "oedc1ulcq",
               "name": "Emoji",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -3585,10 +3728,11 @@
                 "fill": "#303437",
                 "strokeWidth": 0
               },
+              "css": "width: 27px; height: 27px; background-color: #303437;",
               "tailwind": "w-[27px] h-[27px] bg-[#303437]",
               "children": [
                 {
-                  "id": "lf1fe9mow",
+                  "id": "ktscxyh3z",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3609,10 +3753,11 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 27px; height: 27px; background-color: #303437;",
                   "tailwind": "w-[27px] h-[27px] bg-[#303437]"
                 },
                 {
-                  "id": "58fjbwbta",
+                  "id": "jf9wovczc",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3633,10 +3778,11 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 23.85px; height: 23.85px; background-color: #303437;",
                   "tailwind": "w-[23px] h-[23px] bg-[#303437]"
                 },
                 {
-                  "id": "cf4d0gsav",
+                  "id": "ofmo4bz4s",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3657,10 +3803,11 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3.15px; height: 3.14px; background-color: #303437;",
                   "tailwind": "w-[3px] h-[3px] bg-[#303437]"
                 },
                 {
-                  "id": "c1frwe3bd",
+                  "id": "pdlrjblaj",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3681,10 +3828,11 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3.15px; height: 3.16px; background-color: #303437;",
                   "tailwind": "w-[3px] h-[3px] bg-[#303437]"
                 },
                 {
-                  "id": "pqj2w5t7u",
+                  "id": "h4k0no8wa",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3705,10 +3853,11 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 18.01px; height: 8.1px; background-color: #303437;",
                   "tailwind": "w-[18px] h-[8px] bg-[#303437]"
                 },
                 {
-                  "id": "9trpuk7zw",
+                  "id": "pc9k382bg",
                   "name": "Emoji-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3729,12 +3878,13 @@
                     "fill": "#303437",
                     "strokeWidth": 0
                   },
+                  "css": "width: 14.91px; height: 2.95px; background-color: #303437;",
                   "tailwind": "w-[14px] h-[2px] bg-[#303437]"
                 }
               ]
             },
             {
-              "id": "r8hxutxj8",
+              "id": "xweqmm1ru",
               "name": "Dictation",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -3751,10 +3901,11 @@
                 "fill": "#303437",
                 "strokeWidth": 0
               },
+              "css": "width: 15px; height: 25px; background-color: #303437;",
               "tailwind": "w-[15px] h-[25px] bg-[#303437]",
               "children": [
                 {
-                  "id": "s97oy9a0q",
+                  "id": "tn7yu1dkj",
                   "name": "Dictation-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3779,10 +3930,11 @@
                     "stroke": "#000000",
                     "strokeWidth": 1
                   },
+                  "css": "width: 9.01px; height: 18px; background-color: #50555c; border: 1px solid #000;",
                   "tailwind": "w-[9px] h-[18px] bg-[#50555c] border border-solid border-black"
                 },
                 {
-                  "id": "vjamwmp66",
+                  "id": "xufmc4gwu",
                   "name": "Dictation-path",
                   "type": "VECTOR",
                   "layout": {
@@ -3807,10 +3959,11 @@
                     "stroke": "#000000",
                     "strokeWidth": 1
                   },
+                  "css": "width: 5.67px; height: 14.67px; background-color: #50555c; border: 1px solid #000;",
                   "tailwind": "w-[5px] h-[14px] bg-[#50555c] border border-solid border-black"
                 },
                 {
-                  "id": "t6yfc3ixg",
+                  "id": "23oswr5s7",
                   "name": "Union",
                   "type": "BOOLEAN_OPERATION",
                   "layout": {
@@ -3830,10 +3983,11 @@
                     "stroke": "#000000",
                     "strokeWidth": 1
                   },
+                  "css": "width: 15px; height: 14.67px; background-color: #dadada; border: 1px solid #000;",
                   "tailwind": "w-[15px] h-[14px] bg-[#dadada] border border-solid border-black",
                   "children": [
                     {
-                      "id": "4n1brd04n",
+                      "id": "kk4swp1tg",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3854,10 +4008,11 @@
                         "fill": "#50555c",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.67px; height: 1.67px; background-color: #50555c;",
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "w3p5vw9mb",
+                      "id": "l96hmhsw1",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3878,10 +4033,11 @@
                         "fill": "#50555c",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.67px; height: 1.67px; background-color: #50555c;",
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "2rq0sgu05",
+                      "id": "pqikdd62u",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3902,10 +4058,11 @@
                         "fill": "#50555c",
                         "strokeWidth": 0
                       },
+                      "css": "width: 15px; height: 13.83px; background-color: #50555c;",
                       "tailwind": "w-[15px] h-[13px] bg-[#50555c]"
                     },
                     {
-                      "id": "qsks1mtb2",
+                      "id": "d4kn1jjc7",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3926,10 +4083,11 @@
                         "fill": "#50555c",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.67px; height: 1.67px; background-color: #50555c;",
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     },
                     {
-                      "id": "7zj8rv4kj",
+                      "id": "pczimxkdb",
                       "name": "Dictation-path",
                       "type": "VECTOR",
                       "layout": {
@@ -3950,6 +4108,7 @@
                         "fill": "#50555c",
                         "strokeWidth": 0
                       },
+                      "css": "width: 1.67px; height: 1.67px; background-color: #50555c;",
                       "tailwind": "w-[1px] h-[1px] bg-[#50555c]"
                     }
                   ]
@@ -3959,7 +4118,7 @@
           ]
         },
         {
-          "id": "u4strcz8i",
+          "id": "wvlxzcipl",
           "name": "Home Indicator",
           "type": "FRAME",
           "layout": {
@@ -3981,10 +4140,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 34px;",
           "tailwind": "w-[375px] h-[34px]",
           "children": [
             {
-              "id": "h4s69j6ki",
+              "id": "scbc3vmr0",
               "name": "Home Indicator",
               "type": "RECTANGLE",
               "layout": {
@@ -4004,6 +4164,7 @@
                 "stroke": "#979797",
                 "strokeWidth": 0
               },
+              "css": "width: 134px; height: 5px; background-color: #090a0a; border-radius: 100px;",
               "tailwind": "w-[134px] h-[5px] bg-[#090a0a] border-radius-[100px]"
             }
           ]

@@ -1,5 +1,5 @@
 {
-  "id": "4u8g4wtf2",
+  "id": "sh8b1g03n",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -11,10 +11,11 @@
   "style": {
     "opacity": 1
   },
+  "css": "width: 1600px; height: 824px;",
   "tailwind": "w-[1600px] h-[824px]",
   "children": [
     {
-      "id": "o0mmtbrt8",
+      "id": "sjzkjvubr",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -26,10 +27,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 1600px; height: 824px;",
       "tailwind": "w-[1600px] h-[824px]",
       "children": [
         {
-          "id": "93bbsumex",
+          "id": "6nl7un79s",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -46,10 +48,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 824px; background-color: #000;",
           "tailwind": "w-[1600px] h-[824px] bg-black"
         },
         {
-          "id": "rckn7kk5i",
+          "id": "0yg8xof81",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -66,10 +69,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 824px; background-color: #000;",
           "tailwind": "w-[1600px] h-[824px] bg-black"
         },
         {
-          "id": "8aa3fjenx",
+          "id": "dvy3x3nuf",
           "name": "Rectangle",
           "type": "RECTANGLE",
           "layout": {
@@ -87,10 +91,11 @@
           "image": {
             "imageHash": "e887b2712cade5c5401477c2b85dbaf2fec3fff5"
           },
+          "css": "width: 1600px; height: 824px; mix-blend-mode: overlay; background: url();",
           "tailwind": "w-[1600px] h-[824px] mix-blend-mode-[overlay] background-[url()]"
         },
         {
-          "id": "ur79hwjw9",
+          "id": "sufnvzmah",
           "name": "Ellipse 33",
           "type": "VECTOR",
           "layout": {
@@ -109,12 +114,13 @@
           "svg": {
             "strokeWidth": 1
           },
+          "css": "width: 394.53px; height: 518.25px; background: undefined; filter: blur(210px);",
           "tailwind": "w-[394px] h-[518px] background-[undefined] filter-[blur(210px)]"
         }
       ]
     },
     {
-      "id": "y022weja7",
+      "id": "ap1w73kiv",
       "name": "Card",
       "type": "GROUP",
       "layout": {
@@ -126,10 +132,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 425px; height: 533px;",
       "tailwind": "w-[425px] h-[533px]",
       "children": [
         {
-          "id": "8pxdousoc",
+          "id": "ynofubvgf",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -146,10 +153,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 425px; height: 533px; background-color: rgba(0, 0, 0, 0.7); border-radius: 10px;",
           "tailwind": "w-[425px] h-[533px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
         },
         {
-          "id": "cuspzsswg",
+          "id": "kxr5m3cwk",
           "name": "1",
           "type": "GROUP",
           "layout": {
@@ -161,10 +169,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 248px; height: 105px;",
           "tailwind": "w-[248px] h-[105px]",
           "children": [
             {
-              "id": "9fl3rd00r",
+              "id": "hf6drx8yu",
               "name": "2M+",
               "type": "TEXT",
               "layout": {
@@ -190,10 +199,11 @@
                 "color": "#ffffff"
               },
               "copy": "2M+",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "u9ofz5q8i",
+              "id": "et5esqmvs",
               "name": "Tickets Delivered This Month",
               "type": "TEXT",
               "layout": {
@@ -219,12 +229,13 @@
                 "color": "#a1a1aa"
               },
               "copy": "Tickets Delivered This Month",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]
         },
         {
-          "id": "4b4dpjddh",
+          "id": "b0q2w6t4a",
           "name": "Line 3",
           "type": "LINE",
           "layout": {
@@ -238,10 +249,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 425px; height: 0;",
           "tailwind": "w-[425px] h-[0px]"
         },
         {
-          "id": "km6n2s8jt",
+          "id": "1dymnbqqp",
           "name": "2",
           "type": "GROUP",
           "layout": {
@@ -253,10 +265,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 195px; height: 105px;",
           "tailwind": "w-[195px] h-[105px]",
           "children": [
             {
-              "id": "pse4nawx3",
+              "id": "d8au2krof",
               "name": "46K+",
               "type": "TEXT",
               "layout": {
@@ -282,10 +295,11 @@
                 "color": "#ffffff"
               },
               "copy": "46K+",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "d4sksgbw4",
+              "id": "s4d7inh85",
               "name": "Active Customers Rate",
               "type": "TEXT",
               "layout": {
@@ -311,12 +325,13 @@
                 "color": "#a1a1aa"
               },
               "copy": "Active Customers Rate",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]
         },
         {
-          "id": "5mqvkf3gt",
+          "id": "zwtf04bwo",
           "name": "Line 4",
           "type": "LINE",
           "layout": {
@@ -330,10 +345,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 425px; height: 0;",
           "tailwind": "w-[425px] h-[0px]"
         },
         {
-          "id": "c056trmt6",
+          "id": "g983mfnu0",
           "name": "3",
           "type": "GROUP",
           "layout": {
@@ -345,10 +361,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 232px; height: 105px;",
           "tailwind": "w-[232px] h-[105px]",
           "children": [
             {
-              "id": "pmtpo2sha",
+              "id": "5gvtwlr2j",
               "name": "99%",
               "type": "TEXT",
               "layout": {
@@ -374,10 +391,11 @@
                 "color": "#ffffff"
               },
               "copy": "99%",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "5it8yobae",
+              "id": "6g7aienjs",
               "name": "Customer Satisfaction Rate",
               "type": "TEXT",
               "layout": {
@@ -403,6 +421,7 @@
                 "color": "#a1a1aa"
               },
               "copy": "Customer Satisfaction Rate",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]
@@ -410,7 +429,7 @@
       ]
     },
     {
-      "id": "zbu5avr9w",
+      "id": "7kyawitrt",
       "name": "Content",
       "type": "GROUP",
       "layout": {
@@ -422,10 +441,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 500px; height: 245px;",
       "tailwind": "w-[500px] h-[245px]",
       "children": [
         {
-          "id": "dmfoeqmd2",
+          "id": "fonj0inc1",
           "name": "Numbers are telling our story",
           "type": "TEXT",
           "layout": {
@@ -451,10 +471,11 @@
             "color": "#ffffff"
           },
           "copy": "Numbers are telling our story",
+          "css": "font-size: 60px; line-height: 66px; color: #fff;",
           "tailwind": "font-size-[60px] h-[66px] text-white"
         },
         {
-          "id": "v6vxt6v6a",
+          "id": "wauhwzvdn",
           "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
           "type": "TEXT",
           "layout": {
@@ -480,6 +501,7 @@
             "color": "#a1a1aa"
           },
           "copy": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
           "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
         }
       ]

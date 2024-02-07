@@ -1,5 +1,5 @@
 {
-  "id": "fqlla6dtp",
+  "id": "tvlavh7bh",
   "name": "Home",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #fff; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "z34gvra6m",
+      "id": "3cyg5111a",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px; background-color: #fff;",
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "wux9ry93d",
+          "id": "80ngydcf7",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -79,10 +81,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "4abu0rto0",
+          "id": "8yvbd6zng",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -94,10 +97,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "egsyws0qu",
+              "id": "txtnh3bjv",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -109,10 +113,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "v4glxtwoj",
+                  "id": "f1te36sl3",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -134,10 +139,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "ulxuk55bl",
+                  "id": "vnycx2rz0",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -158,10 +164,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "3gjps5wqa",
+                  "id": "lkgllsivk",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -182,6 +189,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -189,7 +197,7 @@
           ]
         },
         {
-          "id": "q5drz32la",
+          "id": "52qx3fovq",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -201,10 +209,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "hr0lwzu4g",
+              "id": "ibg2m2qli",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -221,10 +230,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "ec9dyjtks",
+                  "id": "zn5d345of",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -245,10 +255,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "ehoqnuoc8",
+                  "id": "6wsuqolo9",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -269,10 +280,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "c39m3yura",
+                  "id": "3kvhy2xxl",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -293,6 +305,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -300,7 +313,7 @@
           ]
         },
         {
-          "id": "0r19xo402",
+          "id": "snem0iptd",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -312,10 +325,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "94lmuybgt",
+              "id": "b6rzhyo66",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -332,10 +346,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "zcviyss8x",
+                  "id": "szsp4grio",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -356,10 +371,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "wdu1o6u6d",
+                  "id": "8kghop6vw",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -380,10 +396,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "sfm8vbhid",
+                  "id": "2rhiiiwop",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -404,10 +421,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "m4ufxvxf3",
+                  "id": "5x50aco8b",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -428,6 +446,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -437,7 +456,7 @@
       ]
     },
     {
-      "id": "naxjzkgpy",
+      "id": "o0vw4jahf",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -461,10 +480,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 48px; background-color: #fff;",
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "jvs78ndx4",
+          "id": "hi7zit65q",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -486,10 +506,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "yonkbga4v",
+              "id": "4ytb6gvdt",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -511,12 +532,13 @@
                 "stroke": "#090a0a",
                 "strokeWidth": 1.5
               },
+              "css": "width: 6px; height: 12px; border: 1.5px solid #090a0a;",
               "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "h8e41n579",
+          "id": "h81zs54e0",
           "name": "Right Actionable",
           "type": "FRAME",
           "layout": {
@@ -538,10 +560,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "szou8qsl5",
+              "id": "9k2vrtapz",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -563,12 +586,13 @@
                 "stroke": "#090a0a",
                 "strokeWidth": 1.5
               },
+              "css": "width: 22px; height: 22px; border: 1.5px solid #090a0a;",
               "tailwind": "w-[22px] h-[22px] w-[1px] border-solid border-color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "w6fh59jgv",
+          "id": "d4lwuqbno",
           "name": "Title",
           "type": "TEXT",
           "layout": {
@@ -594,12 +618,13 @@
             "color": "#090a0a"
           },
           "copy": "All items",
+          "css": "font-size: 18px; line-height: 18px; text-align: center; color: #090a0a;",
           "tailwind": "text-[18] leading-18 text-align-[center] color-[#090a0a]"
         }
       ]
     },
     {
-      "id": "93o85qtga",
+      "id": "thtio98st",
       "name": "Image - List",
       "type": "FRAME",
       "layout": {
@@ -621,10 +646,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 328px; height: 780px;",
       "tailwind": "w-[328px] h-[780px]",
       "children": [
         {
-          "id": "zan5fc4gd",
+          "id": "kymeux6b0",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -646,10 +672,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 328px; height: 186px;",
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "uqcuvalqz",
+              "id": "ukys8izew",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -673,10 +700,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "jsau0m6tx",
+                  "id": "oeifgwjnd",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -700,10 +728,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "sd4eyz329",
+                      "id": "idvhb6w63",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -720,12 +749,13 @@
                       "image": {
                         "imageHash": "7e3064b57873cd3cf0d627df1b5996a78ac49f9d"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "8otjok4ir",
+                  "id": "880se91im",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -749,10 +779,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "kqa5yaxp0",
+                      "id": "1cy0izj3x",
                       "name": "Home Decor Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -778,6 +809,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Home Decor Ideas",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -785,7 +817,7 @@
               ]
             },
             {
-              "id": "68h5elwue",
+              "id": "4thqeqsch",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -809,10 +841,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "q62ubvuxz",
+                  "id": "m6itbfnas",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -836,10 +869,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "ehgmm4584",
+                      "id": "th0motjc0",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -856,12 +890,13 @@
                       "image": {
                         "imageHash": "3f74ca637e163147991d5d4b6fc61e0d8ddf3cab"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "u6fubjdf6",
+                  "id": "fv5mfrh80",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -885,10 +920,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "849md903c",
+                      "id": "l10ep7wdv",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -914,6 +950,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Interior Inspiration",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -923,7 +960,7 @@
           ]
         },
         {
-          "id": "ck82qdaf7",
+          "id": "9qad16icp",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -945,10 +982,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 328px; height: 186px;",
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "09y6skbb7",
+              "id": "role7o5bt",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -972,10 +1010,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "h7xexqok0",
+                  "id": "nkfcyj1q2",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -999,10 +1038,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "8oypk2dil",
+                      "id": "xf53yvai6",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1019,12 +1059,13 @@
                       "image": {
                         "imageHash": "e352294bbb330dff3389c86a15f6b51e22abeb41"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "l3ug1s7sy",
+                  "id": "m3ezpe7vb",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1048,10 +1089,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "7lemkllwx",
+                      "id": "s6j8vyoae",
                       "name": "Modern Sofa Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -1077,6 +1119,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Modern Sofa Ideas",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1084,7 +1127,7 @@
               ]
             },
             {
-              "id": "wl69l4nak",
+              "id": "ziobf2zdn",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1108,10 +1151,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "ue5fqbc7a",
+                  "id": "us0bf8r0g",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1135,10 +1179,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "v4kpddtjo",
+                      "id": "z9zgn0ug3",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1155,12 +1200,13 @@
                       "image": {
                         "imageHash": "93d498a690fac322d2450fd376d83938da88dd2d"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "r6aq0z4s8",
+                  "id": "qpk89zhyj",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1184,10 +1230,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "zikowdm44",
+                      "id": "gfr98a26o",
                       "name": "Modern Sofa Ideas",
                       "type": "TEXT",
                       "layout": {
@@ -1213,6 +1260,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Modern Sofa Ideas",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1222,7 +1270,7 @@
           ]
         },
         {
-          "id": "jypv2sso7",
+          "id": "yjn81dlc9",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -1244,10 +1292,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 328px; height: 186px;",
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "avl9803e7",
+              "id": "st3034xdf",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1271,10 +1320,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "omsm6soqq",
+                  "id": "nuothq4on",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1298,10 +1348,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "ekxorkx26",
+                      "id": "ggvd2rg1m",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1318,12 +1369,13 @@
                       "image": {
                         "imageHash": "ce10f10f1d254296e9bba5dc4ff1158f0daa871a"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "dbe3gp0hp",
+                  "id": "mtejl9oqh",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1347,10 +1399,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "mofkxxnnb",
+                      "id": "kaz2vvcp9",
                       "name": "Living Room Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1376,6 +1429,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Living Room Inspiration",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1383,7 +1437,7 @@
               ]
             },
             {
-              "id": "hv29xdnyv",
+              "id": "pbb2qc0iu",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1407,10 +1461,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "qs2jfbj7h",
+                  "id": "itynxfo8v",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1434,10 +1489,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "n244ajwmc",
+                      "id": "3itrdpkw8",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1454,12 +1510,13 @@
                       "image": {
                         "imageHash": "e8e31cb921ae928a521991614ff9f23321d680f4"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "rj8raspjd",
+                  "id": "a40yjltnq",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1483,10 +1540,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "etx4eve2d",
+                      "id": "ebilv2h80",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1512,6 +1570,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Interior Inspiration",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1521,7 +1580,7 @@
           ]
         },
         {
-          "id": "xmw4zhok2",
+          "id": "491d7a0or",
           "name": "Row",
           "type": "FRAME",
           "layout": {
@@ -1543,10 +1602,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 328px; height: 186px;",
           "tailwind": "w-[328px] h-[186px]",
           "children": [
             {
-              "id": "r4n5p2xfg",
+              "id": "032ioyqmj",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1570,10 +1630,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "1pl9wpzk3",
+                  "id": "julqis0qt",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1597,10 +1658,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "0oy5f8jij",
+                      "id": "1nm3cw5x5",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1617,12 +1679,13 @@
                       "image": {
                         "imageHash": "cbac620146703447482db8b115b542f72f03612f"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "nk4o8pju7",
+                  "id": "r2y4vsh6z",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1646,10 +1709,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "t0jv6lj2x",
+                      "id": "maw3hedgq",
                       "name": "Living Room Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1675,6 +1739,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Living Room Inspiration",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1682,7 +1747,7 @@
               ]
             },
             {
-              "id": "79wshls2c",
+              "id": "lkvm7jr9b",
               "name": "Card",
               "type": "FRAME",
               "layout": {
@@ -1706,10 +1771,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 158px; height: 186px; background-color: ;",
               "tailwind": "w-[158px] h-[186px] bg-[]",
               "children": [
                 {
-                  "id": "y8wu5wend",
+                  "id": "s2vl0vj4b",
                   "name": "Views / Images: Ratio",
                   "type": "FRAME",
                   "layout": {
@@ -1733,10 +1799,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 158px; background-color: ;",
                   "tailwind": "w-[158px] h-[158px] bg-[]",
                   "children": [
                     {
-                      "id": "gkymcs3ra",
+                      "id": "obstjs5gj",
                       "name": "Image Placeholder (Copy paste here)",
                       "type": "RECTANGLE",
                       "layout": {
@@ -1753,12 +1820,13 @@
                       "image": {
                         "imageHash": "6126acc123b084a2fe71bcad366b58a8fe3bfb1f"
                       },
+                      "css": "width: 158px; height: 158px; background: url(); border-radius: 4px 4px 0 0;",
                       "tailwind": "w-[158px] h-[158px] background-[url()] border-radius-[4px 4px 0 0]"
                     }
                   ]
                 },
                 {
-                  "id": "cm58xa1bn",
+                  "id": "icmq2r7un",
                   "name": "Text",
                   "type": "FRAME",
                   "layout": {
@@ -1782,10 +1850,11 @@
                     "stroke": "#e3e5e5",
                     "strokeWidth": 1
                   },
+                  "css": "width: 158px; height: 28px; border: 1px solid #e3e5e5; border-radius: 0 0 4px 4px;",
                   "tailwind": "w-[158px] h-[28px] border border-solid border-color-[#e3e5e5] border-radius-[0 0 4px 4px]",
                   "children": [
                     {
-                      "id": "ay5a5zw3e",
+                      "id": "qusp4hded",
                       "name": "Interior Inspiration",
                       "type": "TEXT",
                       "layout": {
@@ -1811,6 +1880,7 @@
                         "color": "#090a0a"
                       },
                       "copy": "Interior Inspiration",
+                      "css": "font-size: 12px; line-height: 12px; color: #090a0a;",
                       "tailwind": "text-[12] leading-12 color-[#090a0a]"
                     }
                   ]
@@ -1822,7 +1892,7 @@
       ]
     },
     {
-      "id": "1elovnn05",
+      "id": "jvpf5bfb6",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -1844,10 +1914,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 34px;",
       "tailwind": "w-[375px] h-[34px]",
       "children": [
         {
-          "id": "90xrf1lbz",
+          "id": "6sh8dik5y",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {
@@ -1868,6 +1939,7 @@
             "fill": "#090a0a",
             "strokeWidth": 0
           },
+          "css": "width: 148px; height: 5px; background-color: #090a0a; border-radius: 100px;",
           "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
         }
       ]

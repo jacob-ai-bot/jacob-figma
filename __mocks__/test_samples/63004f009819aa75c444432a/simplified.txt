@@ -1,5 +1,5 @@
 {
-  "id": "c7w0f3frr",
+  "id": "wmbngcp48",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -11,10 +11,11 @@
   "style": {
     "opacity": 1
   },
+  "css": "width: 1600px; height: 659px;",
   "tailwind": "w-[1600px] h-[659px]",
   "children": [
     {
-      "id": "kcl33ln7f",
+      "id": "nail5o1bx",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -26,10 +27,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 1600px; height: 659px;",
       "tailwind": "w-[1600px] h-[659px]",
       "children": [
         {
-          "id": "odstl8fbk",
+          "id": "osk52gzlm",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -46,10 +48,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 659px; background-color: #000;",
           "tailwind": "w-[1600px] h-[659px] bg-black"
         },
         {
-          "id": "wl1r1rp05",
+          "id": "42nssadqw",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -66,12 +69,13 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 659px; background-color: #000;",
           "tailwind": "w-[1600px] h-[659px] bg-black"
         }
       ]
     },
     {
-      "id": "isqsktn76",
+      "id": "utyjjwss0",
       "name": "Content",
       "type": "GROUP",
       "layout": {
@@ -83,10 +87,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 322px; height: 42px;",
       "tailwind": "w-[322px] h-[42px]",
       "children": [
         {
-          "id": "x7uniredo",
+          "id": "xcxrof83i",
           "name": "The Landingfolio Facts",
           "type": "TEXT",
           "layout": {
@@ -112,12 +117,13 @@
             "color": "#ffffff"
           },
           "copy": "The Landingfolio Facts",
+          "css": "font-size: 32px; line-height: 42px; text-align: center; color: #fff;",
           "tailwind": "text-[32] leading-42 text-align-[center] text-white"
         }
       ]
     },
     {
-      "id": "69fhrshnj",
+      "id": "xt7fs36sn",
       "name": "List",
       "type": "GROUP",
       "layout": {
@@ -129,10 +135,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 1074px; height: 320px;",
       "tailwind": "w-[1074px] h-[320px]",
       "children": [
         {
-          "id": "bppn18vpo",
+          "id": "xkdb9o0lf",
           "name": "Line 55",
           "type": "LINE",
           "layout": {
@@ -149,10 +156,11 @@
             "stroke": "#18181b",
             "strokeWidth": 1
           },
+          "css": "width: 160px; height: 0; border: 1px solid #18181b;",
           "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
         },
         {
-          "id": "ked1sqhrq",
+          "id": "mw8l2kyfn",
           "name": "Line 56",
           "type": "LINE",
           "layout": {
@@ -169,10 +177,11 @@
             "stroke": "#18181b",
             "strokeWidth": 1
           },
+          "css": "width: 160px; height: 0; border: 1px solid #18181b;",
           "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
         },
         {
-          "id": "bznc9po8c",
+          "id": "jhyk6yz0d",
           "name": "Card",
           "type": "GROUP",
           "layout": {
@@ -184,10 +193,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 993px; height: 105px;",
           "tailwind": "w-[993px] h-[105px]",
           "children": [
             {
-              "id": "unmjj2g6h",
+              "id": "okerj79ua",
               "name": "1",
               "type": "GROUP",
               "layout": {
@@ -199,10 +209,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 248px; height: 105px;",
               "tailwind": "w-[248px] h-[105px]",
               "children": [
                 {
-                  "id": "lhnxi7y7s",
+                  "id": "f5fqqrh5m",
                   "name": "1M+",
                   "type": "TEXT",
                   "layout": {
@@ -225,10 +236,11 @@
                     "textAlign": "CENTER"
                   },
                   "copy": "1M+",
+                  "css": "font-size: 60px; line-height: 66px; text-align: center;",
                   "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
                 },
                 {
-                  "id": "6x1mnvd0t",
+                  "id": "lkiqj8d3n",
                   "name": "Tickets Delivered This Month",
                   "type": "TEXT",
                   "layout": {
@@ -254,12 +266,13 @@
                     "color": "#a1a1aa"
                   },
                   "copy": "Tickets Delivered This Month",
+                  "css": "font-size: 18px; line-height: 28px; text-align: center; color: #a1a1aa;",
                   "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
                 }
               ]
             },
             {
-              "id": "6inv54whx",
+              "id": "6q6ayt5sg",
               "name": "2",
               "type": "GROUP",
               "layout": {
@@ -271,10 +284,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 195px; height: 105px;",
               "tailwind": "w-[195px] h-[105px]",
               "children": [
                 {
-                  "id": "9hh1evhma",
+                  "id": "kebrf0qjo",
                   "name": "37K+",
                   "type": "TEXT",
                   "layout": {
@@ -297,10 +311,11 @@
                     "textAlign": "CENTER"
                   },
                   "copy": "37K+",
+                  "css": "font-size: 60px; line-height: 66px; text-align: center;",
                   "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
                 },
                 {
-                  "id": "s3b46x814",
+                  "id": "tc7zsnqhm",
                   "name": "Active Customers Rate",
                   "type": "TEXT",
                   "layout": {
@@ -326,12 +341,13 @@
                     "color": "#a1a1aa"
                   },
                   "copy": "Active Customers Rate",
+                  "css": "font-size: 18px; line-height: 28px; text-align: center; color: #a1a1aa;",
                   "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
                 }
               ]
             },
             {
-              "id": "wd1wgua9e",
+              "id": "ndppxt3ck",
               "name": "3",
               "type": "GROUP",
               "layout": {
@@ -343,10 +359,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 232px; height: 105px;",
               "tailwind": "w-[232px] h-[105px]",
               "children": [
                 {
-                  "id": "edatt4whu",
+                  "id": "9744n5hur",
                   "name": "99%",
                   "type": "TEXT",
                   "layout": {
@@ -369,10 +386,11 @@
                     "textAlign": "CENTER"
                   },
                   "copy": "99%",
+                  "css": "font-size: 60px; line-height: 66px; text-align: center;",
                   "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
                 },
                 {
-                  "id": "9cr7zxglq",
+                  "id": "1s8tw5lkh",
                   "name": "Customer Satisfaction Rate",
                   "type": "TEXT",
                   "layout": {
@@ -398,6 +416,7 @@
                     "color": "#a1a1aa"
                   },
                   "copy": "Customer Satisfaction Rate",
+                  "css": "font-size: 18px; line-height: 28px; text-align: center; color: #a1a1aa;",
                   "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
                 }
               ]
@@ -405,7 +424,7 @@
           ]
         },
         {
-          "id": "wyf1xugy5",
+          "id": "2n1o8choa",
           "name": "Line 54",
           "type": "LINE",
           "layout": {
@@ -422,10 +441,11 @@
             "stroke": "#18181b",
             "strokeWidth": 1
           },
+          "css": "width: 1074px; height: 0; border: 1px solid #18181b;",
           "tailwind": "w-[1074px] h-[0px] border border-solid border-color-[#18181b]"
         },
         {
-          "id": "1zpar4098",
+          "id": "0zqt8uccl",
           "name": "Line 57",
           "type": "LINE",
           "layout": {
@@ -442,10 +462,11 @@
             "stroke": "#18181b",
             "strokeWidth": 1
           },
+          "css": "width: 160px; height: 0; border: 1px solid #18181b;",
           "tailwind": "w-[160px] h-[0px] border border-solid border-color-[#18181b]"
         },
         {
-          "id": "morxeq3l9",
+          "id": "w3uoh2vvn",
           "name": "Card",
           "type": "GROUP",
           "layout": {
@@ -457,10 +478,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 569px; height: 105px;",
           "tailwind": "w-[569px] h-[105px]",
           "children": [
             {
-              "id": "bw7qodprc",
+              "id": "ls2h6ne7g",
               "name": "1",
               "type": "GROUP",
               "layout": {
@@ -472,10 +494,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 193px; height: 105px;",
               "tailwind": "w-[193px] h-[105px]",
               "children": [
                 {
-                  "id": "90tv5kkpl",
+                  "id": "b6auozvum",
                   "name": "25",
                   "type": "TEXT",
                   "layout": {
@@ -498,10 +521,11 @@
                     "textAlign": "CENTER"
                   },
                   "copy": "25",
+                  "css": "font-size: 60px; line-height: 66px; text-align: center;",
                   "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
                 },
                 {
-                  "id": "i6ujizs8f",
+                  "id": "vvyamz4x7",
                   "name": "Expert Team Members",
                   "type": "TEXT",
                   "layout": {
@@ -527,12 +551,13 @@
                     "color": "#a1a1aa"
                   },
                   "copy": "Expert Team Members",
+                  "css": "font-size: 18px; line-height: 28px; text-align: center; color: #a1a1aa;",
                   "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
                 }
               ]
             },
             {
-              "id": "5ecigp7hs",
+              "id": "ng6wzl5vd",
               "name": "2",
               "type": "GROUP",
               "layout": {
@@ -544,10 +569,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 223px; height: 105px;",
               "tailwind": "w-[223px] h-[105px]",
               "children": [
                 {
-                  "id": "ss2kc74yt",
+                  "id": "d7lxtye22",
                   "name": "42%",
                   "type": "TEXT",
                   "layout": {
@@ -570,10 +596,11 @@
                     "textAlign": "CENTER"
                   },
                   "copy": "42%",
+                  "css": "font-size: 60px; line-height: 66px; text-align: center;",
                   "tailwind": "font-size-[60px] h-[66px] text-align-[center]"
                 },
                 {
-                  "id": "qswcooo68",
+                  "id": "6txcu4o1t",
                   "name": "Customers Retention Rate",
                   "type": "TEXT",
                   "layout": {
@@ -599,6 +626,7 @@
                     "color": "#a1a1aa"
                   },
                   "copy": "Customers Retention Rate",
+                  "css": "font-size: 18px; line-height: 28px; text-align: center; color: #a1a1aa;",
                   "tailwind": "text-[18] leading-28 text-align-[center] color-[#a1a1aa]"
                 }
               ]

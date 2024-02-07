@@ -80,6 +80,21 @@ describe("getSimplifiedNode", () => {
         expect(Object.keys(result || {}).length).toBeGreaterThan(0);
         expect(result?.id).toBeDefined();
         expect(result?.name).toBeDefined();
+
+        // Enable this code if you want to update the simplified snapshots
+        // const outputFile = path.join(file, "..", "simplified.txt");
+        // fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), "utf8");
+
+        // const outputJSONFile = path.join(
+        //   file,
+        //   "..",
+        //   `simplified_${path.basename(file)}`,
+        // );
+        // fs.writeFileSync(
+        //   outputJSONFile,
+        //   JSON.stringify(result, null, 2),
+        //   "utf8",
+        // );
       }
     });
   });
@@ -93,12 +108,18 @@ describe("getDescriptionsFromSimplifiedNodes", () => {
     for (const file of jsonFiles) {
       const nodeStr = fs.readFileSync(file, "utf8");
       const node = JSON.parse(nodeStr);
-      // first get the description of the node
-      const nodeDescription = getDescriptionOfNode(node);
-      expect(nodeDescription).toBeDefined();
-      expect(nodeDescription).not.toBeNull();
-      expect(typeof nodeDescription).toBe("string");
-      expect(nodeDescription.length).toBeGreaterThan(0);
+
+      const nodeDescriptionTailwind = getDescriptionOfNode(node, true);
+      expect(nodeDescriptionTailwind).toBeDefined();
+      expect(nodeDescriptionTailwind).not.toBeNull();
+      expect(typeof nodeDescriptionTailwind).toBe("string");
+      expect(nodeDescriptionTailwind.length).toBeGreaterThan(0);
+
+      const nodeDescriptionCSS = getDescriptionOfNode(node, false);
+      expect(nodeDescriptionCSS).toBeDefined();
+      expect(nodeDescriptionCSS).not.toBeNull();
+      expect(typeof nodeDescriptionCSS).toBe("string");
+      expect(nodeDescriptionCSS.length).toBeGreaterThan(0);
     }
   });
 });

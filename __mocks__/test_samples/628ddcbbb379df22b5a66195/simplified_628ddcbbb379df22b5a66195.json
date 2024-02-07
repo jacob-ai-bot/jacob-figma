@@ -1,5 +1,5 @@
 {
-  "id": "j5ds2dfpi",
+  "id": "w9ucqgy9y",
   "name": "Hero",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 1440px; height: 877px; background-color: #fff;",
   "tailwind": "w-[1440px] h-[877px] bg-white",
   "children": [
     {
-      "id": "f969tv3nk",
+      "id": "npvlc9a2h",
       "name": "Navbar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 1440px; height: 90px; background-color: ;",
       "tailwind": "w-[1440px] h-[90px] bg-[]",
       "children": [
         {
-          "id": "73ref8y3k",
+          "id": "jwv2utg7m",
           "name": "Links",
           "type": "FRAME",
           "layout": {
@@ -75,10 +77,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 370px; height: 90px;",
           "tailwind": "w-[370px] h-[90px]",
           "children": [
             {
-              "id": "pim4pazq2",
+              "id": "aj0h6qd7v",
               "name": "Link item",
               "type": "FRAME",
               "layout": {
@@ -100,10 +103,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 86px; height: 90px;",
               "tailwind": "w-[86px] h-[90px]",
               "children": [
                 {
-                  "id": "irex2ohuh",
+                  "id": "5lnrcigps",
                   "name": "Home",
                   "type": "TEXT",
                   "layout": {
@@ -130,12 +134,13 @@
                     "color": "#0f172a"
                   },
                   "copy": "Home",
+                  "css": "font-size: 16px; line-height: 24px; text-align: center; color: #0f172a;",
                   "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
                 }
               ]
             },
             {
-              "id": "c45jm9oua",
+              "id": "vcx7bgnah",
               "name": "Link item",
               "type": "FRAME",
               "layout": {
@@ -157,10 +162,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 88px; height: 90px;",
               "tailwind": "w-[88px] h-[90px]",
               "children": [
                 {
-                  "id": "6e108j6oz",
+                  "id": "3mvhog2zy",
                   "name": "About",
                   "type": "TEXT",
                   "layout": {
@@ -187,12 +193,13 @@
                     "color": "#0f172a"
                   },
                   "copy": "About",
+                  "css": "font-size: 16px; line-height: 24px; text-align: center; color: #0f172a;",
                   "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
                 }
               ]
             },
             {
-              "id": "tp63kenk3",
+              "id": "tqy7urz91",
               "name": "Link item",
               "type": "FRAME",
               "layout": {
@@ -214,10 +221,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 102px; height: 90px;",
               "tailwind": "w-[102px] h-[90px]",
               "children": [
                 {
-                  "id": "wf7ajw3la",
+                  "id": "slfwyrdb7",
                   "name": "Contact",
                   "type": "TEXT",
                   "layout": {
@@ -244,12 +252,13 @@
                     "color": "#0f172a"
                   },
                   "copy": "Contact",
+                  "css": "font-size: 16px; line-height: 24px; text-align: center; color: #0f172a;",
                   "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
                 }
               ]
             },
             {
-              "id": "zdex5ar5p",
+              "id": "gjp68hwqd",
               "name": "Link item",
               "type": "FRAME",
               "layout": {
@@ -271,10 +280,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 94px; height: 90px;",
               "tailwind": "w-[94px] h-[90px]",
               "children": [
                 {
-                  "id": "37cj0lmgr",
+                  "id": "wnoq7aqb5",
                   "name": "Pricing",
                   "type": "TEXT",
                   "layout": {
@@ -301,6 +311,7 @@
                     "color": "#0f172a"
                   },
                   "copy": "Pricing",
+                  "css": "font-size: 16px; line-height: 24px; text-align: center; color: #0f172a;",
                   "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#0f172a]"
                 }
               ]
@@ -308,7 +319,7 @@
           ]
         },
         {
-          "id": "o1jx25k9v",
+          "id": "kzgqhonwk",
           "name": "Nav items",
           "type": "FRAME",
           "layout": {
@@ -330,10 +341,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 224px; height: 44px;",
           "tailwind": "w-[224px] h-[44px]",
           "children": [
             {
-              "id": "i4jqhujit",
+              "id": "iom2dexo3",
               "name": "Button",
               "type": "FRAME",
               "layout": {
@@ -358,10 +370,11 @@
                 "stroke": "#6183e4",
                 "strokeWidth": 1
               },
+              "css": "width: 80px; height: 44px; border: 1px solid #6183e4; border-radius: 5px;",
               "tailwind": "w-[80px] h-[44px] border border-solid border-color-[#6183e4] border-radius-[5px]",
               "children": [
                 {
-                  "id": "jbk9g9dop",
+                  "id": "vgut36ow4",
                   "name": "Button CTA",
                   "type": "TEXT",
                   "layout": {
@@ -388,12 +401,13 @@
                     "color": "#6183e4"
                   },
                   "copy": "Sign in",
+                  "css": "font-size: 14px; line-height: 20px; letter-spacing: -0.02em; text-align: center; color: #6183e4;",
                   "tailwind": "text-[14] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#6183e4]"
                 }
               ]
             },
             {
-              "id": "3fop0c1mp",
+              "id": "ifzwcormo",
               "name": "Button",
               "type": "FRAME",
               "layout": {
@@ -417,10 +431,11 @@
                 "fill": "#1d4ed8",
                 "strokeWidth": 1
               },
+              "css": "width: 124px; height: 44px; background-color: #1d4ed8; border-radius: 5px;",
               "tailwind": "w-[124px] h-[44px] bg-[#1d4ed8] border-radius-[5px]",
               "children": [
                 {
-                  "id": "nrajunjeo",
+                  "id": "fbctrqt2a",
                   "name": "Button CTA",
                   "type": "TEXT",
                   "layout": {
@@ -447,6 +462,7 @@
                     "color": "#f8fafc"
                   },
                   "copy": "Request Beta",
+                  "css": "font-size: 14px; line-height: 20px; letter-spacing: -0.02em; text-align: center; color: #f8fafc;",
                   "tailwind": "text-[14] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#f8fafc]"
                 }
               ]
@@ -454,7 +470,7 @@
           ]
         },
         {
-          "id": "rf3bw37jp",
+          "id": "5qxik0j1x",
           "name": "Logo",
           "type": "GROUP",
           "layout": {
@@ -466,10 +482,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 50.44px; height: 32.43px;",
           "tailwind": "w-[50px] h-[32px]",
           "children": [
             {
-              "id": "wx33bs6co",
+              "id": "1k120b24a",
               "name": "Logomark",
               "type": "FRAME",
               "layout": {
@@ -493,10 +510,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 2.7
               },
+              "css": "width: 50.44px; height: 32.43px; background-color: ;",
               "tailwind": "w-[50px] h-[32px] bg-[]",
               "children": [
                 {
-                  "id": "lhazhzoqr",
+                  "id": "n4u2vv8ac",
                   "name": "Symbols",
                   "type": "GROUP",
                   "layout": {
@@ -508,10 +526,11 @@
                   "style": {
                     "opacity": 1
                   },
+                  "css": "width: 49.22px; height: 31.96px;",
                   "tailwind": "w-[49px] h-[31px]",
                   "children": [
                     {
-                      "id": "b6h8yo6s5",
+                      "id": "vaex77qci",
                       "name": "Logo",
                       "type": "GROUP",
                       "layout": {
@@ -523,10 +542,11 @@
                       "style": {
                         "opacity": 1
                       },
+                      "css": "width: 46.25px; height: 26.62px;",
                       "tailwind": "w-[46px] h-[26px]",
                       "children": [
                         {
-                          "id": "c1wkcpgf7",
+                          "id": "vw18fm1df",
                           "name": "Fill 10",
                           "type": "VECTOR",
                           "layout": {
@@ -547,10 +567,11 @@
                             "fill": "#ffcc02",
                             "strokeWidth": 2.7
                           },
+                          "css": "width: 17.65px; height: 16.91px; background-color: #ffcc02;",
                           "tailwind": "w-[17px] h-[16px] bg-[#ffcc02]"
                         },
                         {
-                          "id": "7uepcq3u8",
+                          "id": "3vysic2nv",
                           "name": "Fill 5",
                           "type": "VECTOR",
                           "layout": {
@@ -571,10 +592,11 @@
                             "fill": "#ffcc02",
                             "strokeWidth": 2.7
                           },
+                          "css": "width: 36.9px; height: 19.04px; background-color: #ffcc02;",
                           "tailwind": "w-[36px] h-[19px] bg-[#ffcc02]"
                         },
                         {
-                          "id": "v1hwms3bh",
+                          "id": "fevzyl58h",
                           "name": "Fill 7",
                           "type": "VECTOR",
                           "layout": {
@@ -595,6 +617,7 @@
                             "fill": "#efae07",
                             "strokeWidth": 2.7
                           },
+                          "css": "width: 22.98px; height: 18.68px; background-color: #efae07;",
                           "tailwind": "w-[22px] h-[18px] bg-[#efae07]"
                         }
                       ]
@@ -608,7 +631,7 @@
       ]
     },
     {
-      "id": "2e2vjuztt",
+      "id": "b8p6hhmmh",
       "name": "Header",
       "type": "FRAME",
       "layout": {
@@ -630,10 +653,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 530px; height: 434px;",
       "tailwind": "w-[530px] h-[434px]",
       "children": [
         {
-          "id": "iy51jwo72",
+          "id": "vq1w4eyts",
           "name": "Content",
           "type": "FRAME",
           "layout": {
@@ -655,10 +679,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 530px; height: 318px;",
           "tailwind": "w-[530px] h-[318px]",
           "children": [
             {
-              "id": "qtoytb1g1",
+              "id": "i1p448ck1",
               "name": "Manage your freelance business with this suit",
               "type": "TEXT",
               "layout": {
@@ -685,10 +710,11 @@
                 "color": "#0f172a"
               },
               "copy": "Manage your freelance business with this suit ",
+              "css": "font-size: 60px; line-height: 72px; letter-spacing: -0.04em; color: #0f172a;",
               "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.04em] color-[#0f172a]"
             },
             {
-              "id": "qtsqfu2rm",
+              "id": "8hi2fmbwa",
               "name": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
               "type": "TEXT",
               "layout": {
@@ -714,12 +740,13 @@
                 "color": "#475569"
               },
               "copy": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+              "css": "font-size: 18px; line-height: 26px; color: #475569;",
               "tailwind": "text-[18] h-[26px] color-[#475569]"
             }
           ]
         },
         {
-          "id": "5thau3jen",
+          "id": "dr7rn70bf",
           "name": "CTA",
           "type": "FRAME",
           "layout": {
@@ -741,10 +768,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 387px; height: 52px;",
           "tailwind": "w-[387px] h-[52px]",
           "children": [
             {
-              "id": "wnevmuhc4",
+              "id": "5lqn6nis3",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -771,10 +799,11 @@
                 "stroke": "#cbd5e1",
                 "strokeWidth": 1
               },
+              "css": "width: 220px; height: 52px; background-color: #fff; border: 1px solid #cbd5e1; border-radius: 5px;",
               "tailwind": "w-[220px] h-[52px] bg-white border border-solid border-color-[#cbd5e1] border-radius-[5px]",
               "children": [
                 {
-                  "id": "jkvu09q80",
+                  "id": "2b13focm4",
                   "name": ".Input",
                   "type": "FRAME",
                   "layout": {
@@ -801,10 +830,11 @@
                     "stroke": "#cbd5e1",
                     "strokeWidth": 1
                   },
+                  "css": "width: 220px; height: 52px; background-color: #fff; border: 1px solid #cbd5e1; border-radius: 4px;",
                   "tailwind": "w-[220px] h-[52px] bg-white border border-solid border-color-[#cbd5e1] rounded-4",
                   "children": [
                     {
-                      "id": "nyzdeivug",
+                      "id": "mnnjdr5sv",
                       "name": "Input text here",
                       "type": "TEXT",
                       "layout": {
@@ -830,6 +860,7 @@
                         "color": "#94a3b8"
                       },
                       "copy": "Input text here",
+                      "css": "font-size: 16px; line-height: 24px; color: #94a3b8;",
                       "tailwind": "font-size-[16px] leading-24 color-[#94a3b8]"
                     }
                   ]
@@ -837,7 +868,7 @@
               ]
             },
             {
-              "id": "so0u4cq4c",
+              "id": "vx7rwm97d",
               "name": "Button",
               "type": "FRAME",
               "layout": {
@@ -861,10 +892,11 @@
                 "fill": "#1d4ed8",
                 "strokeWidth": 1
               },
+              "css": "width: 151px; height: 48px; background-color: #1d4ed8; border-radius: 5px;",
               "tailwind": "w-[151px] h-[48px] bg-[#1d4ed8] border-radius-[5px]",
               "children": [
                 {
-                  "id": "nx88fwd0n",
+                  "id": "hng6axyse",
                   "name": "Button CTA",
                   "type": "TEXT",
                   "layout": {
@@ -891,10 +923,11 @@
                     "color": "#f8fafc"
                   },
                   "copy": "Get Started",
+                  "css": "font-size: 16px; line-height: 20px; letter-spacing: -0.02em; text-align: center; color: #f8fafc;",
                   "tailwind": "font-size-[16px] leading-20 letter-spacing-[-0.02em] text-align-[center] color-[#f8fafc]"
                 },
                 {
-                  "id": "ntam376rh",
+                  "id": "b9zot6jfx",
                   "name": "Icon",
                   "type": "FRAME",
                   "layout": {
@@ -918,10 +951,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0.7
                   },
+                  "css": "width: 18px; height: 18px; background-color: ;",
                   "tailwind": "w-[18px] h-[18px] bg-[]",
                   "children": [
                     {
-                      "id": "uu91x1o9o",
+                      "id": "ro94flbq6",
                       "name": "Vector",
                       "type": "VECTOR",
                       "layout": {
@@ -943,10 +977,11 @@
                         "stroke": "#f8fafc",
                         "strokeWidth": 1.5
                       },
+                      "css": "width: 5.25px; height: 10.5px; border: 1.4999998807907104px solid #f8fafc;",
                       "tailwind": "w-[5px] h-[10px] w-[1px] border-solid border-color-[#f8fafc]"
                     },
                     {
-                      "id": "crxsdiaze",
+                      "id": "g6dvyp4vj",
                       "name": "Vector",
                       "type": "VECTOR",
                       "layout": {
@@ -968,6 +1003,7 @@
                         "stroke": "#f8fafc",
                         "strokeWidth": 1.5
                       },
+                      "css": "width: 10.5px; height: 0; border: 1.4999998807907104px solid #f8fafc;",
                       "tailwind": "w-[10px] h-[0px] w-[1px] border-solid border-color-[#f8fafc]"
                     }
                   ]
@@ -979,7 +1015,7 @@
       ]
     },
     {
-      "id": "ztmkl0ix6",
+      "id": "y39bruy9x",
       "name": "Browser Frame",
       "type": "FRAME",
       "layout": {
@@ -1004,10 +1040,11 @@
         "fill": "#ffffff",
         "strokeWidth": 0
       },
+      "css": "width: 1084.96px; height: 664.54px; background-color: #fff; border-radius: 8.48px; box-shadow: 0 28.43px 56.86px -13.65px rgba(0, 0, 0, 0.25);",
       "tailwind": "w-[1084px] h-[664px] bg-white border-radius-[8.48px] box-shadow-[0 28.43px 56.86px -13.65px rgba(0, 0, 0, 0.25)]",
       "children": [
         {
-          "id": "8z8f6ca61",
+          "id": "ant3qf33i",
           "name": "Core / Safari (Big Sur) / Toolbar / Light",
           "type": "FRAME",
           "layout": {
@@ -1031,10 +1068,11 @@
             "fill": "#ffffff",
             "strokeWidth": 0.8
           },
+          "css": "width: 1084.96px; height: 44.92px; background-color: #fff; border-radius: 8.48px 8.48px 0 0; box-shadow: inset 0 -0.42px 0 0 rgba(0, 0, 0, 0.05), 0 0.42px 0 0 rgba(0, 0, 0, 0.15);",
           "tailwind": "w-[1084px] h-[44px] bg-white border-radius-[8.48px 8.48px 0 0] box-shadow-[inset 0 -0.42px 0 0 rgba(0, 0, 0, 0.05), 0 0.42px 0 0 rgba(0, 0, 0, 0.15)]",
           "children": [
             {
-              "id": "h8vag5exw",
+              "id": "vpitga5r6",
               "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
               "type": "FRAME",
               "layout": {
@@ -1058,10 +1096,11 @@
                 "fill": "#000000",
                 "strokeWidth": 0.8
               },
+              "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
               "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
               "children": [
                 {
-                  "id": "d1rfttc8q",
+                  "id": "cb89m7ede",
                   "name": "􀏚",
                   "type": "VECTOR",
                   "layout": {
@@ -1082,12 +1121,13 @@
                     "fill": "#737373",
                     "strokeWidth": 0
                   },
+                  "css": "width: 16.59px; height: 12.95px; background-color: #737373;",
                   "tailwind": "w-[16px] h-[12px] bg-[#737373]"
                 }
               ]
             },
             {
-              "id": "q654ywenc",
+              "id": "omn1mm4wd",
               "name": "Toolbar Group",
               "type": "FRAME",
               "layout": {
@@ -1109,10 +1149,11 @@
                 "opacity": 1,
                 "strokeWidth": 0.8
               },
+              "css": "width: 55.94px; height: 23.73px;",
               "tailwind": "w-[55px] h-[23px]",
               "children": [
                 {
-                  "id": "5ddi9u577",
+                  "id": "n8psjyrk2",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1136,10 +1177,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "o5urxo6ek",
+                      "id": "8wmci2m88",
                       "name": "􀆉",
                       "type": "VECTOR",
                       "layout": {
@@ -1160,12 +1202,13 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 6.88px; height: 12.22px; background-color: #737373;",
                       "tailwind": "w-[6px] h-[12px] bg-[#737373]"
                     }
                   ]
                 },
                 {
-                  "id": "0sjvubj94",
+                  "id": "qll2rdliq",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1189,10 +1232,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "ysbb7nxpl",
+                      "id": "3vmltglv7",
                       "name": "􀆊",
                       "type": "VECTOR",
                       "layout": {
@@ -1213,6 +1257,7 @@
                         "fill": "#bfbfbf",
                         "strokeWidth": 0
                       },
+                      "css": "width: 6.88px; height: 12.23px; background-color: #bfbfbf;",
                       "tailwind": "w-[6px] h-[12px] bg-[#bfbfbf]"
                     }
                   ]
@@ -1220,7 +1265,7 @@
               ]
             },
             {
-              "id": "sjwwgk44b",
+              "id": "f42mhsdh1",
               "name": "Frame 10",
               "type": "FRAME",
               "layout": {
@@ -1242,10 +1287,11 @@
                 "opacity": 1,
                 "strokeWidth": 0.8
               },
+              "css": "width: 508.57px; height: 23.73px;",
               "tailwind": "w-[508px] h-[23px]",
               "children": [
                 {
-                  "id": "ul5b2u4u2",
+                  "id": "fdqtvj5j6",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1269,10 +1315,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "vy1g23z19",
+                      "id": "qu54zdig0",
                       "name": "􀙨",
                       "type": "VECTOR",
                       "layout": {
@@ -1293,12 +1340,13 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 11.69px; height: 14.21px; background-color: #737373;",
                       "tailwind": "w-[11px] h-[14px] bg-[#737373]"
                     }
                   ]
                 },
                 {
-                  "id": "o22uhi5nj",
+                  "id": "p129sz51o",
                   "name": "Core / Safari (Big Sur) / Search Bar (Default)",
                   "type": "FRAME",
                   "layout": {
@@ -1322,10 +1370,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 437.37px; height: 23.73px; background-color: rgba(0, 0, 0, 0.05); border-radius: 5.09px;",
                   "tailwind": "w-[437px] h-[23px] bg-[rgba(0, 0, 0, 0.05)] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "tkjseiifb",
+                      "id": "l4cs3mcgo",
                       "name": "Frame 8",
                       "type": "FRAME",
                       "layout": {
@@ -1347,10 +1396,11 @@
                         "opacity": 1,
                         "strokeWidth": 0.8
                       },
+                      "css": "width: 119.76px; height: 13.65px;",
                       "tailwind": "w-[119px] h-[13px]",
                       "children": [
                         {
-                          "id": "fe2wsb0ik",
+                          "id": "4i5y1ie2e",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1375,10 +1425,11 @@
                             "color": "#4c4c4c"
                           },
                           "copy": "thedesignership.com",
+                          "css": "font-size: 11.02px; letter-spacing: -0.004000000059604645em; color: #4c4c4c;",
                           "tailwind": "font-size-[11.02px] letter-spacing-[-0.004000000059604645em] color-[#4c4c4c]"
                         },
                         {
-                          "id": "w9eyzvm2i",
+                          "id": "po5arkbh9",
                           "name": "Lock",
                           "type": "VECTOR",
                           "layout": {
@@ -1399,12 +1450,13 @@
                             "fill": "#9e9e9e",
                             "strokeWidth": 0.8
                           },
+                          "css": "width: 6.64px; height: 9.69px; background-color: #9e9e9e;",
                           "tailwind": "w-[6px] h-[9px] bg-[#9e9e9e]"
                         }
                       ]
                     },
                     {
-                      "id": "56buapbwy",
+                      "id": "maagqkldh",
                       "name": "Lock",
                       "type": "VECTOR",
                       "layout": {
@@ -1425,12 +1477,13 @@
                         "fill": "#797979",
                         "strokeWidth": 0.8
                       },
+                      "css": "width: 8.78px; height: 10.69px; background-color: #797979;",
                       "tailwind": "w-[8px] h-[10px] bg-[#797979]"
                     }
                   ]
                 },
                 {
-                  "id": "9ebly02lu",
+                  "id": "pzjtq5ayg",
                   "name": "SPACER",
                   "type": "FRAME",
                   "layout": {
@@ -1454,13 +1507,14 @@
                     "fill": "#000000",
                     "strokeWidth": 1
                   },
+                  "css": "width: 33px; height: 28px; background-color: ; border-radius: 6px;",
                   "tailwind": "w-[33px] h-[28px] bg-[] border-radius-[6px]",
                   "children": []
                 }
               ]
             },
             {
-              "id": "n5nm05byk",
+              "id": "1hvvuwbgv",
               "name": "Toolbar Group",
               "type": "FRAME",
               "layout": {
@@ -1482,10 +1536,11 @@
                 "opacity": 1,
                 "strokeWidth": 0.8
               },
+              "css": "width: 132.23px; height: 23.73px;",
               "tailwind": "w-[132px] h-[23px]",
               "children": [
                 {
-                  "id": "a82edn2ca",
+                  "id": "ppu7bguaq",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1509,10 +1564,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "7n9hj48e1",
+                      "id": "jtplou7wd",
                       "name": "􀁸",
                       "type": "VECTOR",
                       "layout": {
@@ -1533,12 +1589,13 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 14.35px; height: 14.35px; background-color: #737373;",
                       "tailwind": "w-[14px] h-[14px] bg-[#737373]"
                     }
                   ]
                 },
                 {
-                  "id": "7eg34pr3f",
+                  "id": "kp5ur9qyq",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1562,10 +1619,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "6r6j3s2cr",
+                      "id": "ljoq5czs5",
                       "name": "􀈂",
                       "type": "VECTOR",
                       "layout": {
@@ -1586,12 +1644,13 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 12.49px; height: 15.88px; background-color: #737373;",
                       "tailwind": "w-[12px] h-[15px] bg-[#737373]"
                     }
                   ]
                 },
                 {
-                  "id": "byb92art0",
+                  "id": "n4a9b6uiz",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1615,10 +1674,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "pcuaaf9u9",
+                      "id": "5wxdgjtf4",
                       "name": "􀅼",
                       "type": "VECTOR",
                       "layout": {
@@ -1639,12 +1699,13 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 11.61px; height: 11.85px; background-color: #737373;",
                       "tailwind": "w-[11px] h-[11px] bg-[#737373]"
                     }
                   ]
                 },
                 {
-                  "id": "7x72g62jp",
+                  "id": "5i52cyrn3",
                   "name": "Core / Safari (Big Sur) / Toolbar / Toolbar Item",
                   "type": "FRAME",
                   "layout": {
@@ -1668,10 +1729,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0.8
                   },
+                  "css": "width: 27.97px; height: 23.73px; background-color: ; border-radius: 5.09px;",
                   "tailwind": "w-[27px] h-[23px] bg-[] border-radius-[5.09px]",
                   "children": [
                     {
-                      "id": "klfvt51ul",
+                      "id": "jbpvnlc50",
                       "name": "􀐅",
                       "type": "VECTOR",
                       "layout": {
@@ -1692,6 +1754,7 @@
                         "fill": "#737373",
                         "strokeWidth": 0
                       },
+                      "css": "width: 14.89px; height: 14.74px; background-color: #737373;",
                       "tailwind": "w-[14px] h-[14px] bg-[#737373]"
                     }
                   ]
@@ -1699,7 +1762,7 @@
               ]
             },
             {
-              "id": "28z5749ao",
+              "id": "h7hyp6567",
               "name": "Core / Traffic Lights (Big Sur)",
               "type": "FRAME",
               "layout": {
@@ -1723,10 +1786,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 0.8
               },
+              "css": "width: 44.08px; height: 10.17px; background-color: ;",
               "tailwind": "w-[44px] h-[10px] bg-[]",
               "children": [
                 {
-                  "id": "55r67si1k",
+                  "id": "u2r02w7yr",
                   "name": "close",
                   "type": "VECTOR",
                   "layout": {
@@ -1752,10 +1816,11 @@
                     "stroke": "#ce5347",
                     "strokeWidth": 0.4
                   },
+                  "css": "width: 10.17px; height: 10.17px; background-color: #ee6a5f; border: 0.42381221055984497px solid #ce5347; box-shadow: inset 0 0 5.09px 0 #ec6d62;",
                   "tailwind": "w-[10px] h-[10px] bg-[#ee6a5f] w-[0px] border-solid border-color-[#ce5347] box-shadow-[inset 0 0 5.09px 0 #ec6d62]"
                 },
                 {
-                  "id": "xx8ah72wp",
+                  "id": "56dc4qzx1",
                   "name": "minimize",
                   "type": "VECTOR",
                   "layout": {
@@ -1781,10 +1846,11 @@
                     "stroke": "#d6a243",
                     "strokeWidth": 0.4
                   },
+                  "css": "width: 10.17px; height: 10.17px; background-color: #f5bd4f; border: 0.42381221055984497px solid #d6a243; box-shadow: inset 0 0 5.09px 0 #f5c451;",
                   "tailwind": "w-[10px] h-[10px] bg-[#f5bd4f] w-[0px] border-solid border-color-[#d6a243] box-shadow-[inset 0 0 5.09px 0 #f5c451]"
                 },
                 {
-                  "id": "mdq2eowql",
+                  "id": "9zeba9phy",
                   "name": "fullscreen",
                   "type": "VECTOR",
                   "layout": {
@@ -1810,6 +1876,7 @@
                     "stroke": "#58a942",
                     "strokeWidth": 0.4
                   },
+                  "css": "width: 10.17px; height: 10.17px; background-color: #61c454; border: 0.42381221055984497px solid #58a942; box-shadow: inset 0 0 5.09px 0 #68cc58;",
                   "tailwind": "w-[10px] h-[10px] bg-[#61c454] w-[0px] border-solid border-color-[#58a942] box-shadow-[inset 0 0 5.09px 0 #68cc58]"
                 }
               ]
@@ -1817,7 +1884,7 @@
           ]
         },
         {
-          "id": "qe4ajfuhu",
+          "id": "7f0rppuxq",
           "name": "Body",
           "type": "RECTANGLE",
           "layout": {
@@ -1834,12 +1901,13 @@
             "fill": "#ffffff",
             "strokeWidth": 0.8
           },
+          "css": "width: 1084.96px; height: 619.61px; background-color: #fff;",
           "tailwind": "w-[1084px] h-[619px] bg-white"
         }
       ]
     },
     {
-      "id": "rhj5r8j1i",
+      "id": "gu6hc0q9e",
       "name": "Mockup",
       "type": "GROUP",
       "layout": {
@@ -1851,10 +1919,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 280.5px; height: 561.66px;",
       "tailwind": "w-[280px] h-[561px]",
       "children": [
         {
-          "id": "vs8hu8r4d",
+          "id": "f4q2d87hc",
           "name": "Rectangle 50",
           "type": "VECTOR",
           "layout": {
@@ -1875,10 +1944,11 @@
             "fill": "#eeeeee",
             "strokeWidth": 0.8
           },
+          "css": "width: 280.5px; height: 561.66px; background-color: #eee; box-shadow: 57.59px 82.27px 164.54px 0 rgba(0, 0, 0, 0.17);",
           "tailwind": "w-[280px] h-[561px] bg-[#eee] box-shadow-[57.59px 82.27px 164.54px 0 rgba(0, 0, 0, 0.17)]"
         },
         {
-          "id": "9zfnhcf8a",
+          "id": "rh7ymct53",
           "name": "Group 56",
           "type": "GROUP",
           "layout": {
@@ -1890,10 +1960,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 109.95px; height: 11.92px;",
           "tailwind": "w-[109px] h-[11px]",
           "children": [
             {
-              "id": "r7aljbofv",
+              "id": "cpmtcdz3l",
               "name": "Rectangle 56",
               "type": "RECTANGLE",
               "layout": {
@@ -1910,10 +1981,11 @@
                 "fill": "#dddddd",
                 "strokeWidth": 0.8
               },
+              "css": "width: 11.92px; height: 11.92px; background-color: #ddd; border-radius: 9.05px;",
               "tailwind": "w-[11px] h-[11px] bg-[#ddd] border-radius-[9.05px]"
             },
             {
-              "id": "fc8d3ryox",
+              "id": "fd3q0jrej",
               "name": "Rectangle 58",
               "type": "RECTANGLE",
               "layout": {
@@ -1930,10 +2002,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 0.8
               },
+              "css": "width: 6.62px; height: 6.62px; background-color: #fff; border-radius: 9.05px;",
               "tailwind": "w-[6px] h-[6px] bg-white border-radius-[9.05px]"
             },
             {
-              "id": "1uz0tlkgi",
+              "id": "9wi8ejt57",
               "name": "Rectangle 57",
               "type": "RECTANGLE",
               "layout": {
@@ -1950,10 +2023,11 @@
                 "fill": "#cccccc",
                 "strokeWidth": 0.8
               },
+              "css": "width: 5.3px; height: 5.3px; background-color: #ccc; border-radius: 3.29px;",
               "tailwind": "w-[5px] h-[5px] bg-[#ccc] border-radius-[3.29px]"
             },
             {
-              "id": "ugoi48c7c",
+              "id": "kojra5wab",
               "name": "Rectangle 55",
               "type": "RECTANGLE",
               "layout": {
@@ -1970,12 +2044,13 @@
                 "fill": "#cccccc",
                 "strokeWidth": 0.8
               },
+              "css": "width: 56.96px; height: 5.3px; background-color: #ccc; border-radius: 3.29px;",
               "tailwind": "w-[56px] h-[5px] bg-[#ccc] border-radius-[3.29px]"
             }
           ]
         },
         {
-          "id": "sajbel97x",
+          "id": "kyygndtls",
           "name": "add image",
           "type": "VECTOR",
           "layout": {
@@ -1996,6 +2071,7 @@
             "fill": "#ffffff",
             "strokeWidth": 0.8
           },
+          "css": "width: 248.37px; height: 537.81px; background-color: #fff;",
           "tailwind": "w-[248px] h-[537px] bg-white"
         }
       ]

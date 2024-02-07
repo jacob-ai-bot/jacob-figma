@@ -1380,7 +1380,10 @@ export const convertNodeToTailwind = (node: SceneNode) => {
     }
   });
 
-  return finalClassName.join(" ");
+  return {
+    css: style.join(" "),
+    tailwind: finalClassName.join(" "),
+  };
 };
 
 export default convertNodeToTailwind;
