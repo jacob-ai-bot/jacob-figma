@@ -1,5 +1,5 @@
 {
-  "id": "j4w9lmjc7",
+  "id": "0sly2cfsr",
   "name": "Launch Screen",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#dae2eb",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #dae2eb; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-[#dae2eb] border-radius-[32px]",
   "children": [
     {
-      "id": "80f2f61hp",
+      "id": "fv4al9i0s",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -48,10 +49,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px;",
       "tailwind": "w-[375px] h-[44px]",
       "children": [
         {
-          "id": "kfx5u90kw",
+          "id": "1j91eau4p",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -77,10 +79,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "n54kaxyy6",
+          "id": "bh3nsa3cf",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -92,10 +95,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "yc9ias7si",
+              "id": "oina2hej1",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -107,10 +111,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "248gwrd8i",
+                  "id": "i3szntc5u",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -132,10 +137,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "q7ol4zs3a",
+                  "id": "zd988tdwc",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -156,10 +162,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "2l6s7574w",
+                  "id": "169v81oc7",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -180,6 +187,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -187,7 +195,7 @@
           ]
         },
         {
-          "id": "hn6z19977",
+          "id": "8wuc9wuc0",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -199,10 +207,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "rfdnhoww2",
+              "id": "degzfleoj",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -219,10 +228,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "hn2mgfisn",
+                  "id": "zlgi9m2lm",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -243,10 +253,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "mel7fuba0",
+                  "id": "hkkjf4mtt",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -267,10 +278,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "9r4zst7d5",
+                  "id": "lowxb1b7x",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -291,6 +303,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -298,7 +311,7 @@
           ]
         },
         {
-          "id": "8cd1rh1oo",
+          "id": "vngz1wb06",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -310,10 +323,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "idl3w340i",
+              "id": "b265jov6s",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -330,10 +344,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "os96l0ioz",
+                  "id": "ksnn9tax2",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -354,10 +369,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "15khlc7wy",
+                  "id": "vdbzoqbhs",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -378,10 +394,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "0yu59aa93",
+                  "id": "zrd3spdcz",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -402,10 +419,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "5q406x371",
+                  "id": "nyxnkwulw",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -426,6 +444,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -435,7 +454,7 @@
       ]
     },
     {
-      "id": "tu6lyrz3p",
+      "id": "8yy8c6kdv",
       "name": "keepyoga",
       "type": "TEXT",
       "layout": {
@@ -462,10 +481,11 @@
         "color": "#afbccb"
       },
       "copy": "keepyoga",
+      "css": "font-size: 24px; line-height: 16px; letter-spacing: -0.04em; text-align: center; color: #afbccb;",
       "tailwind": "text-[24] leading-16 letter-spacing-[-0.04em] text-align-[center] color-[#afbccb]"
     },
     {
-      "id": "oiuzrxoli",
+      "id": "t311yag8v",
       "name": "Practice yoga whenever you want.",
       "type": "TEXT",
       "layout": {
@@ -492,10 +512,11 @@
         "color": "#090a0a"
       },
       "copy": "Practice yoga whenever you want.",
+      "css": "font-size: 32px; font-weight: 700; line-height: 36px; text-align: center; color: #090a0a;",
       "tailwind": "text-[32] font-weight-[700] leading-36 text-align-[center] color-[#090a0a]"
     },
     {
-      "id": "hfp6rg6y5",
+      "id": "oc0rzk4v8",
       "name": "Image",
       "type": "RECTANGLE",
       "layout": {
@@ -513,10 +534,11 @@
       "image": {
         "imageHash": "c465ebd9f8c0c0adb6021cd2aa8f4589f9b7d086"
       },
+      "css": "width: 667px; height: 667px; background: url();",
       "tailwind": "w-[667px] h-[667px] background-[url()]"
     },
     {
-      "id": "ancn6zxv8",
+      "id": "z9sf3h0xg",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -540,10 +562,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #fff; border-radius: 48px;",
       "tailwind": "w-[327px] h-[48px] bg-white border-radius-[48px]",
       "children": [
         {
-          "id": "sz62w5s2l",
+          "id": "rzct30bfl",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -569,12 +592,13 @@
             "color": "#090a0a"
           },
           "copy": "Get started",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#090a0a]"
         }
       ]
     },
     {
-      "id": "52hqvqfbl",
+      "id": "2oynyxfri",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -596,10 +620,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 34px;",
       "tailwind": "w-[375px] h-[34px]",
       "children": [
         {
-          "id": "7d3u35eaq",
+          "id": "qbf85tmji",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {
@@ -620,6 +645,7 @@
             "fill": "#090a0a",
             "strokeWidth": 0
           },
+          "css": "width: 148px; height: 5px; background-color: #090a0a; border-radius: 100px;",
           "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
         }
       ]

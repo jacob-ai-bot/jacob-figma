@@ -1,5 +1,5 @@
 {
-  "id": "6iv0yg00e",
+  "id": "kw1jg3c1e",
   "name": "Group 1",
   "type": "GROUP",
   "layout": {
@@ -11,10 +11,11 @@
   "style": {
     "opacity": 1
   },
+  "css": "width: 1837px; height: 760px;",
   "tailwind": "w-[1837px] h-[760px]",
   "children": [
     {
-      "id": "jcf9qgptv",
+      "id": "6kokp9p9y",
       "name": "Metrics section",
       "type": "FRAME",
       "layout": {
@@ -38,10 +39,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 1440px; height: 542px; background-color: #fff;",
       "tailwind": "w-[1440px] h-[542px] bg-white",
       "children": [
         {
-          "id": "l9m9d3zuz",
+          "id": "scuupfbia",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -63,10 +65,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 1280px; height: 174px;",
           "tailwind": "w-[1280px] h-[174px]",
           "children": [
             {
-              "id": "w30uxdaav",
+              "id": "mg2qhcu6e",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -88,10 +91,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 1216px; height: 174px;",
               "tailwind": "w-[1216px] h-[174px]",
               "children": [
                 {
-                  "id": "x30n9hvuk",
+                  "id": "smd71ewc5",
                   "name": "Heading and supporting text",
                   "type": "FRAME",
                   "layout": {
@@ -113,10 +117,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 768px; height: 174px;",
                   "tailwind": "w-[768px] h-[174px]",
                   "children": [
                     {
-                      "id": "alkgswhoa",
+                      "id": "r4yrz3zu8",
                       "name": "Heading and icon",
                       "type": "FRAME",
                       "layout": {
@@ -138,10 +143,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 768px; height: 124px;",
                       "tailwind": "w-[768px] h-[124px]",
                       "children": [
                         {
-                          "id": "g62psu3el",
+                          "id": "ro7h5ax58",
                           "name": "Featured icon",
                           "type": "FRAME",
                           "layout": {
@@ -165,10 +171,11 @@
                             "fill": "#f4ebff",
                             "strokeWidth": 1
                           },
+                          "css": "width: 56px; height: 56px; background-color: #f4ebff; border-radius: 28px;",
                           "tailwind": "w-[56px] h-[56px] bg-[#f4ebff] border-radius-[28px]",
                           "children": [
                             {
-                              "id": "0szbt5i5t",
+                              "id": "zo05gko84",
                               "name": "zap",
                               "type": "FRAME",
                               "layout": {
@@ -192,10 +199,11 @@
                                 "fill": "#ffffff",
                                 "strokeWidth": 1
                               },
+                              "css": "width: 28px; height: 28px; background-color: ;",
                               "tailwind": "w-[28px] h-[28px] bg-[]",
                               "children": [
                                 {
-                                  "id": "b2nokoy01",
+                                  "id": "bsma5seqf",
                                   "name": "Icon",
                                   "type": "VECTOR",
                                   "layout": {
@@ -217,6 +225,7 @@
                                     "stroke": "#7f56d9",
                                     "strokeWidth": 2.3
                                   },
+                                  "css": "width: 21px; height: 23.33px; border: 2.3333332538604736px solid #7f56d9;",
                                   "tailwind": "w-[21px] h-[23px] w-[2px] border-solid border-color-[#7f56d9]"
                                 }
                               ]
@@ -224,7 +233,7 @@
                           ]
                         },
                         {
-                          "id": "j5zzjlvl3",
+                          "id": "6iw31pb74",
                           "name": "Heading",
                           "type": "TEXT",
                           "layout": {
@@ -251,12 +260,13 @@
                             "color": "#101828"
                           },
                           "copy": "Unleash the full power of data",
+                          "css": "font-size: 36px; line-height: 44px; letter-spacing: -0.02em; text-align: center; color: #101828;",
                           "tailwind": "font-size-[36px] h-[44px] letter-spacing-[-0.02em] text-align-[center] color-[#101828]"
                         }
                       ]
                     },
                     {
-                      "id": "djy9kztzo",
+                      "id": "pmtmvjfik",
                       "name": "Supporting text",
                       "type": "TEXT",
                       "layout": {
@@ -282,6 +292,7 @@
                         "color": "#667085"
                       },
                       "copy": "Everything you need to convert, engage, and retain more users.",
+                      "css": "font-size: 20px; line-height: 30px; text-align: center; color: #667085;",
                       "tailwind": "text-[20] h-[30px] text-align-[center] color-[#667085]"
                     }
                   ]
@@ -291,7 +302,7 @@
           ]
         },
         {
-          "id": "n94riqqpt",
+          "id": "8fbhwcfi5",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -313,10 +324,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 1280px; height: 112px;",
           "tailwind": "w-[1280px] h-[112px]",
           "children": [
             {
-              "id": "zp4uynr13",
+              "id": "a3zr0m2fn",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -338,10 +350,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 768px; height: 112px;",
               "tailwind": "w-[768px] h-[112px]",
               "children": [
                 {
-                  "id": "2qvu00qkb",
+                  "id": "e9to3a87g",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -363,10 +376,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 234px; height: 112px;",
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "5knwh28wg",
+                      "id": "qftq18opg",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -388,10 +402,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 234px; height: 112px;",
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "ul2h1r9mb",
+                          "id": "emx1y70ho",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -418,10 +433,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "40+",
+                          "css": "font-size: 60px; line-height: 72px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "q6060b91c",
+                          "id": "wvbtjwh1g",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -447,6 +463,7 @@
                             "color": "#101828"
                           },
                           "copy": "Integrations",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]
@@ -454,7 +471,7 @@
                   ]
                 },
                 {
-                  "id": "xhtlhtaek",
+                  "id": "7fyb0ksts",
                   "name": "Divider",
                   "type": "VECTOR",
                   "layout": {
@@ -475,10 +492,11 @@
                     "fill": "#eaecf0",
                     "strokeWidth": 1
                   },
+                  "css": "width: 1px; height: 112px; background-color: #eaecf0;",
                   "tailwind": "w-[1px] h-[112px] bg-[#eaecf0]"
                 },
                 {
-                  "id": "5kv6i2ltz",
+                  "id": "w2kcazpio",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -500,10 +518,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 234px; height: 112px;",
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "qag7jkaff",
+                      "id": "70fu6aavr",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -525,10 +544,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 234px; height: 112px;",
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "xnsmsz013",
+                          "id": "tjtgtioa5",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -555,10 +575,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "600%",
+                          "css": "font-size: 60px; line-height: 72px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "fbmkruy0e",
+                          "id": "w7dmwhfy6",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -584,6 +605,7 @@
                             "color": "#101828"
                           },
                           "copy": "Return on investment",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]
@@ -591,7 +613,7 @@
                   ]
                 },
                 {
-                  "id": "2t7pd7ty4",
+                  "id": "inmwougmr",
                   "name": "Divider",
                   "type": "VECTOR",
                   "layout": {
@@ -612,10 +634,11 @@
                     "fill": "#eaecf0",
                     "strokeWidth": 1
                   },
+                  "css": "width: 1px; height: 112px; background-color: #eaecf0;",
                   "tailwind": "w-[1px] h-[112px] bg-[#eaecf0]"
                 },
                 {
-                  "id": "cx3gp86s6",
+                  "id": "wdreqdkch",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -637,10 +660,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 234px; height: 112px;",
                   "tailwind": "w-[234px] h-[112px]",
                   "children": [
                     {
-                      "id": "0rvnt9hw0",
+                      "id": "l2m3a36fb",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -662,10 +686,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 234px; height: 112px;",
                       "tailwind": "w-[234px] h-[112px]",
                       "children": [
                         {
-                          "id": "51unwzawv",
+                          "id": "acleoe2iu",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -692,10 +717,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "4k+",
+                          "css": "font-size: 60px; line-height: 72px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[60px] h-[72px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "1xo4o8dc1",
+                          "id": "kbb7u6nrr",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -721,6 +747,7 @@
                             "color": "#101828"
                           },
                           "copy": "Global customers",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]
@@ -734,7 +761,7 @@
       ]
     },
     {
-      "id": "px2t0v5hi",
+      "id": "h81n2dkqm",
       "name": "Metrics section",
       "type": "FRAME",
       "layout": {
@@ -758,10 +785,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 760px; background-color: #fff;",
       "tailwind": "w-[375px] h-[760px] bg-white",
       "children": [
         {
-          "id": "h45csv03b",
+          "id": "1x7qydhkh",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -783,10 +811,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 220px;",
           "tailwind": "w-[375px] h-[220px]",
           "children": [
             {
-              "id": "s89mpps9y",
+              "id": "wmhoas28k",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -808,10 +837,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 343px; height: 220px;",
               "tailwind": "w-[343px] h-[220px]",
               "children": [
                 {
-                  "id": "x2j53rc8g",
+                  "id": "vmc3594ph",
                   "name": "Heading and supporting text",
                   "type": "FRAME",
                   "layout": {
@@ -833,10 +863,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 343px; height: 220px;",
                   "tailwind": "w-[343px] h-[220px]",
                   "children": [
                     {
-                      "id": "nkzti4b6u",
+                      "id": "htv2xb0kw",
                       "name": "Featured icon",
                       "type": "FRAME",
                       "layout": {
@@ -860,10 +891,11 @@
                         "fill": "#f4ebff",
                         "strokeWidth": 1
                       },
+                      "css": "width: 56px; height: 56px; background-color: #f4ebff; border-radius: 28px;",
                       "tailwind": "w-[56px] h-[56px] bg-[#f4ebff] border-radius-[28px]",
                       "children": [
                         {
-                          "id": "6ruaizilq",
+                          "id": "b6c5vehlr",
                           "name": "zap",
                           "type": "FRAME",
                           "layout": {
@@ -887,10 +919,11 @@
                             "fill": "#ffffff",
                             "strokeWidth": 1
                           },
+                          "css": "width: 28px; height: 28px; background-color: ;",
                           "tailwind": "w-[28px] h-[28px] bg-[]",
                           "children": [
                             {
-                              "id": "scpg2i8sk",
+                              "id": "okovwi74h",
                               "name": "Icon",
                               "type": "VECTOR",
                               "layout": {
@@ -912,6 +945,7 @@
                                 "stroke": "#7f56d9",
                                 "strokeWidth": 2.3
                               },
+                              "css": "width: 21px; height: 23.33px; border: 2.3333332538604736px solid #7f56d9;",
                               "tailwind": "w-[21px] h-[23px] w-[2px] border-solid border-color-[#7f56d9]"
                             }
                           ]
@@ -919,7 +953,7 @@
                       ]
                     },
                     {
-                      "id": "ssrg3uibo",
+                      "id": "g5phtblsn",
                       "name": "Heading",
                       "type": "TEXT",
                       "layout": {
@@ -946,10 +980,11 @@
                         "color": "#101828"
                       },
                       "copy": "Unleash the full power of data",
+                      "css": "font-size: 30px; line-height: 38px; text-align: center; color: #101828;",
                       "tailwind": "font-size-[30px] h-[38px] text-align-[center] color-[#101828]"
                     },
                     {
-                      "id": "j1hcafkft",
+                      "id": "z0jhliuu7",
                       "name": "Supporting text",
                       "type": "TEXT",
                       "layout": {
@@ -975,6 +1010,7 @@
                         "color": "#667085"
                       },
                       "copy": "Everything you need to convert, engage, and retain more users.",
+                      "css": "font-size: 18px; line-height: 28px; text-align: center; color: #667085;",
                       "tailwind": "text-[18] leading-28 text-align-[center] color-[#667085]"
                     }
                   ]
@@ -984,7 +1020,7 @@
           ]
         },
         {
-          "id": "032oybh27",
+          "id": "h24tabocg",
           "name": "Container",
           "type": "FRAME",
           "layout": {
@@ -1006,10 +1042,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 364px;",
           "tailwind": "w-[375px] h-[364px]",
           "children": [
             {
-              "id": "cinupxrzv",
+              "id": "sx2x8jnr9",
               "name": "Content",
               "type": "FRAME",
               "layout": {
@@ -1031,10 +1068,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 343px; height: 364px;",
               "tailwind": "w-[343px] h-[364px]",
               "children": [
                 {
-                  "id": "wwuwhbz3c",
+                  "id": "qzmhuyynl",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1056,10 +1094,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 343px; height: 100px;",
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "l4jiqgvrv",
+                      "id": "vtxaxz7go",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1081,10 +1120,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 343px; height: 100px;",
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "co1j8ndd3",
+                          "id": "ph4w6o9kt",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1111,10 +1151,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "40+",
+                          "css": "font-size: 48px; line-height: 60px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "vljwmmag2",
+                          "id": "60indzvdo",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1140,6 +1181,7 @@
                             "color": "#101828"
                           },
                           "copy": "Integrations",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]
@@ -1147,7 +1189,7 @@
                   ]
                 },
                 {
-                  "id": "w2h6em7bb",
+                  "id": "823grsoz3",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1169,10 +1211,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 343px; height: 100px;",
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "di2qsfzse",
+                      "id": "99lpauazl",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1194,10 +1237,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 343px; height: 100px;",
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "tn359clbh",
+                          "id": "8ayr9bw8t",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1224,10 +1268,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "600%",
+                          "css": "font-size: 48px; line-height: 60px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "6y6dldofx",
+                          "id": "udevep1q3",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1253,6 +1298,7 @@
                             "color": "#101828"
                           },
                           "copy": "Return on investment",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]
@@ -1260,7 +1306,7 @@
                   ]
                 },
                 {
-                  "id": "o9cn2awd6",
+                  "id": "a4px90te8",
                   "name": "_Metric item",
                   "type": "FRAME",
                   "layout": {
@@ -1282,10 +1328,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 343px; height: 100px;",
                   "tailwind": "w-[343px] h-[100px]",
                   "children": [
                     {
-                      "id": "1qtjc8u83",
+                      "id": "6oyxkk1mi",
                       "name": "Number and text",
                       "type": "FRAME",
                       "layout": {
@@ -1307,10 +1354,11 @@
                         "opacity": 1,
                         "strokeWidth": 1
                       },
+                      "css": "width: 343px; height: 100px;",
                       "tailwind": "w-[343px] h-[100px]",
                       "children": [
                         {
-                          "id": "atbw2v4xz",
+                          "id": "idrbfoxu0",
                           "name": "Number",
                           "type": "TEXT",
                           "layout": {
@@ -1337,10 +1385,11 @@
                             "color": "#7f56d9"
                           },
                           "copy": "4k+",
+                          "css": "font-size: 48px; line-height: 60px; letter-spacing: -0.02em; text-align: center; color: #7f56d9;",
                           "tailwind": "font-size-[48px] h-[60px] letter-spacing-[-0.02em] text-align-[center] color-[#7f56d9]"
                         },
                         {
-                          "id": "0rk7qptxa",
+                          "id": "ac5d99j7n",
                           "name": "Text",
                           "type": "TEXT",
                           "layout": {
@@ -1366,6 +1415,7 @@
                             "color": "#101828"
                           },
                           "copy": "Global customers",
+                          "css": "font-size: 18px; font-weight: 500; line-height: 28px; text-align: center; color: #101828;",
                           "tailwind": "text-[18] font-medium leading-28 text-align-[center] color-[#101828]"
                         }
                       ]

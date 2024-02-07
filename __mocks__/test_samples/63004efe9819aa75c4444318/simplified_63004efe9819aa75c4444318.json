@@ -1,5 +1,5 @@
 {
-  "id": "rm05fic0l",
+  "id": "3g4xo4hlt",
   "name": "Stats",
   "type": "GROUP",
   "layout": {
@@ -11,10 +11,11 @@
   "style": {
     "opacity": 1
   },
+  "css": "width: 1600px; height: 707px;",
   "tailwind": "w-[1600px] h-[707px]",
   "children": [
     {
-      "id": "6lg81rvfp",
+      "id": "a5w4bzbue",
       "name": "BG",
       "type": "GROUP",
       "layout": {
@@ -26,10 +27,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 1600px; height: 707px;",
       "tailwind": "w-[1600px] h-[707px]",
       "children": [
         {
-          "id": "jsfo2e7l2",
+          "id": "rctw9ojd3",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -46,10 +48,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 707px; background-color: #000;",
           "tailwind": "w-[1600px] h-[707px] bg-black"
         },
         {
-          "id": "pyfo40hx6",
+          "id": "l31zk1prf",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -66,10 +69,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1600px; height: 707px; background-color: #000;",
           "tailwind": "w-[1600px] h-[707px] bg-black"
         },
         {
-          "id": "r64tk2nge",
+          "id": "ajb2o1gkd",
           "name": "Ellipse 33",
           "type": "VECTOR",
           "layout": {
@@ -88,12 +92,13 @@
           "svg": {
             "strokeWidth": 1
           },
+          "css": "width: 201.86px; height: 755.51px; background: undefined; filter: blur(210px);",
           "tailwind": "w-[201px] h-[755px] background-[undefined] filter-[blur(210px)]"
         }
       ]
     },
     {
-      "id": "94damqn4p",
+      "id": "hmk4a2aag",
       "name": "Content",
       "type": "GROUP",
       "layout": {
@@ -105,10 +110,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 603px; height: 148px;",
       "tailwind": "w-[603px] h-[148px]",
       "children": [
         {
-          "id": "m7p4yovlu",
+          "id": "zci27mq8x",
           "name": "The Landingfolio Facts",
           "type": "TEXT",
           "layout": {
@@ -134,10 +140,11 @@
             "color": "#ffffff"
           },
           "copy": "The Landingfolio Facts",
+          "css": "font-size: 60px; line-height: 66px; color: #fff;",
           "tailwind": "font-size-[60px] h-[66px] text-white"
         },
         {
-          "id": "nwbin8eyk",
+          "id": "3qzz96bv3",
           "name": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
           "type": "TEXT",
           "layout": {
@@ -163,12 +170,13 @@
             "color": "#a1a1aa"
           },
           "copy": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+          "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
           "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
         }
       ]
     },
     {
-      "id": "sjzw1uujq",
+      "id": "tpbl3ip7r",
       "name": "Card",
       "type": "GROUP",
       "layout": {
@@ -180,10 +188,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 1219px; height: 218px;",
       "tailwind": "w-[1219px] h-[218px]",
       "children": [
         {
-          "id": "s0zh6x2ku",
+          "id": "l8ls49ykh",
           "name": "BG",
           "type": "RECTANGLE",
           "layout": {
@@ -200,10 +209,11 @@
             "fill": "#000000",
             "strokeWidth": 1
           },
+          "css": "width: 1219px; height: 218px; background-color: rgba(0, 0, 0, 0.7); border-radius: 10px;",
           "tailwind": "w-[1219px] h-[218px] bg-[rgba(0, 0, 0, 0.7)] border-radius-[10px]"
         },
         {
-          "id": "o3uv3olc8",
+          "id": "kk4wg0zy1",
           "name": "Line 4",
           "type": "LINE",
           "layout": {
@@ -217,10 +227,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 218px; height: 0;",
           "tailwind": "w-[218px] h-[0px]"
         },
         {
-          "id": "cqznd0qvl",
+          "id": "vy120db0n",
           "name": "Line 5",
           "type": "LINE",
           "layout": {
@@ -234,10 +245,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 218px; height: 0;",
           "tailwind": "w-[218px] h-[0px]"
         },
         {
-          "id": "rcdeiwvnt",
+          "id": "2tc17a05h",
           "name": "1",
           "type": "GROUP",
           "layout": {
@@ -249,10 +261,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 248px; height: 105px;",
           "tailwind": "w-[248px] h-[105px]",
           "children": [
             {
-              "id": "w3cw482bi",
+              "id": "57nd985xx",
               "name": "1M+",
               "type": "TEXT",
               "layout": {
@@ -278,10 +291,11 @@
                 "color": "#ffffff"
               },
               "copy": "1M+",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "j9881qdjc",
+              "id": "qxcvnd56i",
               "name": "Tickets Delivered This Month",
               "type": "TEXT",
               "layout": {
@@ -307,12 +321,13 @@
                 "color": "#a1a1aa"
               },
               "copy": "Tickets Delivered This Month",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]
         },
         {
-          "id": "p95ybs4vo",
+          "id": "s0oop3xh4",
           "name": "2",
           "type": "GROUP",
           "layout": {
@@ -324,10 +339,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 195px; height: 105px;",
           "tailwind": "w-[195px] h-[105px]",
           "children": [
             {
-              "id": "w1vuu2uis",
+              "id": "4c7fet6m9",
               "name": "53K+",
               "type": "TEXT",
               "layout": {
@@ -353,10 +369,11 @@
                 "color": "#ffffff"
               },
               "copy": "53K+",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "vhzrpas7l",
+              "id": "izj5eu73e",
               "name": "Active Customers Rate",
               "type": "TEXT",
               "layout": {
@@ -382,12 +399,13 @@
                 "color": "#a1a1aa"
               },
               "copy": "Active Customers Rate",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]
         },
         {
-          "id": "c5nnthmz2",
+          "id": "ti6d9qhq7",
           "name": "3",
           "type": "GROUP",
           "layout": {
@@ -399,10 +417,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 232px; height: 105px;",
           "tailwind": "w-[232px] h-[105px]",
           "children": [
             {
-              "id": "4wa9tchcs",
+              "id": "gkp5n02l9",
               "name": "98.29%",
               "type": "TEXT",
               "layout": {
@@ -428,10 +447,11 @@
                 "color": "#ffffff"
               },
               "copy": "98.29%",
+              "css": "font-size: 60px; line-height: 66px; color: #fff;",
               "tailwind": "font-size-[60px] h-[66px] text-white"
             },
             {
-              "id": "rk0st64yd",
+              "id": "44a9hwi20",
               "name": "Customer Satisfaction Rate",
               "type": "TEXT",
               "layout": {
@@ -457,6 +477,7 @@
                 "color": "#a1a1aa"
               },
               "copy": "Customer Satisfaction Rate",
+              "css": "font-size: 18px; line-height: 28px; color: #a1a1aa;",
               "tailwind": "text-[18] leading-28 color-[#a1a1aa]"
             }
           ]

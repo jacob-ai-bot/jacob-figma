@@ -1,5 +1,5 @@
 {
-  "id": "dbp8fhjex",
+  "id": "o24xtftyr",
   "name": "Verification",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #fff; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "5ldkcrf3i",
+      "id": "slq7lo5wb",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px; background-color: #fff;",
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "o30ki7o8r",
+          "id": "npnj1ycph",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -79,10 +81,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "aa55mq40v",
+          "id": "7zctnduqr",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -94,10 +97,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "o4oux0jm8",
+              "id": "ccw9ihu1l",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -109,10 +113,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "t1hgndwfe",
+                  "id": "ouzelimst",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -134,10 +139,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "tc959m3zv",
+                  "id": "we9d3ujos",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -158,10 +164,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "kpwo3u362",
+                  "id": "la29goyme",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -182,6 +189,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -189,7 +197,7 @@
           ]
         },
         {
-          "id": "d8kxy2mth",
+          "id": "n250rt1v5",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -201,10 +209,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "gr7590po9",
+              "id": "skifdtbf7",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -221,10 +230,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "01fawyb41",
+                  "id": "9h7dkzo13",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -245,10 +255,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "vr1cj09ru",
+                  "id": "qjzsn83ss",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -269,10 +280,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "98dgkcuqd",
+                  "id": "kv8k6u2f9",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -293,6 +305,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -300,7 +313,7 @@
           ]
         },
         {
-          "id": "h8ernvutu",
+          "id": "jdaquc3bd",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -312,10 +325,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "huxdbkl44",
+              "id": "9h8anv9eo",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -332,10 +346,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "lmvv2hyo7",
+                  "id": "jp70xxj5v",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -356,10 +371,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "c7s3fq1ln",
+                  "id": "inbdvxwom",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -380,10 +396,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "200w1o7op",
+                  "id": "hl0m1srpa",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -404,10 +421,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "n57m9673j",
+                  "id": "zw6q9nwck",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -428,6 +446,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -437,7 +456,7 @@
       ]
     },
     {
-      "id": "gpuxe97kz",
+      "id": "8n77y7sij",
       "name": "Bars / Nav Bars: Standard",
       "type": "FRAME",
       "layout": {
@@ -461,10 +480,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 48px; background-color: #fff;",
       "tailwind": "w-[375px] h-[48px] bg-white",
       "children": [
         {
-          "id": "5w7qwup4c",
+          "id": "jjfodx900",
           "name": "Left Actionable",
           "type": "FRAME",
           "layout": {
@@ -486,10 +506,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "2unx934jo",
+              "id": "5oi4akgrz",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -511,12 +532,13 @@
                 "stroke": "#090a0a",
                 "strokeWidth": 1.5
               },
+              "css": "width: 6px; height: 12px; border: 1.5px solid #090a0a;",
               "tailwind": "w-[6px] h-[12px] w-[1px] border-solid border-color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "tichk0n6r",
+          "id": "fwnfsk5h1",
           "name": "Right Actionable",
           "type": "TEXT",
           "layout": {
@@ -542,12 +564,13 @@
             "color": "#6b4eff"
           },
           "copy": "Change number",
+          "css": "font-size: 18px; font-weight: 500; line-height: 18px; text-align: right; color: #6b4eff;",
           "tailwind": "text-[18] font-medium leading-18 text-align-[right] color-[#6b4eff]"
         }
       ]
     },
     {
-      "id": "sw9eaaeiy",
+      "id": "fbgy0twzg",
       "name": "Enter authentication code",
       "type": "TEXT",
       "layout": {
@@ -574,10 +597,11 @@
         "color": "#090a0a"
       },
       "copy": "Enter authentication code",
+      "css": "font-size: 24px; font-weight: 700; line-height: 32px; text-align: center; color: #090a0a;",
       "tailwind": "text-[24] font-weight-[700] leading-32 text-align-[center] color-[#090a0a]"
     },
     {
-      "id": "27b419xxb",
+      "id": "5xeyvvqm2",
       "name": "Enter the 4-digit that we have sent via the phone number +62 813-8172-5977",
       "type": "TEXT",
       "layout": {
@@ -601,10 +625,11 @@
         "color": "#090a0a"
       },
       "copy": "Enter the 4-digit that we have sent via the\nphone number +62 813-8172-5977",
+      "css": "font-size: 16px; line-height: 24px; text-align: center; color: #090a0a;",
       "tailwind": "font-size-[16px] leading-24 text-align-[center] color-[#090a0a]"
     },
     {
-      "id": "jd72nhsg3",
+      "id": "t1zfmnm9v",
       "name": "5-digit code",
       "type": "FRAME",
       "layout": {
@@ -628,10 +653,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 240px; height: 48px; background-color: ;",
       "tailwind": "w-[240px] h-[48px] bg-[]",
       "children": [
         {
-          "id": "f21cay6as",
+          "id": "soqt0zefn",
           "name": "Controls / Text Fields",
           "type": "FRAME",
           "layout": {
@@ -653,10 +679,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 48px; height: 48px; border-radius: 48px;",
           "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
           "children": [
             {
-              "id": "05q75elqf",
+              "id": "gw6v3v7yr",
               "name": "Field",
               "type": "RECTANGLE",
               "layout": {
@@ -676,10 +703,11 @@
                 "stroke": "#e3e5e5",
                 "strokeWidth": 1
               },
+              "css": "width: 48px; height: 48px; background-color: #fff; border: 1px solid #e3e5e5; border-radius: 64px;",
               "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
             },
             {
-              "id": "copjtmrbf",
+              "id": "m10j0bujw",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -705,12 +733,13 @@
                 "color": "#090a0a"
               },
               "copy": "5",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "16two7122",
+          "id": "16t2cvsw9",
           "name": "Controls / Text Fields",
           "type": "FRAME",
           "layout": {
@@ -732,10 +761,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 48px; height: 48px; border-radius: 48px;",
           "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
           "children": [
             {
-              "id": "5ccg919be",
+              "id": "1errc5l0o",
               "name": "Field",
               "type": "RECTANGLE",
               "layout": {
@@ -755,10 +785,11 @@
                 "stroke": "#e3e5e5",
                 "strokeWidth": 1
               },
+              "css": "width: 48px; height: 48px; background-color: #fff; border: 1px solid #e3e5e5; border-radius: 64px;",
               "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
             },
             {
-              "id": "ee3ve3rhu",
+              "id": "vd24cm8de",
               "name": "Text",
               "type": "TEXT",
               "layout": {
@@ -784,12 +815,13 @@
                 "color": "#090a0a"
               },
               "copy": "1",
+              "css": "font-size: 16px; line-height: 16px; text-align: center; color: #090a0a;",
               "tailwind": "font-size-[16px] leading-16 text-align-[center] color-[#090a0a]"
             }
           ]
         },
         {
-          "id": "e7wbvwh3k",
+          "id": "ohncfd5x1",
           "name": "Controls / Text Fields",
           "type": "FRAME",
           "layout": {
@@ -811,10 +843,11 @@
             "opacity": 1,
             "strokeWidth": 2
           },
+          "css": "width: 48px; height: 48px; border-radius: 48px;",
           "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
           "children": [
             {
-              "id": "boh5hgo09",
+              "id": "vrrveex2j",
               "name": "Field",
               "type": "RECTANGLE",
               "layout": {
@@ -834,12 +867,13 @@
                 "stroke": "#6b4eff",
                 "strokeWidth": 2
               },
+              "css": "width: 48px; height: 48px; background-color: #fff; border: 2px solid #6b4eff; border-radius: 64px;",
               "tailwind": "w-[48px] h-[48px] bg-white border-2 border-solid border-color-[#6b4eff] border-radius-[64px]"
             }
           ]
         },
         {
-          "id": "234lnsfcy",
+          "id": "2myyw7z0b",
           "name": "Controls / Text Fields",
           "type": "FRAME",
           "layout": {
@@ -861,10 +895,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 48px; height: 48px; border-radius: 48px;",
           "tailwind": "w-[48px] h-[48px] border-radius-[48px]",
           "children": [
             {
-              "id": "ako8npzfx",
+              "id": "vye1yy991",
               "name": "Field",
               "type": "RECTANGLE",
               "layout": {
@@ -884,6 +919,7 @@
                 "stroke": "#e3e5e5",
                 "strokeWidth": 1
               },
+              "css": "width: 48px; height: 48px; background-color: #fff; border: 1px solid #e3e5e5; border-radius: 64px;",
               "tailwind": "w-[48px] h-[48px] bg-white border border-solid border-color-[#e3e5e5] border-radius-[64px]"
             }
           ]
@@ -891,7 +927,7 @@
       ]
     },
     {
-      "id": "kpvtqrp7y",
+      "id": "i7df4sg3k",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -915,10 +951,11 @@
         "fill": "#e3e5e5",
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; background-color: #e3e5e5; border-radius: 48px;",
       "tailwind": "w-[327px] h-[48px] bg-[#e3e5e5] border-radius-[48px]",
       "children": [
         {
-          "id": "rxbfkl5l7",
+          "id": "0dn39ti55",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -944,12 +981,13 @@
             "color": "#979c9e"
           },
           "copy": "Continue",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #979c9e;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#979c9e]"
         }
       ]
     },
     {
-      "id": "f09zzloa6",
+      "id": "lhej4kt31",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -971,10 +1009,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 48px; border-radius: 48px;",
       "tailwind": "w-[327px] h-[48px] border-radius-[48px]",
       "children": [
         {
-          "id": "j87e8tfcb",
+          "id": "hzxco6nqk",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -1000,12 +1039,13 @@
             "color": "#6b4eff"
           },
           "copy": "Resend code",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #6b4eff;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] color-[#6b4eff]"
         }
       ]
     },
     {
-      "id": "y7m2p3xzd",
+      "id": "6xx2oibor",
       "name": "Native / Keyboard",
       "type": "FRAME",
       "layout": {
@@ -1027,10 +1067,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 291px;",
       "tailwind": "w-[375px] h-[291px]",
       "children": [
         {
-          "id": "627itpsml",
+          "id": "bt8g77ztk",
           "name": "Background",
           "type": "FRAME",
           "layout": {
@@ -1052,10 +1093,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 291px;",
           "tailwind": "w-[375px] h-[291px]",
           "children": [
             {
-              "id": "f6tsnk3pa",
+              "id": "qmoqpr62i",
               "name": "Background",
               "type": "RECTANGLE",
               "layout": {
@@ -1073,12 +1115,13 @@
                 "fill": "#e3e5e5",
                 "strokeWidth": 0
               },
+              "css": "width: 375px; height: 291px; background-color: #e3e5e5; backdrop-filter: blur(81.54845428466797px);",
               "tailwind": "w-[375px] h-[291px] bg-[#e3e5e5] backdrop-filter-[blur(81.54845428466797px)]"
             }
           ]
         },
         {
-          "id": "kd73jnl85",
+          "id": "ibfpskb2f",
           "name": "Keys",
           "type": "GROUP",
           "layout": {
@@ -1090,10 +1133,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 363px; height: 207px;",
           "tailwind": "w-[363px] h-[207px]",
           "children": [
             {
-              "id": "515yfdl83",
+              "id": "euc8wv4fd",
               "name": "1",
               "type": "FRAME",
               "layout": {
@@ -1115,10 +1159,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 46px;",
               "tailwind": "w-[117px] h-[46px]",
               "children": [
                 {
-                  "id": "6tawkg9tm",
+                  "id": "g4uwk0anj",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1139,10 +1184,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 46px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "t8n7gudaq",
+                  "id": "utd170dst",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1167,10 +1213,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "1",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "29q4v3qey",
+                  "id": "mvilpauli",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1196,12 +1243,13 @@
                     "color": "#090a0a"
                   },
                   "copy": " ",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "1hhnpqyqz",
+              "id": "kpyy4vs0l",
               "name": "2",
               "type": "FRAME",
               "layout": {
@@ -1223,10 +1271,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 46px;",
               "tailwind": "w-[117px] h-[46px]",
               "children": [
                 {
-                  "id": "6gg0gqjq5",
+                  "id": "3gi0ifunw",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1247,10 +1296,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 46px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "2ibm88eho",
+                  "id": "e7yc6d9bw",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1275,10 +1325,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "2",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "8pgh0dprh",
+                  "id": "b80z4ptbd",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1304,12 +1355,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "ABC",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "4ga5tgru0",
+              "id": "ez6xm7flz",
               "name": "3",
               "type": "FRAME",
               "layout": {
@@ -1331,10 +1383,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 46px;",
               "tailwind": "w-[117px] h-[46px]",
               "children": [
                 {
-                  "id": "g6xba84pk",
+                  "id": "k09o9q8zq",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1355,10 +1408,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 46px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "dfcgw4zce",
+                  "id": "5xig8oiow",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1383,10 +1437,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "3",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "yv7ywwtpg",
+                  "id": "4059wb17k",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1412,12 +1467,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "DEF",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "n53sg53p5",
+              "id": "nnjpqskou",
               "name": "4",
               "type": "FRAME",
               "layout": {
@@ -1439,10 +1495,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "374fatcfr",
+                  "id": "ctrorty66",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1463,10 +1520,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "f4j2aenls",
+                  "id": "t3sxa1wun",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1491,10 +1549,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "4",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "thnm4p3jx",
+                  "id": "yl3n06inp",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1520,12 +1579,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "GHI",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "9ldca7vlr",
+              "id": "zha3utsmx",
               "name": "5",
               "type": "FRAME",
               "layout": {
@@ -1547,10 +1607,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "4xrwoqw5m",
+                  "id": "ol5q7kg8n",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1571,10 +1632,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "oh5l6fbei",
+                  "id": "0ysi9uumx",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1599,10 +1661,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "5",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "bzds7c0jq",
+                  "id": "qrxo7320y",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1628,12 +1691,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "JKL",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "fl4g1ysf1",
+              "id": "n1vrmwzwc",
               "name": "6",
               "type": "FRAME",
               "layout": {
@@ -1655,10 +1719,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "kfzwdfd5q",
+                  "id": "buu6vdb7e",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1679,10 +1744,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "9h8hzckq3",
+                  "id": "xqdhmg4ol",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1707,10 +1773,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "6",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "8phc6d5vw",
+                  "id": "1mxpqv0l4",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1736,12 +1803,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "MNO",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "r42mp8bck",
+              "id": "xgcj13yhy",
               "name": "7",
               "type": "FRAME",
               "layout": {
@@ -1763,10 +1831,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "l6ncbsk6r",
+                  "id": "sq3b34qsm",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1787,10 +1856,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "9vjqgr416",
+                  "id": "a899twy33",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1815,10 +1885,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "7",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "294h1bi2v",
+                  "id": "7kis62odh",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1844,12 +1915,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "PQRS",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "0nta0yzpk",
+              "id": "cd2zwe2ls",
               "name": "8",
               "type": "FRAME",
               "layout": {
@@ -1871,10 +1943,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "72v56bgux",
+                  "id": "imidu1mfl",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -1895,10 +1968,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "vm8q9grin",
+                  "id": "i5d8xfc8o",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -1923,10 +1997,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "8",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "lzb3esn1j",
+                  "id": "fey9xra40",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -1952,12 +2027,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "TUV",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "htbnyt1av",
+              "id": "tcn97u3r9",
               "name": "9",
               "type": "FRAME",
               "layout": {
@@ -1979,10 +2055,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 47px;",
               "tailwind": "w-[117px] h-[47px]",
               "children": [
                 {
-                  "id": "kyiu2eliw",
+                  "id": "luholg10y",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -2003,10 +2080,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 47px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[47px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "47yzhb9fb",
+                  "id": "ble4pc4dn",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -2031,10 +2109,11 @@
                     "color": "#090a0a"
                   },
                   "copy": "9",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 },
                 {
-                  "id": "1ulzctugj",
+                  "id": "8cqhojy6o",
                   "name": "Label",
                   "type": "TEXT",
                   "layout": {
@@ -2060,12 +2139,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "WXYZ",
+                  "css": "font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[10px] font-weight-[700] letter-spacing-[2px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "qdjcoo2ne",
+              "id": "sy9a6uv1k",
               "name": "0",
               "type": "FRAME",
               "layout": {
@@ -2087,10 +2167,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 117px; height: 46px;",
               "tailwind": "w-[117px] h-[46px]",
               "children": [
                 {
-                  "id": "zqhfe6r12",
+                  "id": "4ka49qkxl",
                   "name": "Key Background",
                   "type": "VECTOR",
                   "layout": {
@@ -2111,10 +2192,11 @@
                     "fill": "#ffffff",
                     "strokeWidth": 0
                   },
+                  "css": "width: 117px; height: 46px; background-color: #fff; border-radius: 5px;",
                   "tailwind": "w-[117px] h-[46px] bg-white border-radius-[5px]"
                 },
                 {
-                  "id": "4mmxgggcq",
+                  "id": "i0p1avpya",
                   "name": "Number",
                   "type": "TEXT",
                   "layout": {
@@ -2139,12 +2221,13 @@
                     "color": "#090a0a"
                   },
                   "copy": "0",
+                  "css": "font-size: 25px; letter-spacing: 0.29px; text-align: center; color: #090a0a;",
                   "tailwind": "font-size-[25px] letter-spacing-[0.29px] text-align-[center] color-[#090a0a]"
                 }
               ]
             },
             {
-              "id": "g8h8n2dc6",
+              "id": "ml9m5ktg1",
               "name": "Delete",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -2161,10 +2244,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 24px; height: 17.99px; background-color: #090a0a;",
               "tailwind": "w-[24px] h-[17px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "mqqw1ccm0",
+                  "id": "qbutmmk5k",
                   "name": "Exclude",
                   "type": "BOOLEAN_OPERATION",
                   "layout": {
@@ -2181,10 +2265,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 24px; height: 17.99px; background-color: #dadada;",
                   "tailwind": "w-[24px] h-[17px] bg-[#dadada]",
                   "children": [
                     {
-                      "id": "9ayvjf6np",
+                      "id": "8nepynx8f",
                       "name": "Path",
                       "type": "VECTOR",
                       "layout": {
@@ -2205,10 +2290,11 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 24px; height: 17.99px; background-color: #000;",
                       "tailwind": "w-[24px] h-[17px] bg-black"
                     },
                     {
-                      "id": "jg75zqofo",
+                      "id": "6qxlhvjam",
                       "name": "Path",
                       "type": "VECTOR",
                       "layout": {
@@ -2229,10 +2315,11 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 21.33px; height: 15.33px; background-color: #000;",
                       "tailwind": "w-[21px] h-[15px] bg-black"
                     },
                     {
-                      "id": "rngpikcot",
+                      "id": "3v6rnlug2",
                       "name": "Path",
                       "type": "VECTOR",
                       "layout": {
@@ -2253,10 +2340,11 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 0.33px; height: 0.33px; background-color: #000;",
                       "tailwind": "w-[0px] h-[0px] bg-black"
                     },
                     {
-                      "id": "qp0j53ed1",
+                      "id": "wwrb85mug",
                       "name": "Path",
                       "type": "VECTOR",
                       "layout": {
@@ -2277,10 +2365,11 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 0.33px; height: 0.33px; background-color: #000;",
                       "tailwind": "w-[0px] h-[0px] bg-black"
                     },
                     {
-                      "id": "r3yo6pbsa",
+                      "id": "jzv6phtn7",
                       "name": "path",
                       "type": "VECTOR",
                       "layout": {
@@ -2301,10 +2390,11 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 7.08px; height: 7.09px; background-color: #000;",
                       "tailwind": "w-[7px] h-[7px] bg-black"
                     },
                     {
-                      "id": "06vsjfbu7",
+                      "id": "xt2sars9h",
                       "name": "Path",
                       "type": "VECTOR",
                       "layout": {
@@ -2325,12 +2415,13 @@
                         "fill": "#000000",
                         "strokeWidth": 0
                       },
+                      "css": "width: 0.33px; height: 0.33px; background-color: #000;",
                       "tailwind": "w-[0px] h-[0px] bg-black"
                     }
                   ]
                 },
                 {
-                  "id": "r6cuuqa58",
+                  "id": "9j3g0dzgk",
                   "name": "Path",
                   "type": "VECTOR",
                   "layout": {
@@ -2351,10 +2442,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.2px; height: 1.2px; background-color: #000;",
                   "tailwind": "w-[1px] h-[1px] bg-black"
                 },
                 {
-                  "id": "6carz1dbs",
+                  "id": "lf51sw25x",
                   "name": "Path",
                   "type": "VECTOR",
                   "layout": {
@@ -2375,10 +2467,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.2px; height: 1.2px; background-color: #000;",
                   "tailwind": "w-[1px] h-[1px] bg-black"
                 },
                 {
-                  "id": "mxhvu1kaa",
+                  "id": "2au4f8x81",
                   "name": "path",
                   "type": "VECTOR",
                   "layout": {
@@ -2399,10 +2492,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 7.08px; height: 7.08px; background-color: #000;",
                   "tailwind": "w-[7px] h-[7px] bg-black"
                 },
                 {
-                  "id": "xdpj1sq4s",
+                  "id": "ruu5xr7y5",
                   "name": "Path",
                   "type": "VECTOR",
                   "layout": {
@@ -2423,10 +2517,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.2px; height: 1.2px; background-color: #000;",
                   "tailwind": "w-[1px] h-[1px] bg-black"
                 },
                 {
-                  "id": "vtk4bm1s4",
+                  "id": "yx9pbdzsy",
                   "name": "Path",
                   "type": "VECTOR",
                   "layout": {
@@ -2447,6 +2542,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.2px; height: 1.2px; background-color: #000;",
                   "tailwind": "w-[1px] h-[1px] bg-black"
                 }
               ]
@@ -2454,7 +2550,7 @@
           ]
         },
         {
-          "id": "1gy99eolx",
+          "id": "556687ylo",
           "name": "Home Indicator",
           "type": "FRAME",
           "layout": {
@@ -2476,10 +2572,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 375px; height: 34px;",
           "tailwind": "w-[375px] h-[34px]",
           "children": [
             {
-              "id": "l9q8vjs7f",
+              "id": "s1sjptcrf",
               "name": "Home Indicator",
               "type": "RECTANGLE",
               "layout": {
@@ -2496,6 +2593,7 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 134px; height: 5px; background-color: #090a0a; border-radius: 100px;",
               "tailwind": "w-[134px] h-[5px] bg-[#090a0a] border-radius-[100px]"
             }
           ]

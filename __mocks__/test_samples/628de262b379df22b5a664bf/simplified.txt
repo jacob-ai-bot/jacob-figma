@@ -1,5 +1,5 @@
 {
-  "id": "iep1so1wq",
+  "id": "w05s4h31v",
   "name": "Header",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 1400px; height: 112px; background-color: #fff;",
   "tailwind": "w-[1400px] h-[112px] bg-white",
   "children": [
     {
-      "id": "tqhxeicpk",
+      "id": "bmtvtlec0",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#4094f7",
         "strokeWidth": 1
       },
+      "css": "width: 138px; height: 40px; background-color: #4094f7; border-radius: 6px;",
       "tailwind": "w-[138px] h-[40px] bg-[#4094f7] border-radius-[6px]",
       "children": [
         {
-          "id": "hwffb41ls",
+          "id": "6d5l9k2e3",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -75,10 +77,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 106px; height: 24px;",
           "tailwind": "w-[106px] h-[24px]",
           "children": [
             {
-              "id": "abspg1zph",
+              "id": "f6a7qffzt",
               "name": "Menu hamburger",
               "type": "FRAME",
               "layout": {
@@ -100,10 +103,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 24px; height: 24px;",
               "tailwind": "w-[24px] h-[24px]",
               "children": [
                 {
-                  "id": "ytb35aqgi",
+                  "id": "k9c526odp",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -124,12 +128,13 @@
                     "fill": "#ffffff",
                     "strokeWidth": 1
                   },
+                  "css": "width: 14px; height: 12px; background-color: #fff;",
                   "tailwind": "w-[14px] h-[12px] bg-white"
                 }
               ]
             },
             {
-              "id": "mk7nghl5p",
+              "id": "821xj5611",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -156,6 +161,7 @@
                 "color": "#f6f8f9"
               },
               "copy": "Categories",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #f6f8f9;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#f6f8f9]"
             }
           ]
@@ -163,7 +169,7 @@
       ]
     },
     {
-      "id": "57cr1laj4",
+      "id": "6h2x8b6ic",
       "name": "Text input",
       "type": "FRAME",
       "layout": {
@@ -190,10 +196,11 @@
         "stroke": "#dde2e4",
         "strokeWidth": 1
       },
+      "css": "width: 560px; height: 40px; background-color: #fff; border: 1px solid #dde2e4; border-radius: 6px;",
       "tailwind": "w-[560px] h-[40px] bg-white border border-solid border-color-[#dde2e4] border-radius-[6px]",
       "children": [
         {
-          "id": "mt9zn0zml",
+          "id": "v4hclnm0m",
           "name": "Value",
           "type": "TEXT",
           "layout": {
@@ -219,10 +226,11 @@
             "color": "#252c32"
           },
           "copy": "DJI phantom",
+          "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #252c32;",
           "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
         },
         {
-          "id": "pt7gntbs9",
+          "id": "9udp47ral",
           "name": "Search",
           "type": "FRAME",
           "layout": {
@@ -244,10 +252,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "tsly452ih",
+              "id": "bzh3qwesf",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -268,6 +277,7 @@
                 "fill": "#b0babf",
                 "strokeWidth": 1
               },
+              "css": "width: 15.99px; height: 15.99px; background-color: #b0babf;",
               "tailwind": "w-[15px] h-[15px] bg-[#b0babf]"
             }
           ]
@@ -275,7 +285,7 @@
       ]
     },
     {
-      "id": "9v7spab1n",
+      "id": "o6dywgcso",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -297,10 +307,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 109px; height: 40px; border-radius: 6px;",
       "tailwind": "w-[109px] h-[40px] border-radius-[6px]",
       "children": [
         {
-          "id": "cohyxaanh",
+          "id": "fgenxxyhh",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -322,10 +333,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 77px; height: 24px;",
           "tailwind": "w-[77px] h-[24px]",
           "children": [
             {
-              "id": "iwvcd9rq6",
+              "id": "m9ugclo48",
               "name": "Cube",
               "type": "FRAME",
               "layout": {
@@ -347,10 +359,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 24px; height: 24px;",
               "tailwind": "w-[24px] h-[24px]",
               "children": [
                 {
-                  "id": "fxzuk7f0b",
+                  "id": "flehc9gm3",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -371,12 +384,13 @@
                     "fill": "#b0babf",
                     "strokeWidth": 1
                   },
+                  "css": "width: 14px; height: 16px; background-color: #b0babf;",
                   "tailwind": "w-[14px] h-[16px] bg-[#b0babf]"
                 }
               ]
             },
             {
-              "id": "dvs49edik",
+              "id": "f2kb03qr7",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -402,6 +416,7 @@
                 "color": "#252c32"
               },
               "copy": "Orders",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
             }
           ]
@@ -409,7 +424,7 @@
       ]
     },
     {
-      "id": "7x764brno",
+      "id": "7zz7n6mc2",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -431,10 +446,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 125px; height: 40px; border-radius: 6px;",
       "tailwind": "w-[125px] h-[40px] border-radius-[6px]",
       "children": [
         {
-          "id": "pxmxhter4",
+          "id": "cfc4xjttj",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -456,10 +472,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 93px; height: 24px;",
           "tailwind": "w-[93px] h-[24px]",
           "children": [
             {
-              "id": "q5jrqfnm7",
+              "id": "uxbrizybc",
               "name": "Heart",
               "type": "FRAME",
               "layout": {
@@ -481,10 +498,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 24px; height: 24px;",
               "tailwind": "w-[24px] h-[24px]",
               "children": [
                 {
-                  "id": "8og8kczex",
+                  "id": "f21swtmt7",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -505,12 +523,13 @@
                     "fill": "#b0babf",
                     "strokeWidth": 1
                   },
+                  "css": "width: 16.05px; height: 13.71px; background-color: #b0babf;",
                   "tailwind": "w-[16px] h-[13px] bg-[#b0babf]"
                 }
               ]
             },
             {
-              "id": "5m4yzyjiw",
+              "id": "wlom2p2jy",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -536,6 +555,7 @@
                 "color": "#252c32"
               },
               "copy": "Favorites",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
             }
           ]
@@ -543,7 +563,7 @@
       ]
     },
     {
-      "id": "ykumc4632",
+      "id": "uqz9br6bb",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -565,10 +585,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 93px; height: 40px; border-radius: 6px;",
       "tailwind": "w-[93px] h-[40px] border-radius-[6px]",
       "children": [
         {
-          "id": "hxp9vetli",
+          "id": "8ae9a28jx",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -590,10 +611,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 61px; height: 24px;",
           "tailwind": "w-[61px] h-[24px]",
           "children": [
             {
-              "id": "lzhcqywyl",
+              "id": "o0jaz47np",
               "name": "Shopping cart",
               "type": "FRAME",
               "layout": {
@@ -615,10 +637,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 24px; height: 24px;",
               "tailwind": "w-[24px] h-[24px]",
               "children": [
                 {
-                  "id": "ayrm6f59v",
+                  "id": "4a6wapdn4",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -639,12 +662,13 @@
                     "fill": "#b0babf",
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 17px; background-color: #b0babf;",
                   "tailwind": "w-[16px] h-[17px] bg-[#b0babf]"
                 }
               ]
             },
             {
-              "id": "cspur4488",
+              "id": "ctfpa4v71",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -670,6 +694,7 @@
                 "color": "#252c32"
               },
               "copy": "Cart",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
             }
           ]
@@ -677,7 +702,7 @@
       ]
     },
     {
-      "id": "ct1353cld",
+      "id": "58xltjblf",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -704,10 +729,11 @@
         "stroke": "#dde2e4",
         "strokeWidth": 1
       },
+      "css": "width: 77px; height: 40px; background-color: #fff; border: 1px solid #dde2e4; border-radius: 6px;",
       "tailwind": "w-[77px] h-[40px] bg-white border border-solid border-color-[#dde2e4] border-radius-[6px]",
       "children": [
         {
-          "id": "z9t87z134",
+          "id": "nvylxz79y",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -729,10 +755,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 45px; height: 24px;",
           "tailwind": "w-[45px] h-[24px]",
           "children": [
             {
-              "id": "1b04u6ipe",
+              "id": "zipeeoirz",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -758,6 +785,7 @@
                 "color": "#252c32"
               },
               "copy": "Sign In",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
             }
           ]
@@ -765,7 +793,7 @@
       ]
     },
     {
-      "id": "zte2o6fwm",
+      "id": "yh6cj996n",
       "name": "Counter",
       "type": "FRAME",
       "layout": {
@@ -792,10 +820,11 @@
         "stroke": "#ffffff",
         "strokeWidth": 2
       },
+      "css": "width: 16px; height: 16px; background-color: #f76659; border: 2px solid #fff; border-radius: 8px;",
       "tailwind": "w-[16px] h-[16px] bg-[#f76659] border-2 border-solid border-white rounded-8",
       "children": [
         {
-          "id": "2dxauyqjk",
+          "id": "ckw8xdi8y",
           "name": "Number",
           "type": "TEXT",
           "layout": {
@@ -822,12 +851,13 @@
             "color": "#ffefeb"
           },
           "copy": "3",
+          "css": "font-size: 12px; line-height: 16px; color: #ffefeb;",
           "tailwind": "text-[12] leading-16 color-[#ffefeb]"
         }
       ]
     },
     {
-      "id": "agzl6lfwo",
+      "id": "sw54ojjgf",
       "name": "Logo",
       "type": "GROUP",
       "layout": {
@@ -839,10 +869,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 162px; height: 24px;",
       "tailwind": "w-[162px] h-[24px]",
       "children": [
         {
-          "id": "yahg0hg18",
+          "id": "k09zo557m",
           "name": "Chip",
           "type": "FRAME",
           "layout": {
@@ -864,10 +895,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px;",
           "tailwind": "w-[24px] h-[24px]",
           "children": [
             {
-              "id": "dy2ov8fn5",
+              "id": "zo0z8x9uj",
               "name": "Vector",
               "type": "VECTOR",
               "layout": {
@@ -888,12 +920,13 @@
                 "fill": "#f76659",
                 "strokeWidth": 1
               },
+              "css": "width: 18px; height: 18px; background-color: #f76659;",
               "tailwind": "w-[18px] h-[18px] bg-[#f76659]"
             }
           ]
         },
         {
-          "id": "y6ox0kd5u",
+          "id": "pbd8j0j93",
           "name": "What a Market!",
           "type": "TEXT",
           "layout": {
@@ -920,12 +953,13 @@
             "color": "#252c32"
           },
           "copy": "What a Market!",
+          "css": "font-size: 18px; line-height: 24px; letter-spacing: -0.01399999976158142em; color: #252c32;",
           "tailwind": "text-[18] leading-24 letter-spacing-[-0.01399999976158142em] color-[#252c32]"
         }
       ]
     },
     {
-      "id": "0cl70jl76",
+      "id": "aomdh1cpd",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -947,10 +981,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 110px; height: 24px; border-radius: 4px;",
       "tailwind": "w-[110px] h-[24px] rounded-4",
       "children": [
         {
-          "id": "cg53wls3s",
+          "id": "vmp57ult0",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -972,10 +1007,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 94px; height: 24px;",
           "tailwind": "w-[94px] h-[24px]",
           "children": [
             {
-              "id": "6tfqg1fg8",
+              "id": "ct6oprppt",
               "name": "Location marker",
               "type": "FRAME",
               "layout": {
@@ -997,10 +1033,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 24px; height: 24px;",
               "tailwind": "w-[24px] h-[24px]",
               "children": [
                 {
-                  "id": "fpriedfjg",
+                  "id": "gqh2ew0wt",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -1021,12 +1058,13 @@
                     "fill": "#b0babf",
                     "strokeWidth": 1
                   },
+                  "css": "width: 14px; height: 16.9px; background-color: #b0babf;",
                   "tailwind": "w-[14px] h-[16px] bg-[#b0babf]"
                 }
               ]
             },
             {
-              "id": "tqxtqd529",
+              "id": "5bak85q9z",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -1052,6 +1090,7 @@
                 "color": "#252c32"
               },
               "copy": "California",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] color-[#252c32]"
             }
           ]
@@ -1059,7 +1098,7 @@
       ]
     },
     {
-      "id": "297n1m1mf",
+      "id": "3w30f6dxk",
       "name": "Categories",
       "type": "GROUP",
       "layout": {
@@ -1071,10 +1110,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 779px; height: 24px;",
       "tailwind": "w-[779px] h-[24px]",
       "children": [
         {
-          "id": "3pobkfny5",
+          "id": "yci1l4tck",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1096,10 +1136,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 94px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[94px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "mwaq14q3a",
+              "id": "rfe6jbg0b",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1121,10 +1162,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 78px; height: 24px;",
               "tailwind": "w-[78px] h-[24px]",
               "children": [
                 {
-                  "id": "kyewzfzom",
+                  "id": "qq2r022pd",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1150,6 +1192,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Best Sellers",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1157,7 +1200,7 @@
           ]
         },
         {
-          "id": "li5yr8y4y",
+          "id": "22m5cvi88",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1179,10 +1222,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 109px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[109px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "71nmmk4yr",
+              "id": "tqejx21vb",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1204,10 +1248,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 93px; height: 24px;",
               "tailwind": "w-[93px] h-[24px]",
               "children": [
                 {
-                  "id": "soir52pdz",
+                  "id": "apwr0bzft",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1233,6 +1278,7 @@
                     "color": "#252c32"
                   },
                   "copy": "New Releases",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1240,7 +1286,7 @@
           ]
         },
         {
-          "id": "yyd26osm9",
+          "id": "zcamttr1a",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1262,10 +1308,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 57px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[57px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "74gt33w4h",
+              "id": "twyip6clm",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1287,10 +1334,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 41px; height: 24px;",
               "tailwind": "w-[41px] h-[24px]",
               "children": [
                 {
-                  "id": "0ku6md2h7",
+                  "id": "vljocgju9",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1316,6 +1364,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Books",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1323,7 +1372,7 @@
           ]
         },
         {
-          "id": "56jgvwrjj",
+          "id": "6p7fee38a",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1345,10 +1394,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 89px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[89px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "8f4eaxa5o",
+              "id": "qt56v89qs",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1370,10 +1420,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 73px; height: 24px;",
               "tailwind": "w-[73px] h-[24px]",
               "children": [
                 {
-                  "id": "chbc163os",
+                  "id": "3im7l3acp",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1399,6 +1450,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Computers",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1406,7 +1458,7 @@
           ]
         },
         {
-          "id": "z47rnsijf",
+          "id": "odzhzhe4m",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1428,10 +1480,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 68px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[68px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "h2rwsx56n",
+              "id": "3w0i76z8l",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1453,10 +1506,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 52px; height: 24px;",
               "tailwind": "w-[52px] h-[24px]",
               "children": [
                 {
-                  "id": "zdf93gc2s",
+                  "id": "5p7mvyw14",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1482,6 +1536,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Fashion",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1489,7 +1544,7 @@
           ]
         },
         {
-          "id": "dbu4d2dhp",
+          "id": "00edtnys7",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1511,10 +1566,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 59px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[59px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "uamfomm7y",
+              "id": "6bgooyk1m",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1536,10 +1592,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 43px; height: 24px;",
               "tailwind": "w-[43px] h-[24px]",
               "children": [
                 {
-                  "id": "kkf80te7o",
+                  "id": "te1f5vjzm",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1565,6 +1622,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Health",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1572,7 +1630,7 @@
           ]
         },
         {
-          "id": "zeznmyeae",
+          "id": "ol7clc6qf",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1594,10 +1652,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 82px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[82px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "cl2rpov9h",
+              "id": "5lgl5fxkc",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1619,10 +1678,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 66px; height: 24px;",
               "tailwind": "w-[66px] h-[24px]",
               "children": [
                 {
-                  "id": "dppkmf9yj",
+                  "id": "uylyq248t",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1648,6 +1708,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Pharmacy",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1655,7 +1716,7 @@
           ]
         },
         {
-          "id": "abv3uphxe",
+          "id": "cf52iy5b8",
           "name": "Button",
           "type": "FRAME",
           "layout": {
@@ -1677,10 +1738,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 109px; height: 24px; border-radius: 4px;",
           "tailwind": "w-[109px] h-[24px] rounded-4",
           "children": [
             {
-              "id": "52foojcg5",
+              "id": "d4ft5b0uh",
               "name": "Button title",
               "type": "FRAME",
               "layout": {
@@ -1702,10 +1764,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 93px; height: 24px;",
               "tailwind": "w-[93px] h-[24px]",
               "children": [
                 {
-                  "id": "meniwb4sb",
+                  "id": "49yw2z07g",
                   "name": "Button title",
                   "type": "TEXT",
                   "layout": {
@@ -1731,6 +1794,7 @@
                     "color": "#252c32"
                   },
                   "copy": "Toys & Games",
+                  "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
                   "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
                 }
               ]
@@ -1740,7 +1804,7 @@
       ]
     },
     {
-      "id": "70jb1q1on",
+      "id": "w2hna547h",
       "name": "Button",
       "type": "FRAME",
       "layout": {
@@ -1762,10 +1826,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 120px; height: 24px; border-radius: 4px;",
       "tailwind": "w-[120px] h-[24px] rounded-4",
       "children": [
         {
-          "id": "a7cb4tnet",
+          "id": "h1c316eff",
           "name": "Button title",
           "type": "FRAME",
           "layout": {
@@ -1787,10 +1852,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 104px; height: 24px;",
           "tailwind": "w-[104px] h-[24px]",
           "children": [
             {
-              "id": "4khiwkdzt",
+              "id": "43riw3q0p",
               "name": "Button title",
               "type": "TEXT",
               "layout": {
@@ -1816,6 +1882,7 @@
                 "color": "#252c32"
               },
               "copy": "Become a seller",
+              "css": "font-size: 14px; line-height: 24px; letter-spacing: -0.006000000238418579em; text-align: center; color: #252c32;",
               "tailwind": "text-[14] leading-24 letter-spacing-[-0.006000000238418579em] text-align-[center] color-[#252c32]"
             }
           ]
@@ -1823,7 +1890,7 @@
       ]
     },
     {
-      "id": "eirjj7woz",
+      "id": "e0w4uk18r",
       "name": "Divider",
       "type": "FRAME",
       "layout": {
@@ -1847,6 +1914,7 @@
         "fill": "#e5e9eb",
         "strokeWidth": 1
       },
+      "css": "width: 1400px; height: 1px; background-color: #e5e9eb;",
       "tailwind": "w-[1400px] h-[1px] bg-[#e5e9eb]",
       "children": []
     }

@@ -1,5 +1,5 @@
 {
-  "id": "p5g2fxtk3",
+  "id": "043cejs6h",
   "name": "Scatter Chart",
   "type": "INSTANCE",
   "layout": {
@@ -21,10 +21,11 @@
     "opacity": 1,
     "strokeWidth": 1
   },
+  "css": "width: 882px; height: 448px;",
   "tailwind": "w-[882px] h-[448px]",
   "children": [
     {
-      "id": "wydldpxl0",
+      "id": "pbiuxucix",
       "name": "Rectangle 2045",
       "type": "RECTANGLE",
       "layout": {
@@ -42,10 +43,11 @@
         "fill": "#2c2d33",
         "strokeWidth": 1
       },
+      "css": "width: 882px; height: 448px; background-color: #2c2d33; border-radius: 6px; box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);",
       "tailwind": "w-[882px] h-[448px] bg-[#2c2d33] border-radius-[6px] box-shadow-[0 2px 10px 0 rgba(0, 0, 0, 0.1)]"
     },
     {
-      "id": "1t1tzpoem",
+      "id": "ujh8y8ab3",
       "name": "PRIMARY TEXT",
       "type": "TEXT",
       "layout": {
@@ -71,10 +73,11 @@
         "color": "#828282"
       },
       "copy": "PRIMARY TEXT",
+      "css": "font-size: 16px; color: #828282;",
       "tailwind": "font-size-[16px] color-[#828282]"
     },
     {
-      "id": "0tds45wrq",
+      "id": "0am3w2q5x",
       "name": "Group 2293",
       "type": "GROUP",
       "layout": {
@@ -86,10 +89,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 24px; height: 24px;",
       "tailwind": "w-[24px] h-[24px]",
       "children": [
         {
-          "id": "k31ksaakg",
+          "id": "t01fwygva",
           "name": "Ellipse 16",
           "type": "ELLIPSE",
           "layout": {
@@ -106,10 +110,11 @@
             "fill": "#bdbdbd",
             "strokeWidth": 1
           },
+          "css": "width: 24px; height: 24px; background-color: #bdbdbd;",
           "tailwind": "w-[24px] h-[24px] bg-[#bdbdbd]"
         },
         {
-          "id": "s4r60vx6q",
+          "id": "ihrtn35ef",
           "name": "Group 5",
           "type": "GROUP",
           "layout": {
@@ -121,10 +126,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 4px; height: 16px;",
           "tailwind": "w-[4px] h-[16px]",
           "children": [
             {
-              "id": "hzccu1jwb",
+              "id": "084fmzm7v",
               "name": "Rectangle 9",
               "type": "RECTANGLE",
               "layout": {
@@ -141,10 +147,11 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 4px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[4px] bg-[#2c2d33] border-radius-[6px]"
             },
             {
-              "id": "b30eup2j9",
+              "id": "bd295t9el",
               "name": "Rectangle 8",
               "type": "RECTANGLE",
               "layout": {
@@ -161,6 +168,7 @@
                 "fill": "#2c2d33",
                 "strokeWidth": 1
               },
+              "css": "width: 4px; height: 10.67px; background-color: #2c2d33; border-radius: 6px;",
               "tailwind": "w-[4px] h-[10px] bg-[#2c2d33] border-radius-[6px]"
             }
           ]
@@ -168,7 +176,7 @@
       ]
     },
     {
-      "id": "6o9kztde9",
+      "id": "xyaa42pr2",
       "name": "5.987,34",
       "type": "TEXT",
       "layout": {
@@ -193,10 +201,11 @@
         "color": "#ffffff"
       },
       "copy": "5.987,34",
+      "css": "font-size: 40px; font-weight: 500; letter-spacing: -0.0375em; color: #fff;",
       "tailwind": "font-size-[40px] font-medium letter-spacing-[-0.0375em] text-white"
     },
     {
-      "id": "ztzc6bq9f",
+      "id": "rjhqclzvx",
       "name": "Secondary text",
       "type": "TEXT",
       "layout": {
@@ -221,10 +230,11 @@
         "color": "#ffffff"
       },
       "copy": "Secondary text",
+      "css": "font-size: 14px; color: #fff;",
       "tailwind": "text-[14] text-white"
     },
     {
-      "id": "vcstrstpq",
+      "id": "v01kz77fk",
       "name": "Vector 50",
       "type": "VECTOR",
       "layout": {
@@ -246,10 +256,11 @@
         "stroke": "#4f4f4f",
         "strokeWidth": 2
       },
+      "css": "width: 882px; height: 0; border: 2px solid #4f4f4f;",
       "tailwind": "w-[882px] h-[0px] border-2 border-solid border-color-[#4f4f4f]"
     },
     {
-      "id": "94444g8ju",
+      "id": "hi4s0w94",
       "name": "60",
       "type": "TEXT",
       "layout": {
@@ -274,10 +285,11 @@
         "color": "#ffffff"
       },
       "copy": "60",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "u6y2bwnjk",
+      "id": "03a4bc7ai",
       "name": "Ellipse 290",
       "type": "ELLIPSE",
       "layout": {
@@ -297,10 +309,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "5eetnn3e6",
+      "id": "uiyqejm82",
       "name": "Ellipse 329",
       "type": "ELLIPSE",
       "layout": {
@@ -320,10 +333,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "hlk8gws5q",
+      "id": "q60kgioll",
       "name": "Ellipse 417",
       "type": "ELLIPSE",
       "layout": {
@@ -343,10 +357,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "a1fcgx866",
+      "id": "b4y2cvevd",
       "name": "Ellipse 381",
       "type": "ELLIPSE",
       "layout": {
@@ -366,10 +381,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "ax8pkpk8n",
+      "id": "5hnjewoff",
       "name": "Ellipse 372",
       "type": "ELLIPSE",
       "layout": {
@@ -389,10 +405,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "v6sbih7ky",
+      "id": "59nz5jmff",
       "name": "Group 2291",
       "type": "GROUP",
       "layout": {
@@ -404,10 +421,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 772px; height: 167px;",
       "tailwind": "w-[772px] h-[167px]",
       "children": [
         {
-          "id": "ysxge5frq",
+          "id": "v6os4ij0t",
           "name": "Rectangle 2",
           "type": "RECTANGLE",
           "layout": {
@@ -425,10 +443,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 167px; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[167px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "jbov915p8",
+          "id": "cvzx4f1zs",
           "name": "Vector 5",
           "type": "VECTOR",
           "layout": {
@@ -450,10 +469,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 167px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "jeiotdqmw",
+          "id": "63j07td19",
           "name": "Vector 6",
           "type": "VECTOR",
           "layout": {
@@ -475,10 +495,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 167px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "00cl40fn0",
+          "id": "c4xqba6p4",
           "name": "Vector 23",
           "type": "VECTOR",
           "layout": {
@@ -500,10 +521,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 167px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "zbqv8jqsx",
+          "id": "2opig4c0r",
           "name": "Vector 24",
           "type": "VECTOR",
           "layout": {
@@ -525,10 +547,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 167px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "ge9ibgb34",
+          "id": "h0iszmeo9",
           "name": "Vector 25",
           "type": "VECTOR",
           "layout": {
@@ -550,10 +573,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 167px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[167px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "jdetr889u",
+          "id": "nvso8m4va",
           "name": "Vector 27",
           "type": "VECTOR",
           "layout": {
@@ -575,10 +599,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "uu8kut9bj",
+          "id": "7de5hqjps",
           "name": "Vector 21",
           "type": "VECTOR",
           "layout": {
@@ -600,10 +625,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "rwujbxqbk",
+          "id": "k2w434rqa",
           "name": "Vector 2",
           "type": "VECTOR",
           "layout": {
@@ -625,10 +651,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "vjslrdq2l",
+          "id": "omwkpxogw",
           "name": "Vector 4",
           "type": "VECTOR",
           "layout": {
@@ -650,10 +677,11 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
         },
         {
-          "id": "uogieyh78",
+          "id": "lp6z8mw9a",
           "name": "Vector 26",
           "type": "VECTOR",
           "layout": {
@@ -675,12 +703,13 @@
             "stroke": "#4f4f4f",
             "strokeWidth": 1
           },
+          "css": "width: 772px; height: 0; border: 1px solid #4f4f4f;",
           "tailwind": "w-[772px] h-[0px] border border-solid border-color-[#4f4f4f]"
         }
       ]
     },
     {
-      "id": "dhtzhtixn",
+      "id": "oc6ojzlpp",
       "name": "Ellipse 280",
       "type": "ELLIPSE",
       "layout": {
@@ -700,10 +729,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "ofipjsynf",
+      "id": "d8aj3i5j7",
       "name": "Ellipse 286",
       "type": "ELLIPSE",
       "layout": {
@@ -723,10 +753,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ho5vcrsu1",
+      "id": "qw44vhtf8",
       "name": "Ellipse 377",
       "type": "ELLIPSE",
       "layout": {
@@ -746,10 +777,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "n26k3mjn1",
+      "id": "zm9g60sdc",
       "name": "Ellipse 315",
       "type": "ELLIPSE",
       "layout": {
@@ -769,10 +801,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "yjksekgst",
+      "id": "uffemksf1",
       "name": "Ellipse 411",
       "type": "ELLIPSE",
       "layout": {
@@ -792,10 +825,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "xa09gktb6",
+      "id": "a2n0l5jho",
       "name": "Ellipse 358",
       "type": "ELLIPSE",
       "layout": {
@@ -815,10 +849,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "9v06oikjf",
+      "id": "z6y3uwl8y",
       "name": "Ellipse 401",
       "type": "ELLIPSE",
       "layout": {
@@ -838,10 +873,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "huxol1ylx",
+      "id": "1djrj1x87",
       "name": "Ellipse 287",
       "type": "ELLIPSE",
       "layout": {
@@ -861,10 +897,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "4we940x5j",
+      "id": "56o5raolj",
       "name": "Ellipse 378",
       "type": "ELLIPSE",
       "layout": {
@@ -884,10 +921,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "s8gmet2oh",
+      "id": "zdlu4mqw1",
       "name": "Ellipse 284",
       "type": "ELLIPSE",
       "layout": {
@@ -907,10 +945,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "nhch6r5yg",
+      "id": "9zqachie9",
       "name": "Ellipse 346",
       "type": "ELLIPSE",
       "layout": {
@@ -930,10 +969,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "9clxf0sbv",
+      "id": "qxofx3wtk",
       "name": "50",
       "type": "TEXT",
       "layout": {
@@ -958,10 +998,11 @@
         "color": "#ffffff"
       },
       "copy": "50",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "rs1slz9vj",
+      "id": "i1mnwvnud",
       "name": "Ellipse 269",
       "type": "ELLIPSE",
       "layout": {
@@ -981,10 +1022,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "d61jpe6vz",
+      "id": "ogwbxke31",
       "name": "Ellipse 426",
       "type": "ELLIPSE",
       "layout": {
@@ -1004,10 +1046,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "lsgyxfnh1",
+      "id": "lsfxgsxil",
       "name": "Ellipse 403",
       "type": "ELLIPSE",
       "layout": {
@@ -1027,10 +1070,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "iq4g01saj",
+      "id": "htqrhiz2s",
       "name": "Ellipse 326",
       "type": "ELLIPSE",
       "layout": {
@@ -1050,10 +1094,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "hn4gzrrwh",
+      "id": "8ieydtlxu",
       "name": "Ellipse 416",
       "type": "ELLIPSE",
       "layout": {
@@ -1073,10 +1118,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ug9orjw9m",
+      "id": "rxwxyp7zk",
       "name": "Ellipse 369",
       "type": "ELLIPSE",
       "layout": {
@@ -1096,10 +1142,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ydwetmmlr",
+      "id": "criqenc7w",
       "name": "Ellipse 271",
       "type": "ELLIPSE",
       "layout": {
@@ -1119,10 +1166,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "8uxl9fmay",
+      "id": "7m1q6rvb5",
       "name": "Ellipse 283",
       "type": "ELLIPSE",
       "layout": {
@@ -1142,10 +1190,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "31vh2zpqz",
+      "id": "okl4kkx90",
       "name": "Ellipse 339",
       "type": "ELLIPSE",
       "layout": {
@@ -1165,10 +1214,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "3bj1grwdd",
+      "id": "du7o1ou64",
       "name": "Ellipse 320",
       "type": "ELLIPSE",
       "layout": {
@@ -1188,10 +1238,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "u2c42531c",
+      "id": "vvvime6gh",
       "name": "Ellipse 363",
       "type": "ELLIPSE",
       "layout": {
@@ -1211,10 +1262,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "wth3sqcr5",
+      "id": "u2c1oj923",
       "name": "Ellipse 323",
       "type": "ELLIPSE",
       "layout": {
@@ -1234,10 +1286,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "oyjgdsl9j",
+      "id": "q77ofg5wo",
       "name": "Ellipse 414",
       "type": "ELLIPSE",
       "layout": {
@@ -1257,10 +1310,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "drjgtoymn",
+      "id": "5rg8nu8d8",
       "name": "Ellipse 366",
       "type": "ELLIPSE",
       "layout": {
@@ -1280,10 +1334,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "owxodbhhn",
+      "id": "3n62187hb",
       "name": "Ellipse 325",
       "type": "ELLIPSE",
       "layout": {
@@ -1303,10 +1358,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "vatao2jrb",
+      "id": "yp0sjo3oc",
       "name": "Ellipse 415",
       "type": "ELLIPSE",
       "layout": {
@@ -1326,10 +1382,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "gyvmdiy2q",
+      "id": "wrwoxdyop",
       "name": "Ellipse 368",
       "type": "ELLIPSE",
       "layout": {
@@ -1349,10 +1406,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "nuny3rb3l",
+      "id": "knbdwh5b6",
       "name": "Ellipse 321",
       "type": "ELLIPSE",
       "layout": {
@@ -1372,10 +1430,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "mqqtab1kv",
+      "id": "tm9hafonm",
       "name": "Ellipse 364",
       "type": "ELLIPSE",
       "layout": {
@@ -1395,10 +1454,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "780bqeziy",
+      "id": "74aj4y1dz",
       "name": "Ellipse 333",
       "type": "ELLIPSE",
       "layout": {
@@ -1418,10 +1478,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "10zoveiwp",
+      "id": "vpjmuws90",
       "name": "Ellipse 376",
       "type": "ELLIPSE",
       "layout": {
@@ -1441,10 +1502,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "irmo6u70k",
+      "id": "owy469ggf",
       "name": "Ellipse 281",
       "type": "ELLIPSE",
       "layout": {
@@ -1464,10 +1526,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "attcy4xxx",
+      "id": "slz8jp1v8",
       "name": "Ellipse 336",
       "type": "ELLIPSE",
       "layout": {
@@ -1487,10 +1550,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "zna88l267",
+      "id": "hwivpocgw",
       "name": "Ellipse 402",
       "type": "ELLIPSE",
       "layout": {
@@ -1510,10 +1574,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "eeldz8ukb",
+      "id": "2bj29nmm5",
       "name": "Ellipse 319",
       "type": "ELLIPSE",
       "layout": {
@@ -1533,10 +1598,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "xuqvt45pg",
+      "id": "p6hjv8mjn",
       "name": "Ellipse 362",
       "type": "ELLIPSE",
       "layout": {
@@ -1556,10 +1622,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "k3mimw1r4",
+      "id": "gmteqq2se",
       "name": "40",
       "type": "TEXT",
       "layout": {
@@ -1584,10 +1651,11 @@
         "color": "#ffffff"
       },
       "copy": "40",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "b8ff8cpxy",
+      "id": "twsbgvpmt",
       "name": "Ellipse 278",
       "type": "ELLIPSE",
       "layout": {
@@ -1607,10 +1675,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "zec2mhasp",
+      "id": "g1c20i7y5",
       "name": "Ellipse 303",
       "type": "ELLIPSE",
       "layout": {
@@ -1630,10 +1699,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ljzfioyc2",
+      "id": "lap55yp3c",
       "name": "Ellipse 394",
       "type": "ELLIPSE",
       "layout": {
@@ -1653,10 +1723,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "tdynpr9zr",
+      "id": "t90syy18r",
       "name": "Ellipse 306",
       "type": "ELLIPSE",
       "layout": {
@@ -1676,10 +1747,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "1crba51qa",
+      "id": "v3e9bf3ao",
       "name": "Ellipse 397",
       "type": "ELLIPSE",
       "layout": {
@@ -1699,10 +1771,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "ztrb152wr",
+      "id": "93m4wczim",
       "name": "Ellipse 293",
       "type": "ELLIPSE",
       "layout": {
@@ -1722,10 +1795,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "x8009q7yu",
+      "id": "iduqz3dyh",
       "name": "Ellipse 282",
       "type": "ELLIPSE",
       "layout": {
@@ -1745,10 +1819,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "ekobqraiy",
+      "id": "htcbhnu48",
       "name": "Ellipse 384",
       "type": "ELLIPSE",
       "layout": {
@@ -1768,10 +1843,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "amsldcjgc",
+      "id": "nirtgqyrp",
       "name": "Ellipse 289",
       "type": "ELLIPSE",
       "layout": {
@@ -1791,10 +1867,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "o1flrq4k0",
+      "id": "vm2ecfvl0",
       "name": "Ellipse 380",
       "type": "ELLIPSE",
       "layout": {
@@ -1814,10 +1891,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "2cepxoz9v",
+      "id": "8z04mhq7y",
       "name": "Ellipse 288",
       "type": "ELLIPSE",
       "layout": {
@@ -1837,10 +1915,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "8m2kilx0c",
+      "id": "rsxfrco60",
       "name": "Ellipse 379",
       "type": "ELLIPSE",
       "layout": {
@@ -1860,10 +1939,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "u8sl1194u",
+      "id": "5isozepfm",
       "name": "Ellipse 263",
       "type": "ELLIPSE",
       "layout": {
@@ -1883,10 +1963,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "4vti3yu7x",
+      "id": "8h6ffu9br",
       "name": "Ellipse 265",
       "type": "ELLIPSE",
       "layout": {
@@ -1906,10 +1987,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "cchxyh3d0",
+      "id": "z6rtg5diu",
       "name": "Ellipse 332",
       "type": "ELLIPSE",
       "layout": {
@@ -1929,10 +2011,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "7a1t43cad",
+      "id": "lr8ohahvy",
       "name": "Ellipse 375",
       "type": "ELLIPSE",
       "layout": {
@@ -1952,10 +2035,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ea5wnd1zm",
+      "id": "o4dlb153o",
       "name": "Ellipse 338",
       "type": "ELLIPSE",
       "layout": {
@@ -1975,10 +2059,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "8xntv5cv1",
+      "id": "991d07upu",
       "name": "Ellipse 331",
       "type": "ELLIPSE",
       "layout": {
@@ -1998,10 +2083,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "7jhrhbefl",
+      "id": "dbcx59i2t",
       "name": "Ellipse 374",
       "type": "ELLIPSE",
       "layout": {
@@ -2021,10 +2107,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "9yyzf59km",
+      "id": "pldydxuc2",
       "name": "Ellipse 294",
       "type": "ELLIPSE",
       "layout": {
@@ -2044,10 +2131,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "la9otbtb7",
+      "id": "2ior1qtvw",
       "name": "Ellipse 419",
       "type": "ELLIPSE",
       "layout": {
@@ -2067,10 +2155,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "x5hsafn31",
+      "id": "blbv99zb7",
       "name": "Ellipse 385",
       "type": "ELLIPSE",
       "layout": {
@@ -2090,10 +2179,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "z6mkr8q6c",
+      "id": "yah8x5jk6",
       "name": "Ellipse 266",
       "type": "ELLIPSE",
       "layout": {
@@ -2113,10 +2203,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "vnl8f8fzl",
+      "id": "d6gc4u09x",
       "name": "Ellipse 298",
       "type": "ELLIPSE",
       "layout": {
@@ -2136,10 +2227,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ff37xti95",
+      "id": "j2e36ekc2",
       "name": "Ellipse 420",
       "type": "ELLIPSE",
       "layout": {
@@ -2159,10 +2251,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "9va5da44k",
+      "id": "3uhqf3tfo",
       "name": "Ellipse 389",
       "type": "ELLIPSE",
       "layout": {
@@ -2182,10 +2275,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "5rlot056w",
+      "id": "w2cl4flpq",
       "name": "Ellipse 273",
       "type": "ELLIPSE",
       "layout": {
@@ -2205,10 +2299,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "drumtj6ky",
+      "id": "d7r1ogk47",
       "name": "Ellipse 272",
       "type": "ELLIPSE",
       "layout": {
@@ -2228,10 +2323,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "jb5qtuo30",
+      "id": "oz31rgs6u",
       "name": "Ellipse 316",
       "type": "ELLIPSE",
       "layout": {
@@ -2251,10 +2347,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "6wr8nu0hu",
+      "id": "sj4k5zlij",
       "name": "Ellipse 359",
       "type": "ELLIPSE",
       "layout": {
@@ -2274,10 +2371,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "iu1y91nye",
+      "id": "w3on8d8xi",
       "name": "Ellipse 345",
       "type": "ELLIPSE",
       "layout": {
@@ -2297,10 +2395,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "k78gwy1vu",
+      "id": "af88y0l7d",
       "name": "Ellipse 270",
       "type": "ELLIPSE",
       "layout": {
@@ -2320,10 +2419,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "ujp5b56oe",
+      "id": "3m6xfvssd",
       "name": "Ellipse 304",
       "type": "ELLIPSE",
       "layout": {
@@ -2343,10 +2443,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "1ftshwoyt",
+      "id": "tux3tnbkm",
       "name": "Ellipse 395",
       "type": "ELLIPSE",
       "layout": {
@@ -2366,10 +2467,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "4w1vrxyww",
+      "id": "9v7tjt2wk",
       "name": "30",
       "type": "TEXT",
       "layout": {
@@ -2394,10 +2496,11 @@
         "color": "#ffffff"
       },
       "copy": "30",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "4kckqqm4i",
+      "id": "b0w74imik",
       "name": "Ellipse 324",
       "type": "ELLIPSE",
       "layout": {
@@ -2417,10 +2520,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "7p3c83gza",
+      "id": "v5yfn8258",
       "name": "Ellipse 367",
       "type": "ELLIPSE",
       "layout": {
@@ -2440,10 +2544,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "6idvz9hnv",
+      "id": "q2sn33sty",
       "name": "Ellipse 410",
       "type": "ELLIPSE",
       "layout": {
@@ -2463,10 +2568,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "8jg7l7j68",
+      "id": "e5egywscz",
       "name": "Ellipse 352",
       "type": "ELLIPSE",
       "layout": {
@@ -2486,10 +2592,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "4yujb7vpz",
+      "id": "u0rsvovg3",
       "name": "Ellipse 274",
       "type": "ELLIPSE",
       "layout": {
@@ -2509,10 +2616,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "ydfe3r1f4",
+      "id": "ll6m6jc8o",
       "name": "Ellipse 300",
       "type": "ELLIPSE",
       "layout": {
@@ -2532,10 +2640,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "afsn4kmug",
+      "id": "mw0o0lhyr",
       "name": "Ellipse 422",
       "type": "ELLIPSE",
       "layout": {
@@ -2555,10 +2664,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "3k9tz9u9y",
+      "id": "wf6hjrhud",
       "name": "Ellipse 391",
       "type": "ELLIPSE",
       "layout": {
@@ -2578,10 +2688,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "cd0715pnu",
+      "id": "j5yww00rg",
       "name": "Ellipse 328",
       "type": "ELLIPSE",
       "layout": {
@@ -2601,10 +2712,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "n8e28w228",
+      "id": "h8nxrkizt",
       "name": "Ellipse 371",
       "type": "ELLIPSE",
       "layout": {
@@ -2624,10 +2736,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "8nof356nd",
+      "id": "795d4msz8",
       "name": "Ellipse 407",
       "type": "ELLIPSE",
       "layout": {
@@ -2647,10 +2760,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "an88m4mn4",
+      "id": "qckwzdaa4",
       "name": "Ellipse 348",
       "type": "ELLIPSE",
       "layout": {
@@ -2670,10 +2784,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "za5zujoyt",
+      "id": "ocjlcf7mr",
       "name": "Ellipse 285",
       "type": "ELLIPSE",
       "layout": {
@@ -2693,10 +2808,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "84gp36uc8",
+      "id": "4ojxueyzo",
       "name": "Ellipse 292",
       "type": "ELLIPSE",
       "layout": {
@@ -2716,10 +2832,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "69edb1wy6",
+      "id": "00okfl2bu",
       "name": "Ellipse 383",
       "type": "ELLIPSE",
       "layout": {
@@ -2739,10 +2856,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "12dtdbjfb",
+      "id": "t74hhnwfb",
       "name": "Ellipse 408",
       "type": "ELLIPSE",
       "layout": {
@@ -2762,10 +2880,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "am9kqbsc0",
+      "id": "37u0n3942",
       "name": "Ellipse 350",
       "type": "ELLIPSE",
       "layout": {
@@ -2785,10 +2904,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "9a55mg2x8",
+      "id": "9ubbgb4mw",
       "name": "Ellipse 322",
       "type": "ELLIPSE",
       "layout": {
@@ -2808,10 +2928,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "p4vu7c2on",
+      "id": "dek9rdauy",
       "name": "Ellipse 413",
       "type": "ELLIPSE",
       "layout": {
@@ -2831,10 +2952,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "n5y25yxcu",
+      "id": "sgeskz58l",
       "name": "Ellipse 365",
       "type": "ELLIPSE",
       "layout": {
@@ -2854,10 +2976,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "y524i9i4v",
+      "id": "ezlcgezp7",
       "name": "Ellipse 409",
       "type": "ELLIPSE",
       "layout": {
@@ -2877,10 +3000,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "kiwz40mcj",
+      "id": "qo0flgfvs",
       "name": "Ellipse 351",
       "type": "ELLIPSE",
       "layout": {
@@ -2900,10 +3024,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "b7tfktflx",
+      "id": "qzh4rv3p7",
       "name": "Ellipse 337",
       "type": "ELLIPSE",
       "layout": {
@@ -2923,10 +3048,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "swlrbz3ut",
+      "id": "jm53om92q",
       "name": "Ellipse 318",
       "type": "ELLIPSE",
       "layout": {
@@ -2946,10 +3072,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "sytkc6xgp",
+      "id": "f9psy3kfg",
       "name": "Ellipse 412",
       "type": "ELLIPSE",
       "layout": {
@@ -2969,10 +3096,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "rvt0rvhvl",
+      "id": "vvtco01vi",
       "name": "Ellipse 361",
       "type": "ELLIPSE",
       "layout": {
@@ -2992,10 +3120,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "b5rf19lb0",
+      "id": "og7fluxl7",
       "name": "Ellipse 307",
       "type": "ELLIPSE",
       "layout": {
@@ -3015,10 +3144,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "91p2qg39y",
+      "id": "h93shgbcx",
       "name": "Ellipse 398",
       "type": "ELLIPSE",
       "layout": {
@@ -3038,10 +3168,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "ulfcs1b7f",
+      "id": "3ytktliz0",
       "name": "20",
       "type": "TEXT",
       "layout": {
@@ -3066,10 +3197,11 @@
         "color": "#ffffff"
       },
       "copy": "20",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "7fn8wiqmz",
+      "id": "utrfxwdej",
       "name": "Ellipse 267",
       "type": "ELLIPSE",
       "layout": {
@@ -3089,10 +3221,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "8phr62lxy",
+      "id": "00gd5uyfu",
       "name": "Ellipse 308",
       "type": "ELLIPSE",
       "layout": {
@@ -3112,10 +3245,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "2edxxzpi3",
+      "id": "5ov5yxl1u",
       "name": "Ellipse 399",
       "type": "ELLIPSE",
       "layout": {
@@ -3135,10 +3269,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "hwm4kritd",
+      "id": "xz5lzk0qf",
       "name": "Ellipse 334",
       "type": "ELLIPSE",
       "layout": {
@@ -3158,10 +3293,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "jg0pdudui",
+      "id": "s3pwu4jw6",
       "name": "Ellipse 335",
       "type": "ELLIPSE",
       "layout": {
@@ -3181,10 +3317,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "8xp2y4nh8",
+      "id": "ox1rzgjnn",
       "name": "Ellipse 312",
       "type": "ELLIPSE",
       "layout": {
@@ -3204,10 +3341,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "51q7oo608",
+      "id": "wvxj1gnyw",
       "name": "Ellipse 355",
       "type": "ELLIPSE",
       "layout": {
@@ -3227,10 +3365,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "27nq4ylg8",
+      "id": "7orx9xyvh",
       "name": "Ellipse 313",
       "type": "ELLIPSE",
       "layout": {
@@ -3250,10 +3389,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "g7jg9bm94",
+      "id": "og2luv74v",
       "name": "Ellipse 356",
       "type": "ELLIPSE",
       "layout": {
@@ -3273,10 +3413,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "gb8vea7a2",
+      "id": "do6dv87hv",
       "name": "Ellipse 330",
       "type": "ELLIPSE",
       "layout": {
@@ -3296,10 +3437,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "b9uy78gik",
+      "id": "8kvfypzus",
       "name": "Ellipse 373",
       "type": "ELLIPSE",
       "layout": {
@@ -3319,10 +3461,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "2uknykya4",
+      "id": "9qemtq7n6",
       "name": "Ellipse 327",
       "type": "ELLIPSE",
       "layout": {
@@ -3342,10 +3485,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "5j53ea0bu",
+      "id": "4ld6xkn55",
       "name": "Ellipse 370",
       "type": "ELLIPSE",
       "layout": {
@@ -3365,10 +3509,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "0yja46uwn",
+      "id": "97uxp5gcx",
       "name": "Ellipse 317",
       "type": "ELLIPSE",
       "layout": {
@@ -3388,10 +3533,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "m84301nzm",
+      "id": "gfqhcnw1l",
       "name": "Ellipse 360",
       "type": "ELLIPSE",
       "layout": {
@@ -3411,10 +3557,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "h2jeh81bl",
+      "id": "3ydacu6yi",
       "name": "Ellipse 342",
       "type": "ELLIPSE",
       "layout": {
@@ -3434,10 +3581,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "uc9ezd1i7",
+      "id": "h19iuo6n3",
       "name": "Ellipse 404",
       "type": "ELLIPSE",
       "layout": {
@@ -3457,10 +3605,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "6zppn8cd5",
+      "id": "r9zxnoktl",
       "name": "Ellipse 295",
       "type": "ELLIPSE",
       "layout": {
@@ -3480,10 +3629,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "jm0defkcg",
+      "id": "ocolkoez4",
       "name": "Ellipse 386",
       "type": "ELLIPSE",
       "layout": {
@@ -3503,10 +3653,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "ocm8g21hi",
+      "id": "y4rrwv11l",
       "name": "Ellipse 264",
       "type": "ELLIPSE",
       "layout": {
@@ -3526,10 +3677,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "jbucubmm0",
+      "id": "uoumfry6t",
       "name": "Ellipse 276",
       "type": "ELLIPSE",
       "layout": {
@@ -3549,10 +3701,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "f2awvcin8",
+      "id": "txkh6i9k9",
       "name": "Ellipse 406",
       "type": "ELLIPSE",
       "layout": {
@@ -3572,10 +3725,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "nm0gt8hrb",
+      "id": "3bj5iem2j",
       "name": "Ellipse 341",
       "type": "ELLIPSE",
       "layout": {
@@ -3595,10 +3749,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "64zi3af9c",
+      "id": "oxso5nb99",
       "name": "Ellipse 309",
       "type": "ELLIPSE",
       "layout": {
@@ -3618,10 +3773,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "lw24oqday",
+      "id": "g4ckjdkr3",
       "name": "Ellipse 400",
       "type": "ELLIPSE",
       "layout": {
@@ -3641,10 +3797,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "kgrr55ixh",
+      "id": "8pqlrxqf9",
       "name": "Ellipse 301",
       "type": "ELLIPSE",
       "layout": {
@@ -3664,10 +3821,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "l9ont5vge",
+      "id": "2j2wz7ddi",
       "name": "Ellipse 423",
       "type": "ELLIPSE",
       "layout": {
@@ -3687,10 +3845,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "jqkv0f60d",
+      "id": "g9zk0t93i",
       "name": "Ellipse 392",
       "type": "ELLIPSE",
       "layout": {
@@ -3710,10 +3869,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "q313bm61w",
+      "id": "dfc10n26t",
       "name": "Ellipse 297",
       "type": "ELLIPSE",
       "layout": {
@@ -3733,10 +3893,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "yi0dh6fp8",
+      "id": "ux2m2njhc",
       "name": "Ellipse 388",
       "type": "ELLIPSE",
       "layout": {
@@ -3756,10 +3917,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "k0ik5ycyc",
+      "id": "hemrv05hf",
       "name": "Ellipse 299",
       "type": "ELLIPSE",
       "layout": {
@@ -3779,10 +3941,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "7a2pfu6qz",
+      "id": "iqbf30ftp",
       "name": "Ellipse 421",
       "type": "ELLIPSE",
       "layout": {
@@ -3802,10 +3965,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "8aj1obyag",
+      "id": "rk112uhm3",
       "name": "Ellipse 390",
       "type": "ELLIPSE",
       "layout": {
@@ -3825,10 +3989,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "3ulnhcxjj",
+      "id": "1pmpdtrx3",
       "name": "Ellipse 296",
       "type": "ELLIPSE",
       "layout": {
@@ -3848,10 +4013,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "ikxjrwvyk",
+      "id": "5ioold9u4",
       "name": "Ellipse 387",
       "type": "ELLIPSE",
       "layout": {
@@ -3871,10 +4037,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "uilsa48jl",
+      "id": "h9bd9bznx",
       "name": "Ellipse 279",
       "type": "ELLIPSE",
       "layout": {
@@ -3894,10 +4061,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "n7x2ze1if",
+      "id": "g1tzxhpou",
       "name": "Ellipse 343",
       "type": "ELLIPSE",
       "layout": {
@@ -3917,10 +4085,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "u7ioj0ze6",
+      "id": "rccbo2xnu",
       "name": "10",
       "type": "TEXT",
       "layout": {
@@ -3945,10 +4114,11 @@
         "color": "#ffffff"
       },
       "copy": "10",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "t72suz397",
+      "id": "7a5z3fc4h",
       "name": "Ellipse 349",
       "type": "ELLIPSE",
       "layout": {
@@ -3968,10 +4138,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "3ynttt7uw",
+      "id": "ry110mwwh",
       "name": "Ellipse 302",
       "type": "ELLIPSE",
       "layout": {
@@ -3991,10 +4162,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "sk4z9y01u",
+      "id": "5ebpyuff5",
       "name": "Ellipse 424",
       "type": "ELLIPSE",
       "layout": {
@@ -4014,10 +4186,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "4qq23clhk",
+      "id": "ntj24e9c0",
       "name": "Ellipse 393",
       "type": "ELLIPSE",
       "layout": {
@@ -4037,10 +4210,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "kdgequ8bw",
+      "id": "fzhvbajth",
       "name": "Ellipse 277",
       "type": "ELLIPSE",
       "layout": {
@@ -4060,10 +4234,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "v5orsvodd",
+      "id": "xjx9imvn9",
       "name": "Ellipse 347",
       "type": "ELLIPSE",
       "layout": {
@@ -4083,10 +4258,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "76n5rtpka",
+      "id": "irebm3er2",
       "name": "Ellipse 268",
       "type": "ELLIPSE",
       "layout": {
@@ -4106,10 +4282,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "q1fkjtz8q",
+      "id": "8aulaxoe5",
       "name": "Ellipse 344",
       "type": "ELLIPSE",
       "layout": {
@@ -4129,10 +4306,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "aw6ws7eob",
+      "id": "06lozro1g",
       "name": "Ellipse 311",
       "type": "ELLIPSE",
       "layout": {
@@ -4152,10 +4330,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "80aquaaaw",
+      "id": "dxmlllxlx",
       "name": "Ellipse 354",
       "type": "ELLIPSE",
       "layout": {
@@ -4175,10 +4354,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "6vv0z0k49",
+      "id": "toul6tpup",
       "name": "Ellipse 275",
       "type": "ELLIPSE",
       "layout": {
@@ -4198,10 +4378,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "07fvlk70f",
+      "id": "g5n8694r0",
       "name": "Ellipse 291",
       "type": "ELLIPSE",
       "layout": {
@@ -4221,10 +4402,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "9t9j14oei",
+      "id": "uv1sxd5ul",
       "name": "Ellipse 418",
       "type": "ELLIPSE",
       "layout": {
@@ -4244,10 +4426,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "a228rpgr2",
+      "id": "dtz72h4a9",
       "name": "Ellipse 382",
       "type": "ELLIPSE",
       "layout": {
@@ -4267,10 +4450,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "vi0lm7d91",
+      "id": "0v7sdfjig",
       "name": "Ellipse 310",
       "type": "ELLIPSE",
       "layout": {
@@ -4290,10 +4474,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "5eypakh45",
+      "id": "t4fnqsvh0",
       "name": "Ellipse 353",
       "type": "ELLIPSE",
       "layout": {
@@ -4313,10 +4498,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "63iuovlcx",
+      "id": "3iguuys1h",
       "name": "Ellipse 405",
       "type": "ELLIPSE",
       "layout": {
@@ -4336,10 +4522,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "6bhevnecl",
+      "id": "acqihz5fq",
       "name": "Ellipse 340",
       "type": "ELLIPSE",
       "layout": {
@@ -4359,10 +4546,11 @@
         "stroke": "#165baa",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #63abfd; border: 1px solid #165baa;",
       "tailwind": "w-[7px] h-[7px] bg-[#63abfd] border border-solid border-color-[#165baa]"
     },
     {
-      "id": "hg5aeld60",
+      "id": "ym1apu1wd",
       "name": "Ellipse 425",
       "type": "ELLIPSE",
       "layout": {
@@ -4382,10 +4570,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "28wue6srm",
+      "id": "cutj4x0vq",
       "name": "Ellipse 396",
       "type": "ELLIPSE",
       "layout": {
@@ -4405,10 +4594,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "a34h9ntt2",
+      "id": "kifdxb483",
       "name": "Ellipse 305",
       "type": "ELLIPSE",
       "layout": {
@@ -4428,10 +4618,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "br5878s0m",
+      "id": "ypj3k9bue",
       "name": "Ellipse 314",
       "type": "ELLIPSE",
       "layout": {
@@ -4451,10 +4642,11 @@
         "stroke": "#f765a3",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #ffa5cb; border: 1px solid #f765a3;",
       "tailwind": "w-[7px] h-[7px] bg-[#ffa5cb] border border-solid border-color-[#f765a3]"
     },
     {
-      "id": "vnoyv097m",
+      "id": "dx8swwd6k",
       "name": "Ellipse 357",
       "type": "ELLIPSE",
       "layout": {
@@ -4474,10 +4666,11 @@
         "stroke": "#a155b9",
         "strokeWidth": 1
       },
+      "css": "width: 7px; height: 7px; background-color: #e697ff; border: 1px solid #a155b9;",
       "tailwind": "w-[7px] h-[7px] bg-[#e697ff] border border-solid border-color-[#a155b9]"
     },
     {
-      "id": "z2yz0i92i",
+      "id": "lj4l0k0xj",
       "name": "0",
       "type": "TEXT",
       "layout": {
@@ -4502,10 +4695,11 @@
         "color": "#ffffff"
       },
       "copy": "0",
+      "css": "font-size: 12px; text-align: right; color: #fff;",
       "tailwind": "text-[12] text-align-[right] text-white"
     },
     {
-      "id": "y44f6klyt",
+      "id": "4mqao82lh",
       "name": "10",
       "type": "TEXT",
       "layout": {
@@ -4530,10 +4724,11 @@
         "color": "#ffffff"
       },
       "copy": "10",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "fpszk4tgq",
+      "id": "g31awlzht",
       "name": "20",
       "type": "TEXT",
       "layout": {
@@ -4558,10 +4753,11 @@
         "color": "#ffffff"
       },
       "copy": "20",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "rpsq6fhpo",
+      "id": "15qf9vxm0",
       "name": "30",
       "type": "TEXT",
       "layout": {
@@ -4586,10 +4782,11 @@
         "color": "#ffffff"
       },
       "copy": "30",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "jrqvt695x",
+      "id": "yh6m6olrv",
       "name": "40",
       "type": "TEXT",
       "layout": {
@@ -4614,10 +4811,11 @@
         "color": "#ffffff"
       },
       "copy": "40",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "5m5z74psz",
+      "id": "0pzt6vqlg",
       "name": "50",
       "type": "TEXT",
       "layout": {
@@ -4642,10 +4840,11 @@
         "color": "#ffffff"
       },
       "copy": "50",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "h1oce4bst",
+      "id": "ukfzdropn",
       "name": "60",
       "type": "TEXT",
       "layout": {
@@ -4670,10 +4869,11 @@
         "color": "#ffffff"
       },
       "copy": "60",
+      "css": "font-size: 10px; text-align: center; color: #fff;",
       "tailwind": "font-size-[10px] text-align-[center] text-white"
     },
     {
-      "id": "9rkbgo35y",
+      "id": "3g1dnk8j2",
       "name": "Group 2292",
       "type": "GROUP",
       "layout": {
@@ -4685,10 +4885,11 @@
       "style": {
         "opacity": 1
       },
+      "css": "width: 303px; height: 17px;",
       "tailwind": "w-[303px] h-[17px]",
       "children": [
         {
-          "id": "wyzexq8h8",
+          "id": "g6kfarepl",
           "name": "Product 1",
           "type": "TEXT",
           "layout": {
@@ -4713,10 +4914,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 1",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "rt9eh8mf0",
+          "id": "o322o21rq",
           "name": "Product 2",
           "type": "TEXT",
           "layout": {
@@ -4741,10 +4943,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 2",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "wnai6n6rm",
+          "id": "7s0e8slnt",
           "name": "Product 3",
           "type": "TEXT",
           "layout": {
@@ -4769,10 +4972,11 @@
             "color": "#ffffff"
           },
           "copy": "Product 3",
+          "css": "font-size: 12px; color: #fff;",
           "tailwind": "text-[12] text-white"
         },
         {
-          "id": "nir5bwyns",
+          "id": "jmha21sr1",
           "name": "Rectangle 1339",
           "type": "RECTANGLE",
           "layout": {
@@ -4789,10 +4993,11 @@
             "fill": "#165baa",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #165baa;",
           "tailwind": "w-[21px] h-[8px] bg-[#165baa]"
         },
         {
-          "id": "24vu9prur",
+          "id": "55jl7vbrr",
           "name": "Rectangle 1340",
           "type": "RECTANGLE",
           "layout": {
@@ -4809,10 +5014,11 @@
             "fill": "#a155b9",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #a155b9;",
           "tailwind": "w-[21px] h-[8px] bg-[#a155b9]"
         },
         {
-          "id": "3ns3833kn",
+          "id": "v3r0j64yu",
           "name": "Rectangle 1341",
           "type": "RECTANGLE",
           "layout": {
@@ -4829,6 +5035,7 @@
             "fill": "#f765a3",
             "strokeWidth": 1
           },
+          "css": "width: 21px; height: 8px; background-color: #f765a3;",
           "tailwind": "w-[21px] h-[8px] bg-[#f765a3]"
         }
       ]

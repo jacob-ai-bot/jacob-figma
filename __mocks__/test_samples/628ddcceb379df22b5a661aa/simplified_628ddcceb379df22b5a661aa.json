@@ -1,5 +1,5 @@
 {
-  "id": "29r7zqpyv",
+  "id": "bciftwagc",
   "name": "Page Header",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 1440px; height: 200px; background-color: ;",
   "tailwind": "w-[1440px] h-[200px] bg-[]",
   "children": [
     {
-      "id": "f53shla4x",
+      "id": "xewsxbt6n",
       "name": "Header BG",
       "type": "RECTANGLE",
       "layout": {
@@ -43,10 +44,11 @@
         "fill": "#f8fafc",
         "strokeWidth": 1
       },
+      "css": "width: 1440px; height: 200px; background-color: #f8fafc;",
       "tailwind": "w-[1440px] h-[200px] bg-[#f8fafc]"
     },
     {
-      "id": "t67dutfx1",
+      "id": "ujczufj6m",
       "name": "Heading/Info",
       "type": "FRAME",
       "layout": {
@@ -70,10 +72,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 616px; height: 116px; background-color: ;",
       "tailwind": "w-[616px] h-[116px] bg-[]",
       "children": [
         {
-          "id": "ags9jl20y",
+          "id": "8c81uvv87",
           "name": "Heading",
           "type": "TEXT",
           "layout": {
@@ -100,10 +103,11 @@
             "color": "#0f172a"
           },
           "copy": "Page Heading",
+          "css": "font-size: 34px; line-height: 40px; letter-spacing: -0.04em; color: #0f172a;",
           "tailwind": "font-size-[34px] h-[40px] letter-spacing-[-0.04em] color-[#0f172a]"
         },
         {
-          "id": "ra30kxemh",
+          "id": "5wzt26oag",
           "name": "Description",
           "type": "TEXT",
           "layout": {
@@ -129,10 +133,11 @@
             "color": "#64748b"
           },
           "copy": "Description",
+          "css": "font-size: 16px; line-height: 24px; color: #64748b;",
           "tailwind": "font-size-[16px] leading-24 color-[#64748b]"
         },
         {
-          "id": "b7j7exghi",
+          "id": "m01l1v1ey",
           "name": "Category",
           "type": "TEXT",
           "layout": {
@@ -158,10 +163,11 @@
             "color": "#64748b"
           },
           "copy": "Dark and light mode provided",
+          "css": "font-size: 16px; line-height: 24px; color: #64748b;",
           "tailwind": "font-size-[16px] leading-24 color-[#64748b]"
         },
         {
-          "id": "220msvy17",
+          "id": "6qic6tzz7",
           "name": "Icon/Check-Filled",
           "type": "FRAME",
           "layout": {
@@ -183,10 +189,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 20px; height: 20px;",
           "tailwind": "w-[20px] h-[20px]",
           "children": [
             {
-              "id": "cpcmjl1rr",
+              "id": "viul3v3ak",
               "name": "Ellipse 1",
               "type": "ELLIPSE",
               "layout": {
@@ -203,10 +210,11 @@
                 "fill": "#10b981",
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 16px; background-color: #10b981;",
               "tailwind": "w-[16px] h-[16px] bg-[#10b981]"
             },
             {
-              "id": "qeny78oza",
+              "id": "y9erk2zeo",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -230,10 +238,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 9px; height: 9px; background-color: ;",
               "tailwind": "w-[9px] h-[9px] bg-[]",
               "children": [
                 {
-                  "id": "b47kxoimp",
+                  "id": "9ii23uo20",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -255,6 +264,7 @@
                     "stroke": "#f8fafc",
                     "strokeWidth": 2
                   },
+                  "css": "width: 6px; height: 4.13px; border: 2px solid #f8fafc;",
                   "tailwind": "w-[6px] h-[4px] border-2 border-solid border-color-[#f8fafc]"
                 }
               ]
@@ -264,7 +274,7 @@
       ]
     },
     {
-      "id": "kn1wypdft",
+      "id": "f4j3cuzjg",
       "name": "Frame 1",
       "type": "FRAME",
       "layout": {
@@ -286,10 +296,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 362px; height: 52px;",
       "tailwind": "w-[362px] h-[52px]",
       "children": [
         {
-          "id": "grsadglrw",
+          "id": "474vhcfbq",
           "name": "Frame 6",
           "type": "FRAME",
           "layout": {
@@ -314,10 +325,11 @@
             "fill": "#ffffff",
             "strokeWidth": 1
           },
+          "css": "width: 52px; height: 52px; background-color: #fff; border-radius: 8px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);",
           "tailwind": "w-[52px] h-[52px] bg-white rounded-8 box-shadow-[0 25px 50px -12px rgba(0, 0, 0, 0.1)]",
           "children": [
             {
-              "id": "yzddvgo71",
+              "id": "q499mqy9z",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -341,10 +353,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 32px; background-color: ;",
               "tailwind": "w-[32px] h-[32px] bg-[]",
               "children": [
                 {
-                  "id": "5xouhigqa",
+                  "id": "7rd2o1xs7",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -366,6 +379,7 @@
                     "stroke": "#64748b",
                     "strokeWidth": 2
                   },
+                  "css": "width: 8px; height: 16px; border: 2px solid #64748b;",
                   "tailwind": "w-[8px] h-[16px] border-2 border-solid border-color-[#64748b]"
                 }
               ]
@@ -373,7 +387,7 @@
           ]
         },
         {
-          "id": "tc6uv5mbg",
+          "id": "2rq9i0drt",
           "name": "Frame 7",
           "type": "FRAME",
           "layout": {
@@ -398,10 +412,11 @@
             "fill": "#ffffff",
             "strokeWidth": 1
           },
+          "css": "width: 52px; height: 52px; background-color: #fff; border-radius: 8px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);",
           "tailwind": "w-[52px] h-[52px] bg-white rounded-8 box-shadow-[0 25px 50px -12px rgba(0, 0, 0, 0.1)]",
           "children": [
             {
-              "id": "yopao95bd",
+              "id": "wgcpd6wml",
               "name": "Icon",
               "type": "FRAME",
               "layout": {
@@ -425,10 +440,11 @@
                 "fill": "#ffffff",
                 "strokeWidth": 1
               },
+              "css": "width: 32px; height: 32px; background-color: ;",
               "tailwind": "w-[32px] h-[32px] bg-[]",
               "children": [
                 {
-                  "id": "g7tdnatek",
+                  "id": "qnx0smpkr",
                   "name": "Vector",
                   "type": "VECTOR",
                   "layout": {
@@ -450,6 +466,7 @@
                     "stroke": "#64748b",
                     "strokeWidth": 2
                   },
+                  "css": "width: 8px; height: 16px; border: 2px solid #64748b;",
                   "tailwind": "w-[8px] h-[16px] border-2 border-solid border-color-[#64748b]"
                 }
               ]
@@ -457,7 +474,7 @@
           ]
         },
         {
-          "id": "wsw9w8rxe",
+          "id": "b2b819yww",
           "name": "Frame 8",
           "type": "FRAME",
           "layout": {
@@ -481,10 +498,11 @@
             "fill": "#f1f5f9",
             "strokeWidth": 1
           },
+          "css": "width: 226px; height: 30px; background-color: #f1f5f9; border-radius: 100px;",
           "tailwind": "w-[226px] h-[30px] bg-[#f1f5f9] border-radius-[100px]",
           "children": [
             {
-              "id": "m7v4rjm3u",
+              "id": "ik0hs9bgu",
               "name": "Description",
               "type": "TEXT",
               "layout": {
@@ -510,6 +528,7 @@
                 "color": "#334155"
               },
               "copy": "Navigate with your keyboard",
+              "css": "font-size: 14px; line-height: 20px; color: #334155;",
               "tailwind": "text-[14] leading-20 color-[#334155]"
             }
           ]

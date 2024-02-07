@@ -80,6 +80,21 @@ describe("getSimplifiedNode", () => {
         expect(Object.keys(result || {}).length).toBeGreaterThan(0);
         expect(result?.id).toBeDefined();
         expect(result?.name).toBeDefined();
+
+        // Enable this code if you want to update the simplified snapshots
+        // const outputFile = path.join(file, "..", "simplified.txt");
+        // fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), "utf8");
+
+        // const outputJSONFile = path.join(
+        //   file,
+        //   "..",
+        //   `simplified_${path.basename(file)}`,
+        // );
+        // fs.writeFileSync(
+        //   outputJSONFile,
+        //   JSON.stringify(result, null, 2),
+        //   "utf8",
+        // );
       }
     });
   });

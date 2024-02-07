@@ -1,5 +1,5 @@
 {
-  "id": "wsqsh3lwy",
+  "id": "hz0p2hvni",
   "name": "Checkbox group",
   "type": "FRAME",
   "layout": {
@@ -21,10 +21,11 @@
     "opacity": 1,
     "strokeWidth": 1
   },
+  "css": "width: 768px; height: 408px;",
   "tailwind": "w-[768px] h-[408px]",
   "children": [
     {
-      "id": "bxfemb4hs",
+      "id": "o9pe9jqs8",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -51,10 +52,11 @@
         "stroke": "#d6bbfb",
         "strokeWidth": 1
       },
+      "css": "width: 768px; height: 72px; background-color: #f9f5ff; border: 1px solid #d6bbfb; border-radius: 8px;",
       "tailwind": "w-[768px] h-[72px] bg-[#f9f5ff] border border-solid border-color-[#d6bbfb] rounded-8",
       "children": [
         {
-          "id": "nds6ogths",
+          "id": "uyiyjpdle",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -76,10 +78,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 736px; height: 40px;",
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "kaw9g5r5n",
+              "id": "2k015nxxt",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -101,10 +104,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 18px;",
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "quslp4iw8",
+                  "id": "rq3h5knnk",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -126,10 +130,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 16px;",
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "3ge7h1pyr",
+                      "id": "zl7ktbtx6",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -156,10 +161,11 @@
                         "stroke": "#7f56d9",
                         "strokeWidth": 1
                       },
+                      "css": "width: 16px; height: 16px; background-color: #f9f5ff; border: 1px solid #7f56d9; border-radius: 8px;",
                       "tailwind": "w-[16px] h-[16px] bg-[#f9f5ff] border border-solid border-color-[#7f56d9] rounded-8",
                       "children": [
                         {
-                          "id": "dbsm4gqta",
+                          "id": "xdruu092k",
                           "name": "Check",
                           "type": "ELLIPSE",
                           "layout": {
@@ -176,6 +182,7 @@
                             "fill": "#7f56d9",
                             "strokeWidth": 1
                           },
+                          "css": "width: 6px; height: 6px; background-color: #7f56d9;",
                           "tailwind": "w-[6px] h-[6px] bg-[#7f56d9]"
                         }
                       ]
@@ -185,7 +192,7 @@
               ]
             },
             {
-              "id": "rjhme4xmd",
+              "id": "iipovb4jf",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -207,10 +214,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 712px; height: 40px;",
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "oa32wx9j1",
+                  "id": "cfow1nlwf",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -231,10 +239,11 @@
                     "textAlign": "LEFT"
                   },
                   "copy": "Basic plan $10/month",
+                  "css": "font-size: 14px; line-height: 20px;",
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "epbiq7x27",
+                  "id": "fi5mm4ujc",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -260,6 +269,7 @@
                     "color": "#7f56d9"
                   },
                   "copy": "Includes up to 10 users, 20GB indiviual data and access to all features.",
+                  "css": "font-size: 14px; line-height: 20px; color: #7f56d9;",
                   "tailwind": "text-[14] leading-20 color-[#7f56d9]"
                 }
               ]
@@ -269,7 +279,7 @@
       ]
     },
     {
-      "id": "jp7xqsdk0",
+      "id": "wl99ci7zc",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -296,10 +306,11 @@
         "stroke": "#eaecf0",
         "strokeWidth": 1
       },
+      "css": "width: 768px; height: 72px; background-color: #fff; border: 1px solid #eaecf0; border-radius: 8px;",
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "7da44r2mg",
+          "id": "x312fszc2",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -321,10 +332,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 736px; height: 40px;",
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "bbmuu082z",
+              "id": "hr2suisey",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -346,10 +358,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 18px;",
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "sowejul0g",
+                  "id": "el6euv8t3",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -371,10 +384,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 16px;",
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "2jwig5pin",
+                      "id": "yyt6exsbf",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -401,6 +415,7 @@
                         "stroke": "#d0d5dd",
                         "strokeWidth": 1
                       },
+                      "css": "width: 16px; height: 16px; background-color: #fff; border: 1px solid #d0d5dd; border-radius: 8px;",
                       "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
                       "children": []
                     }
@@ -409,7 +424,7 @@
               ]
             },
             {
-              "id": "ql4bbrgwk",
+              "id": "1inj7evkg",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -431,10 +446,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 712px; height: 40px;",
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "1b9zu4yi8",
+                  "id": "hot9ykg8s",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -455,10 +471,11 @@
                     "textAlign": "LEFT"
                   },
                   "copy": "Business plan $20/month",
+                  "css": "font-size: 14px; line-height: 20px;",
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "0hxvyvs5h",
+                  "id": "0d1zz49im",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -484,6 +501,7 @@
                     "color": "#667085"
                   },
                   "copy": "Includes up to 20 users, 40GB indiviual data and access to all features.",
+                  "css": "font-size: 14px; line-height: 20px; color: #667085;",
                   "tailwind": "text-[14] leading-20 color-[#667085]"
                 }
               ]
@@ -493,7 +511,7 @@
       ]
     },
     {
-      "id": "vqf5ajgt7",
+      "id": "vpe3bsx7s",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -520,10 +538,11 @@
         "stroke": "#eaecf0",
         "strokeWidth": 1
       },
+      "css": "width: 768px; height: 72px; background-color: #fff; border: 1px solid #eaecf0; border-radius: 8px;",
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "318s2tmqf",
+          "id": "bapeu0swu",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -545,10 +564,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 736px; height: 40px;",
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "f9hwc22gk",
+              "id": "8zih77am9",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -570,10 +590,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 18px;",
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "2sr15jld2",
+                  "id": "elumggtut",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -595,10 +616,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 16px;",
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "g5y2ghqrf",
+                      "id": "bbbnlpr58",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -625,6 +647,7 @@
                         "stroke": "#d0d5dd",
                         "strokeWidth": 1
                       },
+                      "css": "width: 16px; height: 16px; background-color: #fff; border: 1px solid #d0d5dd; border-radius: 8px;",
                       "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
                       "children": []
                     }
@@ -633,7 +656,7 @@
               ]
             },
             {
-              "id": "udqnan8p1",
+              "id": "ioshz8gal",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -655,10 +678,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 712px; height: 40px;",
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "ugvgfw029",
+                  "id": "xxb51vl2e",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -679,10 +703,11 @@
                     "textAlign": "LEFT"
                   },
                   "copy": "Enterprise plan $40/month",
+                  "css": "font-size: 14px; line-height: 20px;",
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "3b9scgvaq",
+                  "id": "231f6lsa7",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -708,6 +733,7 @@
                     "color": "#667085"
                   },
                   "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "css": "font-size: 14px; line-height: 20px; color: #667085;",
                   "tailwind": "text-[14] leading-20 color-[#667085]"
                 }
               ]
@@ -717,7 +743,7 @@
       ]
     },
     {
-      "id": "oqgtwati0",
+      "id": "br93s43s6",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -744,10 +770,11 @@
         "stroke": "#eaecf0",
         "strokeWidth": 1
       },
+      "css": "width: 768px; height: 72px; background-color: #fff; border: 1px solid #eaecf0; border-radius: 8px;",
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "wl9ovittu",
+          "id": "65gn9u7hz",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -769,10 +796,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 736px; height: 40px;",
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "ygy72uvv8",
+              "id": "lhvm6bhjf",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -794,10 +822,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 18px;",
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "df54vtkqg",
+                  "id": "gn9lbh9i9",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -819,10 +848,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 16px;",
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "bk2jz5xbn",
+                      "id": "ccd2vsook",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -849,6 +879,7 @@
                         "stroke": "#d0d5dd",
                         "strokeWidth": 1
                       },
+                      "css": "width: 16px; height: 16px; background-color: #fff; border: 1px solid #d0d5dd; border-radius: 8px;",
                       "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
                       "children": []
                     }
@@ -857,7 +888,7 @@
               ]
             },
             {
-              "id": "sjtsrcu9b",
+              "id": "b5xqt5ozl",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -879,10 +910,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 712px; height: 40px;",
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "f9hizq8vf",
+                  "id": "03ebsa9sr",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -903,10 +935,11 @@
                     "textAlign": "LEFT"
                   },
                   "copy": "Ultimate plan $60/month",
+                  "css": "font-size: 14px; line-height: 20px;",
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "uo3w7cw6b",
+                  "id": "aqty1nids",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -932,6 +965,7 @@
                     "color": "#667085"
                   },
                   "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "css": "font-size: 14px; line-height: 20px; color: #667085;",
                   "tailwind": "text-[14] leading-20 color-[#667085]"
                 }
               ]
@@ -941,7 +975,7 @@
       ]
     },
     {
-      "id": "ojhe1499j",
+      "id": "rs0vvdlkb",
       "name": "Checkbox group item",
       "type": "FRAME",
       "layout": {
@@ -968,10 +1002,11 @@
         "stroke": "#eaecf0",
         "strokeWidth": 1
       },
+      "css": "width: 768px; height: 72px; background-color: #fff; border: 1px solid #eaecf0; border-radius: 8px;",
       "tailwind": "w-[768px] h-[72px] bg-white border border-solid border-color-[#eaecf0] rounded-8",
       "children": [
         {
-          "id": "4j07jb4wh",
+          "id": "jhrnli15c",
           "name": "Checkbox",
           "type": "FRAME",
           "layout": {
@@ -993,10 +1028,11 @@
             "opacity": 1,
             "strokeWidth": 1
           },
+          "css": "width: 736px; height: 40px;",
           "tailwind": "w-[736px] h-[40px]",
           "children": [
             {
-              "id": "pgtfdujdp",
+              "id": "u1i8l8ehs",
               "name": "Input",
               "type": "FRAME",
               "layout": {
@@ -1018,10 +1054,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 16px; height: 18px;",
               "tailwind": "w-[16px] h-[18px]",
               "children": [
                 {
-                  "id": "5896wyq6r",
+                  "id": "a1i3fr9pt",
                   "name": "Checkbox",
                   "type": "FRAME",
                   "layout": {
@@ -1043,10 +1080,11 @@
                     "opacity": 1,
                     "strokeWidth": 1
                   },
+                  "css": "width: 16px; height: 16px;",
                   "tailwind": "w-[16px] h-[16px]",
                   "children": [
                     {
-                      "id": "8gp8xarz0",
+                      "id": "r1bas9dxu",
                       "name": "_Checkbox base",
                       "type": "FRAME",
                       "layout": {
@@ -1073,6 +1111,7 @@
                         "stroke": "#d0d5dd",
                         "strokeWidth": 1
                       },
+                      "css": "width: 16px; height: 16px; background-color: #fff; border: 1px solid #d0d5dd; border-radius: 8px;",
                       "tailwind": "w-[16px] h-[16px] bg-white border border-solid border-color-[#d0d5dd] rounded-8",
                       "children": []
                     }
@@ -1081,7 +1120,7 @@
               ]
             },
             {
-              "id": "a2hfq6vci",
+              "id": "8evnvibpq",
               "name": "Text and supporting text",
               "type": "FRAME",
               "layout": {
@@ -1103,10 +1142,11 @@
                 "opacity": 1,
                 "strokeWidth": 1
               },
+              "css": "width: 712px; height: 40px;",
               "tailwind": "w-[712px] h-[40px]",
               "children": [
                 {
-                  "id": "br7xv4yk1",
+                  "id": "bknnrt1ly",
                   "name": "Text",
                   "type": "TEXT",
                   "layout": {
@@ -1127,10 +1167,11 @@
                     "textAlign": "LEFT"
                   },
                   "copy": "Secret plan $80/month",
+                  "css": "font-size: 14px; line-height: 20px;",
                   "tailwind": "text-[14] leading-20"
                 },
                 {
-                  "id": "bhy0xh5xz",
+                  "id": "2trd8s226",
                   "name": "Supporting text",
                   "type": "TEXT",
                   "layout": {
@@ -1156,6 +1197,7 @@
                     "color": "#667085"
                   },
                   "copy": "Unlimited users, unlimited individual data and access to all features.",
+                  "css": "font-size: 14px; line-height: 20px; color: #667085;",
                   "tailwind": "text-[14] leading-20 color-[#667085]"
                 }
               ]

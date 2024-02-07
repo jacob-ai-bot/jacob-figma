@@ -1,5 +1,5 @@
 {
-  "id": "aosdilx04",
+  "id": "jzi7tjl16",
   "name": "Walkthrough",
   "type": "FRAME",
   "layout": {
@@ -23,10 +23,11 @@
     "fill": "#ffffff",
     "strokeWidth": 1
   },
+  "css": "width: 375px; height: 812px; background-color: #fff; border-radius: 32px;",
   "tailwind": "w-[375px] h-[812px] bg-white border-radius-[32px]",
   "children": [
     {
-      "id": "3b3bmr8mv",
+      "id": "dhth8wdme",
       "name": "Native / Status Bar",
       "type": "FRAME",
       "layout": {
@@ -50,10 +51,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 44px; background-color: #fff;",
       "tailwind": "w-[375px] h-[44px] bg-white",
       "children": [
         {
-          "id": "g80c3rviu",
+          "id": "ifvvsjyjd",
           "name": "9:41",
           "type": "TEXT",
           "layout": {
@@ -79,10 +81,11 @@
             "color": "#090a0a"
           },
           "copy": "9:41",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; color: #090a0a;",
           "tailwind": "font-size-[16px] font-medium leading-16 color-[#090a0a]"
         },
         {
-          "id": "wuksfw0aq",
+          "id": "svn5rv4aa",
           "name": "Battery",
           "type": "GROUP",
           "layout": {
@@ -94,10 +97,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 26.98px; height: 13px;",
           "tailwind": "w-[26px] h-[13px]",
           "children": [
             {
-              "id": "2rs5sceyt",
+              "id": "3rfibmwig",
               "name": "Battery",
               "type": "GROUP",
               "layout": {
@@ -109,10 +113,11 @@
               "style": {
                 "opacity": 1
               },
+              "css": "width: 26.98px; height: 13px;",
               "tailwind": "w-[26px] h-[13px]",
               "children": [
                 {
-                  "id": "ueuvm0ikn",
+                  "id": "d1tggecu7",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -134,10 +139,11 @@
                     "stroke": "#090a0a",
                     "strokeWidth": 1
                   },
+                  "css": "width: 25px; height: 13px; mix-blend-mode: normal; border: 1px solid #090a0a; border-radius: 2.67px;",
                   "tailwind": "w-[25px] h-[13px] mix-blend-mode-[normal] border border-solid border-color-[#090a0a] border-radius-[2.67px]"
                 },
                 {
-                  "id": "xo965p7vi",
+                  "id": "iejrup38u",
                   "name": "Rectangle",
                   "type": "VECTOR",
                   "layout": {
@@ -158,10 +164,11 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 20.2px; height: 8.33px; background-color: #090a0a; border-radius: 1.33px;",
                   "tailwind": "w-[20px] h-[8px] bg-[#090a0a] border-radius-[1.33px]"
                 },
                 {
-                  "id": "x7hq46oi3",
+                  "id": "78vj7z6zw",
                   "name": "Combined Shape",
                   "type": "VECTOR",
                   "layout": {
@@ -182,6 +189,7 @@
                     "fill": "#090a0a",
                     "strokeWidth": 0
                   },
+                  "css": "width: 1.33px; height: 4px; mix-blend-mode: normal; background-color: #090a0a;",
                   "tailwind": "w-[1px] h-[4px] mix-blend-mode-[normal] bg-[#090a0a]"
                 }
               ]
@@ -189,7 +197,7 @@
           ]
         },
         {
-          "id": "ltmm4oao0",
+          "id": "v3e3iaro1",
           "name": "Wifi",
           "type": "GROUP",
           "layout": {
@@ -201,10 +209,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 15.27px; height: 10.97px;",
           "tailwind": "w-[15px] h-[10px]",
           "children": [
             {
-              "id": "nkq1z567p",
+              "id": "tkxkl27e9",
               "name": "Union",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -221,10 +230,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 15.27px; height: 10.97px; background-color: #090a0a;",
               "tailwind": "w-[15px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "42zjvr5x8",
+                  "id": "ork1ka2mz",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -245,10 +255,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 15.27px; height: 4.74px; background-color: #000;",
                   "tailwind": "w-[15px] h-[4px] bg-black"
                 },
                 {
-                  "id": "kl0xt6qlq",
+                  "id": "o1huvkifl",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -269,10 +280,11 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 9.95px; height: 3.63px; background-color: #000;",
                   "tailwind": "w-[9px] h-[3px] bg-black"
                 },
                 {
-                  "id": "b9xxr34zx",
+                  "id": "3qnqmw3m9",
                   "name": "Wifi-path",
                   "type": "VECTOR",
                   "layout": {
@@ -293,6 +305,7 @@
                     "fill": "#000000",
                     "strokeWidth": 0
                   },
+                  "css": "width: 4.63px; height: 3.37px; background-color: #000;",
                   "tailwind": "w-[4px] h-[3px] bg-black"
                 }
               ]
@@ -300,7 +313,7 @@
           ]
         },
         {
-          "id": "fu8bxtk5c",
+          "id": "njdlqdx68",
           "name": "Mobile Signal",
           "type": "GROUP",
           "layout": {
@@ -312,10 +325,11 @@
           "style": {
             "opacity": 1
           },
+          "css": "width: 18px; height: 10px;",
           "tailwind": "w-[18px] h-[10px]",
           "children": [
             {
-              "id": "2ag6c0rrr",
+              "id": "m0y2m7dbk",
               "name": "Mobile Signal",
               "type": "BOOLEAN_OPERATION",
               "layout": {
@@ -332,10 +346,11 @@
                 "fill": "#090a0a",
                 "strokeWidth": 0
               },
+              "css": "width: 18px; height: 10px; background-color: #090a0a;",
               "tailwind": "w-[18px] h-[10px] bg-[#090a0a]",
               "children": [
                 {
-                  "id": "vkdlxz7sy",
+                  "id": "q3slwnmhr",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -356,10 +371,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 10px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[10px] bg-[#dadada]"
                 },
                 {
-                  "id": "qn7mlvqxa",
+                  "id": "64szfk5ul",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -380,10 +396,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 8px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[8px] bg-[#dadada]"
                 },
                 {
-                  "id": "1nl5xq9h1",
+                  "id": "hdnn3w9xk",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -404,10 +421,11 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 6px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[6px] bg-[#dadada]"
                 },
                 {
-                  "id": "7le4oyrxm",
+                  "id": "6rxbd17un",
                   "name": "Cellular_Connection-path",
                   "type": "VECTOR",
                   "layout": {
@@ -428,6 +446,7 @@
                     "fill": "#dadada",
                     "strokeWidth": 0
                   },
+                  "css": "width: 3px; height: 4px; background-color: #dadada;",
                   "tailwind": "w-[3px] h-[4px] bg-[#dadada]"
                 }
               ]
@@ -437,7 +456,7 @@
       ]
     },
     {
-      "id": "4vg4kolya",
+      "id": "y62q8op7v",
       "name": "youlearn",
       "type": "TEXT",
       "layout": {
@@ -461,10 +480,11 @@
         "textAlign": "CENTER"
       },
       "copy": "youlearn",
+      "css": "font-size: 24px; font-weight: 700; line-height: 32px; text-align: center;",
       "tailwind": "text-[24] font-weight-[700] leading-32 text-align-[center]"
     },
     {
-      "id": "f3b6ktb9y",
+      "id": "ullfgy86v",
       "name": "Views / Images: Ratio",
       "type": "FRAME",
       "layout": {
@@ -486,10 +506,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 327px; height: 327px; border-radius: 16px;",
       "tailwind": "w-[327px] h-[327px] border-radius-[16px]",
       "children": [
         {
-          "id": "08v4ewgzx",
+          "id": "h73c7iorp",
           "name": "Image Placeholder (Copy paste here)",
           "type": "RECTANGLE",
           "layout": {
@@ -507,12 +528,13 @@
           "image": {
             "imageHash": "0923c462441a718d68774da4a51e7e2935fbf7ed"
           },
+          "css": "width: 327px; height: 327px; background: url();",
           "tailwind": "w-[327px] h-[327px] background-[url()]"
         }
       ]
     },
     {
-      "id": "uwx6iikl8",
+      "id": "exqr9c2j8",
       "name": "Create brilliant learning pathways",
       "type": "TEXT",
       "layout": {
@@ -539,10 +561,11 @@
         "color": "#090a0a"
       },
       "copy": "Create brilliant learning pathways",
+      "css": "font-size: 24px; font-weight: 700; line-height: 32px; text-align: center; color: #090a0a;",
       "tailwind": "text-[24] font-weight-[700] leading-32 text-align-[center] color-[#090a0a]"
     },
     {
-      "id": "qp6xu2ygk",
+      "id": "dfvi8nzzo",
       "name": "Stepper - Dots",
       "type": "FRAME",
       "layout": {
@@ -564,10 +587,11 @@
         "opacity": 1,
         "strokeWidth": 1
       },
+      "css": "width: 56px; height: 8px;",
       "tailwind": "w-[56px] h-[8px]",
       "children": [
         {
-          "id": "77tbn7vu3",
+          "id": "n2f2yl4hc",
           "name": "Controls / Page Controls: Dot",
           "type": "FRAME",
           "layout": {
@@ -591,11 +615,12 @@
             "fill": "#e3e5e5",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #e3e5e5; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#e3e5e5] border-radius-[100px]",
           "children": []
         },
         {
-          "id": "wnkeu8jrb",
+          "id": "h5s8c0sxu",
           "name": "Ellipse 9",
           "type": "FRAME",
           "layout": {
@@ -619,11 +644,12 @@
             "fill": "#e3e5e5",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #e3e5e5; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#e3e5e5] border-radius-[100px]",
           "children": []
         },
         {
-          "id": "bl7g5eqe2",
+          "id": "b2vnysx7b",
           "name": "Ellipse 10",
           "type": "FRAME",
           "layout": {
@@ -647,11 +673,12 @@
             "fill": "#e3e5e5",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #e3e5e5; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#e3e5e5] border-radius-[100px]",
           "children": []
         },
         {
-          "id": "slksg8ghz",
+          "id": "bi8bkltjk",
           "name": "Ellipse 11",
           "type": "FRAME",
           "layout": {
@@ -675,13 +702,14 @@
             "fill": "#6b4eff",
             "strokeWidth": 1
           },
+          "css": "width: 8px; height: 8px; background-color: #6b4eff; border-radius: 100px;",
           "tailwind": "w-[8px] h-[8px] bg-[#6b4eff] border-radius-[100px]",
           "children": []
         }
       ]
     },
     {
-      "id": "c3xbrlwe6",
+      "id": "tx4ompp9x",
       "name": "Controls / Buttons",
       "type": "FRAME",
       "layout": {
@@ -705,10 +733,11 @@
         "fill": "#6b4eff",
         "strokeWidth": 1
       },
+      "css": "width: 182px; height: 48px; background-color: #6b4eff; border-radius: 48px;",
       "tailwind": "w-[182px] h-[48px] bg-[#6b4eff] border-radius-[48px]",
       "children": [
         {
-          "id": "z7s212fsb",
+          "id": "x7c450o92",
           "name": "Text",
           "type": "TEXT",
           "layout": {
@@ -734,12 +763,13 @@
             "color": "#ffffff"
           },
           "copy": "Create account",
+          "css": "font-size: 16px; font-weight: 500; line-height: 16px; text-align: center; color: #fff;",
           "tailwind": "font-size-[16px] font-medium leading-16 text-align-[center] text-white"
         }
       ]
     },
     {
-      "id": "b3293j7x7",
+      "id": "3tqcydw2k",
       "name": "Have an account? Log in",
       "type": "TEXT",
       "layout": {
@@ -760,10 +790,11 @@
         "textAlign": "CENTER"
       },
       "copy": "Have an account? Log in",
+      "css": "font-size: 16px; line-height: 24px; text-align: center;",
       "tailwind": "font-size-[16px] leading-24 text-align-[center]"
     },
     {
-      "id": "j0btvz93e",
+      "id": "tgksysho6",
       "name": "Native / Home Indicator",
       "type": "FRAME",
       "layout": {
@@ -787,10 +818,11 @@
         "fill": "#ffffff",
         "strokeWidth": 1
       },
+      "css": "width: 375px; height: 34px; background-color: #fff;",
       "tailwind": "w-[375px] h-[34px] bg-white",
       "children": [
         {
-          "id": "bftyr78yi",
+          "id": "09fw4u5cb",
           "name": "rectangle",
           "type": "VECTOR",
           "layout": {
@@ -811,6 +843,7 @@
             "fill": "#090a0a",
             "strokeWidth": 0
           },
+          "css": "width: 148px; height: 5px; background-color: #090a0a; border-radius: 100px;",
           "tailwind": "w-[148px] h-[5px] bg-[#090a0a] border-radius-[100px]"
         }
       ]
