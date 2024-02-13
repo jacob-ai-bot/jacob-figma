@@ -25,6 +25,11 @@ export enum FileType {
   Page = "page",
 }
 
+export enum NewOrEditMode {
+  CreateNewFile = "Create New File",
+  UpdateExistingFile = "Update Existing File",
+}
+
 export interface BaseFileData {
   selectedRepo: GitHubRepo;
   fileName: string;
@@ -77,6 +82,11 @@ export interface SnapshotErrorHandler extends EventHandler {
 export interface SelectionChangeHandler extends EventHandler {
   name: "SELECTION_CHANGE";
   handler: (selection: readonly SceneNode[]) => void;
+}
+
+export interface ReauthGithubHandler extends EventHandler {
+  name: "REAUTH_GITHUB";
+  handler: () => void;
 }
 
 export enum IMAGE_TYPE {

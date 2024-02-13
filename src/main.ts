@@ -15,6 +15,7 @@ import {
   ClosePluginHandler,
   IMAGE_TYPE,
   ImageData,
+  ReauthGithubHandler,
 } from "./types";
 import { getRepos, type GitHubRepo } from "./github";
 import { authRedirectPageHtml } from "./authPageRedirect";
@@ -36,7 +37,7 @@ const uiHandlersPromise = new Promise(
   (resolve) => (resolveUIHandlersPromise = resolve),
 );
 
-export default function () {
+export default async function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
     figma.ui.resize(width, height),
   );
@@ -48,12 +49,15 @@ export default function () {
   on<ClosePluginHandler>("CLOSE_PLUGIN", () => figma.closePlugin());
   on<SaveAccessTokenHandler>("SAVE_ACCESS_TOKEN", async (accessToken) => {
     await figma.clientStorage.setAsync(accessTokenKey, accessToken);
-    checkAccessTokenAndShowUI();
+    await checkAccessTokenAndShowUI();
   });
   on<EditExistingFileHandler>("EDIT_EXISTING_FILE", handleCreateOrEdit);
   on<CreateNewFileHandler>("CREATE_NEW_FILE", handleCreateOrEdit);
+  on<ReauthGithubHandler>("REAUTH_GITHUB", () => {
+    figma.showUI(authRedirectPageHtml, defaultSize);
+  });
   figma.on("selectionchange", handleSelectionChange);
-  checkAccessTokenAndShowUI();
+  await checkAccessTokenAndShowUI();
 }
 
 async function handleCreateOrEdit({
@@ -148,6 +152,7 @@ async function checkAccessTokenAndShowUI() {
       repos = await getRepos(accessToken);
     } catch (error) {
       console.error("error in getRepos", error);
+      figma.showUI(authRedirectPageHtml, defaultSize);
     }
   }
   if (repos && accessToken) {
