@@ -28,6 +28,7 @@ import {
   SnapshotImageHandler,
   UIHandlersRegisteredHandler,
   NewOrEditMode,
+  ReauthGithubHandler,
 } from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
@@ -112,6 +113,8 @@ function Plugin() {
         if (error) {
           emit<NotifyHandler>("NOTIFY", "Error: Failed to create GitHub issue");
           console.error("Failed to create issue", error);
+          // The issue was likely related to GitHub auth - show the github auth page again
+          emit<ReauthGithubHandler>("REAUTH_GITHUB");
         }
       },
     );

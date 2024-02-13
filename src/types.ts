@@ -84,6 +84,11 @@ export interface SelectionChangeHandler extends EventHandler {
   handler: (selection: readonly SceneNode[]) => void;
 }
 
+export interface ReauthGithubHandler extends EventHandler {
+  name: "REAUTH_GITHUB";
+  handler: () => void;
+}
+
 export enum IMAGE_TYPE {
   JPEG = "image/jpeg",
   PNG = "image/png",
