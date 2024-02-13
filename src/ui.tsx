@@ -6,6 +6,8 @@ import {
   Dropdown,
   TextboxMultiline,
   SegmentedControl,
+  Text,
+  Bold,
 } from "@create-figma-plugin/ui";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { h } from "preact";
@@ -25,6 +27,7 @@ import {
   SnapshotErrorHandler,
   SnapshotImageHandler,
   UIHandlersRegisteredHandler,
+  NewOrEditMode,
 } from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
@@ -42,6 +45,7 @@ function Plugin() {
   const [creatingIssue, setCreatingIssue] = useState(false);
   const [imageBase64, setImageBase64] = useState<string | undefined>();
   const [errorMessage, setErrorMessage] = useState("");
+  const [mode, setMode] = useState(NewOrEditMode.CreateNewFile);
 
   useWindowResize(
     (windowSize) => emit<ResizeWindowHandler>("RESIZE_WINDOW", windowSize),
@@ -76,27 +80,27 @@ function Plugin() {
     updateTree();
   }, [selectedRepo]);
 
+  // Listening for an image snapshot
+  on<SnapshotImageHandler>("SNAPSHOT_IMAGE", ({ imageBase64 }) => {
+    setImageBase64(imageBase64);
+    setErrorMessage("");
+  });
+
+  // Listening for an error message
+  on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
+    setErrorMessage(message);
+    setImageBase64(undefined); // Clear any existing image
+  });
+
+  on<UpdateAccessTokenAndReposHandler>(
+    "UPDATE_ACCESS_TOKEN_AND_REPOS",
+    ({ accessToken, repos }) => {
+      setAccessToken(accessToken);
+      setRepos(repos);
+    },
+  );
+
   useEffect(() => {
-    // Listening for an image snapshot
-    on<SnapshotImageHandler>("SNAPSHOT_IMAGE", ({ imageBase64 }) => {
-      setImageBase64(imageBase64);
-      setErrorMessage("");
-    });
-
-    // Listening for an error message
-    on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
-      setErrorMessage(message);
-      setImageBase64(undefined); // Clear any existing image
-    });
-
-    on<UpdateAccessTokenAndReposHandler>(
-      "UPDATE_ACCESS_TOKEN_AND_REPOS",
-      ({ accessToken, repos }) => {
-        setAccessToken(accessToken);
-        setRepos(repos);
-      },
-    );
-
     on<CreateOrEditResultHandler>(
       "CREATE_OR_EDIT_RESULT",
       ({ success, error }) => {
@@ -151,6 +155,19 @@ function Plugin() {
     }
   };
 
+  if (!repos) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center z-50 bg-blue-100 ">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="animate-spin ease-linear rounded-full h-16 w-16 border-t-4 border-b-4 border-purple-500"></div>
+          <div className="animate-pulse text-2xl font-semibold text-purple-800 text-center">
+            Loading...
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col pb-4">
       <Section
@@ -168,33 +185,58 @@ function Plugin() {
           onValueChange={onRepoChange}
         />
       </Section>
-      <Section label="Please choose an existing file or component:">
-        <Dropdown
-          placeholder="Select a file"
-          disabled={creatingIssue || !tree}
-          value={selectedFile?.path ?? null}
-          options={(tree ?? []).map((treeFile) => ({
-            value: treeFile.path ?? "",
-          }))}
-          onValueChange={onFileChange}
-        />
-      </Section>
-      <Section label="Or create a new file:">
-        <Textbox
-          placeholder="Enter a filename"
+      <Section
+        label={
+          mode === NewOrEditMode.CreateNewFile
+            ? `Enter the name of the file to create:`
+            : `Choose an existing file to update:`
+        }
+      >
+        <SegmentedControl
+          options={[
+            {
+              value: NewOrEditMode.CreateNewFile,
+            },
+            {
+              value: NewOrEditMode.UpdateExistingFile,
+            },
+          ]}
           disabled={creatingIssue || !selectedRepo}
-          value={newFilename}
-          onValueInput={onNewFilenameChange}
+          value={mode}
+          onValueChange={(value) => setMode(value as NewOrEditMode)}
         />
-        {newFilename && (
-          <div className="inline-flex">
-            <SegmentedControl
-              value={fileType}
+        {mode === NewOrEditMode.CreateNewFile ? (
+          <div>
+            <Textbox
+              placeholder="Enter a filename"
               disabled={creatingIssue || !selectedRepo}
-              options={Object.values(FileType).map((value) => ({ value }))}
-              onValueChange={(value) => setFileType(value as FileType)}
+              value={newFilename}
+              onValueInput={onNewFilenameChange}
             />
+            {newFilename && (
+              <div className="mt-2">
+                <Text className="my-2">
+                  <Bold>Choose a File Type:</Bold>
+                </Text>
+                <SegmentedControl
+                  value={fileType}
+                  disabled={creatingIssue || !selectedRepo}
+                  options={Object.values(FileType).map((value) => ({ value }))}
+                  onValueChange={(value) => setFileType(value as FileType)}
+                />
+              </div>
+            )}
           </div>
+        ) : (
+          <Dropdown
+            placeholder="Select a file"
+            disabled={creatingIssue || !tree}
+            value={selectedFile?.path ?? null}
+            options={(tree ?? []).map((treeFile) => ({
+              value: treeFile.path ?? "",
+            }))}
+            onValueChange={onFileChange}
+          />
         )}
       </Section>
       <Section label="If you want, add additional instructions here:">
@@ -232,6 +274,11 @@ function Plugin() {
         >
           Start writing code
         </Button>
+        {creatingIssue && (
+          <p className="mt-4 text-center text-gray-500">
+            Creating issue, this will take about 30 seconds...
+          </p>
+        )}
       </div>
     </div>
   );

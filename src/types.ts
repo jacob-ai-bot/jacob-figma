@@ -25,6 +25,11 @@ export enum FileType {
   Page = "page",
 }
 
+export enum NewOrEditMode {
+  CreateNewFile = "Create New File",
+  UpdateExistingFile = "Update Existing File",
+}
+
 export interface BaseFileData {
   selectedRepo: GitHubRepo;
   fileName: string;

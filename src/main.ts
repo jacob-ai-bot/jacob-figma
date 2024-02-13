@@ -36,7 +36,7 @@ const uiHandlersPromise = new Promise(
   (resolve) => (resolveUIHandlersPromise = resolve),
 );
 
-export default function () {
+export default async function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
     figma.ui.resize(width, height),
   );
@@ -48,12 +48,14 @@ export default function () {
   on<ClosePluginHandler>("CLOSE_PLUGIN", () => figma.closePlugin());
   on<SaveAccessTokenHandler>("SAVE_ACCESS_TOKEN", async (accessToken) => {
     await figma.clientStorage.setAsync(accessTokenKey, accessToken);
-    checkAccessTokenAndShowUI();
+    await checkAccessTokenAndShowUI();
   });
   on<EditExistingFileHandler>("EDIT_EXISTING_FILE", handleCreateOrEdit);
   on<CreateNewFileHandler>("CREATE_NEW_FILE", handleCreateOrEdit);
   figma.on("selectionchange", handleSelectionChange);
-  checkAccessTokenAndShowUI();
+  // wait for 1 second to allow the UI to load
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+  await checkAccessTokenAndShowUI();
 }
 
 async function handleCreateOrEdit({
