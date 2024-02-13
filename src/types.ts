@@ -15,6 +15,11 @@ export interface SaveAccessTokenHandler extends EventHandler {
   handler: (accessToken: string) => void;
 }
 
+export interface UIHandlersRegisteredHandler extends EventHandler {
+  name: "UI_HANDLERS_REGISTERED";
+  handler: (success: boolean) => void;
+}
+
 export enum FileType {
   Component = "component",
   Page = "page",
