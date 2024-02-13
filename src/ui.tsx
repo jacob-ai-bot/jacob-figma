@@ -81,27 +81,27 @@ function Plugin() {
     updateTree();
   }, [selectedRepo]);
 
-  // Listening for an image snapshot
-  on<SnapshotImageHandler>("SNAPSHOT_IMAGE", ({ imageBase64 }) => {
-    setImageBase64(imageBase64);
-    setErrorMessage("");
-  });
-
-  // Listening for an error message
-  on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
-    setErrorMessage(message);
-    setImageBase64(undefined); // Clear any existing image
-  });
-
-  on<UpdateAccessTokenAndReposHandler>(
-    "UPDATE_ACCESS_TOKEN_AND_REPOS",
-    ({ accessToken, repos }) => {
-      setAccessToken(accessToken);
-      setRepos(repos);
-    },
-  );
-
   useEffect(() => {
+    // Listening for an image snapshot
+    on<SnapshotImageHandler>("SNAPSHOT_IMAGE", ({ imageBase64 }) => {
+      setImageBase64(imageBase64);
+      setErrorMessage("");
+    });
+
+    // Listening for an error message
+    on<SnapshotErrorHandler>("SNAPSHOT_ERROR", ({ message }) => {
+      setErrorMessage(message);
+      setImageBase64(undefined); // Clear any existing image
+    });
+
+    on<UpdateAccessTokenAndReposHandler>(
+      "UPDATE_ACCESS_TOKEN_AND_REPOS",
+      ({ accessToken, repos }) => {
+        setAccessToken(accessToken);
+        setRepos(repos);
+      },
+    );
+
     on<CreateOrEditResultHandler>(
       "CREATE_OR_EDIT_RESULT",
       ({ success, error }) => {

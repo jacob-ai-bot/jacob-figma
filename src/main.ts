@@ -57,8 +57,6 @@ export default async function () {
     figma.showUI(authRedirectPageHtml, defaultSize);
   });
   figma.on("selectionchange", handleSelectionChange);
-  // wait for 1 second to allow the UI to load
-  await new Promise((resolve) => setTimeout(resolve, 1000));
   await checkAccessTokenAndShowUI();
 }
 
