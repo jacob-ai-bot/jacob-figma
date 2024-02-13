@@ -24,6 +24,7 @@ import {
   ClosePluginHandler,
   SnapshotErrorHandler,
   SnapshotImageHandler,
+  UIHandlersRegisteredHandler,
 } from "./types";
 import { resizeValues } from "./constants";
 import { getTree, GitTreeFile, GitHubRepo } from "./github";
@@ -110,6 +111,7 @@ function Plugin() {
         }
       },
     );
+    emit<UIHandlersRegisteredHandler>("UI_HANDLERS_REGISTERED", true);
   }, []);
 
   const onRepoChange = (fullName: string) => {

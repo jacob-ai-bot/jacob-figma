@@ -9,6 +9,7 @@ import {
   ResizeWindowHandler,
   SaveAccessTokenHandler,
   UpdateAccessTokenAndReposHandler,
+  UIHandlersRegisteredHandler,
   FileType,
   NotifyHandler,
   ClosePluginHandler,
@@ -30,11 +31,20 @@ import {
   getImagesFromNodes,
 } from "./utils/images";
 
+let resolveUIHandlersPromise: (success: boolean) => void;
+const uiHandlersPromise = new Promise(
+  (resolve) => (resolveUIHandlersPromise = resolve),
+);
+
 export default function () {
   on<ResizeWindowHandler>("RESIZE_WINDOW", ({ width, height }) =>
     figma.ui.resize(width, height),
   );
   on<NotifyHandler>("NOTIFY", (message) => figma.notify(message));
+  on<UIHandlersRegisteredHandler>(
+    "UI_HANDLERS_REGISTERED",
+    resolveUIHandlersPromise,
+  );
   on<ClosePluginHandler>("CLOSE_PLUGIN", () => figma.closePlugin());
   on<SaveAccessTokenHandler>("SAVE_ACCESS_TOKEN", async (accessToken) => {
     await figma.clientStorage.setAsync(accessTokenKey, accessToken);
@@ -142,6 +152,7 @@ async function checkAccessTokenAndShowUI() {
   }
   if (repos && accessToken) {
     showUI(defaultSize);
+    await uiHandlersPromise;
     snapshotSelectedNode(figma.currentPage.selection);
 
     emit<UpdateAccessTokenAndReposHandler>("UPDATE_ACCESS_TOKEN_AND_REPOS", {
