@@ -38,7 +38,11 @@
   },
   "figma-plugin": {
     "editorType": [
-      "figma"
+      "figma",
+      "dev"
+    ],
+    "capabilities": [
+      "inspect"
     ],
     "networkAccess": {
       "allowedDomains": [
