@@ -9,8 +9,16 @@
 
 - [Node.js](https://nodejs.org) – v20
 - [Figma desktop app](https://figma.com/downloads/)
+- [JACoB installed and running locally](https://jacb.ai)
 
 ### Build the plugin
+
+Update the 'API_URL' variable in the 'constants.ts' file with the endpoint for the JACoB API.
+For local development, the value should be:
+
+```
+export const API_URL = 'http://localhost:5173/api'
+```
 
 To build the plugin:
 
