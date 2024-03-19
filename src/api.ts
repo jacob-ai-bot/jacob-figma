@@ -6,6 +6,7 @@ import {
 } from "./utils/nodes";
 import { GitHubRepo } from "./github";
 import { IMAGE_TYPE } from "./types";
+import { API_URL } from "./constants";
 
 export function getSimplifiedNode(node?: BaseNode) {
   if (typeof node === "undefined") {
@@ -42,8 +43,7 @@ export async function createIssuesForFigmaFile(
     : "";
 
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
-  // const url = `http://localhost:5173/api/design/${isNewFile ? "new" : "edit"}`;
-  const url = `https://app.jacb.ai/api/design/${isNewFile ? "new" : "edit"}`;
+  const url = `${API_URL}/design/${isNewFile ? "new" : "edit"}`;
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -74,8 +74,8 @@ export async function uploadImage(
   imageName?: string,
 ): Promise<{ data: { success: boolean; url?: string }; errors?: string[] }> {
   const accessToken = await figma.clientStorage.getAsync("ACCESS_TOKEN");
-  //const url = `http://localhost:5173/api/image/upload`;
-  const url = `https://app.jacb.ai/api/image/upload`;
+
+  const url = `${API_URL}/image/upload`;
 
   try {
     if (!image || !image.length) {
