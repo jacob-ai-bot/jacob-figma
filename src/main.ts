@@ -123,9 +123,10 @@ async function handleCreateOrEdit({
     const { data, errors } = await createIssuesForFigmaFile(
       node,
       selectedRepo,
+      fileName.trim(),
       fullFileName,
       additionalInstructions,
-      fileType !== undefined,
+      fileType,
       snapshotUrl,
       imageUrls,
     );

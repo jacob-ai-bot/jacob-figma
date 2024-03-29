@@ -124,7 +124,6 @@ describe("createIssuesForFigmaFile", () => {
 
     const fileName = "test";
     const additionalInstructions = "test";
-    const isNewFile = false;
     const snapshotUrl = "https://www.example.com/image.png";
     const repo = await mockedRepo.getRepos("mock-access-token")[0];
 
@@ -132,8 +131,9 @@ describe("createIssuesForFigmaFile", () => {
       relativeNodes,
       repo,
       fileName,
+      fileName,
       additionalInstructions,
-      isNewFile,
+      undefined,
       snapshotUrl,
     );
 

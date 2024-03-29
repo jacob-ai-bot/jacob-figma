@@ -188,30 +188,26 @@ function Plugin() {
           onValueChange={onRepoChange}
         />
       </Section>
-      <Section
-        label={
-          mode === NewOrEditMode.CreateNewFile
-            ? `Enter the name of the file to create:`
-            : `Choose an existing file to update:`
-        }
-      >
-        <SegmentedControl
-          options={[
-            {
-              value: NewOrEditMode.CreateNewFile,
-            },
-            {
-              value: NewOrEditMode.UpdateExistingFile,
-            },
-          ]}
-          disabled={creatingIssue || !selectedRepo}
-          value={mode}
-          onValueChange={(value) => setMode(value as NewOrEditMode)}
-        />
+      <Section label="Name:">
+        <div>
+          <SegmentedControl
+            options={[
+              {
+                value: NewOrEditMode.CreateNewFile,
+              },
+              {
+                value: NewOrEditMode.UpdateExistingFile,
+              },
+            ]}
+            disabled={creatingIssue || !selectedRepo}
+            value={mode}
+            onValueChange={(value) => setMode(value as NewOrEditMode)}
+          />
+        </div>
         {mode === NewOrEditMode.CreateNewFile ? (
           <div>
             <Textbox
-              placeholder="Enter a filename"
+              placeholder="Enter a name for the component or page"
               disabled={creatingIssue || !selectedRepo}
               value={newFilename}
               onValueInput={onNewFilenameChange}
@@ -219,7 +215,7 @@ function Plugin() {
             {newFilename && (
               <div className="mt-2">
                 <Text className="my-2">
-                  <Bold>Choose a File Type:</Bold>
+                  <Bold>Choose a Type:</Bold>
                 </Text>
                 <SegmentedControl
                   value={fileType}

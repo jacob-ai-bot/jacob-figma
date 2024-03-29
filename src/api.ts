@@ -28,12 +28,14 @@ interface DesignResponse {
 export async function createIssuesForFigmaFile(
   relativeNodes: Partial<SimplifiedNode>,
   repo: GitHubRepo,
+  specifiedFileName: string,
   fileName: string,
   additionalInstructions: string,
-  isNewFile: boolean = false,
-  snapshotUrl?: string | undefined,
-  imageUrls?: string[] | undefined,
+  newFileType?: string,
+  snapshotUrl?: string,
+  imageUrls?: string[],
 ) {
+  const isNewFile = newFileType !== undefined;
   const figmaMap = relativeNodes
     ? getDescriptionOfNode(relativeNodes, true)
     : "";
@@ -55,7 +57,9 @@ export async function createIssuesForFigmaFile(
         figmaMap,
         figmaMapCSS,
         repo,
+        specifiedFileName,
         fileName,
+        newFileType,
         additionalInstructions,
         snapshotUrl,
         imageUrls,
