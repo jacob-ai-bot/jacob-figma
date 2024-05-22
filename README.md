@@ -1,5 +1,9 @@
 # JACoB AI Figma Plugin
 
+The live version of the JACoB Figma Plugin is available here: https://www.figma.com/community/plugin/1326684504185921461/jacob-ai-codegen-connector
+
+This repo is for developers who are looking to self-host JACoB and use the Figma Plugin within their local environment.
+
 ## Development guide
 
 *This plugin is built with [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/).*
@@ -50,6 +54,10 @@ To open the developer console, search for and run `Show/Hide Console` via the Qu
 
 - [Create Figma Plugin docs](https://yuanqing.github.io/create-figma-plugin/)
 - [`yuanqing/figma-plugins`](https://github.com/yuanqing/figma-plugins#readme)
+
+## License
+
+Licensed under the Apache License 2.0. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file for more details.
 
 Official docs and code samples from Figma:
 
