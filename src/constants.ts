@@ -27,4 +27,4 @@ export const snapshotCacheTimeInMiliseconds =
 //
 
 export const API_URL = "https://app.jacb.ai/api";
-// export const API_URL = "http://localhost:5173/api"; // For local use
+// export const API_URL = "http://localhost:3000/api"; // For local use

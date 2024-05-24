@@ -50,7 +50,7 @@
         "https://app.jacb.ai"
       ],
       "devAllowedDomains": [
-        "http://localhost:5173"
+        "http://localhost:3000"
       ],
       "reasoning": "Need to connect to the JACoB AI service"
     },
