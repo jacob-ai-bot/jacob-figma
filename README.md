@@ -21,7 +21,15 @@ Update the 'API_URL' variable in the 'constants.ts' file with the endpoint for t
 For local development, the value should be:
 
 ```
-export const API_URL = 'http://localhost:5173/api'
+export const API_URL = 'http://localhost:3000/api'
+```
+
+Update the 'baseUrl' variable in the 'authPageRedirect.ts' file with
+the url for JACoB.
+For local development, the value should be:
+
+```
+const baseUrl = "http://localhost:3000";
 ```
 
 To build the plugin:
